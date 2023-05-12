@@ -1,0 +1,1352 @@
+<svg id="ClumsyValleyLandPlot" style="background: #C0D195" xmlns="http://www.w3.org/2000/svg" viewBox="-7 -7 103 103">
+<title>Clumsy Valley Land Plot #7344</title>
+            
+  <defs>
+    <filter id="stats-name" x="-0.5%" width="1" y="-0.05" height="1">
+      <feFlood flood-color="#000000" />
+      <feComposite operator="over" in="SourceGraphic" />
+    </filter>
+    <filter id="stats-coords" x="-1%" width="1" y="-0.05" height="1">
+      <feFlood flood-color="#000000" />
+      <feComposite operator="over" in="SourceGraphic" />
+    </filter>
+    <filter id="stats-fc" x="-1%" width="1" y="-0.05" height="1">
+      <feFlood flood-color="#000000" />
+      <feComposite operator="over" in="SourceGraphic" />
+    </filter>
+    <filter id="stats-cheatcode" x="-0.5%" width="1" y="-0.05" height="1">
+      <feFlood flood-color="#000000" />
+      <feComposite operator="over" in="SourceGraphic" />
+    </filter>
+  </defs>
+<style>
+    <![CDATA[
+    #ClumsyValleyLandPlot {
+      overflow: hidden;
+    }
+
+    #ClumsyValleyLandPlot.party {
+      animation: cg-anim-rgb-bg 5s linear -1.4169s infinite;
+    }
+
+    #toxic-swamps-base.party {
+      animation: cg-anim-rgb 5s linear -1.4169s infinite;
+    }
+
+    .cg-bg {
+      fill: none;
+    }
+
+    @font-face {
+      font-family: ClumsyPixel-Regular;
+      src: url(https://assets.clumsylabs.io/misc/fonts/ClumsyPixelv2.otf) format("opentype");
+
+    }
+
+    svg {
+      font-family: ClumsyPixel-Regular, Roboto Mono;
+      font-size: 6px;
+      font-weight: normal;
+      letter-spacing: 0.5px;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+    }
+
+    #farming-name,
+    #farming-coords,
+    #farming-fc {
+      fill: white;
+    }
+
+    @keyframes cg-anim-rgb {
+      0% {
+        fill: #FF5F5F;
+      }
+
+      11.1111% {
+        fill: #FFA45F;
+      }
+
+      22.2222% {
+        fill: #BAFF5F;
+      }
+
+      33.3333% {
+        fill: #5FFF74;
+      }
+
+      44.4444% {
+        fill: #5FFFCE;
+      }
+
+      55.5555% {
+        fill: #5FD9FF;
+      }
+
+      66.6666% {
+        fill: #5F6AFF;
+      }
+
+      77.7777% {
+        fill: #AA5FFF;
+      }
+
+      88.8888% {
+        fill: #FF5FFA;
+      }
+
+      100% {
+        fill: #FF5F5F;
+      }
+    }
+
+    @keyframes cg-anim-rgb-bg {
+      0% {
+        background: #FF5F5F;
+      }
+
+      11.1111% {
+        background: #FFA45F;
+      }
+
+      22.2222% {
+        background: #BAFF5F;
+      }
+
+      33.3333% {
+        background: #5FFF74;
+      }
+
+      44.4444% {
+        background: #5FFFCE;
+      }
+
+      55.5555% {
+        background: #5FD9FF;
+      }
+
+      66.6666% {
+        background: #5F6AFF;
+      }
+
+      77.7777% {
+        background: #AA5FFF;
+      }
+
+      88.8888% {
+        background: #FF5FFA;
+      }
+
+      100% {
+        background: #FF5F5F;
+      }
+    }
+
+    @keyframes cg-anim-hover {
+      0% {
+        transform: translate3d(0, 0, 0);
+      }
+
+      50% {
+        transform: translate3d(0, -1px, 0);
+      }
+
+      100% {
+        transform: translate3d(0, 0, 0);
+      }
+    }
+
+    @keyframes cg-anim-bob {
+      0% {
+        transform: translate3d(0, 0, 0);
+      }
+
+      50% {
+        transform: translate3d(0, -0.5px, 0);
+      }
+
+      100% {
+        transform: translate3d(0, 0, 0);
+      }
+    }
+
+    #ghost-animated {
+      animation: cg-anim-hover 8s ease-in-out 0s infinite;
+    }
+
+    #boat {
+      animation: cg-anim-bob 4s ease-in-out 0s infinite;
+    }
+    #lily-pad-1 {
+      animation: cg-anim-bob 3.5s ease-in-out -.5s infinite;
+    }
+    #lily-pad-2 {
+      animation: cg-anim-bob 3.8s ease-in-out -.7s infinite;
+    }
+
+    @keyframes cg-anim-antigrav {
+      0% {
+        transform: translate3d(0, 0, 0);
+      }
+
+      50% {
+        transform: translate3d(0, -8px, 0);
+      }
+
+      100% {
+        transform: translate3d(0, 0, 0);
+      }
+    }
+
+    @keyframes cg-anim-2frames-1 {
+      0% {
+        opacity: 0;
+      }
+
+      50% {
+        opacity: 1;
+      }
+
+      100% {
+        opacity: 0;
+      }
+    }
+    @keyframes cg-anim-2frames-2 {
+      0% {
+        opacity: 1;
+      }
+
+      50% {
+        opacity: 0;
+      }
+
+      100% {
+        opacity: 1;
+      }
+    }
+
+    @keyframes cg-anim-toxic_swamps-cloud {
+      0% {
+        transform: translate3d(50px, 0px, 0);
+      }
+
+      100% {
+        transform: translate3d(-100px, 0px, 0);
+      }
+    }
+
+    #dark-cloud {
+      animation: cg-anim-toxic_swamps-cloud 25s linear -0.1459s infinite;
+      transform-origin: center;
+      transform-box: fill-box;
+    }
+
+    @keyframes cg-anim-8frames-1 {
+      0%, 100% { opacity: 1; }
+      12.5%    { opacity: 0; }
+      25%      { opacity: 0; }
+      37.5%    { opacity: 0; }
+      50%      { opacity: 0; }
+      62.5%    { opacity: 0; }
+      75%      { opacity: 0; }
+      87.5%    { opacity: 0; }
+    }
+
+    @keyframes cg-anim-8frames-2 {
+      0%, 100% { opacity: 0; }
+      12.5%    { opacity: 1; }
+      25%      { opacity: 0; }
+      37.5%    { opacity: 0; }
+      50%      { opacity: 0; }
+      62.5%    { opacity: 0; }
+      75%      { opacity: 0; }
+      87.5%    { opacity: 0; }
+    }
+
+    @keyframes cg-anim-8frames-3 {
+      0%, 100% { opacity: 0; }
+      12.5%    { opacity: 0; }
+      25%      { opacity: 1; }
+      37.5%    { opacity: 0; }
+      50%      { opacity: 0; }
+      62.5%    { opacity: 0; }
+      75%      { opacity: 0; }
+      87.5%    { opacity: 0; }
+    }
+
+    @keyframes cg-anim-8frames-4 {
+      0%, 100% { opacity: 0; }
+      12.5%    { opacity: 0; }
+      25%      { opacity: 0; }
+      37.5%    { opacity: 1; }
+      50%      { opacity: 0; }
+      62.5%    { opacity: 0; }
+      75%      { opacity: 0; }
+      87.5%    { opacity: 0; }
+    }
+
+    @keyframes cg-anim-8frames-5 {
+      0%, 100% { opacity: 0; }
+      12.5%    { opacity: 0; }
+      25%      { opacity: 0; }
+      37.5%    { opacity: 0; }
+      50%      { opacity: 1; }
+      62.5%    { opacity: 0; }
+      75%      { opacity: 0; }
+      87.5%    { opacity: 0; }
+    }
+
+    @keyframes cg-anim-8frames-6 {
+      0%, 100% { opacity: 0; }
+      12.5%    { opacity: 0; }
+      25%      { opacity: 0; }
+      37.5%    { opacity: 0; }
+      50%      { opacity: 0; }
+      62.5%    { opacity: 1; }
+      75%      { opacity: 0; }
+      87.5%    { opacity: 0; }
+    }
+
+    @keyframes cg-anim-8frames-7 {
+      0%, 100% { opacity: 0; }
+      12.5%    { opacity: 0; }
+      25%      { opacity: 0; }
+      37.5%    { opacity: 0; }
+      50%      { opacity: 0; }
+      62.5%    { opacity: 0; }
+      75%      { opacity: 1; }
+      87.5%    { opacity: 0; }
+    }
+
+    @keyframes cg-anim-8frames-8 {
+      0%, 100% { opacity: 0; }
+      12.5%    { opacity: 0; }
+      25%      { opacity: 0; }
+      37.5%    { opacity: 0; }
+      50%      { opacity: 0; }
+      62.5%    { opacity: 0; }
+      75%      { opacity: 0; }
+      87.5%    { opacity: 1; }
+    }
+
+    #small-fireflies-1, #big-fireflies-1 {
+      opacity: 1
+    }
+
+    #small-fireflies-2, #small-fireflies-3, #small-fireflies-4, #small-fireflies-5, #small-fireflies-6, #small-fireflies-7, #small-fireflies-8  {
+      opacity: 0
+    }
+
+    #big-fireflies-2, #big-fireflies-3, #big-fireflies-4, #big-fireflies-5, #big-fireflies-6, #big-fireflies-7, #big-fireflies-8  {
+      opacity: 0
+    }
+
+    #small-fireflies-1, #big-fireflies-4 {
+      animation: cg-anim-8frames-1 6s steps(1, start) 0s infinite;
+    }
+    #small-fireflies-2, #big-fireflies-5 {
+      animation: cg-anim-8frames-2 6s steps(1, start) 0s infinite;
+    }
+    #small-fireflies-3, #big-fireflies-6 {
+      animation: cg-anim-8frames-3 6s steps(1, start) 0s infinite;
+    }
+    #small-fireflies-4, #big-fireflies-7 {
+      animation: cg-anim-8frames-4 6s steps(1, start) 0s infinite;
+    }
+    #small-fireflies-5, #big-fireflies-8 {
+      animation: cg-anim-8frames-5 6s steps(1, start) 0s infinite;
+    }
+    #small-fireflies-6, #big-fireflies-1 {
+      animation: cg-anim-8frames-6 6s steps(1, start) 0s infinite;
+    }
+    #small-fireflies-7, #big-fireflies-2 {
+      animation: cg-anim-8frames-7 6s steps(1, start) 0s infinite;
+    }
+    #small-fireflies-8, #big-fireflies-3 {
+      animation: cg-anim-8frames-8 6s steps(1, start) 0s infinite;
+    }
+
+    @keyframes cg-anim-3frames-1 {
+      0%   { opacity: 1; }
+      33%  { opacity: 0; }
+      66%  { opacity: 0; }
+      100% { opacity: 1; }
+    }
+
+    @keyframes cg-anim-3frames-2 {
+      0%   { opacity: 0; }
+      33%  { opacity: 1; }
+      66%  { opacity: 0; }
+      100% { opacity: 0; }
+    }
+
+    @keyframes cg-anim-3frames-3 {
+      0%   { opacity: 0; }
+      33%  { opacity: 0; }
+      66%  { opacity: 1; }
+      100% { opacity: 0; }
+    }
+
+    #campfire-1 {
+      animation: cg-anim-3frames-1 1s steps(1, start) 0s infinite;
+    }
+
+    #campfire-2 {
+      animation: cg-anim-3frames-2 1s steps(1, start) 0s infinite;
+    }
+
+    #campfire-3 {
+      animation: cg-anim-3frames-3 1s steps(1, start) 0s infinite;
+    }
+
+    #toxic-spill-3 {
+      animation: cg-anim-3frames-1 2s steps(1, start) 0s infinite;
+    }
+
+    #toxic-spill-2 {
+      animation: cg-anim-3frames-2 2s steps(1, start) 0s infinite;
+    }
+
+    #toxic-spill-1 {
+      animation: cg-anim-3frames-3 2s steps(1, start) 0s infinite;
+    }
+
+
+
+    @keyframes cg-anim-eyeball-plant-1 {
+      0%   { opacity: 1; }
+      33%  { opacity: 0; }
+      66%  { opacity: 0; }
+      100% { opacity: 1; }
+    }
+
+    @keyframes cg-anim-eyeball-plant-2 {
+      0%   { opacity: 0; }
+      33%  { opacity: 1; }
+      66%  { opacity: 0; }
+      100% { opacity: 0; }
+    }
+
+    @keyframes cg-anim-eyeball-plant-3 {
+      0%   { opacity: 0; }
+      33%  { opacity: 0; }
+      66%  { opacity: 1; }
+      100% { opacity: 0; }
+    }
+
+    #eyeball-plant-animation-click, #eyeball-plant2-animation-click {
+      opacity: 1
+    }
+
+    #eyeball-plant-default, #eyeball-plant-2, #eyeball-plant-3, #eyeball-plant2-default, #eyeball-plant2-2, #eyeball-plant2-3 {
+      opacity: 1
+    }
+
+    .eyeballplant1 {
+      animation: cg-anim-eyeball-plant-1 2s steps(1, start) 0s infinite;
+    }
+
+    .eyeballplant2 {
+      animation: cg-anim-eyeball-plant-2 2s steps(1, start) 0s infinite;
+    }
+
+    .eyeballplant3 {
+      animation: cg-anim-eyeball-plant-3 2s steps(1, start) 0s infinite;
+    }
+
+
+    @keyframes cg-anim-blinking {
+      0% {
+        opacity: 0;
+      }
+
+      50% {
+        opacity: 1;
+      }
+
+      100% {
+        opacity: 0;
+      }
+    }
+
+    #flame-glow-2 {
+      opacity: 1;
+      animation: cg-anim-blinking 1.5s ease-in-out -0.1s infinite;
+    }
+
+    #lake-1 {
+      opacity: 1;
+      animation: cg-anim-2frames-1 1s steps(1, start) -0.1s infinite;
+    }
+
+    #lake-2 {
+      opacity: 0;
+      animation: cg-anim-2frames-2 1s steps(1, start) -0.1s infinite;
+    }
+
+    @keyframes cg-anim-fly {
+      0% {
+        transform: translate3d(0, 0, 0);
+      }
+
+      20% {
+        transform: translate3d(0, 1px, 0);
+      }
+
+      40% {
+        transform: translate3d(1px, 0, 0);
+      }
+
+      60% {
+        transform: translate3d(1px, 1px, 0);
+      }
+
+      100% {
+        transform: translate3d(0, 0, 0);
+      }
+    }
+
+    #fly-animated-loop {
+      animation: cg-anim-fly 2s ease-in-out -0.1459s infinite;
+      transform-origin: center;
+      transform-box: fill-box;
+    }
+
+    #fly1 {
+      opacity: 1;
+      animation: cg-anim-2frames-1 0.1s steps(1, start) -0.1s infinite;
+    }
+
+    #fly2 {
+      opacity: 0;
+      animation: cg-anim-2frames-2 0.1s steps(1, start) -0.1s infinite;
+    }
+
+    #goob-default, #stitch-default, #troll-default, #chomps-default, #sykes-default {
+      opacity: 1
+    }
+
+    #goob-2, #stitch-2, #troll-mad, #chomps-chopping, #sykes-surprised {
+      opacity: 0
+    }
+
+    #goob-default.activate, #stitch-default.activate, #troll-default.activate, #chomps-default.activate, #sykes-default.activate {
+      opacity: 0
+    }
+    
+    #goob-2.activate, #stitch-2.activate, #troll-mad.activate, #chomps-chopping.activate, #sykes-surprised.activate {
+      opacity: 1
+    }
+
+    #ghost {
+      transition: 0.3s ease 0.3s;
+    }
+
+    @keyframes cg-anim-4frames-1 {
+      0%   { opacity: 0; }
+      25%  { opacity: 1; }
+      50%  { opacity: 0; }
+      75%  { opacity: 0; }
+      100% { opacity: 0; }
+    }
+
+    @keyframes cg-anim-4frames-2 {
+      0%   { opacity: 0; }
+      25%  { opacity: 0; }
+      50%  { opacity: 1; }
+      75%  { opacity: 0; }
+      100% { opacity: 0; }
+    }
+
+    @keyframes cg-anim-4frames-3 {
+      0%   { opacity: 0; }
+      25%  { opacity: 0; }
+      50%  { opacity: 0; }
+      75%  { opacity: 1; }
+      100% { opacity: 0; }
+    }
+
+    @keyframes cg-anim-4frames-4 {
+      0%   { opacity: 0; }
+      25%  { opacity: 0; }
+      50%  { opacity: 0; }
+      75%  { opacity: 0; }
+      100% { opacity: 1; }
+    }
+
+    #treeeyes-1, #treeeyes-2, #treeeyes-3, #treeeyes-4 {
+      opacity: 0
+    }
+
+    .treeeyes1 {
+      animation: cg-anim-4frames-1 2s steps(1, start) 0s 1;
+    }
+
+    .treeeyes2 {
+      animation: cg-anim-4frames-2 2s steps(1, start) 0s 1;
+    }
+
+    .treeeyes3 {
+      animation: cg-anim-4frames-3 2s steps(1, start) 0s 1;
+    }
+
+    .treeeyes4 {
+      animation: cg-anim-4frames-4 2s steps(1, start) 0s 1;
+    }
+
+    #farming-name, #farming-coords, #farming-fc {
+      opacity: 0;
+      pointer-events: none;
+      transform: translate3d(0, -20px, 0);
+    }
+
+    #farming-name.show-farming-stats, #farming-coords.show-farming-stats, #farming-fc.show-farming-stats {
+      opacity: 1;
+      pointer-events: auto;
+      cursor: pointer;
+      transform: translate3d(0, 0, 0);
+    }
+
+    #farming-name {
+      transition: 0.4s ease 0.1s;
+    }
+
+    #farming-coords {
+      transition: 0.2s ease 0.2s;
+    }
+
+    #farming-fc {
+      transition: 0.1s ease 0.4s;
+    }
+
+    #farming-fc.tier1 {
+      fill: aqua;
+    }
+
+    #farming-fc.tier2 {
+      fill: green;
+    }
+
+    #farming-fc.tier3 {
+      fill: yellow;
+    }
+
+    #farming-fc.tier4 {
+      fill: red;
+    }
+
+    #farming-fc.tier5 {
+      animation: cg-anim-rgb 5s linear -1.4169s infinite;
+    }
+
+    #ClumsyValleyLandPlot .button {
+      opacity: 0;
+      pointer-events: none;
+      transition: 0.2s ease;
+      transform: translate3d(0, 20px, 0);
+    }
+
+    #ClumsyValleyLandPlot .button.png-square {
+      transition-delay: 0.2s;
+      -webkit-transform-origin-x: 20px;
+    }
+
+    #ClumsyValleyLandPlot .button.svg {
+      transition-delay: 0.4s;
+    }
+
+    #ClumsyValleyLandPlot.menu-in .button {
+      opacity: 1;
+      pointer-events: auto;
+      cursor: pointer;
+      transform: translate3d(0, 0, 0);
+    }
+
+    #ClumsyValleyLandPlot.menu-in .button .button-bg {
+      transition: fill 0.2s ease;
+    }
+
+    #ClumsyValleyLandPlot.menu-in .button:hover .button-bg {
+      fill: #FF5FFA;
+    }
+    ]]>
+  </style>
+<path class="cg-bg" d="M0 0h89v89H0z"></path>
+<g id="toxic-swamps-base">
+      <polygon id="ts-plot-bg" points="88 54 88 53 87 53 86 53 86 52 85 52 84 52 84 51 83 51 82 51 82 50 81 50 80 50 80 49 79 49 78 49 78 48 77 48 76 48 76 47 75 47 74 47 74 46 73 46 72 46 72 45 71 45 70 45 70 44 69 44 68 44 68 43 67 43 66 43 66 42 65 42 64 42 64 41 63 41 62 41 62 40 61 40 60 40 60 39 59 39 58 39 58 38 57 38 56 38 56 37 55 37 54 37 54 36 53 36 52 36 52 35 51 35 50 35 50 34 49 34 48 34 48 33 47 33 46 33 46 32 45 32 44 32 43 32 43 33 42 33 41 33 41 34 40 34 39 34 39 35 38 35 37 35 37 36 36 36 35 36 35 37 34 37 33 37 33 38 32 38 31 38 31 39 30 39 29 39 29 40 28 40 27 40 27 41 26 41 25 41 25 42 24 42 23 42 23 43 22 43 21 43 21 44 20 44 19 44 19 45 18 45 17 45 17 46 16 46 15 46 15 47 14 47 13 47 13 48 12 48 11 48 11 49 10 49 9 49 9 50 8 50 7 50 7 51 6 51 5 51 5 52 4 52 3 52 3 53 2 53 1 53 1 54 0 54 0 55 0 56 0 57 0 58 0 59 0 60 0 61 0 62 0 63 0 64 0 65 0 66 0 67 1 67 1 68 2 68 3 68 3 69 4 69 5 69 5 70 6 70 7 70 7 71 8 71 9 71 9 72 10 72 11 72 11 73 12 73 13 73 13 74 14 74 15 74 15 75 16 75 17 75 17 76 18 76 19 76 19 77 20 77 21 77 21 78 22 78 23 78 23 79 24 79 25 79 25 80 26 80 27 80 27 81 28 81 29 81 29 82 30 82 31 82 31 83 32 83 33 83 33 84 34 84 35 84 35 85 36 85 37 85 37 86 38 86 39 86 39 87 40 87 41 87 41 88 42 88 43 88 43 89 44 89 45 89 46 89 46 88 47 88 48 88 48 87 49 87 50 87 50 86 51 86 52 86 52 85 53 85 54 85 54 84 55 84 56 84 56 83 57 83 58 83 58 82 59 82 60 82 60 81 61 81 62 81 62 80 63 80 64 80 64 79 65 79 66 79 66 78 67 78 68 78 68 77 69 77 70 77 70 76 71 76 72 76 72 75 73 75 74 75 74 74 75 74 76 74 76 73 77 73 78 73 78 72 79 72 80 72 80 71 81 71 82 71 82 70 83 70 84 70 84 69 85 69 86 69 86 68 87 68 88 68 88 67 89 67 89 66 89 65 89 64 89 63 89 62 89 61 89 60 89 59 89 58 89 57 89 56 89 55 89 54 88 54"/>
+      <polygon points="88 66 88 67 87 67 86 67 86 68 85 68 84 68 84 69 83 69 82 69 82 70 81 70 80 70 80 71 79 71 78 71 78 72 77 72 76 72 76 73 75 73 74 73 74 74 73 74 72 74 72 75 71 75 70 75 70 76 69 76 68 76 68 77 67 77 66 77 66 78 65 78 64 78 64 79 63 79 62 79 62 80 61 80 60 80 60 81 59 81 58 81 58 82 57 82 56 82 56 83 55 83 54 83 54 84 53 84 52 84 52 85 51 85 50 85 50 86 49 86 48 86 48 87 47 87 46 87 46 88 45 88 45 75 46 75 46 74 47 74 48 74 48 73 49 73 50 73 50 72 51 72 52 72 52 71 53 71 54 71 54 70 55 70 56 70 56 69 57 69 58 69 58 68 59 68 60 68 60 67 61 67 62 67 62 66 63 66 64 66 64 65 65 65 66 65 66 64 67 64 68 64 68 63 69 63 70 63 70 62 71 62 72 62 72 61 73 61 74 61 74 60 75 60 76 60 76 59 77 59 78 59 78 58 79 58 80 58 80 57 81 57 82 57 82 56 83 56 84 56 84 55 85 55 86 55 86 54 87 54 88 54 88 55 88 56 88 57 88 58 88 59 88 60 88 61 88 62 88 63 88 64 88 65 88 66" style="fill: #3e2f2d;"/>
+      <polygon points="86 53 86 54 85 54 84 54 84 55 83 55 82 55 82 56 81 56 80 56 80 57 79 57 78 57 78 58 77 58 76 58 76 59 75 59 74 59 74 60 73 60 72 60 72 61 71 61 70 61 70 62 69 62 68 62 68 63 67 63 66 63 66 64 65 64 64 64 64 65 63 65 62 65 62 66 61 66 60 66 60 67 59 67 58 67 58 68 57 68 56 68 56 69 55 69 54 69 54 70 53 70 52 70 52 71 51 71 50 71 50 72 49 72 48 72 48 73 47 73 46 73 46 74 45 74 44 74 43 74 43 73 42 73 41 73 41 72 40 72 39 72 39 71 38 71 37 71 37 70 36 70 35 70 35 69 34 69 33 69 33 68 32 68 31 68 31 67 30 67 29 67 29 66 28 66 27 66 27 65 26 65 25 65 25 64 24 64 23 64 23 63 22 63 21 63 21 62 20 62 19 62 19 61 18 61 17 61 17 60 16 60 15 60 15 59 14 59 13 59 13 58 12 58 11 58 11 57 10 57 9 57 9 56 8 56 7 56 7 55 6 55 5 55 5 54 4 54 3 54 3 53 4 53 5 53 5 52 6 52 7 52 7 51 8 51 9 51 9 50 10 50 11 50 11 49 12 49 13 49 13 48 14 48 15 48 15 47 16 47 17 47 17 46 18 46 19 46 19 45 20 45 21 45 21 44 22 44 23 44 23 43 24 43 25 43 25 42 26 42 27 42 27 41 28 41 29 41 29 40 30 40 31 40 31 39 32 39 33 39 33 38 34 38 35 38 35 37 36 37 37 37 37 36 38 36 39 36 39 35 40 35 41 35 41 34 42 34 43 34 43 33 44 33 45 33 46 33 46 34 47 34 48 34 48 35 49 35 50 35 50 36 51 36 52 36 52 37 53 37 54 37 54 38 55 38 56 38 56 39 57 39 58 39 58 40 59 40 60 40 60 41 61 41 62 41 62 42 63 42 64 42 64 43 65 43 66 43 66 44 67 44 68 44 68 45 69 45 70 45 70 46 71 46 72 46 72 47 73 47 74 47 74 48 75 48 76 48 76 49 77 49 78 49 78 50 79 50 80 50 80 51 81 51 82 51 82 52 83 52 84 52 84 53 85 53 86 53" style="fill: #7d9453;"/>
+      <polygon points="44 75 44 88 43 88 43 87 42 87 41 87 41 86 40 86 39 86 39 85 38 85 37 85 37 84 36 84 35 84 35 83 34 83 33 83 33 82 32 82 31 82 31 81 30 81 29 81 29 80 28 80 27 80 27 79 26 79 25 79 25 78 24 78 23 78 23 77 22 77 21 77 21 76 20 76 19 76 19 75 18 75 17 75 17 74 16 74 15 74 15 73 14 73 13 73 13 72 12 72 11 72 11 71 10 71 9 71 9 70 8 70 7 70 7 69 6 69 5 69 5 68 4 68 3 68 3 67 2 67 1 67 1 66 1 65 1 64 1 63 1 62 1 61 1 60 1 59 1 58 1 57 1 56 1 55 1 54 2 54 3 54 3 55 4 55 5 55 5 56 6 56 7 56 7 57 8 57 9 57 9 58 10 58 11 58 11 59 12 59 13 59 13 60 14 60 15 60 15 61 16 61 17 61 17 62 18 62 19 62 19 63 20 63 21 63 21 64 22 64 23 64 23 65 24 65 25 65 25 66 26 66 27 66 27 67 28 67 29 67 29 68 30 68 31 68 31 69 32 69 33 69 33 70 34 70 35 70 35 71 36 71 37 71 37 72 38 72 39 72 39 73 40 73 41 73 41 74 42 74 43 74 43 75 44 75" style="fill: #261e1d;"/>
+    </g>
+    <g id="ts-side-terrain-texture-2">
+        <g id="ts-side-terrain-texture-2-left">
+          <polygon points="42 75 41 75 41 74 40 74 39 74 39 73 38 73 37 73 37 72 36 72 35 72 35 71 34 71 33 71 33 70 32 70 31 70 31 69 30 69 29 69 29 68 28 68 27 68 27 67 26 67 25 67 25 66 24 66 23 66 23 65 22 65 21 65 21 64 20 64 19 64 19 63 18 63 17 63 17 62 16 62 15 62 15 61 14 61 13 61 13 60 12 60 11 60 11 59 10 59 9 59 9 58 8 58 7 58 7 57 6 57 5 57 5 56 4 56 3 56 3 55 2 55 2 56 2 57 2 58 2 59 2 60 2 61 2 62 2 63 2 64 2 65 2 66 3 66 3 67 4 67 5 67 5 68 6 68 7 68 7 69 9 69 9 70 10 70 11 70 11 71 12 71 13 71 13 72 14 72 15 72 15 73 16 73 17 73 17 74 18 74 19 74 19 75 20 75 21 75 21 76 22 76 23 76 23 77 25 77 25 78 26 78 27 78 27 79 28 79 29 79 29 80 30 80 31 80 31 81 32 81 33 81 33 82 34 82 35 82 35 83 36 83 37 83 37 84 38 84 39 84 39 85 40 85 41 85 41 86 42 86 43 86 43 85 43 84 43 83 43 82 43 81 43 80 43 79 43 78 43 77 43 76 43 75 42 75" style="fill: #261e1d;"/>
+          <path d="M7,65v1h-1v1h-1v-1h-1v-3h-1v-3h1v1h1v1h1v1h1v2Zm15,1h-1v1h1v-1Zm20,11v-1h-1v4h-1v-2h-1v2h-2v-2h-1v2h-1v-1h-1v-1h-1v-2h-1v1h-2v-2h-1v-4h-1v5h-1v-1h-1v-2h-1v-1h-1v-2h-1v3h-1v-1h-1v-1h-1v-2h-1v2h-1v3h-1v1h2v1h2v1h2v1h2v1h2v1h2v1h1v-2h1v3h2v1h4v1h3v-3h1v2h1v-1h1v-5h-1Zm-17-8v-1h-1v2h1v-1Zm-9-3v2h-1v1h-2v-1h-1v-3h-2v-6H3v5h3v4h1v1h2v1h1v1h1v1h2v1h2v1h2v-3h1v-1h-1v-2h1v-2h-2Zm24,10v8h3v-8h-3Z" style="fill: #171514;"/>
+          <g>
+            <polygon points="27 74 27 75 28 75 28 74 28 73 27 73 27 74" style="fill: #7d9453;"/>
+            <polygon points="30 80 30 81 31 81 31 80 31 79 30 79 30 80" style="fill: #7d9453;"/>
+            <polygon points="43 75 43 74 42 74 41 74 41 73 40 73 39 73 39 72 38 72 37 72 36 71 35 71 34 70 33 70 33 69 32 69 31 69 31 68 30 68 29 68 29 67 28 67 27 67 27 66 26 66 25 66 25 65 24 65 23 65 23 64 22 64 21 64 21 63 20 63 19 63 19 62 18 62 17 62 17 62 16 61 15 61 13 60 11 59 11 58 10 58 9 58 9 57 8 57 7 57 7 56 6 56 5 56 5 55 4 55 3 55 3 54 2 54 1 54 1 55 1 56 1 57 1 58 1 59 2 60 2 61 2 62 2 63 2 64 2 65 2 66 3 67 4 67 5 68 6 68 7 68 7 67 7 66 6 66 6 67 5 67 5 66 4 66 4 65 4 64 4 63 3 63 3 62 3 61 3 60 4 60 4 61 5 61 5 62 6 62 6 63 7 63 7 64 7 65 7 66 8 66 8 67 8 68 9 68 9 67 9 66 9 65 9 64 10 64 10 65 11 65 11 64 11 63 12 63 12 62 13 62 14 62 14 63 15 63 15 64 16 64 16 65 17 65 17 66 17 67 17 68 18 68 18 67 18 66 19 66 19 67 20 67 20 68 20 69 20 70 20 71 21 71 21 70 22 70 22 69 22 68 22 67 21 67 21 66 22 66 23 66 23 67 24 67 24 68 25 68 25 69 26 69 27 69 28 69 28 70 29 70 29 71 29 72 30 72 30 73 30 74 30 75 30 76 30 77 31 77 31 76 31 75 31 74 32 74 32 73 33 73 33 72 34 72 35 72 35 73 36 73 36 74 36 75 36 76 36 77 37 77 37 76 37 75 38 75 38 76 39 76 40 76 40 77 40 78 40 79 40 80 41 80 41 79 41 78 41 77 41 76 42 76 42 77 43 77 43 78 43 79 43 80 43 81 43 82 42 82 42 83 41 83 41 82 41 81 40 81 40 82 40 83 40 84 39 84 38 84 37 84 37 85 38 85 39 85 39 86 40 86 41 86 42 86 43 86 43 85 43 84 44 83 44 82 44 81 44 80 44 79 44 78 44 77 44 76 44 75 43 75" style="fill: #7d9453;"/>
+            <polygon points="36 83 35 83 35 84 36 84 37 84 37 83 36 83" style="fill: #7d9453;"/>
+            <polygon points="17 72 17 73 17 74 18 74 18 73 18 72 18 71 17 71 17 72" style="fill: #7d9453;"/>
+            <polygon points="12 66 12 67 12 68 13 68 13 67 13 66 13 65 12 65 12 66" style="fill: #7d9453;"/>
+            <polygon points="24 71 24 72 25 72 25 71 25 70 24 70 24 71" style="fill: #7d9453;"/>
+            <rect x="33" y="77" width="1" height="1" style="fill: #7d9453;"/>
+            <polygon points="8 70 9 70 9 69 8 69 7 69 7 70 8 70" style="fill: #7d9453;"/>
+            <rect x="9" y="70" width="1" height="1" style="fill: #7d9453;"/>
+          </g>
+          <path d="M44,78v4h-1v-4h1Zm-2,5h1v-1h-1v1Zm-1,1h1v-1h-1v1Zm0-5h-1v1h1v-1Zm0,2h-1v2h1v-2Zm-3-6h1v-1h-1v1Zm0-3h-1v2h1v-2Zm-1,12v1h2v-1h-2Zm-1-1h-1v1h2v-1h-1Zm-4-13v1h1v-2h-1v1Zm-1,2h1v-1h-1v1Zm-5-5h-1v1h3v-1h-2Zm-2-1v1h1v-1h-1Zm-5-1v1h2v-1h-2Zm-1-1v1h1v-1h-1Zm-1-1v1h1v-1h-1Zm0,11h1v-1h-1v1Zm0-13h-1v2h1v-2Zm-5,7h1v-1h-1v1Zm-2-9h-1v1h-1v1h-1v1h2v-1h1v-1h1v-2h-1v1Zm-2,9h1v-1h-1v1Zm-3-8h1v-1h-1v1Zm0,8h1v-1h-1v1Zm0-11v-2H3v-1H1v5h1v-1h1v-1h1v2h1v-2Zm-2,7v1h1v-2h-1v1Z" style="fill: #93ad65;"/>
+          <path d="M44,83v5h-1v-1h-2v-2h1v-1h1v-1h1Zm-4-5v1h1v-3h1v1h1v-2h-1v-1h-1v1h-3v1h2v2Zm-3-4v-3h-2v-1h-1v1h-2v1h-1v-1h-1v-1h-1v2h1v4h1v-2h1v-1h1v-1h2v1h1v4h1v-2h1v-1h-1Zm-4,4h1v-1h-1v1Zm-4-10h-4v1h3v1h1v-2Zm-5-1v1h1v-1h-1Zm0,4v1h1v-2h-1v1Zm-1-5v1h1v-1h-1Zm-1-1h-1v1h2v-1h-1Zm-3,1v1h1v3h1v-1h1v-2h-1v-1h-2Zm-1-1v-1h-1v-1h-1v-2h-1v-1h-2v-1h-2v1h-1v1h-1v1h-2v-1h-1v-1h-1v-1h-1v-2h-1v1h-1v1H1v8H3v1h2v-1h-1v-1h-1v-6h1v1h1v1h1v1h1v3h1v1h1v-3h1v-1h1v-1h1v-1h2v2h1v1h1v1h1v2h1v-1h1v-1h-1Zm-1,7v1h1v-2h-1v1Zm-5-6h1v-1h-1v1Zm-2,5v-1h-1v1h1Zm-2-1h1v-1h-2v1h1Zm-2-3v1h-1v1h2v-3h-1v1Z" style="fill: #556a30;"/>
+        </g>
+        <g id="ts-side-terrain-texture-2-right">
+          <g>
+            <polygon points="47 75 48 75 48 74 49 74 50 74 50 73 51 73 52 73 52 72 53 72 54 72 54 71 55 71 56 71 56 70 57 70 58 70 58 69 59 69 60 69 60 68 61 68 62 68 62 67 63 67 64 67 64 66 65 66 66 66 66 65 67 65 68 65 68 64 69 64 70 64 70 63 71 63 72 63 72 62 73 62 74 62 74 61 75 61 76 61 76 60 77 60 78 60 78 59 79 59 80 59 80 58 81 58 82 58 82 57 83 57 84 57 84 56 85 56 86 56 86 55 87 55 87 56 87 57 87 58 87 59 87 60 87 61 87 62 87 63 87 64 87 65 87 66 86 66 86 67 85 67 84 67 84 68 83 68 82 68 82 69 80 69 80 70 79 70 78 70 78 71 77 71 76 71 76 72 75 72 74 72 74 73 73 73 72 73 72 74 71 74 70 74 70 75 69 75 68 75 68 76 67 76 66 76 66 77 64 77 64 78 63 78 62 78 62 79 61 79 60 79 60 80 59 80 58 80 58 81 57 81 56 81 56 82 55 82 54 82 54 83 53 83 52 83 52 84 51 84 50 84 50 85 49 85 48 85 48 86 47 86 46 86 46 85 46 84 46 83 46 82 46 81 46 80 46 79 46 78 46 77 46 76 46 75 47 75" style="fill: #261e1d;"/>
+            <g>
+              <path d="M71,74h1v1h-2v1h-2v1h-2v1h-2v1h-2v1h-2v1h-1v-2h-1v3h-2v1h-4v1h-3v-2h1v-1h-2v-1h4v-2h1v2h1v-1h1v-1h1v-2h1v1h2v-2h1v-4h1v5h1v-1h1v-2h1v-1h1v-2h1v3h1v-1h1v-1h1v-2h1v2h1v3Zm14-14v3h1v-3h-1Zm-2,3v2h-1v1h1v1h1v-1h1v-3h-2Zm-2,4v1h-2v-1h1v-2h-3v3h-1v1h-2v-1h-1v-2h-1v4h-1v1h1v3h2v-1h2v-1h2v-1h1v-1h1v-1h2v-3h-1v1Zm-13-1h-1v1h1v-1Zm-3,2h-1v2h1v-2Zm-18,15h1v-1h-1v1Zm0-3v-1h1v-3h-1v1h-1v5h1v-2Z" style="fill: #171514;"/>
+              <g>
+                <polygon points="54 84 54 83 53 83 52 83 52 84 53 84 54 84" style="fill: #7d9453;"/>
+                <polygon points="87 54 86 54 86 55 85 55 84 55 84 56 83 56 82 56 82 57 81 57 80 57 80 58 79 58 78 58 78 59 77 60 76 60 74 62 73 61 72 61 72 62 71 62 70 62 70 63 69 63 68 63 68 64 67 64 66 64 66 65 65 65 64 65 64 66 63 66 62 66 62 67 61 67 60 67 60 68 59 68 58 68 58 69 57 69 56 69 56 70 55 70 54 71 52 72 51 72 50 72 50 73 49 73 48 73 48 75 47 74 46 74 46 75 45 75 45 76 45 77 45 78 45 79 45 80 45 81 45 82 45 83 46 84 46 85 46 86 47 86 48 86 49 86 50 86 50 85 51 85 52 85 52 84 51 84 50 84 49 84 49 83 49 82 48 82 48 83 47 83 47 82 46 82 46 81 46 80 46 79 46 78 46 77 47 77 47 76 48 76 48 77 48 78 49 78 49 77 49 76 50 76 51 76 51 75 52 75 52 76 53 76 53 75 53 74 53 73 54 73 54 72 55 72 56 72 56 73 57 73 57 74 58 74 58 75 58 76 58 77 59 77 59 76 59 75 59 74 59 73 59 72 60 72 60 71 60 70 61 70 61 69 62 69 63 69 64 69 64 68 65 68 65 67 66 67 66 66 67 66 68 66 68 67 67 67 67 68 67 69 68 69 68 68 69 68 69 67 70 67 70 66 71 66 71 67 72 67 72 66 72 65 73 65 73 64 74 64 74 63 75 63 75 62 76 62 77 62 77 63 78 63 79 63 80 63 80 62 81 62 81 63 81 64 82 64 82 63 82 62 82 61 82 60 83 60 83 59 84 59 84 60 85 60 86 60 86 61 86 62 86 63 85 63 85 64 85 65 85 66 84 66 84 67 83 67 83 66 82 66 82 67 82 68 83 68 84 68 85 67 86 67 86 66 87 66 87 65 87 64 87 63 87 62 87 61 87 60 88 59 88 58 88 57 88 56 88 55 88 54 87 54" style="fill: #7d9453;"/>
+                <polygon points="61 74 61 75 62 75 62 74 62 73 61 73 61 74" style="fill: #7d9453;"/>
+                <polygon points="58 80 58 81 59 81 59 80 59 79 58 79 58 80" style="fill: #7d9453;"/>
+                <rect x="78" y="64" width="1" height="1" style="fill: #7d9453;"/>
+                <rect x="68" y="70" width="1" height="1" style="fill: #7d9453;"/>
+                <polygon points="76 67 76 68 77 68 77 67 77 66 76 66 76 67" style="fill: #7d9453;"/>
+                <polygon points="80 69 80 70 81 70 82 70 82 69 81 69 80 69" style="fill: #7d9453;"/>
+                <rect x="55" y="77" width="1" height="1" style="fill: #7d9453;"/>
+                <rect x="79" y="70" width="1" height="1" style="fill: #7d9453;"/>
+                <polygon points="71 72 71 73 71 74 72 74 72 73 72 72 72 71 71 71 71 72" style="fill: #7d9453;"/>
+                <polygon points="64 71 64 72 65 72 65 71 65 70 64 70 64 71" style="fill: #7d9453;"/>
+              </g>
+            </g>
+          </g>
+          <path d="M88,54v5h-1v-1h-1v-1h-1v2h-1v-4h2v-1h2Zm-3,10v1h1v-2h-1v1Zm-2,4h1v-1h-1v1Zm-2-8h-1v-1h-1v-1h-1v2h1v1h1v1h2v-1h-1v-1Zm-5,8h1v-1h-1v1Zm-4-6v1h1v-2h-1v1Zm-1,2h1v-1h-1v1Zm0,10h1v-1h-1v1Zm-1-9h1v-1h-1v1Zm-2,0v1h2v-1h-2Zm-4,2h1v-1h-1v1Zm-2,0h-1v1h3v-1h-2Zm-5,5h1v-1h-1v1Zm0-3h-1v2h1v-2Zm-5,14v1h2v-1h-2Zm0-10v-1h-1v2h1v-1Zm-1,1h-1v1h1v-1Zm-1,10v1h2v-1h-2Zm-2-1h1v-1h-1v1Zm-1,1h1v-1h-1v1Zm-1-2v1h1v-1h-1Zm0-2v-2h-1v4h1v-2Z" style="fill: #93ad65;"/>
+          <path d="M88,59v8h-2v1h-2v-1h1v-1h1v-6h-2v-1h1v-2h1v1h1v1h1Zm-5,8v-1h-1v3h2v-1h-1v-1Zm-1-4v-1h-1v2h1v-1Zm-2,6v1h2v-1h-2Zm-1,2h1v-1h-1v1Zm0-8h1v-2h-1v-1h-1v-1h-2v1h-2v1h-1v2h-1v1h-1v1h-1v1h1v1h1v-2h1v-1h1v-1h1v-2h2v1h1v1h1Zm-8,9v1h1v-2h-1v1Zm-3-6v1h-1v2h1v-1h1v-1h1v-1h-2Zm-1-1h-1v1h2v-1h-1Zm-2,2h1v-1h-1v1Zm-1,1h1v-1h-1v1Zm0,3v1h1v-2h-1v1Zm-2-3h-2v2h1v-1h3v-1h-2Zm-3,3h-1v1h-1v-1h-2v-1h-1v1h-2v3h-1v1h1v1h1v-3h1v-1h2v1h1v1h1v2h1v-4h1v-2h-1v1Zm-4,7h1v-1h-1v1Zm-6-3h-1v-1h-1v1h-1v2h1v-1h1v2h1v-2h2v-1h-2Zm-2,9h-1v-1h-1v5h1v-1h2v-2h-1v-1Z" style="fill: #556a30;"/>
+        </g>
+      </g>
+      <g id="ts-top-terrain-texture-2">
+        <g>
+          <rect x="33" y="45" width="1" height="1" style="fill: #8da760;"/>
+          <rect x="23" y="46" width="2" height="1" style="fill: #8da760;"/>
+          <rect x="34" y="47" width="2" height="2" style="fill: #8da760;"/>
+          <rect x="37" y="47" width="1" height="1" style="fill: #8da760;"/>
+          <rect x="46" y="36" width="2" height="2" style="fill: #8da760;"/>
+          <rect x="42" y="36" width="1" height="1" style="fill: #8da760;"/>
+          <rect x="51" y="38" width="1" height="1" style="fill: #8da760;"/>
+          <rect x="48" y="48" width="1" height="1" style="fill: #8da760;"/>
+          <rect x="60" y="43" width="1" height="1" style="fill: #8da760;"/>
+          <rect x="59" y="54" width="1" height="1" style="fill: #8da760;"/>
+          <rect x="28" y="62" width="1" height="1" style="fill: #8da760;"/>
+          <rect x="22" y="60" width="2" height="2" style="fill: #8da760;"/>
+          <rect x="34" y="64" width="3" height="1" style="fill: #8da760;"/>
+          <rect x="40" y="66" width="2" height="2" style="fill: #8da760;"/>
+          <rect x="46" y="68" width="1" height="1" style="fill: #8da760;"/>
+          <rect x="18" y="54" width="2" height="2" style="fill: #8da760;"/>
+          <rect x="14" y="54" width="1" height="1" style="fill: #8da760;"/>
+          <rect x="16" y="50" width="4" height="1" style="fill: #8da760;"/>
+          <rect x="79" y="53" width="1" height="1" style="fill: #8da760;"/>
+          <rect x="74" y="53" width="2" height="2" style="fill: #8da760;"/>
+          <rect x="66" y="49" width="3" height="1" style="fill: #8da760;"/>
+        </g>
+        <path d="M70,49v-1h-6v-1h-3v-1h-1v2h-2v1h1v1h1v3h-1v1h-3v-1h-3v-1h2v-1h-4v-1h-5v1h-2v1h-2v-1h-5v-1h3v-1h-1v-1h-1v-1h2v-1h2v-1h1v-1h2v-1h1v-1h6v-1h3v-1h-7v-2h-3v1h-5v1h-3v1h-2v1h-1v1h-1v1h-1v1h-1v1h-1v1h-1v1h3v1h-4v1h3v1h1v1h1v1h4v1h-3v2h4v1h-5v1h-1v-1h-2v-1h-1v-1h-2v-1h-4v1h3v1h-3v1h1v1h2v1h1v1h1v1h2v1h-3v1h11v2h7v-1h3v-1h2v-1h6v-1h6v-1h2v-1h-3v-1h4v-1h1v-1h1v-1h1v-2h-1v-1h1v-1h-1v-1h-1v-1h4Zm-28-8h2v1h-2v-1Zm-7,8h-2v-1h2v1Zm-2,11h-1v-1h1v1Zm11,3h-2v-2h2v2Zm4-5h-5v-1h5v1Zm0-3h-2v-1h2v1Zm5,5h-1v-1h1v1Zm7-1h-3v-1h3v1Zm3-3h-7v-1h7v1Zm3-3h-2v-1h2v1Z" style="fill: #73884c;"/>
+      </g>
+      <g id="swamp-grass3-left">
+          <g id="swamp-grass3-bg">
+            <polygon points="20 38 20 37 19 37 19 38 18 38 18 40 17 40 17 42 16 42 16 41 15 41 15 40 14 40 14 41 13 41 13 42 14 42 14 44 15 44 15 47 16 47 17 46 17 46 18 45 19 45 19 42 20 42 20 40 21 40 21 38 20 38"/>
+          </g>
+          <g id="swamp-grass3-color">
+            <g>
+              <rect x="15" y="42" width="1" height="2" style="fill: #556a30;"/>
+              <rect x="14" y="41" width="1" height="1" style="fill: #556a30;"/>
+              <polygon points="17 44 16 44 16 47 17 47 17 48 18 48 18 42 17 42 17 44" style="fill: #556a30;"/>
+              <rect x="18" y="40" width="1" height="2" style="fill: #556a30;"/>
+              <rect x="19" y="38" width="1" height="2" style="fill: #556a30;"/>
+            </g>
+          </g>
+        </g>
+        <g id="swamp-grass2-left">
+          <g id="swamp-grass2-bg">
+            <polygon points="26 40 26 38 25 38 25 37 24 37 24 36 23 36 23 35 20 35 20 36 19 36 19 38 20 38 20 39 23 39 23 41 24 41 24 43 25 43 26 43 27 43 27 40 26 40"/>
+          </g>
+          <g id="swamp-grass2-color">
+            <polygon points="23 36 23 37 24 37 24 38 25 38 25 40 26 40 26 44 25 44 25 41 24 41 24 39 23 39 23 38 20 38 20 36 23 36" style="fill: #556a30;"/>
+          </g>
+        </g>
+        <g id="reed1-left">
+          <g id="reed1-bg">
+            <polygon points="35 26 35 25 33 25 33 26 32 26 32 30 32 33 31 33 31 34 30 34 30 32 30 28 29 28 29 27 27 27 27 28 26 28 26 32 27 32 27 34 28 34 28 37 29 37 29 40 30 40 31 39 32 39 33 39 33 37 33 36 34 36 34 33 35 33 35 30 36 30 36 26 35 26"/>
+          </g>
+          <g id="reed1-grass">
+            <g>
+              <polygon points="28 31 28 34 29 34 29 32 28 31" style="fill: #556a30;"/>
+              <rect x="29" y="34" width="1" height="3" style="fill: #556a30;"/>
+              <polygon points="31 37 30 37 30 40 32 40 32 37 32 36 31 36 31 37" style="fill: #556a30;"/>
+              <rect x="32" y="33" width="1" height="3" style="fill: #556a30;"/>
+              <polygon points="33 30 33 33 34 33 34 29 33 30" style="fill: #556a30;"/>
+            </g>
+          </g>
+          <g id="reed1-top">
+            <g>
+              <rect x="27" y="28" width="2" height="4" style="fill: #3e2f2d;"/>
+              <rect x="33" y="26" width="2" height="4" style="fill: #3e2f2d;"/>
+            </g>
+          </g>
+        </g>
+        <g id="swamp-grass1-right">
+          <g id="swamp-grass1-bg">
+            <polygon points="59 31 59 30 57 30 57 31 56 31 56 32 55 32 55 30 54 30 54 29 52 29 52 30 51 30 51 32 52 32 52 33 53 33 53 34 54 34 54 37 55 37 56 39 57 39 58 40 58 39 59 39 59 34 60 34 60 31 59 31"/>
+          </g>
+          <g id="swamp-grass1-color">
+            <polygon points="58 31 57 31 57 35 56 35 56 34 56 33 55 33 55 32 54 32 54 30 52 30 52 32 53 32 53 33 54 33 54 34 55 34 55 39 56 39 56 40 56 41 57 41 57 40 58 40 58 35 58 34 59 34 59 31 58 31" style="fill: #556a30;"/>
+          </g>
+        </g>
+        <g id="red-shrooms">
+        <polygon points="38 31 38 30 38 29 39 29 39 28 39 27 40 27 40 26 41 26 41 25 42 25 43 25 43 26 44 26 44 27 45 27 46 27 46 26 47 26 47 25 48 25 48 24 49 24 49 23 50 23 51 23 52 23 52 24 53 24 53 25 53 26 54 26 54 27 54 28 55 28 55 29 55 30 55 31 56 31 56 32 56 33 56 34 55 34 55 35 54 35 53 35 52 35 52 36 51 36 51 37 51 38 51 39 51 40 50 40 50 40 49 39 48 39 48 38 48 37 48 36 48 35 47 35 47 34 46 34 46 35 45 35 45 36 45 37 46 37 46 38 46 39 45 39 44 40 44 40 43 40 43 39 43 38 42 38 42 37 42 36 41 36 40 36 39 36 39 35 38 35 38 34 37 34 37 33 37 32 37 31 38 31"/>
+        <g>
+          <polygon points="48 32 48 31 48 30 47 30 47 29 46 29 46 28 46 27 47 27 47 26 48 26 48 25 49 25 49 24 50 24 51 24 52 24 52 25 52 26 53 26 53 27 53 28 54 28 54 29 54 30 54 31 55 31 55 32 55 33 55 34 54 34 53 34 52 34 52 35 51 35 50 35 49 35 49 34 48 34 47 34 47 33 48 33 48 32" style="fill: #f13441;"/>
+          <polygon points="39 31 39 30 39 29 40 29 40 28 40 27 41 27 41 26 42 26 43 26 43 27 44 27 44 28 45 28 45 29 46 29 46 30 47 30 47 31 47 32 47 33 46 33 46 34 45 34 44 34 43 34 43 35 42 35 41 35 40 35 39 35 39 34 38 34 38 33 38 32 38 31 39 31" style="fill: #f13441;"/>
+        </g>
+        <path d="M50,37v1s0,1,0,1v1h-1v-1s0-1,0-1v-1s0-1,0-1h1v1Zm-7-2v1s0,1,0,1v1s1,0,1,0v2s1,0,1,0v-2s0-1,0-1h-1v-1s0-1,0-1h-1Z" style="fill: #6b7081;"/>
+        <path d="M53,27h-1v-1h1v1Zm-6,0h1s1,0,1,0v-1s0-1,0-1h-1s0,1,0,1h-1s0,1,0,1Zm3,2h-1s0,1,0,1h1s0-1,0-1Zm1,4h-1s0,1,0,1h1s0-1,0-1Zm2-2h-1s0,1,0,1v1s1,0,1,0h1s0-1,0-1v-1s-1,0-1,0Zm-6,1h-1s0,1,0,1h1s0-1,0-1Zm-3-5h-1s0,1,0,1v1s1,0,1,0h1s0-1,0-1h-1v-1Zm0,4h-1s0,1,0,1h1s0-1,0-1Zm-5-2v1s1,0,1,0v-1s-1,0-1,0Zm1,3h-1s0,1,0,1v1s1,0,1,0h1s0-1,0-1v-1s-1,0-1,0Z" style="fill: #d4d6db;"/>
+      </g>
+      <g id="growing-plant">
+        <g>
+          <rect x="34" y="40" width="1" height="1"/>
+          <rect x="34" y="39" width="1" height="1"/>
+          <rect x="34" y="38" width="1" height="1"/>
+          <rect x="34" y="37" width="1" height="1"/>
+          <rect x="33" y="41" width="1" height="1"/>
+          <rect x="33" y="37" width="1" height="1"/>
+          <rect x="32" y="41" width="1" height="1"/>
+          <rect x="32" y="38" width="1" height="1"/>
+          <rect x="31" y="48" width="1" height="1"/>
+          <rect x="31" y="47" width="1" height="1"/>
+          <rect x="31" y="46" width="1" height="1"/>
+          <rect x="31" y="45" width="1" height="1"/>
+          <rect x="31" y="41" width="1" height="1"/>
+          <rect x="31" y="40" width="1" height="1"/>
+          <rect x="31" y="39" width="1" height="1"/>
+          <rect x="30" y="44" width="1" height="1"/>
+          <rect x="30" y="43" width="1" height="1"/>
+          <rect x="30" y="42" width="1" height="1"/>
+          <polygon points="30 45 30 46 30 47 29 47 29 48 29 49 29 50 30 50 30 49 31 49 31 48 31 47 31 46 31 45 30 45" style="fill: #26241d;"/>
+          <rect x="29" y="46" width="1" height="1"/>
+          <rect x="29" y="45" width="1" height="1"/>
+          <rect x="29" y="44" width="1" height="1"/>
+          <rect x="29" y="41" width="1" height="1"/>
+          <rect x="28" y="49" width="1" height="1"/>
+          <rect x="28" y="48" width="1" height="1"/>
+          <rect x="28" y="47" width="1" height="1"/>
+          <rect x="28" y="43" width="1" height="1"/>
+          <rect x="28" y="40" width="1" height="1"/>
+          <rect x="27" y="43" width="1" height="1"/>
+          <g>
+            <polygon points="29 41 28 41 27 41 27 42 27 43 28 43 29 43 29 44 30 44 30 43 30 42 29 42 29 41" style="fill: #acb051;"/>
+            <polygon points="33 38 33 39 32 39 32 40 32 41 33 41 34 41 34 40 34 39 34 38 33 38" style="fill: #acb051;"/>
+          </g>
+          <rect x="27" y="40" width="1" height="1"/>
+          <rect x="26" y="42" width="1" height="1"/>
+          <rect x="26" y="41" width="1" height="1"/>
+          <rect x="26" y="40" width="1" height="1"/>
+        </g>
+        <path d="M34,39v2h-2v-1h1v-1h1Zm-6,3v1h1v1h1v-2h-2Z" style="fill: #9b9f3f;"/>
+        <polygon points="30 46 30 47 30 48 30 49 31 49 31 48 31 47 31 46 30 46" style="fill: #3e3b2d;"/>
+      </g>
+      <g id="farming-stats">
+<text id="farming-name" filter="url(#stats-name)" font-weight="normal" fill="black" x="0" y="9">
+    toxic-swamps #7344
+</text>
+<text id="farming-coords" filter="url(#stats-coords)" fill="black" x="0" y="16.5">
+    XY 1144
+</text>
+<text id="farming-fc" filter="url(#stats-fc)" fill="black" x="0" y="24">
+    FC: 0
+</text>
+</g>
+<a href="https://clumsylabs.io" id="valley-url" target="_blank" class="button full-version">
+    <path class="button-bg" d="M12,74h21v11H12V74z"/>
+    <path fill="#FFF" d="M19,81h1v1h-2v-5h6v3h-1v-2h-4V81z M26,77h-1v1h1v3h-4v-2h-1v3h6v-5H26z M30,76h-1v1h1v5h-1v1h2v-7H30z M14,76
+		v7h2v-1h-1v-5h1v-1H14z"/>
+    <title>Visit in Clumsy Valley</title>
+  </a>
+  <a href="https://assets.clumsylabs.io/land/png/ClumsyValleyLandPlot7344.png" id="png-url" target="_blank" class="button png-square">
+    <path class="button-bg" d="M38,74h13v11H38V74z"/>
+    <path fill="#FFF" d="M49,76v7h-2v-1h1v-5h-1v-1H49z M40,76v7h2v-1h-1v-5h1v-1H40z M46,80h1v-1h-1V80z M42,79v1h1v-1H42z M45,79v-2
+		h-1v3h-1v1h1v1h1v-1h1v-1h-1V79z"/>
+    <title>Download square PNG</title>
+  </a>
+  <a href="https://assets.clumsylabs.io/land/ipfs/ClumsyValleyLandPlot7344.svg" id="svg-url" target="_blank" class="button svg">
+    <path class="button-bg" d="M56,74h20v11H56V74z"/>
+    <path fill="#FFF" d="M72,79v2h-1v-1h-1v-1H72z M69,81v1h2v-1H69z M69,79v-1h-1v3h1V79z M71,78v-1h-2v1H71z M66,78v3h1v-4h-1V78z
+		 M65,82h1v-1h-1V82z M65,79v-2h-1v4h1V79z M63,81v-1h-1v1H63z M62,80v-1h-1v1H62z M61,77v1h2v-1H61z M60,81v1h2v-1H60z M60,79h1v-1
+		h-1V79z M73,76h-1v1h1v5h-1v1h2v-7H73z M58,76v7h2v-1h-1v-5h1v-1H58z"/>
+    <title>Download SVG</title>
+  </a>
+  <script type="text/javascript">
+    <![CDATA[
+    let landRoot = document.getElementById('ClumsyValleyLandPlot');
+    let landBase = document.getElementById('toxic-swamps-base');
+    let farmingNameId = document.getElementById('farming-name');
+    let farmingCoordsId = document.getElementById('farming-coords');
+    let farmingFCId = document.getElementById('farming-fc');
+
+    let audioValley = "";
+    let audioTheme = "";
+
+    // valley-url
+    let valleyURL = document.getElementById('valley-url');
+
+    if (valleyURL) {
+      valleyURL.addEventListener('click', () => {
+        let clickUrlAudio = new Audio("https://assets.clumsylabs.io/land/audio/generic/clumsy-valley-click3.mp3");
+        clickUrlAudio.volume = 0.6;
+        clickUrlAudio.play();
+      });
+    };
+
+    // png-url
+    let pngURL = document.getElementById('png-url');
+
+    if (pngURL) {
+      pngURL.addEventListener('click', () => {
+        let clickUrlAudio = new Audio("https://assets.clumsylabs.io/land/audio/generic/clumsy-valley-click3.mp3");
+        clickUrlAudio.volume = 0.6;
+        clickUrlAudio.play();
+      });
+    };
+
+    // svg-url
+    let svgURL = document.getElementById('svg-url');
+
+    if (svgURL) {
+      svgURL.addEventListener('click', () => {
+        let clickUrlAudio = new Audio("https://assets.clumsylabs.io/land/audio/generic/clumsy-valley-click3.mp3");
+        clickUrlAudio.volume = 0.6;
+        clickUrlAudio.play();
+      });
+    };
+
+    // goob animation
+    let goob = document.getElementById('goob-animated');
+    let goobDefault = document.getElementById('goob-default');
+    let goobAngry = document.getElementById('goob-2');
+
+    if (goob) {
+      goob.addEventListener('click', () => {
+        let goobAudio = new Audio("https://assets.clumsylabs.io/land/audio/generic/clumsy-valley-click3.mp3");
+        goobAudio.volume = 0.6;
+        goobAudio.play();
+
+        goobDefault.classList.toggle('activate');
+        goobAngry.classList.toggle('activate');
+
+        setTimeout(() => {
+          goobDefault.classList.remove('activate');
+          goobAngry.classList.remove('activate');
+        }, 500);
+      });
+    };
+
+    // stitch animation
+    let stitch = document.getElementById('stitch-animated');
+    let stitchDefault = document.getElementById('stitch-default');
+    let stitchAngry = document.getElementById('stitch-2');
+
+    if (stitch) {
+      stitch.addEventListener('click', () => {
+        let stitchAudio = new Audio("https://assets.clumsylabs.io/land/audio/generic/clumsy-valley-click3.mp3");
+        stitchAudio.volume = 0.6;
+        stitchAudio.play();
+
+        stitchDefault.classList.toggle('activate');
+        stitchAngry.classList.toggle('activate');
+
+        setTimeout(() => {
+          stitchDefault.classList.remove('activate');
+          stitchAngry.classList.remove('activate');
+        }, 500);
+      });
+    };
+
+    // troll animation
+    let troll = document.getElementById('troll-animated');
+    let trollDefault = document.getElementById('troll-default');
+    let trollAngry = document.getElementById('troll-mad');
+
+    if (troll) {
+      troll.addEventListener('click', () => {
+        let trollAudio = new Audio("https://assets.clumsylabs.io/land/audio/generic/clumsy-valley-click3.mp3");
+        trollAudio.volume = 0.6;
+        trollAudio.play();
+
+        trollDefault.classList.toggle('activate');
+        trollAngry.classList.toggle('activate');
+
+        setTimeout(() => {
+          trollDefault.classList.remove('activate');
+          trollAngry.classList.remove('activate');
+        }, 500);
+      });
+    };
+
+    // chomps animation
+    let chomps = document.getElementById('chomps-animated');
+    let chompsDefault = document.getElementById('chomps-default');
+    let chompsAngry = document.getElementById('chomps-chopping');
+
+    if (chomps) {
+      chomps.addEventListener('click', () => {
+        let chompsAudio = new Audio("https://assets.clumsylabs.io/land/audio/generic/clumsy-valley-click3.mp3");
+        chompsAudio.volume = 0.6;
+        chompsAudio.play();
+
+        chompsDefault.classList.toggle('activate');
+        chompsAngry.classList.toggle('activate');
+
+        setTimeout(() => {
+          chompsDefault.classList.remove('activate');
+          chompsAngry.classList.remove('activate');
+        }, 500);
+      });
+    };
+
+    // sykes animation
+    let sykes = document.getElementById('sykes-animated');
+    let sykesDefault = document.getElementById('sykes-default');
+    let sykesAngry = document.getElementById('sykes-surprised');
+
+    if (sykes) {
+      sykes.addEventListener('click', () => {
+        let sykesAudio = new Audio("https://assets.clumsylabs.io/land/audio/generic/clumsy-valley-click3.mp3");
+        sykesAudio.volume = 0.6;
+        sykesAudio.play();
+
+        sykesDefault.classList.toggle('activate');
+        sykesAngry.classList.toggle('activate');
+
+        setTimeout(() => {
+          sykesDefault.classList.remove('activate');
+          sykesAngry.classList.remove('activate');
+        }, 500);
+      });
+    };
+
+    let landBaseEL = false;
+    let cheatcodeEL = false;
+    let farmingFCIdEL = false;
+    let ghostEL = false;
+
+    if (landBase && landRoot) {
+
+      var visible = false;
+      var cheatCodesVisible = false;
+
+      if (!landBaseEL) {
+        landBaseEL = true;
+        landBase.addEventListener('click', () => {
+          let genericClickAudio = new Audio("https://assets.clumsylabs.io/land/audio/generic/clumsy-valley-click3.mp3");
+          genericClickAudio.volume = 0.6;
+          genericClickAudio.play();
+
+          landRoot.classList.toggle('menu-in');
+
+          var getName, getCoords, getFC;
+          var farmingName, farmingCoords, farmingFC;
+          farmingFC = document.getElementById('farming-fc');
+
+          if (!visible) {
+            fetch('https://internal.clumsylabs.io/api/v1/metadata/land/7344')
+            .then(response => response.json())
+            .then(json => {
+
+              // Return values from internal clumsy api
+              getName = json["name"]
+              getCoords = json["coords"]
+              getFC = json["fc"]
+              getLink = json["link"]
+              getTrack = json["track"]
+              getTheme = json["theme"]
+              getGhost = json["ghost"]
+
+              if (getGhost) {
+                var bigGhost = false;
+                let ghost = document.getElementById('ghost');
+                if (ghost) {
+                  ghost.setAttribute("href", getGhost);
+                  ghost.setAttribute("opacity", "1");
+
+                  if (!ghostEL) {
+                    ghostEL = true;
+                    ghost.addEventListener('click', () => {
+                      let genericClickAudio = new Audio("https://assets.clumsylabs.io/land/audio/generic/clumsy-valley-click3.mp3");
+                      genericClickAudio.volume = 0.6;
+                      genericClickAudio.play();
+
+                      if (!bigGhost) {
+                        bigGhost = true;
+                        ghost.setAttribute("href", getGhost);
+                        ghost.setAttribute("opacity", "1");
+                        ghost.setAttribute("height", "70");
+                        ghost.setAttribute("width", "70");
+                        ghost.setAttribute("x", "10");
+                        ghost.setAttribute("y", "-8");
+                      } else {
+                        bigGhost = false;
+                        ghost.setAttribute("height", "20");
+                        ghost.setAttribute("width", "20");
+                        ghost.setAttribute("x", "70");
+                        ghost.setAttribute("y", "3");
+                      }
+                  })}
+                };
+              }
+
+              if (getName) {
+                farmingName = document.getElementById('farming-name');
+                farmingName.innerHTML = getName;
+                console.log("Name: ", getName)
+              }
+
+              if (getCoords) {
+                farmingCoords = document.getElementById('farming-coords');
+                farmingCoords.innerHTML = getCoords;
+                console.log("Coordinates: ", getCoords)
+              }
+
+              if (getFC) {
+                farmingFC.innerHTML = "FC: " + getFC;
+                console.log("Farming cycles completed: ", getFC)
+
+                if (getFC >= 1 && getFC <= 9) {
+                  console.log("Tier 1 Land")
+                  farmingFC.classList.add('tier1');
+                } else if (getFC >= 10 && getFC <= 29) {
+                  console.log("Tier 2 Land")
+                  farmingFC.classList.add('tier2');
+                } else if (getFC >= 30 && getFC <= 49) {
+                  console.log("Tier 3 Land")
+                  farmingFC.classList.add('tier3');
+                } else if (getFC >= 50 && getFC <= 99) {
+                  console.log("Tier 4 Land")
+                  farmingFC.classList.add('tier4');
+                } else if (getFC >= 100) {
+                  console.log("Tier 5 Land")
+                  farmingFC.classList.add('tier5');
+                } else {
+                  console.log("Tier 0 Land")
+                }
+              } else {
+                getFc = 0;
+              }
+
+              if (getLink) {
+                let valleyUrl = document.getElementById('valley-url');
+                valleyUrl.setAttribute("href", getLink);
+                console.log("Valley link: ", getLink)
+              }
+
+            })
+            .catch(error => {
+              getName = "";
+              getCoords = "";
+              getFC = 0;
+              getLink = "";
+              getTrack = "";
+              getTheme = "";
+              getGhost = "";
+            });
+          }
+
+          if (!farmingFCIdEL) {
+            farmingFCIdEL = true;
+            farmingFCId.addEventListener('click', () => {
+              cheatCodesVisible = true
+
+              if (cheatCodesVisible) {
+                let cheatCodeAudio = new Audio("https://assets.clumsylabs.io/land/audio/generic/cheatcodeactivated.mp3");
+                cheatCodeAudio.volume = 1;
+                cheatCodeAudio.play();
+
+                farmingFC.innerHTML = "Cheat Codes Activated..."
+                farmingFC.setAttribute("filter", "url(#stats-cheatcode)");
+                let bufferArray = [];
+                let lastKeystrokeTime = Date.now();
+                const cheatcode = (e) => {
+                  
+                  const latestKeystrokeTime = Date.now();
+                  if (latestKeystrokeTime - lastKeystrokeTime > 5000) {
+                    if (getFC) {
+                      farmingFC.innerHTML = "FC: " + getFC;
+                    } else {
+                      farmingFC.innerHTML = "FC: ";
+                    }
+                    farmingFC.setAttribute("filter", "url(#stats-fc)");
+                    bufferArray = [];
+                  }
+
+                  if (e.key == "ArrowUp") {
+                    key = '↑';
+                  } else if (e.key == "ArrowDown") {
+                    key = '↓';
+                  } else if (e.key == "ArrowLeft") {
+                    key = '←';
+                  } else if (e.key == "ArrowRight") {
+                    key = '→';
+                  } else if (e.key.length == 1) {
+                    key = e.key;
+                  } else {
+                    key = ""
+                  }
+                  
+                  // each key press either adds or removes a char
+                  if (e.key == "Backspace") {
+                    bufferArray = bufferArray.slice(0, -1);
+                  } else if (bufferArray.length < 12 && key != "") {
+                    bufferArray.push(key);
+                  }
+
+                  farmingFC.innerHTML = bufferArray.join("")
+
+                  const word = bufferArray.join('');
+                  if (word === 'disco') { /* DISCO */
+                    cheatCodeAudio.play();
+                    console.log('Clumsy Valley Party!');
+
+                    landRoot.classList.add('party');
+                    clearListener();
+
+                    setTimeout(() => {
+                      landRoot.classList.remove('party');
+                    }, 10000);
+                  } else if (word == '↑↑↓↓←→ab') { /* CODE */
+                    cheatCodeAudio.play();
+                    console.log('Nonstop Party!!!');
+
+                    landRoot.classList.add('party');
+                    clearListener();
+                  } else if (word === 'rgb') { /* RGB */
+                    cheatCodeAudio.play();
+
+                    landBase.classList.add('party');
+                    clearListener();
+
+                    setTimeout(() => {
+                      landBase.classList.remove('party');
+                    }, 10000);
+                  } else if (word === 'hideme') { /* HIDEME */
+                    cheatCodeAudio.play();
+                    let items = ["fly-animated-loop", "glowing-plant", "swamp-grass3-left", "swamp-grass2-left", "swamp-grass1-left", "reed1-left", 
+                    "swamp-grass1-right", "swamp-grass2-right", "reed1-right", "red-shrooms", "toxic-tree", "sykes-animated", "toxic-barrel", "swamp-log", 
+                    "stone-1", "swamp-mushroom", "mighty-sword", "swamp-campfire-animation-loop", "moss-talisman", "growing-plant", "death-sign", "lily-pad-1", 
+                    "big-fireflies-animated", "moss-skull", "chomps-animated", "blue-shrooms", "stone-2", "small-fiireflies-animated-loop", "decaying-plant", 
+                    "bad-omen", "toxic-shroom", "stone-4", "boat", "blue-shroom", "troll-animated", "stitch-animated", "goob-animated", "toxic-spill-animation-loop", 
+                    "lily-pad-2", "stone-3", "decayed-shroom", "red-shroom", "alligator"]
+
+                    for (let i = 0; i< items.length; i++) {
+                      let item = document.getElementById(items[i]);
+                      if (item) {
+                        item.setAttribute("opacity", "0");
+                      }
+                    }
+
+                    clearListener();
+
+                    setTimeout(() => {
+                      for (let i = 0; i< items.length; i++) {
+                        let item = document.getElementById(items[i]);
+                        if (item) {
+                          item.setAttribute("opacity", "1");
+                        }
+                      }
+                    }, 5000);
+                  } else if (word === 'usetheforce') { /* USETHEFORCE */
+                    cheatCodeAudio.play();
+                    let items = ["glowing-plant", "swamp-grass3-left", "swamp-grass2-left", "swamp-grass1-left", "reed1-left", 
+                    "swamp-grass1-right", "swamp-grass2-right", "reed1-right", "red-shrooms", "toxic-tree", "sykes-animated", "toxic-barrel", "swamp-log", 
+                    "stone-1", "swamp-mushroom", "mighty-sword", "swamp-campfire-animation-loop", "moss-talisman", "growing-plant", "death-sign", "lily-pad-1", 
+                    "moss-skull", "chomps-animated", "blue-shrooms", "stone-2", "decaying-plant", 
+                    "bad-omen", "toxic-shroom", "stone-4", "boat", "blue-shroom", "troll-animated", "stitch-animated", "goob-animated", "toxic-spill-animation-loop", 
+                    "lily-pad-2", "stone-3", "decayed-shroom", "red-shroom", "alligator"]
+
+                    for (let i = 0; i< items.length; i++) {
+                      let item = document.getElementById(items[i]);
+                      if (item) {
+                        let randomnum = Math.floor(Math.random() * (60 - 10) + 10) / 10;
+                        item.style.animation = "cg-anim-antigrav 4s linear " + randomnum + "s infinite";
+                      }
+                    }
+
+                    clearListener();
+
+                    setTimeout(() => {
+                      for (let i = 0; i< items.length; i++) {
+                        let item = document.getElementById(items[i]);
+                        if (item) {
+                          item.style.animation = "";
+                        }
+                      }
+                    }, 30000);
+                  } else if (word == 'valley') { /* VALLEY */
+                    cheatCodeAudio.play();
+                    if (audioValley) {
+                      audioValley.currentTime = 0;
+                      audioValley.play();
+                    } else if (getTrack) {
+                      audioValley = new Audio(getTrack);
+                      audioValley.volume = 0.4;
+                      audioValley.play();
+                    }
+                    clearListener();
+                  } else if (word == 'theme') { /* THEME */
+                    cheatCodeAudio.play();
+                    if (audioTheme) {
+                      audioTheme.currentTime = 0;
+                      audioTheme.play();
+                    } else if (getTheme) {
+                      audioTheme = new Audio(getTheme);
+                      audioTheme.volume = 0.4;
+                      audioTheme.play();
+                    }
+                    clearListener();
+                  } else {
+                    if (this.keyTimeout) {clearTimeout(this.keyTimeout)}
+                    this.keyTimeout = setTimeout(() => {
+                      clearListener();
+                    }, 5000);
+                  }
+          
+                  lastKeystrokeTime = latestKeystrokeTime;
+                  }
+
+                if (!cheatcodeEL){
+                  cheatcodeEL = true;
+                  document.addEventListener('keyup', cheatcode, true);
+                }
+
+                const clearListener = () => {
+                  cheatCodesVisible = false;
+                  cheatcodeEL = false;
+                  if (getFC) {
+                      farmingFC.innerHTML = "FC: " + getFC;
+                    } else {
+                      farmingFC.innerHTML = "FC: ";
+                    }
+                  farmingFC.setAttribute("filter", "url(#stats-fc)");
+                  bufferArray = [];
+                  document.removeEventListener('keyup', cheatcode, true);
+                }
+              }
+            });
+          }
+          
+          visible = !visible
+          farmingNameId.classList.toggle('show-farming-stats');
+          farmingCoordsId.classList.toggle('show-farming-stats');
+          farmingFCId.classList.toggle('show-farming-stats');
+          });     
+    }}]]>
+  </script>
+
+  <image id="ghost" opacity="0" href="" x="70px" y="3px" height="20" width="20" />
+</svg>

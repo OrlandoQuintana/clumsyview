@@ -1,0 +1,1375 @@
+<svg id="ClumsyValleyLandPlot" style="background: #FFDCC0" xmlns="http://www.w3.org/2000/svg" viewBox="-7 -7 103 103">
+<title>Clumsy Valley Land Plot #3204</title>
+            
+  <defs>
+    <filter id="stats-name" x="-0.5%" width="1" y="-0.05" height="1">
+      <feFlood flood-color="#000000" />
+      <feComposite operator="over" in="SourceGraphic" />
+    </filter>
+    <filter id="stats-coords" x="-1%" width="1" y="-0.05" height="1">
+      <feFlood flood-color="#000000" />
+      <feComposite operator="over" in="SourceGraphic" />
+    </filter>
+    <filter id="stats-fc" x="-1%" width="1" y="-0.05" height="1">
+      <feFlood flood-color="#000000" />
+      <feComposite operator="over" in="SourceGraphic" />
+    </filter>
+    <filter id="stats-cheatcode" x="-0.5%" width="1" y="-0.05" height="1">
+      <feFlood flood-color="#000000" />
+      <feComposite operator="over" in="SourceGraphic" />
+    </filter>
+  </defs>
+<style>
+    <![CDATA[
+    #ClumsyValleyLandPlot {
+      overflow: hidden;
+    }
+
+    #ClumsyValleyLandPlot.party {
+      animation: cg-anim-rgb-bg 5s linear -1.4169s infinite;
+    }
+
+    #dunes-base.party {
+      animation: cg-anim-rgb 5s linear -1.4169s infinite;
+    }
+
+    .cg-bg {
+      fill: none;
+    }
+
+    @font-face {
+      font-family: ClumsyPixel-Regular;
+      src: url(https://assets.clumsylabs.io/misc/fonts/ClumsyPixelv2.otf) format("opentype");
+
+    }
+
+    svg {
+      font-family: ClumsyPixel-Regular, Roboto Mono;
+      font-size: 6px;
+      font-weight: normal;
+      letter-spacing: 0.5px;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+    }
+
+    #farming-name,
+    #farming-coords,
+    #farming-fc {
+      fill: white;
+    }
+
+    @keyframes cg-anim-rgb {
+      0% {
+        fill: #FF5F5F;
+      }
+
+      11.1111% {
+        fill: #FFA45F;
+      }
+
+      22.2222% {
+        fill: #BAFF5F;
+      }
+
+      33.3333% {
+        fill: #5FFF74;
+      }
+
+      44.4444% {
+        fill: #5FFFCE;
+      }
+
+      55.5555% {
+        fill: #5FD9FF;
+      }
+
+      66.6666% {
+        fill: #5F6AFF;
+      }
+
+      77.7777% {
+        fill: #AA5FFF;
+      }
+
+      88.8888% {
+        fill: #FF5FFA;
+      }
+
+      100% {
+        fill: #FF5F5F;
+      }
+    }
+
+    @keyframes cg-anim-rgb-bg {
+      0% {
+        background: #FF5F5F;
+      }
+
+      11.1111% {
+        background: #FFA45F;
+      }
+
+      22.2222% {
+        background: #BAFF5F;
+      }
+
+      33.3333% {
+        background: #5FFF74;
+      }
+
+      44.4444% {
+        background: #5FFFCE;
+      }
+
+      55.5555% {
+        background: #5FD9FF;
+      }
+
+      66.6666% {
+        background: #5F6AFF;
+      }
+
+      77.7777% {
+        background: #AA5FFF;
+      }
+
+      88.8888% {
+        background: #FF5FFA;
+      }
+
+      100% {
+        background: #FF5F5F;
+      }
+    }
+
+    @keyframes cg-anim-hover {
+      0% {
+        transform: translate3d(0, 0, 0);
+      }
+
+      50% {
+        transform: translate3d(0, -2px, 0);
+      }
+
+      100% {
+        transform: translate3d(0, 0, 0);
+      }
+    }
+
+    @keyframes cg-anim-antigrav {
+      0% {
+        transform: translate3d(0, 0, 0);
+      }
+
+      50% {
+        transform: translate3d(0, -8px, 0);
+      }
+
+      100% {
+        transform: translate3d(0, 0, 0);
+      }
+    }
+
+    @keyframes cg-anim-2frames-1 {
+      0% {
+        opacity: 0;
+      }
+
+      50% {
+        opacity: 1;
+      }
+
+      100% {
+        opacity: 0;
+      }
+    }
+    @keyframes cg-anim-2frames-2 {
+      0% {
+        opacity: 1;
+      }
+
+      50% {
+        opacity: 0;
+      }
+
+      100% {
+        opacity: 1;
+      }
+    }
+
+    #star-animation1 {
+      opacity: 0;
+      animation: cg-anim-star1 2s ease -0.1s infinite;
+    }
+
+    #star-animation2 {
+      opacity: 0;
+      animation: cg-anim-star2 2s ease -0.1s infinite;
+    }
+
+    @keyframes cg-anim-5frames-1 {
+      0%   { opacity: 0; }
+      20%  { opacity: 1; }
+      40% { opacity: 0; }
+      60% { opacity: 0; }
+      80% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+
+    @keyframes cg-anim-5frames-2 {
+      0%   { opacity: 0; }
+      20%  { opacity: 0; }
+      40% { opacity: 1; }
+      60% { opacity: 0; }
+      80% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+
+    @keyframes cg-anim-5frames-3 {
+      0%   { opacity: 0; }
+      20%  { opacity: 0; }
+      40% { opacity: 0; }
+      60% { opacity: 1; }
+      80% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+
+    @keyframes cg-anim-5frames-4 {
+      0%   { opacity: 0; }
+      20%  { opacity: 0; }
+      40% { opacity: 0; }
+      60% { opacity: 0; }
+      80% { opacity: 1; }
+      100% { opacity: 0; }
+    }
+
+    @keyframes cg-anim-5frames-5 {
+      0%   { opacity: 0; }
+      20%  { opacity: 0; }
+      40% { opacity: 0; }
+      60% { opacity: 0; }
+      80% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+
+    #snake-animated1, #snake-animated2, #snake-animated3, #snake-animated4, #snake-animated5 {
+      opacity: 0
+    }
+
+    .snake-animated1 {
+      animation: cg-anim-5frames-1 2s steps(1, start) 0s 1;
+    }
+
+    .snake-animated2 {
+      animation: cg-anim-5frames-2 2s steps(1, start) 0s 1;
+    }
+
+    .snake-animated3 {
+      animation: cg-anim-5frames-3 2s steps(1, start) 0s 1;
+    }
+
+    .snake-animated4 {
+      animation: cg-anim-5frames-4 2s steps(1, start) 0s 1;
+    }
+
+    .snake-animated5 {
+      animation: cg-anim-5frames-5 2s steps(1, start) 0s 1;
+    }
+
+    @keyframes cg-anim-aurora-1 {
+      0%, 100%  { opacity: 1; }
+      20%  { opacity: 0; }
+      40% { opacity: 0; }
+      60% { opacity: 0; }
+      80% { opacity: 0; }
+    }
+
+    @keyframes cg-anim-aurora-2 {
+      0%, 100%  { opacity: 0; }
+      20%  { opacity: 1; }
+      40% { opacity: 0; }
+      60% { opacity: 0; }
+      80% { opacity: 0; }
+    }
+
+    @keyframes cg-anim-aurora-3 {
+      0%, 100%  { opacity: 0; }
+      20%  { opacity: 0; }
+      40% { opacity: 1; }
+      60% { opacity: 0; }
+      80% { opacity: 0; }
+    }
+
+    @keyframes cg-anim-aurora-4 {
+      0%, 100%  { opacity: 0; }
+      20%  { opacity: 0; }
+      40% { opacity: 0; }
+      60% { opacity: 1; }
+      80% { opacity: 0; }
+    }
+
+    @keyframes cg-anim-aurora-5 {
+      0%, 100%  { opacity: 0; }
+      20%  { opacity: 0; }
+      40% { opacity: 0; }
+      60% { opacity: 0; }
+      80% { opacity: 1; }
+    }
+
+    #aurora-1, #aurora-2, #aurora-3, #aurora-4, #aurora-5 {
+      opacity: 0;
+    }
+    
+    .aurora-hide {
+      transform: translate3d(0, -50px, 0);
+    }
+
+    #aurora-1.aurora-hide, #aurora-2.aurora-hide, #aurora-3.aurora-hide, #aurora-4.aurora-hide, #aurora-5.aurora-hide {
+      transform: translate3d(0, -50px, 0);
+    }
+
+    .aurora-1 {
+      animation: cg-anim-aurora-1 3s ease-in-out 0s infinite;
+    }
+
+    .aurora-2 {
+      animation: cg-anim-aurora-2 3s ease-in-out 0s infinite;
+    }
+
+    .aurora-3 {
+      animation: cg-anim-aurora-3 3s ease-in-out 0s infinite;
+    }
+
+    .aurora-4 {
+      animation: cg-anim-aurora-4 3s ease-in-out 0s infinite;
+    }
+
+    .aurora-5 {
+      animation: cg-anim-aurora-5 3s ease-in-out 0s infinite;
+    }
+
+    @keyframes cg-anim-dunes-cloud {
+      0% {
+        transform: translate3d(50px, 0px, 0);
+      }
+
+      100% {
+        transform: translate3d(-100px, 0px, 0);
+      }
+    }
+
+    #dunes-cloud-1, #dunes-cloud-2, #dunes-cloud-3 {
+      animation: cg-anim-dunes-cloud 25s linear -0.1459s infinite;
+      transform-origin: center;
+      transform-box: fill-box;
+    }
+
+    @keyframes cg-anim-igloo1 {
+      0%, 100% { opacity: 1; }
+      25% { opacity: 0; }
+      50% { opacity: 0; }
+      75% { opacity: 0; }
+    }
+
+    @keyframes cg-anim-igloo2 {
+      0%, 100% { opacity: 0; }
+      25% { opacity: 1; }
+      50% { opacity: 0; }
+      75% { opacity: 0; }
+    }
+
+    @keyframes cg-anim-igloo3 {
+      0%, 100% { opacity: 0; }
+      25% { opacity: 0; }
+      50% { opacity: 1; }
+      75% { opacity: 0; }
+    }
+
+    @keyframes cg-anim-igloo4 {
+      0%, 100% { opacity: 0; }
+      25% { opacity: 0; }
+      50% { opacity: 0; }
+      75% { opacity: 1; }
+    }
+
+    #igloo1-click-to-animate {
+      opacity: 1
+    }
+
+    #igloo2, #igloo3, #igloo4 {
+      opacity: 0
+    }
+
+    .igloo1 {
+      animation: cg-anim-igloo1 0.7s steps(1, start) 0s 1;
+    }
+
+    .igloo2 {
+      animation: cg-anim-igloo2 0.7s steps(1, start) 0s 1;
+    }
+
+    .igloo3 {
+      animation: cg-anim-igloo3 0.7s steps(1, start) 0s 1;
+    }
+
+    .igloo4 {
+      animation: cg-anim-igloo4 0.7s steps(1, start) 0s 1;
+    }
+
+
+    @keyframes cg-anim-3frames-1 {
+      0%   { opacity: 1; }
+      33%  { opacity: 0; }
+      66%  { opacity: 0; }
+      100% { opacity: 1; }
+    }
+
+    @keyframes cg-anim-3frames-2 {
+      0%   { opacity: 0; }
+      33%  { opacity: 1; }
+      66%  { opacity: 0; }
+      100% { opacity: 0; }
+    }
+
+    @keyframes cg-anim-3frames-3 {
+      0%   { opacity: 0; }
+      33%  { opacity: 0; }
+      66%  { opacity: 1; }
+      100% { opacity: 0; }
+    }
+
+    #snowglobe-animation-1, #campfire-1 {
+      animation: cg-anim-3frames-1 1s steps(1, start) 0s infinite;
+    }
+
+    #snowglobe-animation-2, #campfire-2 {
+      animation: cg-anim-3frames-2 1s steps(1, start) 0s infinite;
+    }
+
+    #snowglobe-animation-3, #campfire-3 {
+      animation: cg-anim-3frames-3 1s steps(1, start) 0s infinite;
+    }
+
+    @keyframes cg-anim-skulleyes-1 {
+      0%   { opacity: 1; }
+      33%  { opacity: 1; }
+      66%  { opacity: 1; }
+      100% { opacity: 1; }
+    }
+
+    @keyframes cg-anim-skulleyes-2 {
+      0%   { opacity: 0; }
+      33%  { opacity: 1; }
+      66%  { opacity: 0; }
+      100% { opacity: 0; }
+    }
+
+    @keyframes cg-anim-skulleyes-3 {
+      0%   { opacity: 0; }
+      33%  { opacity: 0; }
+      66%  { opacity: 1; }
+      100% { opacity: 0; }
+    }
+
+    #skull-1-animated-click, #skull-2-animated-click {
+      opacity: 1
+    }
+
+    #skulleyes1-default, #skulleyes1-look-left, #skulleyes2-default, #skulleyes2-look-right {
+      opacity: 0
+    }
+
+    .skull1 {
+      animation: cg-anim-skulleyes-1 2s steps(1, start) 0s infinite;
+    }
+
+    .skull2 {
+      animation: cg-anim-skulleyes-2 2s steps(1, start) 0s infinite;
+    }
+
+    .skull3 {
+      animation: cg-anim-skulleyes-3 2s steps(1, start) 0s infinite;
+    }
+
+    #flame-1 {
+      opacity: 1;
+      animation: cg-anim-2frames-1 1s steps(1, start) -0.1s infinite;
+    }
+
+    #flame-2 {
+      opacity: 0;
+      animation: cg-anim-2frames-2 1s steps(1, start) -0.1s infinite;
+    }
+
+    #red-cloth-1 {
+      opacity: 1;
+      animation: cg-anim-2frames-1 1s steps(1, start) -0.1s infinite;
+    }
+
+    #red-cloth-2 {
+      opacity: 0;
+      animation: cg-anim-2frames-2 1s steps(1, start) -0.1s infinite;
+    }
+
+    #glow1 {
+      opacity: 1;
+      animation: cg-anim-2frames-1 2s ease-in-out -0.1s infinite;
+    }
+
+    #glow2 {
+      opacity: 0;
+      animation: cg-anim-2frames-2 2s ease-in-out -0.1s infinite;
+    }
+
+    #sandworm-default, #sahara-default {
+      opacity: 1
+    }
+
+    #sandworm-click, #sahara-angry {
+      opacity: 0
+    }
+
+    #sandworm-default.activate, #sahara-default.activate {
+      opacity: 0
+    }
+    
+    #sandworm-click.activate, #sahara-angry.activate {
+      opacity: 1
+    }
+
+    #ghost {
+      transition: 0.3s ease 0.3s;
+    }
+
+    #dealwithit-drops-down-animate {
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.2s ease, transform 3s linear;
+      transform: translate3d(0, -60px, 0);
+    }
+
+    #dealwithit-drops-down-animate.deal-with-it {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+    }
+
+    #farming-name, #farming-coords, #farming-fc {
+      opacity: 0;
+      pointer-events: none;
+      transform: translate3d(0, -20px, 0);
+    }
+
+    #farming-name.show-farming-stats, #farming-coords.show-farming-stats, #farming-fc.show-farming-stats {
+      opacity: 1;
+      pointer-events: auto;
+      cursor: pointer;
+      transform: translate3d(0, 0, 0);
+    }
+
+    #farming-name {
+      transition: 0.4s ease 0.1s;
+    }
+
+    #farming-coords {
+      transition: 0.2s ease 0.2s;
+    }
+
+    #farming-fc {
+      transition: 0.1s ease 0.4s;
+    }
+
+    #farming-fc.tier1 {
+      fill: aqua;
+    }
+
+    #farming-fc.tier2 {
+      fill: green;
+    }
+
+    #farming-fc.tier3 {
+      fill: yellow;
+    }
+
+    #farming-fc.tier4 {
+      fill: red;
+    }
+
+    #farming-fc.tier5 {
+      animation: cg-anim-rgb 5s linear -1.4169s infinite;
+    }
+
+    #ClumsyValleyLandPlot .button {
+      opacity: 0;
+      pointer-events: none;
+      transition: 0.2s ease;
+      transform: translate3d(0, 20px, 0);
+    }
+
+    #ClumsyValleyLandPlot .button.png-square {
+      transition-delay: 0.2s;
+      -webkit-transform-origin-x: 20px;
+    }
+
+    #ClumsyValleyLandPlot .button.svg {
+      transition-delay: 0.4s;
+    }
+
+    #ClumsyValleyLandPlot.menu-in .button {
+      opacity: 1;
+      pointer-events: auto;
+      cursor: pointer;
+      transform: translate3d(0, 0, 0);
+    }
+
+    #ClumsyValleyLandPlot.menu-in .button .button-bg {
+      transition: fill 0.2s ease;
+    }
+
+    #ClumsyValleyLandPlot.menu-in .button:hover .button-bg {
+      fill: #FF5FFA;
+    }
+    ]]>
+  </style>
+<path class="cg-bg" d="M0 0h89v89H0z"></path>
+<g id="dunes-base">
+    <g id="dunes-base-2" data-name="dunes-base">
+      <g id="Desert">
+        <polygon points="88 54 88 53 87 53 86 53 86 52 85 52 84 52 84 51 83 51 82 51 82 50 81 50 80 50 80 49 79 49 78 49 78 48 77 48 76 48 76 47 75 47 74 47 74 46 73 46 72 46 72 45 71 45 70 45 70 44 69 44 68 44 68 43 67 43 66 43 66 42 65 42 64 42 64 41 63 41 62 41 62 40 61 40 60 40 60 39 59 39 58 39 58 38 57 38 56 38 56 37 55 37 54 37 54 36 53 36 52 36 52 35 51 35 50 35 50 34 49 34 48 34 48 33 47 33 46 33 46 32 45 32 44 32 43 32 43 33 42 33 41 33 41 34 40 34 39 34 39 35 38 35 37 35 37 36 36 36 35 36 35 37 34 37 33 37 33 38 32 38 31 38 31 39 30 39 29 39 29 40 28 40 27 40 27 41 26 41 25 41 25 42 24 42 23 42 23 43 22 43 21 43 21 44 20 44 19 44 19 45 18 45 17 45 17 46 16 46 15 46 15 47 14 47 13 47 13 48 12 48 11 48 11 49 10 49 9 49 9 50 8 50 7 50 7 51 6 51 5 51 5 52 4 52 3 52 3 53 2 53 1 53 1 54 0 54 0 55 0 56 0 57 0 58 0 59 0 60 0 61 0 62 0 63 0 64 0 65 0 66 0 67 1 67 1 68 2 68 3 68 3 69 4 69 5 69 5 70 6 70 7 70 7 71 8 71 9 71 9 72 10 72 11 72 11 73 12 73 13 73 13 74 14 74 15 74 15 75 16 75 17 75 17 76 18 76 19 76 19 77 20 77 21 77 21 78 22 78 23 78 23 79 24 79 25 79 25 80 26 80 27 80 27 81 28 81 29 81 29 82 30 82 31 82 31 83 32 83 33 83 33 84 34 84 35 84 35 85 36 85 37 85 37 86 38 86 39 86 39 87 40 87 41 87 41 88 42 88 43 88 43 89 44 89 45 89 46 89 46 88 47 88 48 88 48 87 49 87 50 87 50 86 51 86 52 86 52 85 53 85 54 85 54 84 55 84 56 84 56 83 57 83 58 83 58 82 59 82 60 82 60 81 61 81 62 81 62 80 63 80 64 80 64 79 65 79 66 79 66 78 67 78 68 78 68 77 69 77 70 77 70 76 71 76 72 76 72 75 73 75 74 75 74 74 75 74 76 74 76 73 77 73 78 73 78 72 79 72 80 72 80 71 81 71 82 71 82 70 83 70 84 70 84 69 85 69 86 69 86 68 87 68 88 68 88 67 89 67 89 66 89 65 89 64 89 63 89 62 89 61 89 60 89 59 89 58 89 57 89 56 89 55 89 54 88 54"/>
+        <g id="Layer_47" data-name="Layer 47">
+          <polygon points="88 66 88 67 87 67 86 67 86 68 85 68 84 68 84 69 83 69 82 69 82 70 81 70 80 70 80 71 79 71 78 71 78 72 77 72 76 72 76 73 75 73 74 73 74 74 73 74 72 74 72 75 71 75 70 75 70 76 69 76 68 76 68 77 67 77 66 77 66 78 65 78 64 78 64 79 63 79 62 79 62 80 61 80 60 80 60 81 59 81 58 81 58 82 57 82 56 82 56 83 55 83 54 83 54 84 53 84 52 84 52 85 51 85 50 85 50 86 49 86 48 86 48 87 47 87 46 87 46 88 45 88 45 75 46 75 46 74 47 74 48 74 48 73 49 73 50 73 50 72 51 72 52 72 52 71 53 71 54 71 54 70 55 70 56 70 56 69 57 69 58 69 58 68 59 68 60 68 60 67 61 67 62 67 62 66 63 66 64 66 64 65 65 65 66 65 66 64 67 64 68 64 68 63 69 63 70 63 70 62 71 62 72 62 72 61 73 61 74 61 74 60 75 60 76 60 76 59 77 59 78 59 78 58 79 58 80 58 80 57 81 57 82 57 82 56 83 56 84 56 84 55 85 55 86 55 86 54 87 54 88 54 88 55 88 56 88 57 88 58 88 59 88 60 88 61 88 62 88 63 88 64 88 65 88 66" style="fill: #c38a63;"/>
+          <polygon points="86 53 86 54 85 54 84 54 84 55 83 55 82 55 82 56 81 56 80 56 80 57 79 57 78 57 78 58 77 58 76 58 76 59 75 59 74 59 74 60 73 60 72 60 72 61 71 61 70 61 70 62 69 62 68 62 68 63 67 63 66 63 66 64 65 64 64 64 64 65 63 65 62 65 62 66 61 66 60 66 60 67 59 67 58 67 58 68 57 68 56 68 56 69 55 69 54 69 54 70 53 70 52 70 52 71 51 71 50 71 50 72 49 72 48 72 48 73 47 73 46 73 46 74 45 74 44 74 43 74 43 73 42 73 41 73 41 72 40 72 39 72 39 71 38 71 37 71 37 70 36 70 35 70 35 69 34 69 33 69 33 68 32 68 31 68 31 67 30 67 29 67 29 66 28 66 27 66 27 65 26 65 25 65 25 64 24 64 23 64 23 63 22 63 21 63 21 62 20 62 19 62 19 61 18 61 17 61 17 60 16 60 15 60 15 59 14 59 13 59 13 58 12 58 11 58 11 57 10 57 9 57 9 56 8 56 7 56 7 55 6 55 5 55 5 54 4 54 3 54 3 53 4 53 5 53 5 52 6 52 7 52 7 51 8 51 9 51 9 50 10 50 11 50 11 49 12 49 13 49 13 48 14 48 15 48 15 47 16 47 17 47 17 46 18 46 19 46 19 45 20 45 21 45 21 44 22 44 23 44 23 43 24 43 25 43 25 42 26 42 27 42 27 41 28 41 29 41 29 40 30 40 31 40 31 39 32 39 33 39 33 38 34 38 35 38 35 37 36 37 37 37 37 36 38 36 39 36 39 35 40 35 41 35 41 34 42 34 43 34 43 33 44 33 45 33 46 33 46 34 47 34 48 34 48 35 49 35 50 35 50 36 51 36 52 36 52 37 53 37 54 37 54 38 55 38 56 38 56 39 57 39 58 39 58 40 59 40 60 40 60 41 61 41 62 41 62 42 63 42 64 42 64 43 65 43 66 43 66 44 67 44 68 44 68 45 69 45 70 45 70 46 71 46 72 46 72 47 73 47 74 47 74 48 75 48 76 48 76 49 77 49 78 49 78 50 79 50 80 50 80 51 81 51 82 51 82 52 83 52 84 52 84 53 85 53 86 53" style="fill: #f0ba79;"/>
+          <polygon points="44 75 44 88 43 88 43 87 42 87 41 87 41 86 40 86 39 86 39 85 38 85 37 85 37 84 36 84 35 84 35 83 34 83 33 83 33 82 32 82 31 82 31 81 30 81 29 81 29 80 28 80 27 80 27 79 26 79 25 79 25 78 24 78 23 78 23 77 22 77 21 77 21 76 20 76 19 76 19 75 18 75 17 75 17 74 16 74 15 74 15 73 14 73 13 73 13 72 12 72 11 72 11 71 10 71 9 71 9 70 8 70 7 70 7 69 6 69 5 69 5 68 4 68 3 68 3 67 2 67 1 67 1 66 1 65 1 64 1 63 1 62 1 61 1 60 1 59 1 58 1 57 1 56 1 55 1 54 2 54 3 54 3 55 4 55 5 55 5 56 6 56 7 56 7 57 8 57 9 57 9 58 10 58 11 58 11 59 12 59 13 59 13 60 14 60 15 60 15 61 16 61 17 61 17 62 18 62 19 62 19 63 20 63 21 63 21 64 22 64 23 64 23 65 24 65 25 65 25 66 26 66 27 66 27 67 28 67 29 67 29 68 30 68 31 68 31 69 32 69 33 69 33 70 34 70 35 70 35 71 36 71 37 71 37 72 38 72 39 72 39 73 40 73 41 73 41 74 42 74 43 74 43 75 44 75" style="fill: #8b573c;"/>
+        </g>
+      </g>
+    </g>
+  </g>
+      <g id="side-terrain-texture4">
+      <g id="right-3" data-name="right">
+        <g id="dark-dirt-right_copy_2" data-name="dark-dirt-right copy 2">
+          <g>
+            <path d="M73,73h-5v1h-2v1h-1v1h-1v1h-2v1h-5v1h-2v1h-2v1h-1v1h-1v1h-1v1h-2v1h-3v3h1v-1h2v-1h2v-1h2v-1h2v-1h2v-1h2v-1h2v-1h2v-1h2v-1h2v-1h2v-1h2v-1h-1v-1h1v1h2v-1h2v-1h2v-1h-3v1Zm-19,9v-1h1v1h-1Zm5-2h-1v-1h1v1Z" style="fill: #c38a63;"/>
+            <rect x="76" y="71" width="2" height="1" style="fill: #c38a63;"/>
+            <path d="M85,64v1h-2v1h-1v1h-1v1h-1v1h-1v1h-1v1h2v-1h2v-1h2v-1h2v-1h2v-3h-3Zm0,3h-1v-1h1v1Z" style="fill: #c38a63;"/>
+          </g>
+        </g>
+        <g id="med-dirt-right_copy_2" data-name="med-dirt-right copy 2">
+          <g>
+            <path d="M87,58v1h-1v1h-1v1h-4v1h-3v1h-1v1h-1v1h-2v2h-1v1h-2v1h-2v1h-6v1h-3v1h-3v1h-1v1h-1v1h-1v1h-1v1h-1v1h-2v1h-3v1h-2v5h3v-1h2v-1h1v-1h1v-1h1v-1h2v-1h2v-1h5v-1h2v-1h1v-1h1v-1h2v-1h5v-1h3v-1h2v-1h1v-1h1v-1h1v-1h1v-1h1v-1h2v-1h3v-3h-1v-1h1v-2h-1Zm-40,25h-1v-1h1v1Zm14-6h-1v-1h1v1Zm2-4h-1v-1h1v1Zm8-1h-1v-1h1v1Zm9-7h-1v-1h1v1Z" style="fill: #daa26e;"/>
+            <rect x="83" y="58" width="1" height="1" style="fill: #daa26e;"/>
+            <rect x="84" y="66" width="1" height="1" style="fill: #daa26e;"/>
+            <rect x="71" y="66" width="1" height="1" style="fill: #daa26e;"/>
+            <rect x="69" y="64" width="1" height="1" style="fill: #daa26e;"/>
+            <rect x="61" y="69" width="1" height="1" style="fill: #daa26e;"/>
+            <rect x="69" y="74" width="1" height="1" style="fill: #daa26e;"/>
+            <rect x="58" y="79" width="1" height="1" style="fill: #daa26e;"/>
+            <rect x="54" y="81" width="1" height="1" style="fill: #daa26e;"/>
+            <rect x="53" y="73" width="1" height="1" style="fill: #daa26e;"/>
+            <rect x="46" y="77" width="1" height="1" style="fill: #daa26e;"/>
+          </g>
+        </g>
+        <g id="light-dirt-right_copy_2" data-name="light-dirt-right copy 2">
+          <g>
+            <path d="M86,54v1h-2v1h-2v1h-2v1h-2v1h-2v1h-2v1h-2v1h-2v1h-2v1h-2v1h-2v1h-2v1h-2v1h-2v1h-2v1h-2v1h-2v1h-2v1h-2v1h-2v1h-1v5h2v-1h3v-1h2v-1h1v-1h1v-1h1v-1h1v-1h1v-1h3v-1h3v-1h6v-1h2v-1h2v-1h1v-2h2v-1h1v-1h1v-1h3v-1h4v-1h1v-1h1v-1h1v-4h-2Zm-17,10h1v1h-1v-1Zm-23,14v-1h1v1h-1Zm7-4v-1h1v1h-1Zm9-4h-1v-1h1v1Zm10-3h-1v-1h1v1Zm11-8v-1h1v1h-1Z" style="fill: #f0ba79;"/>
+            <rect x="79" y="64" width="1" height="1" style="fill: #f0ba79;"/>
+            <rect x="87" y="60" width="1" height="1" style="fill: #f0ba79;"/>
+            <rect x="70" y="71" width="1" height="1" style="fill: #f0ba79;"/>
+            <rect x="62" y="72" width="1" height="1" style="fill: #f0ba79;"/>
+            <rect x="60" y="76" width="1" height="1" style="fill: #f0ba79;"/>
+            <rect x="46" y="82" width="1" height="1" style="fill: #f0ba79;"/>
+          </g>
+        </g>
+      </g>
+      <g id="left-3" data-name="left">
+        <g id="dark-dirt-left_copy_2" data-name="dark-dirt-left copy 2">
+          <g>
+            <polygon points="41 85 41 84 39 84 39 83 38 83 38 82 37 82 37 81 36 81 36 82 35 82 35 81 36 81 36 80 35 80 34 80 34 79 32 79 32 78 27 78 27 77 25 77 25 76 24 76 24 75 23 75 23 74 21 74 21 73 16 73 16 72 13 72 13 73 15 73 15 74 17 74 17 75 19 75 19 76 21 76 21 75 22 75 22 76 21 76 21 77 22 77 23 77 23 78 25 78 25 79 27 79 27 80 29 80 29 79 30 79 30 80 29 80 29 81 31 81 31 82 33 82 33 83 35 83 35 84 36 84 37 84 37 85 39 85 39 86 41 86 41 87 43 87 43 88 44 88 44 87 44 86 44 85 41 85" style="fill: #69422d;"/>
+            <rect x="11" y="71" width="2" height="1" style="fill: #69422d;"/>
+            <path d="M10,70v-1h-1v-1h-1v-1h-1v-1h-1v-1h-2v-1H1v3H3v1h2v1h2v1h2v1h2v-1h-1Zm-8-4v-1h1v1h-1Z" style="fill: #69422d;"/>
+          </g>
+        </g>
+        <g id="med-dirt-left_copy_2" data-name="med-dirt-left copy 2">
+          <g>
+            <rect x="2" y="65" width="1" height="1" style="fill: #855939;"/>
+            <rect x="21" y="75" width="1" height="1" style="fill: #855939;"/>
+            <rect x="29" y="79" width="1" height="1" style="fill: #855939;"/>
+            <rect x="35" y="81" width="1" height="1" style="fill: #855939;"/>
+            <path d="M43,80h-1v-1h-3v-1h-2v-1h-1v-1h-1v-1h-1v-1h-1v-1h-1v-1h-3v-1h-3v-1h-6v-1h-2v-1h-2v-1h-1v-2h-2v-1h-1v-1h-1v-1h-3v-1H4v-1h-1v-1h-1v-1H1v6h3v1h2v1h1v1h1v1h1v1h1v1h1v1h2v1h3v1h5v1h2v1h1v1h1v1h2v1h5v1h2v1h2v1h1v1h1v1h1v-1h1v1h-1v1h2v1h3v-5h-1Zm-19-9h1v1h-1v-1ZM2,63v-1h1v1h-1Zm6,1v-1h1v1h-1Zm3,4h1v1h-1v-1Zm8,4v-1h1v1h-1Zm12,5v-1h1v1h-1Zm12,5h-1v-1h1v1Z" style="fill: #855939;"/>
+            <rect x="28" y="69" width="1" height="1" style="fill: #855939;"/>
+            <rect x="36" y="73" width="1" height="1" style="fill: #855939;"/>
+            <rect x="41" y="77" width="1" height="1" style="fill: #855939;"/>
+            <rect x="21" y="65" width="1" height="1" style="fill: #855939;"/>
+            <rect x="16" y="65" width="1" height="1" style="fill: #855939;"/>
+            <rect x="8" y="59" width="1" height="1" style="fill: #855939;"/>
+            <rect x="3" y="56" width="1" height="1" style="fill: #855939;"/>
+          </g>
+        </g>
+        <g id="light-dirt-left_copy" data-name="light-dirt-left copy">
+          <g>
+            <rect x="8" y="63" width="1" height="1" style="fill: #a1704c;"/>
+            <rect x="2" y="62" width="1" height="1" style="fill: #a1704c;"/>
+            <rect x="11" y="68" width="1" height="1" style="fill: #a1704c;"/>
+            <rect x="19" y="71" width="1" height="1" style="fill: #a1704c;"/>
+            <rect x="24" y="71" width="1" height="1" style="fill: #a1704c;"/>
+            <rect x="31" y="76" width="1" height="1" style="fill: #a1704c;"/>
+            <rect x="39" y="82" width="1" height="1" style="fill: #a1704c;"/>
+            <rect x="42" y="81" width="1" height="1" style="fill: #a1704c;"/>
+            <path d="M43,75v-1h-2v-1h-2v-1h-2v-1h-2v-1h-2v-1h-2v-1h-2v-1h-2v-1h-2v-1h-2v-1h-2v-1h-2v-1h-2v-1h-2v-1h-2v-1h-2v-1h-2v-1h-2v-1h-2v-1H3v-1H1v4h1v1h1v1h1v1h4v1h3v1h1v1h1v1h2v2h1v1h2v1h2v1h6v1h3v1h3v1h1v1h1v1h1v1h1v1h1v1h2v1h3v1h2v-5h-1ZM4,57h-1v-1h1v1Zm5,3h-1v-1h1v1Zm8,6h-1v-1h1v1Zm5,0h-1v-1h1v1Zm7,4h-1v-1h1v1Zm8,4h-1v-1h1v1Zm5,4h-1v-1h1v1Z" style="fill: #a1704c;"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="top-terrain3">
+      <g>
+        <rect x="40" y="39" width="2" height="2" style="fill: #daa26e;"/>
+        <rect x="44" y="44" width="1" height="1" style="fill: #daa26e;"/>
+        <rect x="49" y="42" width="1" height="1" style="fill: #daa26e;"/>
+        <rect x="27" y="58" width="1" height="1" style="fill: #daa26e;"/>
+        <rect x="19" y="57" width="2" height="2" style="fill: #daa26e;"/>
+        <rect x="64" y="46" width="1" height="1" style="fill: #daa26e;"/>
+        <path d="M64,49h-1v-1h-1v-1h-2v-1h-4v-1h-6v1h-2v1h-2v1h-1v1h-2v-1h-2v-1h-1v-2h-1v-1h-2v-1h-5v1h-2v1h-5v-1h-1v-1h-1v1h-2v1h-2v1h-2v1h-2v1h-2v1h-2v2h1v1h2v1h2v1h3v1h10v1h1v1h1v4h-1v1h-1v1h-3v1h-1v1h2v1h2v1h2v1h2v1h2v1h4v-1h1v-3h1v-1h8v-1h4v-1h3v-1h1v-3h1v-2h2v-1h2v-1h1v-1h1v-1h1v-3h-1v-1Zm-37,2h-1v-1h1v1Zm6-6h1v1h-1v-1Zm3,21h-2v-2h2v2Zm0-16h-2v-2h2v2Zm3,14h-1v-1h1v1Zm2-9h-1v-1h1v1Zm8,7h-1v-1h1v1Zm2-10h-1v-1h1v1Zm4-3v1h-2v-2h2v1Z" style="fill: #daa26e;"/>
+        <rect x="61" y="59" width="1" height="1" style="fill: #daa26e;"/>
+        <rect x="66" y="54" width="2" height="2" style="fill: #daa26e;"/>
+        <rect x="72" y="54" width="1" height="1" style="fill: #daa26e;"/>
+      </g>
+    </g>
+    <g id="tf-grass1-right">
+        <g id="tf-grass1-right-bg">
+          <polygon points="73 40 73 39 72 39 72 40 71 40 71 42 70 42 70 40 69 40 69 39 68 39 68 38 67 38 67 39 66 39 66 40 67 40 67 42 68 42 68 44 69 44 70 45 71 45 71 46 72 46 73 46 73 42 74 42 74 40 73 40"/>
+        </g>
+        <g id="tf-grass1-right-color">
+          <g>
+            <rect x="67" y="39" width="1" height="1" style="fill: #fdd29f;"/>
+            <rect x="68" y="40" width="1" height="2" style="fill: #fdd29f;"/>
+            <polygon points="71 44 70 44 70 42 69 42 69 46 70 46 70 48 71 48 71 47 72 47 72 42 71 42 71 44" style="fill: #fdd29f;"/>
+            <rect x="72" y="40" width="1" height="2" style="fill: #fdd29f;"/>
+          </g>
+        </g>
+      </g>
+      <g id="dunes-grass3-right">
+        <g id="bg-2" data-name="bg">
+          <polygon points="53 29 52 29 52 30 51 30 51 28 50 28 50 27 49 27 49 28 48 28 48 35 49 35 50 36 51 36 51 35 51 34 51 33 52 33 52 32 53 32 53 31 54 31 54 29 53 29"/>
+        </g>
+        <g id="color">
+          <g>
+            <polygon points="50 28 49 28 49 36 50 36 50 33 51 33 51 32 50 32 50 28" style="fill: #fdd29f;"/>
+            <rect x="51" y="31" width="1" height="1" style="fill: #fdd29f;"/>
+            <rect x="52" y="30" width="1" height="1" style="fill: #fdd29f;"/>
+          </g>
+        </g>
+      </g>
+      <g id="dunes-grass3-left">
+        <g id="bg-4" data-name="bg">
+          <polygon points="25 35 25 34 24 34 24 35 23 35 23 37 22 37 22 36 21 36 20 36 20 38 21 38 21 39 22 39 22 40 23 40 23 41 23 42 23 43 24 43 24 42 26 42 26 35 25 35"/>
+        </g>
+        <g id="color-3" data-name="color">
+          <g>
+            <polygon points="24 35 25 35 25 43 24 43 24 40 23 40 23 39 24 39 24 35" style="fill: #fdd29f;"/>
+            <rect x="22" y="38" width="1" height="1" style="fill: #fdd29f;"/>
+            <rect x="21" y="37" width="1" height="1" style="fill: #fdd29f;"/>
+          </g>
+        </g>
+      </g>
+      <g id="dunes-grass5-left">
+        <g id="bg-5" data-name="bg">
+          <polygon points="8 48 8 47 7 47 7 48 6 48 6 52 7 52 7 51 9 51 9 48 8 48"/>
+        </g>
+        <g id="color-4" data-name="color">
+          <rect x="7" y="48" width="1" height="4" style="fill: #fdd29f;"/>
+        </g>
+      </g>
+      <g id="dunes-rocks4">
+        <path d="M46,37h1v1h-1v-1Zm-2,1v1h2v-1h-2Zm-2,3h1v-1h-1v1Zm-2,0h-2v1h4v-1h-2Z" style="opacity: .15;"/>
+        <polygon points="37 37 37 36 38 36 38 35 38 34 38 33 39 33 39 32 40 32 40 31 41 31 41 30 45 30 45 31 47 31 47 32 48 32 48 33 49 33 49 36 48 36 48 37 46 37 46 38 44 38 44 40 42 40 42 41 37 41 37 40 36 40 36 37 37 37"/>
+        <g>
+          <polygon points="47 33 47 32 45 32 45 31 41 31 41 32 40 32 40 33 39 33 39 34 39 35 40 35 42 35 42 36 43 36 43 37 44 37 44 38 46 38 46 37 47 37 47 36 48 36 48 34 48 33 47 33" style="fill: #c99f5b;"/>
+          <polygon points="42 36 38 36 38 37 37 37 37 39 37 40 38 40 38 41 42 41 42 40 43 40 43 39 43 38 43 37 42 37 42 36" style="fill: #c99f5b;"/>
+        </g>
+        <g>
+          <polygon points="43 37 43 36 44 36 46 36 46 35 47 35 47 34 48 34 48 36 47 36 47 37 46 37 46 38 44 38 44 37 43 37" style="fill: #99744d;"/>
+          <rect x="39" y="34" width="1" height="1" style="fill: #99744d;"/>
+          <rect x="38" y="40" width="4" height="1" style="fill: #99744d;"/>
+          <rect x="42" y="39" width="1" height="1" style="fill: #99744d;"/>
+        </g>
+        <g>
+          <rect x="47" y="33" width="1" height="1" style="fill: #fad698;"/>
+          <rect x="46" y="34" width="1" height="1" style="fill: #fad698;"/>
+          <rect x="42" y="35" width="4" height="1" style="fill: #fad698;"/>
+          <rect x="40" y="34" width="2" height="1" style="fill: #fad698;"/>
+          <rect x="39" y="33" width="1" height="1" style="fill: #fad698;"/>
+          <rect x="37" y="39" width="5" height="1" style="fill: #fad698;"/>
+          <rect x="42" y="38" width="1" height="1" style="fill: #fad698;"/>
+        </g>
+        <g>
+          <polygon points="42 35 42 34 40 34 40 32 41 32 41 31 45 31 45 32 47 32 47 34 46 34 46 35 42 35" style="fill: #c99f5b;"/>
+          <polygon points="38 37 38 36 42 36 42 37 43 37 43 38 42 38 42 39 39 39 38 39 37 39 37 37 38 37" style="fill: #c99f5b;"/>
+        </g>
+      </g>
+      <g id="cacti">
+        <polygon points="26 42 25 42 25 41 23 41 23 42 22 42 22 39 22 37 21 37 21 36 20 36 20 35 17 35 17 36 16 36 16 37 15 37 15 39 14 39 14 37 13 37 13 36 11 36 11 37 10 37 10 41 11 41 11 42 12 42 12 43 13 43 13 44 15 44 15 49 17 49 17 50 20 50 20 49 22 49 22 47 24 47 24 46 25 46 25 45 26 45 26 42"/>
+        <path d="M20,49h1v1h-1v-1Zm-2,1h-1v1h3v-1h-2Zm-2-1v1h1v-1h-1Z" style="opacity: .26;"/>
+        <polygon points="24 42 23 42 23 43 22 43 22 44 21 44 21 38 21 37 20 37 20 36 18 36 17 36 17 37 16 37 16 42 15 42 15 41 15 40 14 40 14 39 13 39 13 38 13 37 12 37 11 37 11 39 11 40 11 41 12 41 12 42 13 42 13 43 14 43 15 43 15 44 16 44 16 49 17 49 17 50 18 50 19 50 20 50 20 49 21 49 21 48 21 47 22 47 22 46 24 46 24 45 25 45 25 44 25 43 25 42 24 42" style="fill: #679f69;"/>
+        <path d="M17,37h1v2h-1v-2Zm0,13h1v-10h-1v10Zm2-9h1v-3h-1v3Zm0,9h1v-8h-1v8Zm4-5h1v-1h-1v1Zm1-2v1h1v-1h-1Zm-11-3h-2v1h1v1h1v-2Zm2,1h-1v1h-1v1h2v1h1v-2h-1v-1Zm-3-4h-1v2h1v-2Z" style="fill: #598a5c;"/>
+        <path d="M18,40h-1v-1h1v1Zm2-2h1v-1h-1v1Zm0,3h-1v1h1v-1Zm3,1v1h1v-1h-1Zm-1,3h1v-1h-1v1Zm-2,3h1v-1h-1v1Zm-2-2h1v-1h-1v1Zm-5-4h1v-1h-1v1Zm-2-2h1v-1h-1v1Zm2-3h-1v1h1v-1Z" style="fill: #80ba83;"/>
+      </g>
+      <g id="little-round-cacti">
+        <path d="M70,59v2h-5v-2h5Z" style="opacity: .26;"/>
+        <polygon points="73 54 72 54 72 53 71 53 71 51 70 51 70 50 69 50 69 49 66 49 66 50 65 50 65 51 64 51 64 53 63 53 63 54 62 54 62 58 63 58 63 59 64 59 64 60 71 60 71 59 72 59 72 58 73 58 73 54"/>
+        <polygon points="71 54 71 53 69 53 69 54 66 54 66 53 64 53 64 54 63 54 63 58 64 58 64 59 65 59 65 60 70 60 70 59 71 59 71 58 72 58 72 54 71 54" style="fill: #598a5c;"/>
+        <g>
+          <rect x="65" y="53" width="1" height="1" style="fill: #679f69;"/>
+          <rect x="64" y="54" width="1" height="4" style="fill: #679f69;"/>
+          <rect x="65" y="58" width="1" height="1" style="fill: #679f69;"/>
+          <rect x="67" y="55" width="1" height="4" style="fill: #679f69;"/>
+          <rect x="69" y="53" width="1" height="1" style="fill: #679f69;"/>
+          <rect x="70" y="55" width="1" height="2" style="fill: #679f69;"/>
+          <rect x="69" y="58" width="1" height="1" style="fill: #679f69;"/>
+        </g>
+        <g>
+          <rect x="65" y="55" width="1" height="1" style="fill: #80ba83;"/>
+          <rect x="67" y="54" width="1" height="1" style="fill: #80ba83;"/>
+          <rect x="68" y="56" width="1" height="1" style="fill: #80ba83;"/>
+          <rect x="70" y="54" width="1" height="1" style="fill: #80ba83;"/>
+          <rect x="70" y="57" width="1" height="1" style="fill: #80ba83;"/>
+          <rect x="66" y="57" width="1" height="1" style="fill: #80ba83;"/>
+          <rect x="63" y="56" width="1" height="1" style="fill: #80ba83;"/>
+        </g>
+        <polygon points="69 51 69 50 68 50 67 50 66 50 66 51 65 51 65 52 66 52 66 53 67 53 68 53 69 53 69 52 70 52 70 51 69 51" style="fill: #ffa5dc;"/>
+        <path d="M67,51v1h-1v-1h1Zm1-1h-1v1h1v-1Zm0,1v1h1v-1h-1Zm-1,2h1v-1h-1v1Z" style="fill: #ffcfe2;"/>
+      </g>
+      <g id="farming-stats">
+<text id="farming-name" filter="url(#stats-name)" font-weight="normal" fill="black" x="0" y="9">
+    dunes #3204
+</text>
+<text id="farming-coords" filter="url(#stats-coords)" fill="black" x="0" y="16.5">
+    XY 1144
+</text>
+<text id="farming-fc" filter="url(#stats-fc)" fill="black" x="0" y="24">
+    FC: 0
+</text>
+</g>
+<a href="https://clumsylabs.io" id="valley-url" target="_blank" class="button full-version">
+    <path class="button-bg" d="M12,74h21v11H12V74z"/>
+    <path fill="#FFF" d="M19,81h1v1h-2v-5h6v3h-1v-2h-4V81z M26,77h-1v1h1v3h-4v-2h-1v3h6v-5H26z M30,76h-1v1h1v5h-1v1h2v-7H30z M14,76
+		v7h2v-1h-1v-5h1v-1H14z"/>
+    <title>Visit in Clumsy Valley</title>
+  </a>
+  <a href="https://assets.clumsylabs.io/land/png/ClumsyValleyLandPlot3204.png" id="png-url" target="_blank" class="button png-square">
+    <path class="button-bg" d="M38,74h13v11H38V74z"/>
+    <path fill="#FFF" d="M49,76v7h-2v-1h1v-5h-1v-1H49z M40,76v7h2v-1h-1v-5h1v-1H40z M46,80h1v-1h-1V80z M42,79v1h1v-1H42z M45,79v-2
+		h-1v3h-1v1h1v1h1v-1h1v-1h-1V79z"/>
+    <title>Download square PNG</title>
+  </a>
+  <a href="https://assets.clumsylabs.io/land/ipfs/ClumsyValleyLandPlot3204.svg" id="svg-url" target="_blank" class="button svg">
+    <path class="button-bg" d="M56,74h20v11H56V74z"/>
+    <path fill="#FFF" d="M72,79v2h-1v-1h-1v-1H72z M69,81v1h2v-1H69z M69,79v-1h-1v3h1V79z M71,78v-1h-2v1H71z M66,78v3h1v-4h-1V78z
+		 M65,82h1v-1h-1V82z M65,79v-2h-1v4h1V79z M63,81v-1h-1v1H63z M62,80v-1h-1v1H62z M61,77v1h2v-1H61z M60,81v1h2v-1H60z M60,79h1v-1
+		h-1V79z M73,76h-1v1h1v5h-1v1h2v-7H73z M58,76v7h2v-1h-1v-5h1v-1H58z"/>
+    <title>Download SVG</title>
+  </a>
+  <script type="text/javascript">
+    <![CDATA[
+    let landRoot = document.getElementById('ClumsyValleyLandPlot');
+    let landBase = document.getElementById('dunes-base');
+    let farmingNameId = document.getElementById('farming-name');
+    let farmingCoordsId = document.getElementById('farming-coords');
+    let farmingFCId = document.getElementById('farming-fc');
+
+    let audioValley = "";
+    let audioTheme = "";
+
+    // valley-url
+    let valleyURL = document.getElementById('valley-url');
+
+    if (valleyURL) {
+      valleyURL.addEventListener('click', () => {
+        let clickUrlAudio = new Audio("https://assets.clumsylabs.io/land/audio/generic/clumsy-valley-click3.mp3");
+        clickUrlAudio.volume = 0.6;
+        clickUrlAudio.play();
+      });
+    };
+
+    // png-url
+    let pngURL = document.getElementById('png-url');
+
+    if (pngURL) {
+      pngURL.addEventListener('click', () => {
+        let clickUrlAudio = new Audio("https://assets.clumsylabs.io/land/audio/generic/clumsy-valley-click3.mp3");
+        clickUrlAudio.volume = 0.6;
+        clickUrlAudio.play();
+      });
+    };
+
+    // svg-url
+    let svgURL = document.getElementById('svg-url');
+
+    if (svgURL) {
+      svgURL.addEventListener('click', () => {
+        let clickUrlAudio = new Audio("https://assets.clumsylabs.io/land/audio/generic/clumsy-valley-click3.mp3");
+        clickUrlAudio.volume = 0.6;
+        clickUrlAudio.play();
+      });
+    };
+
+    // skull1 animation
+    let skull1 = document.getElementById('skull-1-animated-click');
+
+    if (skull1) {
+      skull1.addEventListener('click', () => {
+        let skullAudio = new Audio("https://assets.clumsylabs.io/land/audio/generic/clumsy-valley-click3.mp3");
+        skullAudio.volume = 0.6;
+        skullAudio.play();
+
+        // skull animation
+        let skull11 = document.getElementById('skull-1-animated-click');
+        let skull12 = document.getElementById('skulleyes1-default');
+        let skull13 = document.getElementById('skulleyes1-look-left');
+
+        skull11.classList.add('skull1');
+        skull12.classList.add('skull2');
+        skull13.classList.add('skull3');
+        
+        setTimeout(() => {
+          skull11.classList.remove('skull1');
+          skull12.classList.remove('skull2');
+          skull13.classList.remove('skull3');
+        }, 1800);
+      });
+    };
+
+    // skull2 animation
+    let skull2 = document.getElementById('skull-2-animated-click');
+
+    if (skull2) {
+      skull2.addEventListener('click', () => {
+        let skullAudio = new Audio("https://assets.clumsylabs.io/land/audio/generic/clumsy-valley-click3.mp3");
+        skullAudio.volume = 0.6;
+        skullAudio.play();
+
+        // skull animation
+        let skull21 = document.getElementById('skull-2-animated-click');
+        let skull22 = document.getElementById('skulleyes2-default');
+        let skull23 = document.getElementById('skulleyes2-look-right');
+
+        skull21.classList.add('skull1');
+        skull22.classList.add('skull2');
+        skull23.classList.add('skull3');
+        
+        setTimeout(() => {
+          skull21.classList.remove('skull1');
+          skull22.classList.remove('skull2');
+          skull23.classList.remove('skull3');
+        }, 1800);
+      });
+    };
+
+    // sandworm animation
+    let sandworm = document.getElementById('sandworm-animation');
+    let sandwormDefault = document.getElementById('sandworm-default');
+    let sandwormClick = document.getElementById('sandworm-click');
+
+    if (sandworm) {
+      sandworm.addEventListener('click', () => {
+        let sandwormAudio = new Audio("https://assets.clumsylabs.io/land/audio/generic/clumsy-valley-click3.mp3");
+        sandwormAudio.volume = 0.6;
+        sandwormAudio.play();
+
+        sandwormDefault.classList.toggle('activate');
+        sandwormClick.classList.toggle('activate');
+
+        setTimeout(() => {
+          sandwormDefault.classList.remove('activate');
+          sandwormClick.classList.remove('activate');
+        }, 500);
+      });
+    };
+
+    // sahara animation
+    let sahara = document.getElementById('sahara-animation-click');
+    let saharaDefault = document.getElementById('sahara-default');
+    let saharaClick = document.getElementById('sahara-angry');
+
+    if (sahara) {
+      sahara.addEventListener('click', () => {
+        let saharaAudio = new Audio("https://assets.clumsylabs.io/land/audio/generic/clumsy-valley-click3.mp3");
+        saharaAudio.volume = 0.6;
+        saharaAudio.play();
+
+        saharaDefault.classList.toggle('activate');
+        saharaClick.classList.toggle('activate');
+
+        setTimeout(() => {
+          saharaDefault.classList.remove('activate');
+          saharaClick.classList.remove('activate');
+        }, 500);
+      });
+    };
+
+    // snakeInPot animation
+    let snakeInPot = document.getElementById('snake-in-pot');
+
+    if (snakeInPot) {
+      snakeInPot.addEventListener('click', () => {
+        let snakeInPotAudio = new Audio("https://assets.clumsylabs.io/land/audio/generic/clumsy-valley-click3.mp3");
+        snakeInPotAudio.volume = 0.6;
+        snakeInPotAudio.play();
+
+        let snake1 = document.getElementById('snake-animated1');
+        let snake2 = document.getElementById('snake-animated2');
+        let snake3 = document.getElementById('snake-animated3');
+        let snake4 = document.getElementById('snake-animated4');
+        let snake5 = document.getElementById('snake-animated5');
+
+        snake1.classList.add('snake-animated1');
+        snake2.classList.add('snake-animated2');
+        snake3.classList.add('snake-animated3');
+        snake4.classList.add('snake-animated4');
+        snake5.classList.add('snake-animated5');
+
+        setTimeout(() => {          
+          snake1.classList.remove('snake-animated1');
+          snake2.classList.remove('snake-animated2');
+          snake3.classList.remove('snake-animated3');
+          snake4.classList.remove('snake-animated4');
+          snake5.classList.remove('snake-animated5');
+        }, 2000);
+      });
+    };
+
+    let landBaseEL = false;
+    let cheatcodeEL = false;
+    let farmingFCIdEL = false;
+    let ghostEL = false;
+
+    if (landBase && landRoot) {
+
+      var visible = false;
+      var cheatCodesVisible = false;
+
+      if (!landBaseEL) {
+        landBaseEL = true;
+        landBase.addEventListener('click', () => {
+          let genericClickAudio = new Audio("https://assets.clumsylabs.io/land/audio/generic/clumsy-valley-click3.mp3");
+          genericClickAudio.volume = 0.6;
+          genericClickAudio.play();
+
+          landRoot.classList.toggle('menu-in');
+
+          var getName, getCoords, getFC;
+          var farmingName, farmingCoords, farmingFC;
+          farmingFC = document.getElementById('farming-fc');
+
+          if (!visible) {
+            fetch('https://internal.clumsylabs.io/api/v1/metadata/land/3204')
+            .then(response => response.json())
+            .then(json => {
+
+              // Return values from internal clumsy api
+              getName = json["name"]
+              getCoords = json["coords"]
+              getFC = json["fc"]
+              getLink = json["link"]
+              getTrack = json["track"]
+              getTheme = json["theme"]
+              getGhost = json["ghost"]
+
+              if (getGhost) {
+                var bigGhost = false;
+                let ghost = document.getElementById('ghost');
+                if (ghost) {
+                  ghost.setAttribute("href", getGhost);
+                  ghost.setAttribute("opacity", "1");
+
+                  if (!ghostEL) {
+                    ghostEL = true;
+                    ghost.addEventListener('click', () => {
+                      let genericClickAudio = new Audio("https://assets.clumsylabs.io/land/audio/generic/clumsy-valley-click3.mp3");
+                      genericClickAudio.volume = 0.6;
+                      genericClickAudio.play();
+
+                      if (!bigGhost) {
+                        bigGhost = true;
+                        ghost.setAttribute("href", getGhost);
+                        ghost.setAttribute("opacity", "1");
+                        ghost.setAttribute("height", "70");
+                        ghost.setAttribute("width", "70");
+                        ghost.setAttribute("x", "10");
+                        ghost.setAttribute("y", "-8");
+                      } else {
+                        bigGhost = false;
+                        ghost.setAttribute("height", "20");
+                        ghost.setAttribute("width", "20");
+                        ghost.setAttribute("x", "70");
+                        ghost.setAttribute("y", "3");
+                      }
+                  })}
+                };
+              }
+
+              if (getName) {
+                farmingName = document.getElementById('farming-name');
+                farmingName.innerHTML = getName;
+                console.log("Name: ", getName)
+              }
+
+              if (getCoords) {
+                farmingCoords = document.getElementById('farming-coords');
+                farmingCoords.innerHTML = getCoords;
+                console.log("Coordinates: ", getCoords)
+              }
+
+              if (getFC) {
+                farmingFC.innerHTML = "FC: " + getFC;
+                console.log("Farming cycles completed: ", getFC)
+
+                if (getFC >= 1 && getFC <= 9) {
+                  console.log("Tier 1 Land")
+                  farmingFC.classList.add('tier1');
+                } else if (getFC >= 10 && getFC <= 29) {
+                  console.log("Tier 2 Land")
+                  farmingFC.classList.add('tier2');
+                } else if (getFC >= 30 && getFC <= 49) {
+                  console.log("Tier 3 Land")
+                  farmingFC.classList.add('tier3');
+                } else if (getFC >= 50 && getFC <= 99) {
+                  console.log("Tier 4 Land")
+                  farmingFC.classList.add('tier4');
+                } else if (getFC >= 100) {
+                  console.log("Tier 5 Land")
+                  farmingFC.classList.add('tier5');
+                } else {
+                  console.log("Tier 0 Land")
+                }
+              } else {
+                getFc = 0;
+              }
+
+              if (getLink) {
+                let valleyUrl = document.getElementById('valley-url');
+                valleyUrl.setAttribute("href", getLink);
+                console.log("Valley link: ", getLink)
+              }
+
+            })
+            .catch(error => {
+              getName = "";
+              getCoords = "";
+              getFC = 0;
+              getLink = "";
+              getTrack = "";
+              getTheme = "";
+              getGhost = "";
+            });
+          }
+
+          if (!farmingFCIdEL) {
+            farmingFCIdEL = true;
+            farmingFCId.addEventListener('click', () => {
+              cheatCodesVisible = true
+
+              if (cheatCodesVisible) {
+                let cheatCodeAudio = new Audio("https://assets.clumsylabs.io/land/audio/generic/cheatcodeactivated.mp3");
+                cheatCodeAudio.volume = 1;
+                cheatCodeAudio.play();
+
+                farmingFC.innerHTML = "Cheat Codes Activated..."
+                farmingFC.setAttribute("filter", "url(#stats-cheatcode)");
+                let bufferArray = [];
+                let lastKeystrokeTime = Date.now();
+                const cheatcode = (e) => {
+                  
+                  const latestKeystrokeTime = Date.now();
+                  if (latestKeystrokeTime - lastKeystrokeTime > 5000) {
+                    if (getFC) {
+                      farmingFC.innerHTML = "FC: " + getFC;
+                    } else {
+                      farmingFC.innerHTML = "FC: ";
+                    }
+                    farmingFC.setAttribute("filter", "url(#stats-fc)");
+                    bufferArray = [];
+                  }
+
+                  if (e.key == "ArrowUp") {
+                    key = '↑';
+                  } else if (e.key == "ArrowDown") {
+                    key = '↓';
+                  } else if (e.key == "ArrowLeft") {
+                    key = '←';
+                  } else if (e.key == "ArrowRight") {
+                    key = '→';
+                  } else if (e.key.length == 1) {
+                    key = e.key;
+                  } else {
+                    key = ""
+                  }
+                  
+                  // each key press either adds or removes a char
+                  if (e.key == "Backspace") {
+                    bufferArray = bufferArray.slice(0, -1);
+                  } else if (bufferArray.length < 12 && key != "") {
+                    bufferArray.push(key);
+                  }
+
+                  farmingFC.innerHTML = bufferArray.join("")
+
+                  const word = bufferArray.join('');
+                  if (word === 'disco') { /* DISCO */
+                    cheatCodeAudio.play();
+                    console.log('Clumsy Valley Party!');
+
+                    landRoot.classList.add('party');
+                    clearListener();
+
+                    setTimeout(() => {
+                      landRoot.classList.remove('party');
+                    }, 10000);
+                  } else if (word == '↑↑↓↓←→ab') { /* CODE */
+                    cheatCodeAudio.play();
+                    console.log('Nonstop Party!!!');
+
+                    landRoot.classList.add('party');
+                    clearListener();
+                  } else if (word === 'rgb') { /* RGB */
+                    cheatCodeAudio.play();
+
+                    landBase.classList.add('party');
+                    clearListener();
+
+                    setTimeout(() => {
+                      landBase.classList.remove('party');
+                    }, 10000);
+                  } else if (word === 'dealwithit') { /* DEALWITHIT */
+                    let camel = document.getElementById('camel-animated');
+                    if (camel) {
+                      cheatCodeAudio.play();
+                      //let camelAudio = new Audio("https://assets.clumsylabs.io/land/audio/generic/clumsy-valley-click3.mp3");
+                      //camelAudio.volume = 0.6;
+                      //camelAudio.play();
+
+                      // glasses animation
+                      let glasses = document.getElementById('dealwithit-drops-down-animate');
+
+                      glasses.classList.add('deal-with-it');
+
+                      clearListener();
+
+                      setTimeout(() => {
+                        glasses.classList.remove('deal-with-it');
+                      }, 10000);
+                    }
+                  } else if (word === 'hideme') { /* HIDEME */
+                    cheatCodeAudio.play();
+                    let items = ["tf-grass1-right", "tf-grass2_right", "dunes-grass3-right", "tf-grass4-right", "dunes-grass5-right", "dunes-grass3-left",
+                    "dunes-grass5-left", "sandhill", "pharoh", "cacti-with-flower2", "cacti-with-flower3", "palace", "aloe-vera-plant",
+                    "sand-castle", "camel-animated", "cacti", "skull-1-animated-click", "palm-tree", "flame-animation-ongoing", "spear-animated-ongoing", 
+                    "rock-formation", "spike2", "skull-2-animated-click", "little-round-cacti", "spike1", "baby-cactus", "moon-staff-animation-ongoing", 
+                    "sign", "lantern", "tire", "scorpion-tail", "cacti-with-flower", "sandworm-animation", "snake-in-pot", "barrel", "sahara-animation-click", "fence"]
+
+                    for (let i = 0; i< items.length; i++) {
+                      let item = document.getElementById(items[i]);
+                      if (item) {
+                        item.setAttribute("opacity", "0");
+                      }
+                    }
+
+                    clearListener();
+
+                    setTimeout(() => {
+                      for (let i = 0; i< items.length; i++) {
+                        let item = document.getElementById(items[i]);
+                        if (item) {
+                          item.setAttribute("opacity", "1");
+                        }
+                      }
+                    }, 5000);
+                  } else if (word === 'usetheforce') { /* USETHEFORCE */
+                    cheatCodeAudio.play();
+                    let items = ["tf-grass1-right", "tf-grass2_right", "dunes-grass3-right", "tf-grass4-right", "dunes-grass5-right", "dunes-grass3-left",
+                    "dunes-grass5-left", "pharoh", "cacti-with-flower2", "cacti-with-flower3", "palace", "aloe-vera-plant",
+                    "sand-castle", "camel-animated", "cacti", "skull-1-animated-click", "palm-tree", "flame-animation-ongoing", "spear-animated-ongoing", 
+                    "rock-formation", "spike2", "skull-2-animated-click", "little-round-cacti", "spike1", "baby-cactus", "moon-staff-animation-ongoing", 
+                    "sign", "lantern", "tire", "scorpion-tail", "cacti-with-flower", "sandworm-animation", "snake-in-pot", "barrel", "sahara-animation-click", "fence"]
+
+                    for (let i = 0; i< items.length; i++) {
+                      let item = document.getElementById(items[i]);
+                      if (item) {
+                        let randomnum = Math.floor(Math.random() * (60 - 10) + 10) / 10;
+                        item.style.animation = "cg-anim-antigrav 4s linear " + randomnum + "s infinite";
+                      }
+                    }
+
+                    clearListener();
+
+                    setTimeout(() => {
+                      for (let i = 0; i< items.length; i++) {
+                        let item = document.getElementById(items[i]);
+                        if (item) {
+                          item.style.animation = "";
+                        }
+                      }
+                    }, 30000);
+                  } else if (word == 'valley') { /* VALLEY */
+                    cheatCodeAudio.play();
+                    if (audioValley) {
+                      audioValley.currentTime = 0;
+                      audioValley.play();
+                    } else if (getTrack) {
+                      audioValley = new Audio(getTrack);
+                      audioValley.volume = 0.4;
+                      audioValley.play();
+                    }
+                    clearListener();
+                  } else if (word == 'theme') { /* THEME */
+                    cheatCodeAudio.play();
+                    if (audioTheme) {
+                      audioTheme.currentTime = 0;
+                      audioTheme.play();
+                    } else if (getTheme) {
+                      audioTheme = new Audio(getTheme);
+                      audioTheme.volume = 0.4;
+                      audioTheme.play();
+                    }
+                    clearListener();
+                  } else {
+                    if (this.keyTimeout) {clearTimeout(this.keyTimeout)}
+                    this.keyTimeout = setTimeout(() => {
+                      clearListener();
+                    }, 5000);
+                  }
+          
+                  lastKeystrokeTime = latestKeystrokeTime;
+                  }
+
+                if (!cheatcodeEL){
+                  cheatcodeEL = true;
+                  document.addEventListener('keyup', cheatcode, true);
+                }
+
+                const clearListener = () => {
+                  cheatCodesVisible = false;
+                  cheatcodeEL = false;
+                  if (getFC) {
+                      farmingFC.innerHTML = "FC: " + getFC;
+                    } else {
+                      farmingFC.innerHTML = "FC: ";
+                    }
+                  farmingFC.setAttribute("filter", "url(#stats-fc)");
+                  bufferArray = [];
+                  document.removeEventListener('keyup', cheatcode, true);
+                }
+              }
+            });
+          }
+          
+          visible = !visible
+          farmingNameId.classList.toggle('show-farming-stats');
+          farmingCoordsId.classList.toggle('show-farming-stats');
+          farmingFCId.classList.toggle('show-farming-stats');
+          });     
+    }}]]>
+  </script>
+
+  <image id="ghost" opacity="0" href="" x="70px" y="3px" height="20" width="20" />
+</svg>

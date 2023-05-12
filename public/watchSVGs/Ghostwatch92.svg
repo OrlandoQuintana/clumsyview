@@ -1,0 +1,191 @@
+<svg id="gw92" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 89 89">
+
+<style><![CDATA[
+
+  #gw92 {
+    overflow: hidden;
+    outline: none;
+    box-shadow: none;
+    height: 100%;
+  }
+
+  @media (min-aspect-ratio: 1/1) {
+    #gw92 {
+      height: 100%;
+      width: auto;
+      margin: 0 auto;
+    }
+  }
+
+  #gw92 .tickers path:nth-child(2) {
+    transform: translateY(10px);
+  }
+
+  #gw92 .tickers path:nth-child(3) {
+    transform: translateY(20px);
+  }
+
+  #gw92 .tickers path:nth-child(4) {
+    transform: translateY(30px);
+  }
+
+  #gw92 .tickers path:nth-child(5) {
+    transform: translateY(40px);
+  }
+
+  #gw92 .retro path {
+    transition: 0.1s ease;
+  }
+
+  #gw92 .retro path.hide {
+    opacity: 0;
+  }
+
+]]></style>
+
+<path class="background" fill="#25252D" d="M0 0h89v89H0z"/>
+
+<a href="https://ipfs.io/ipfs/QmX1fPGm8Evc4WkMNL4jJ163PykS31PCP5yR3CHKcuXyhW?filename=gw92.html" target="_blank">
+  <path class="title" fill="#FFF" d="M64 10v2h-1v-2h-1v5h1v-2h1v2h1v-5zm-4 5h1v-1h-2v1zm-2-3v2h1v-3h-1zm1-2v1h2v-1h-1zm-4 0h-1v1h1v4h1v-4h1v-1h-1zm-3 2h-1v-1h-1v4h1v-2h1v2h1v-4h-1zm-1-2h1v1h-1zm-3 1v3h1v-4h-1zm-1 3h1v1h-1zm-1-1h1v1h-1zm-1 0v-3h-1v5h2v-1h-1zm-3-3h-2v1h1v4h1v-4h1v-1zm-6 4v1h2v-1h-1zm2-1h1v1h-1zm-1-1h1v1h-1zm-1-1h1v1h-1zm1-1v1h2v-1h-1zm-4 0h1v1h-1zm1 2v2h1v-3h-1zm-1 2h1v1h-1zm0-2v-1h-1v3h1v-1zm-3-1v1h-1v-2h-1v5h1v-2h1v2h1v-5h-1zm-5 1v1h1v1h-2v1h3v-3h-1zm1-1v-1h-2v1h1zm-2 1v-1h-1v3h1v-1z"/>
+</a>
+
+<g class="tickers" fill="#FFF">
+  <path d="M19 22h-1v-1h-1v4h1v-2h1v2h1v-4h-1zm-1-2h1v1h-1zm-3 2v2h1v-3h-1zm-1 1v-2h1v-1h-2v5h2v-1h-1zm-3-1h-1v-1H9v4h1v-2h1v2h1v-4h-1zm-1-2h1v1h-1z"/>
+  <path d="M18 20h-1v1h1v4h1v-4h1v-1h-1zm-3 2v2h1v-3h-1zm-1 2h1v1h-1zm0-4h1v1h-1zm0 2v-1h-1v3h1v-1zm-3 0v2h1v-3h-1zm-1 1v-2h1v-1H9v5h2v-1h-1z"/>
+  <path d="M27 21h-1v-1h2v1h-1zm0 4h1v-1h-2v1h1zm-1-3v-1h-1v3h1v-2zm-3-1v4h1v-5h-1v1zm-3-1h-1v1h1v4h1v-4h1v-1h-2zm-3 2h-1v-1h-1v4h1v-2h1v2h1v-4h-1v1zm0-2h-1v1h1v-1zm-4 2v3h1v-4h-1v1zm-1-2v1h1v-1h-1zm-1 2h1v-1h-1v1zm-1-2H9v5h1v-4h1v-1h-1z"/>
+  <path d="M20 24v-1h1v1h-1zm-1-2v-1h1v-1h-2v5h2v-1h-1v-1h1v-1h-1zm2 0v-1h-1v1h1zm-5-1v1h-1v1h1v2h1v-5h-1v1zm-2 0v-1h-1v5h1v-3h1v-1h-1zm-2 3v-1h-1v1h1zm-1-2h1v-1h-1v1zm-1-1h1v-1H9v5h2v-1h-1v-1h1v-1h-1v-1z"/>
+  <path d="M21 24v-1h1v1h-1zm1-2v-1h-1v1h1zm-2 0v-1h1v-1h-2v5h2v-1h-1v-1h1v-1h-1zm-3-1v4h1v-5h-1v1zm-2 0v1h-1v-2h-1v5h1v-2h1v2h1v-5h-1v1zm-3 3v-1h-1v1h1zm-1-1v-1h-1v1h1zm-1-3v1h2v-1h-2zm-1 4v1h2v-1H9zm0-2h1v-1H9v1z"/>
+</g>
+
+<g class="digits" fill="#FFF" style="display: none;">
+  <path class="zero" d="M79 20h-2v5h3v-5h-1zm0 2v2h-1v-3h1v1z"/>
+  <path class="one" d="M80 24v1h-3v-1h1v-2h-1v-1h1v-1h1v4h1z"/>
+  <path class="two" d="M80 22h-1v-1h1v1zm-1 3h1v-1h-2v1h1zm0-3h-1v1h1v-1zm-1-2h-1v1h2v-1h-1zm-1 3v1h1v-1h-1z"/>
+  <path class="three" d="M79 24v-1h1v1h-1zm1-3h-1v1h1v-1zm-2 1v1h1v-1h-1zm0-2h-1v1h2v-1h-1zm-1 4v1h2v-1h-2z"/>
+  <path class="four" d="M80 21v4h-1v-2h-2v-3h1v2h1v-1h1z"/>
+  <path class="five" d="M79 24v-1h1v1h-1zm0-3h1v-1h-3v3h2v-1h-1v-1h1zm-2 3v1h2v-1h-2z"/>
+  <path class="six" d="M79 21h-1v-1h2v1h-1zm-2 0v3h1v-1h1v1h-1v1h2v-3h-2v-1h-1z"/>
+  <path class="seven" d="M80 20v5h-1v-4h-2v-1h3z"/>
+  <path class="eight" d="M79 20h-2v5h3v-5h-1zm0 4h-1v-1h1v1zm0-2h-1v-1h1v1z"/>
+  <path class="nine" d="M79 20h-2v3h2v2h1v-5h-1zm0 2h-1v-1h1v1z"/>
+  <path class="decimal" d="M71 24h1v1h-1z"/>
+</g>
+
+<g class="prices" fill="#FFF">
+  <g class="line-0"></g>
+  <g class="line-1"></g>
+  <g class="line-2"></g>
+  <g class="line-3"></g>
+  <g class="line-4"></g>
+</g>
+
+<g class="retro"><path fill="#8631FF" d="M23 71h1v3h-1v1h-3v-1h-1v-3h1v-1h3v1z"/><path fill="#27EBFF" d="M21 85v3h-1v-7h1v4z"/><path fill="#FFE600" d="M82 61h5v1h-5v-1z"/><path fill="#FF008C" d="M86 38v1h-1v-5h1v1h1v1h1v1h-1v1h-1z"/><path fill="#FFE600" d="M81 1h5v1h-5V1z"/><path fill="#FF008C" d="M85 66v-1h1v1h1v1h1v1h-5v-1h1v-1h1z"/><path fill="#FFAE39" d="M87 23h1v5h-1zM87 15v1h-2v-1h2zm-2 3h2v1h-2v-1zm0-2v2h-1v-2h1zm3 0v2h-1v-2h1zM85 84h3v1h-3v-1zm3-6v1h-3v-1h3zm-1 3h1v1h-1v-1zm-2 1h2v1h-2v-1zm0-2h2v1h-2v-1zm-1-1h1v1h-1v-1zm0 4h1v1h-1v-1z"/><path fill="#FFE600" d="M86 72h1v2h-1v-2zm-2-1h2v1h-2v-1zm0 3h2v1h-2v-1zm-1-2h1v2h-1v-2zM82 24h-1v-2h1v-1h2v1h1v2h-1v1h-2v-1z"/><path fill="#27EBFF" d="M86 5h1v1h-1V5zm0 4h1v1h-1V9zm-3 1h3v1h-3v-1zm1-4h2v1h-2V6zm2-1h-3V4h3v1zm-2 3h2v1h-2V8zm-1-1h1v1h-1V7zM86.5 46.5h1v2h-1v-2zm-2 2h2v1h-2v-1zm-1-7h3v1h-3v-1zm1 4h2v1h-2v-1zm-1 7h3v1h-3v-1zm0-8h1v1h-1v-1zm0 5h1v1h-1v-1zm-1-7h1v2h-1v-2zm0 8h1v2h-1v-2z"/><path fill="#FF008C" d="M85 56v2h-1v-2h1zm-1 0h-2v-1h2v1zm-2 2h2v1h-2v-1zm0-2v2h-1v-2h1z"/><path fill="#FFAE39" d="M74 83h7v1h-7v-1z"/><path fill="#FFE600" d="M72 87v1h-2v-1h-1v-2h1v-1h2v1h1v2h-1z"/><path fill="#8631FF" d="M77 4v1h-2V4h-1V2h1V1h2v1h1v2zM79 15v1h-1v1h-1v-1h-1v-1h-1v-1h5v1zM78 77v3h-1v-3h1zm-1 3v1h-2v-1h2zm-3-1h1v1h-1v-1zm-1-1h1v1h-1v-1zm0-1v1h-2v-1h2zm-2 1v4h-1v-4h1zm-3 4h2v1h-2v-1zm0-3v3h-1v-3h1z"/><path fill="#FF008C" d="M67 74v1h-2v-1h-1v-2h1v-1h2v1h1v2h-1z"/><path fill="#27EBFF" d="M78 68v1h-1v1h-1v1h-1v1h-1v1h-1v1h-1v-1h-1v-1h-1v-1h-1v-1h-1v-1h-1v-1h-1v-1h13v1h-1z"/><path fill="#FFAE39" d="M75 8v2h-1V8h1zm-1-1v1h-3V7h3zm-1 3h1v1h-1v-1zm-1 1h1v1h-1v-1zm-2-3h1v1h-1V8zm1-5v2h-1V3h1zm-1-1v1h-3V2h3zm-1 3h1v1h-1V5zm-1 4h2v1h-2V9zm0-3h1v1h-1V6zm0 1v2h-1V7h1zm-2-4h1v1h-1V3zm-1 1h1v1h-1V4zM62 84v1h-1v1h-1v1h-1v-7h1v1h1v1h1v1h1v1h-1z"/><path fill="#27EBFF" d="M60 2h1v2h-1V2zm-2-1h2v1h-2V1zm0 3h2v1h-2V4zm-1-2h1v2h-1V2z"/><path fill="#FF008C" d="M56 77h1v1h-1v-1zm0 4h1v1h-1v-1zm-1-5h1v1h-1v-1zm0 2h1v1h-1v-1zm0 2h1v1h-1v-1zm0 2h1v1h-1v-1zm-1-7h1v1h-1v-1zm0 4h1v1h-1v-1zm0 4h1v1h-1v-1z"/><path fill="#FFAE39" d="M45 86h6v1h-6v-1z"/><path fill="#FFE600" d="M61 68v3h-1v-3h1zm-3-1h2v1h-2v-1zm-1 1h1v1h-1v-1zm-1 1h1v2h-1v-2zm0 2v1h-2v-1h2zm-3-2h1v2h-1v-2zm-1-1h1v1h-1v-1zm-2-1h2v1h-2v-1zm0 1v3h-1v-3h1z"/><path fill="#FF008C" d="M45 72v1h-3v-1h-1v-3h1v-1h3v1h1v3h-1z"/><path fill="#27EBFF" d="M45 81h1v2h-1v-2zm-2-1h2v1h-2v-1zm0 3h2v1h-2v-1zm-1-2h1v2h-1v-2z"/><path fill="#FFE600" d="M54 8H41V7h1V6h1V5h1V4h1V3h1V2h1V1h1v1h1v1h1v1h1v1h1v1h1v1h1v1z"/><path fill="#27EBFF" d="M36 75h3v3h-3zM38 68h1v2h-1v-2zm-2 2h2v1h-2v-1zm0-3h2v1h-2v-1zm-1 1h1v2h-1v-2z"/><path fill="#8631FF" d="M32 85v-1h1v-1h1v-1h1v-1h1v1h1v1h1v1h1v1h1v1h1v1h1v1H29v-1h1v-1h1v-1h1z"/><path fill="#FF008C" d="M33 75v1h-3v-1h3zm-7-6v-1h1v1h-1zm1-1v-1h3v1h-3zm5 2v2h-1v-2h1zm-1-1v1h-4v-1h4zm-1 3h1v1h-1v-1zm0 1v2h-1v-2h1z"/><path fill="#8631FF" d="M36 6h1v1h-1V6zm-1-1h1v1h-1V5zm-1-1h1v1h-1V4zm-1 1h1v1h-1V5zm-1 1h1v1h-1V6zm-1-1h1v1h-1V5zm-1-1h1v1h-1V4zm-1 1h1v1h-1V5zm-1 1h1v1h-1V6z"/><path fill="#FF008C" d="M27 83h1v2h-1v-2zm-2-1h2v1h-2v-1zm0 3h2v1h-2v-1zm-1-2h1v2h-1v-2z"/><path fill="#27EBFF" d="M26 2v2h-1V2h1zm-1-1v1h-2V1h2zm0 3v1h-2V4h2zm-2-1v1h-1V2h1v1z"/><path fill="#FFAE39" d="M19 7v1h-1v1h-1v1h-1V5h1v1h1v1h1z"/><path fill="#FFE600" d="M17 14h1v2h-1v-2zm-2-1h2v1h-2v-1zm0 3h2v1h-2v-1zm-1-2h1v2h-1v-2z"/><path fill="#FF008C" d="M14 71h1v1h1v1h-5v-1h1v-1h1v-1h1v1z"/><path fill="#FFE600" d="M9 78v1H7v-1H6v-2h1v-1h2v1h1v2H9z"/><path fill="#FFAE39" d="M17 79h1v1h-1v-1zm-1-1h1v1h-1v-1zm0-1v1h-3v-1h3zm0 5v2h-1v-2h1zm-2-1h1v1h-1v-1zm-1 3h2v1h-2v-1zm0-4h1v1h-1v-1zm0-2v2h-1v-2h1zm-1 5h1v1h-1v-1zm0-1v1H9v-1h3zm-2 4h1v1h-1v-1zm-1-1h1v1H9v-1zm0-2v2H8v-2h1z"/><path fill="#FF008C" d="M1 21h5v1H1v-1z"/><path fill="#27EBFF" d="M6 29h1v1H6v-1zm0 4h1v1H6v-1zm0 4h1v1H6v-1zm-1-5h1v1H5v-1zm0-2h1v1H5v-1zm0 4h1v1H5v-1zm0 2h1v1H5v-1zm-1-1h1v1H4v-1zm0-4h1v1H4v-1zM2 60H1v-2h1v-1h2v1h1v2H4v1H2z"/><path fill="#FFE600" d="M2 27H1v-2h1v-1h2v1h1v2H4v1H2v-1z"/><path fill="#FFAE39" d="M6 15h1v2H6v-2zm-2-1h2v1H4v-1zm0 3h2v1H4v-1zm-1-2h1v2H3v-2zM5 66h1v2H5v-2zm0-1v1H3v-1h2zm-2 3h2v1H3v-1zm0-2v2H2v-2h1z"/><path fill="#FFE600" d="M5 49h1v1H5v-1zm0 4h1v1H5v-1zm-3 1h3v1H2v-1zm1-4h2v1H3v-1zm2-1H2v-1h3v1zm-2 3h2v1H3v-1zm-1-1h1v1H2v-1zM21 69v-2h2v2h-2zm65-39h2v2h-2v-2zm-5 56h2v2h-2v-2zm-1-11h2v2h-2v-2zm-2-65h2v2h-2v-2zM62 77h2v2h-2v-2zM52 1h2v2h-2V1zm-4 75h2v2h-2v-2zM40 2v2h-2V2h2zM29 78h2v2h-2v-2zM19 10h2v2h-2v-2zm-8 0h2v2h-2v-2zM3 85h2v2H3v-2zM2 72h2v2H2v-2zM1 44h2v2H1v-2z"/><path fill="#FF008C" d="M12 3v4h-1V3h1zm-1-1v1H9V2h2zM9 8v1H8V3h1v5zM8 9v1H6V9h2zM5 5h1v4H5V5zm0-1v1H3V4h2zM3 5v4H2V5h1zM2 38h2v1H2v-1zm0 3h2v1H2v-1zm2-2h1v2H4v-2zm-3 0h1v2H1v-2z"/><path fill="#27EBFF" d="M87 87h1v1h-1v-1zm0-28h1v1h-1v-1zm-3-46h1v1h-1v-1zm-1 15h1v1h-1v-1zm-1 36h1v1h-1v-1zm0-29h1v1h-1v-1zm-1 45h1v1h-1v-1zm0-63h1v1h-1v-1zm-1 54h1v1h-1v-1zM79 6h1v1h-1V6zm-3 80h1v1h-1v-1zm-4-69h1v1h-1v-1zm-3-3h1v1h-1v-1zm-4 71h1v1h-1v-1zM63 1h1v1h-1V1zm-4 6h1v1h-1V7zM31 1h1v1h-1V1zm32 67h1v1h-1v-1zm-5 6h1v1h-1v-1zm-3 13h1v1h-1v-1zm-5-6h1v1h-1v-1zm-7-5h1v1h-1v-1zm-8-4h1v1h-1v-1zm-3-5h1v1h-1v-1zm-9 11h1v1h-1v-1zM22 7h1v1h-1V7zm-5 79h1v1h-1v-1zm-1-19h1v1h-1v-1zM14 1h1v1h-1V1zm-4 14h1v1h-1v-1zM9 69h1v1H9v-1zM7 47h1v1H7v-1zm0-22h1v1H7v-1zM6 42h1v1H6v-1zM2 81h1v1H2v-1zM1 63h1v1H1v-1zm0-31h1v1H1v-1zm0-20h1v1H1v-1zM2 1h1v1H2V1z"/></g>
+
+<script type='text/javascript'><![CDATA[
+
+  const gw92Root = document.getElementById('gw92');
+
+  if (gw92Root) {
+    const gwRoot = gw92Root;
+
+    const getPrice = (data, ticker) => {
+      return data[ticker];
+    }
+
+    fetch('https://www.clumsyghosts.com/json/prices.json')
+      .then(response => response.json())
+      .then(json => {
+
+        console.log('Last updated: ' + json.updated);
+        
+        const tickers = ['ADA', 'DOT', 'MATIC', 'BNB', 'SHIB'];
+        
+        const prices = [
+          getPrice(json.prices, tickers[0]),
+          getPrice(json.prices, tickers[1]),
+          getPrice(json.prices, tickers[2]),
+          getPrice(json.prices, tickers[3]),
+          getPrice(json.prices, tickers[4]),
+        ];
+
+        const digitsGroup = gwRoot.querySelector('.digits');
+        const pricesGroup = gwRoot.querySelector('.prices');
+        let lineOffset = 0;
+
+        for (let i=0; i<5; i++) {
+          const line = pricesGroup.querySelector('.line-' + i);
+          line.style.transform = 'translateY(' + lineOffset + 'px)';
+          lineOffset += 10;
+
+          const digits = String(prices[i]);
+          const numDigits = digits.length;
+
+          let digitOffset = 4 * numDigits - 6;
+
+          for (let j = 0; j < numDigits; j++) {
+            const digit = digits.charAt(j);
+
+            switch (digit) {
+              case '.':
+                line.appendChild(digitsGroup.querySelector('.decimal').cloneNode(true)).style.transform = 'translateX(-' + (digitOffset - 6) + 'px)';
+                digitOffset += 2;
+                break;
+              case '0':
+                line.appendChild(digitsGroup.querySelector('.zero').cloneNode(true)).style.transform = 'translateX(-' + digitOffset + 'px)';
+                break;
+              case '1':
+                line.appendChild(digitsGroup.querySelector('.one').cloneNode(true)).style.transform = 'translateX(-' + digitOffset + 'px)';
+                break;
+              case '2':
+                line.appendChild(digitsGroup.querySelector('.two').cloneNode(true)).style.transform = 'translateX(-' + digitOffset + 'px)';
+                break;
+              case '3':
+                line.appendChild(digitsGroup.querySelector('.three').cloneNode(true)).style.transform = 'translateX(-' + digitOffset + 'px)';
+                break;
+              case '4':
+                line.appendChild(digitsGroup.querySelector('.four').cloneNode(true)).style.transform = 'translateX(-' + digitOffset + 'px)';
+                break;
+              case '5':
+                line.appendChild(digitsGroup.querySelector('.five').cloneNode(true)).style.transform = 'translateX(-' + digitOffset + 'px)';
+                break;
+              case '6':
+                line.appendChild(digitsGroup.querySelector('.six').cloneNode(true)).style.transform = 'translateX(-' + digitOffset + 'px)';
+                break;
+              case '7':
+                line.appendChild(digitsGroup.querySelector('.seven').cloneNode(true)).style.transform = 'translateX(-' + digitOffset + 'px)';
+                break;
+              case '8':
+                line.appendChild(digitsGroup.querySelector('.eight').cloneNode(true)).style.transform = 'translateX(-' + digitOffset + 'px)';
+                break;
+              case '9':
+                line.appendChild(digitsGroup.querySelector('.nine').cloneNode(true)).style.transform = 'translateX(-' + digitOffset + 'px)';
+                break;
+            }
+
+            digitOffset -= 4;
+          }
+        }
+
+      })
+      .catch(error => {
+        console.error('Failed to fetch:', error);
+      });
+      
+    let retro = gwRoot.querySelector('.retro');
+    let shapes = retro.querySelectorAll('path');
+
+    shapes.forEach(shape => {
+      shape.addEventListener('click', () => {
+        shape.classList.add('hide');
+
+        setTimeout(() => {
+          shape.classList.remove('hide');
+        }, 500);
+      });
+    });
+      
+  }
+
+]]></script>
+
+</svg>

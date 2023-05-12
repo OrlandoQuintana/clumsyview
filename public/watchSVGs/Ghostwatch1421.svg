@@ -1,0 +1,156 @@
+<svg id="gw1421" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 89 89">
+
+<style><![CDATA[
+
+  #gw1421 {
+    overflow: hidden;
+    outline: none;
+    box-shadow: none;
+    height: 100%;
+  }
+
+  @media (min-aspect-ratio: 1/1) {
+    #gw1421 {
+      height: 100%;
+      width: auto;
+      margin: 0 auto;
+    }
+  }
+
+  #gw1421 .tickers path:nth-child(2) {
+    transform: translateY(10px);
+  }
+
+  #gw1421 .tickers path:nth-child(3) {
+    transform: translateY(20px);
+  }
+
+]]></style>
+
+<path class="background" fill="#35232A" d="M0 0h89v89H0z"/>
+
+<a href="https://ipfs.io/ipfs/QmRFtJ7gPcS3Hsuoc5M8yxARCT8XqwmcYjh74qMZKS9aam?filename=gw1421.html" target="_blank">
+  <path class="title" fill="#FFF" d="M64 10v2h-1v-2h-1v5h1v-2h1v2h1v-5zm-4 5h1v-1h-2v1zm-2-3v2h1v-3h-1zm1-2v1h2v-1h-1zm-4 0h-1v1h1v4h1v-4h1v-1h-1zm-3 2h-1v-1h-1v4h1v-2h1v2h1v-4h-1zm-1-2h1v1h-1zm-3 1v3h1v-4h-1zm-1 3h1v1h-1zm-1-1h1v1h-1zm-1 0v-3h-1v5h2v-1h-1zm-3-3h-2v1h1v4h1v-4h1v-1zm-6 4v1h2v-1h-1zm2-1h1v1h-1zm-1-1h1v1h-1zm-1-1h1v1h-1zm1-1v1h2v-1h-1zm-4 0h1v1h-1zm1 2v2h1v-3h-1zm-1 2h1v1h-1zm0-2v-1h-1v3h1v-1zm-3-1v1h-1v-2h-1v5h1v-2h1v2h1v-5h-1zm-5 1v1h1v1h-2v1h3v-3h-1zm1-1v-1h-2v1h1zm-2 1v-1h-1v3h1v-1z"/>
+</a>
+
+<g class="tickers" fill="#FFF">
+  <path d="M19 22h-1v-1h-1v4h1v-2h1v2h1v-4h-1zm-1-2h1v1h-1zm-3 2v2h1v-3h-1zm-1 1v-2h1v-1h-2v5h2v-1h-1zm-3-1h-1v-1H9v4h1v-2h1v2h1v-4h-1zm-1-2h1v1h-1z"/>
+  <path d="M22 21v1h1v1h-1v1h1v1h-2v-5h2v1h-1zm-4 1v-1h-1v3h1v-1h1v1h-1v1h2v-3h-2zm1-2h-1v1h1v-1zm-4 2v2h1v-3h-1v1zm-1 3h1v-1h-1v1zm1-5h-1v1h1v-1zm-1 2v-1h-1v3h1v-2zm-3 0v2h1v-3h-1v1zm-1 1v-2h1v-1H9v5h2v-1h-1v-1z"/>
+  <path d="M21 24v-1h1v1h-1zm1-2v-1h-1v1h1zm-2 0v-1h1v-1h-2v5h2v-1h-1v-1h1v-1h-1zm-3-1v4h1v-5h-1v1zm-2 0v1h-1v-2h-1v5h1v-2h1v2h1v-5h-1v1zm-3 3v-1h-1v1h1zm-1-1v-1h-1v1h1zm-1-3v1h2v-1h-2zm-1 4v1h2v-1H9zm0-2h1v-1H9v1z"/>
+</g>
+
+<g class="digits" fill="#FFF" style="display: none;">
+  <path class="zero" d="M79 20h-2v5h3v-5h-1zm0 2v2h-1v-3h1v1z"/>
+  <path class="one" d="M80 24v1h-3v-1h1v-2h-1v-1h1v-1h1v4h1z"/>
+  <path class="two" d="M80 22h-1v-1h1v1zm-1 3h1v-1h-2v1h1zm0-3h-1v1h1v-1zm-1-2h-1v1h2v-1h-1zm-1 3v1h1v-1h-1z"/>
+  <path class="three" d="M79 24v-1h1v1h-1zm1-3h-1v1h1v-1zm-2 1v1h1v-1h-1zm0-2h-1v1h2v-1h-1zm-1 4v1h2v-1h-2z"/>
+  <path class="four" d="M80 21v4h-1v-2h-2v-3h1v2h1v-1h1z"/>
+  <path class="five" d="M79 24v-1h1v1h-1zm0-3h1v-1h-3v3h2v-1h-1v-1h1zm-2 3v1h2v-1h-2z"/>
+  <path class="six" d="M79 21h-1v-1h2v1h-1zm-2 0v3h1v-1h1v1h-1v1h2v-3h-2v-1h-1z"/>
+  <path class="seven" d="M80 20v5h-1v-4h-2v-1h3z"/>
+  <path class="eight" d="M79 20h-2v5h3v-5h-1zm0 4h-1v-1h1v1zm0-2h-1v-1h1v1z"/>
+  <path class="nine" d="M79 20h-2v3h2v2h1v-5h-1zm0 2h-1v-1h1v1z"/>
+  <path class="decimal" d="M71 24h1v1h-1z"/>
+</g>
+
+<g class="prices" fill="#FFF">
+  <g class="line-0"></g>
+  <g class="line-1"></g>
+  <g class="line-2"></g>
+</g>
+
+<g class="pastel"><path fill="#FFF" d="M0 0v89h89V0H0zm83 83H6V6h77v77z"/><path fill="#E5C7FF" d="M0 34h6v7H0z"/><path fill="#FFCAFF" d="M0 41h6v7H0z"/><path fill="#FCC" d="M0 48h6v7H0z"/><path fill="#FFE9C7" d="M0 55h6v7H0z"/><path fill="#F4FFC7" d="M0 62h6v7H0z"/><path fill="#C7FFD0" d="M0 69h6v7H0z"/><path fill="#C7FFFF" d="M0 76h6v7H0z"/><path fill="#C7D3FF" d="M0 83h6v6H0z"/><path fill="#FFE9C7" d="M0 0h6v6H0z"/><path fill="#F4FFC7" d="M0 6h6v7H0z"/><path fill="#C7FFD0" d="M0 13h6v7H0z"/><path fill="#C7FFFF" d="M0 20h6v7H0z"/><path fill="#C7D3FF" d="M0 27h6v7H0z"/><path fill="#E5C7FF" d="M83 34h6v7h-6z"/><path fill="#FFCAFF" d="M83 41h6v7h-6z"/><path fill="#FCC" d="M83 48h6v7h-6z"/><path fill="#FFE9C7" d="M83 55h6v7h-6z"/><path fill="#F4FFC7" d="M83 62h6v7h-6z"/><path fill="#C7FFD0" d="M83 69h6v7h-6z"/><path fill="#C7FFFF" d="M83 76h6v7h-6z"/><path fill="#C7D3FF" d="M83 83h6v6h-6z"/><path fill="#FFE9C7" d="M83 0h6v6h-6z"/><path fill="#F4FFC7" d="M83 6h6v7h-6z"/><path fill="#C7FFD0" d="M83 13h6v7h-6z"/><path fill="#C7FFFF" d="M83 20h6v7h-6z"/><path fill="#C7D3FF" d="M83 27h6v7h-6z"/></g>
+
+<script type='text/javascript'><![CDATA[
+
+  const gw1421Root = document.getElementById('gw1421');
+
+  if (gw1421Root) {
+    const gwRoot = gw1421Root;
+
+    const getPrice = (data, ticker) => {
+      return data[ticker];
+    }
+
+    fetch('https://www.clumsyghosts.com/json/prices.json')
+      .then(response => response.json())
+      .then(json => {
+
+        console.log('Last updated: ' + json.updated);
+
+        const tickers = ['ADA', 'DOGE', 'SHIB'];
+        
+        const prices = [
+          getPrice(json.prices, tickers[0]),
+          getPrice(json.prices, tickers[1]),
+          getPrice(json.prices, tickers[2]),
+        ];
+
+        const digitsGroup = gwRoot.querySelector('.digits');
+        const pricesGroup = gwRoot.querySelector('.prices');
+        let lineOffset = 0;
+
+        for (let i=0; i<3; i++) {
+          const line = pricesGroup.querySelector('.line-' + i);
+          line.style.transform = 'translateY(' + lineOffset + 'px)';
+          lineOffset += 10;
+
+          const digits = String(prices[i]);
+          const numDigits = digits.length;
+
+          let digitOffset = 4 * numDigits - 6;
+
+          for (let j = 0; j < numDigits; j++) {
+            const digit = digits.charAt(j);
+
+            switch (digit) {
+              case '.':
+                line.appendChild(digitsGroup.querySelector('.decimal').cloneNode(true)).style.transform = 'translateX(-' + (digitOffset - 6) + 'px)';
+                digitOffset += 2;
+                break;
+              case '0':
+                line.appendChild(digitsGroup.querySelector('.zero').cloneNode(true)).style.transform = 'translateX(-' + digitOffset + 'px)';
+                break;
+              case '1':
+                line.appendChild(digitsGroup.querySelector('.one').cloneNode(true)).style.transform = 'translateX(-' + digitOffset + 'px)';
+                break;
+              case '2':
+                line.appendChild(digitsGroup.querySelector('.two').cloneNode(true)).style.transform = 'translateX(-' + digitOffset + 'px)';
+                break;
+              case '3':
+                line.appendChild(digitsGroup.querySelector('.three').cloneNode(true)).style.transform = 'translateX(-' + digitOffset + 'px)';
+                break;
+              case '4':
+                line.appendChild(digitsGroup.querySelector('.four').cloneNode(true)).style.transform = 'translateX(-' + digitOffset + 'px)';
+                break;
+              case '5':
+                line.appendChild(digitsGroup.querySelector('.five').cloneNode(true)).style.transform = 'translateX(-' + digitOffset + 'px)';
+                break;
+              case '6':
+                line.appendChild(digitsGroup.querySelector('.six').cloneNode(true)).style.transform = 'translateX(-' + digitOffset + 'px)';
+                break;
+              case '7':
+                line.appendChild(digitsGroup.querySelector('.seven').cloneNode(true)).style.transform = 'translateX(-' + digitOffset + 'px)';
+                break;
+              case '8':
+                line.appendChild(digitsGroup.querySelector('.eight').cloneNode(true)).style.transform = 'translateX(-' + digitOffset + 'px)';
+                break;
+              case '9':
+                line.appendChild(digitsGroup.querySelector('.nine').cloneNode(true)).style.transform = 'translateX(-' + digitOffset + 'px)';
+                break;
+            }
+
+            digitOffset -= 4;
+          }
+        }
+
+      })
+      .catch(error => {
+        console.error('Failed to fetch:', error);
+      });
+      
+  }
+
+]]></script>
+
+</svg>

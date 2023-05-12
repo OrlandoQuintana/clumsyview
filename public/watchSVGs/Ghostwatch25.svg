@@ -1,0 +1,270 @@
+<svg id="gw25" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 89 89">
+
+<style><![CDATA[
+
+  #gw25 {
+    overflow: hidden;
+    outline: none;
+    box-shadow: none;
+    height: 100%;
+  }
+
+  @media (min-aspect-ratio: 1/1) {
+    #gw25 {
+      height: 100%;
+      width: auto;
+      margin: 0 auto;
+    }
+  }
+
+  #gw25 .tickers path:nth-child(2) {
+    transform: translateY(10px);
+  }
+
+  #gw25 .tickers path:nth-child(3) {
+    transform: translateY(20px);
+  }
+
+  #gw25 .tickers path:nth-child(4) {
+    transform: translateY(30px);
+  }
+
+  #gw25 .tickers path:nth-child(5) {
+    transform: translateY(40px);
+  }
+
+  #gw25 .capybara-water-left {
+    animation: gw-water-left 2s steps(1) -1.2993s infinite;
+  }
+
+  #gw25 .capybara-water-right {
+    animation: gw-water-right 2s steps(1) -1.2993s infinite;
+  }
+
+  @keyframes gw-water-left {
+    0% {
+      transform: translate3d(0, 0, 0);
+      opacity: 1;
+    }
+    25% {
+      transform: translate3d(-1px, 0, 0);
+      opacity: 0.75;
+    }
+    50% {
+      transform: translate3d(-2px, 0, 0);
+      opacity: 0.5;
+    }
+    75% {
+      transform: translate3d(-3px, 0, 0);
+      opacity: 0.25;
+    }
+    100% {
+      transform: translate3d(0, 0, 0);
+      opacity: 1;
+    }
+  }
+
+  @keyframes gw-water-right {
+    0% {
+      transform: translate3d(0, 0, 0);
+      opacity: 1;
+    }
+    25% {
+      transform: translate3d(1px, 0, 0);
+      opacity: 0.75;
+    }
+    50% {
+      transform: translate3d(2px, 0, 0);
+      pacity: 0.5;
+    }
+    75% {
+      transform: translate3d(3px, 0, 0);
+      opacity: 0.25;
+    }
+    100% {
+      transform: translate3d(0, 0, 0);
+      opacity: 1;
+    }
+  }
+
+  #gw25 .capybara-head.swim {
+    animation: gw-swim 8s ease-in-out 0s infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+  }
+
+  @keyframes gw-swim {
+    0% {
+      transform: translate3d(0, 0, 0);
+    }
+    48% {
+      transform: translate3d(75px, 0, 0);
+      opacity: 1;
+    }
+    49% {
+      transform: translate3d(75px, 0, 0);
+      opacity: 0;
+    }
+    50% {
+      transform: translate3d(-75px, 0, 0);
+      opacity: 0;
+    }
+    51% {
+      transform: translate3d(-75px, 0, 0);
+      opacity: 1;
+    }
+    100% {
+      transform: translate3d(0, 0, 0);
+    }
+  }
+
+]]></style>
+
+<path class="background" fill="#494927" d="M0 0h89v89H0z"/>
+
+<a href="https://ipfs.io/ipfs/QmXktvh37ZzDWuQukVFrz7dJtCSCGG8hNJf6qXdF3ftPX2?filename=gw25.html" target="_blank">
+  <path class="title" fill="#FFF" d="M64 10v2h-1v-2h-1v5h1v-2h1v2h1v-5zm-4 5h1v-1h-2v1zm-2-3v2h1v-3h-1zm1-2v1h2v-1h-1zm-4 0h-1v1h1v4h1v-4h1v-1h-1zm-3 2h-1v-1h-1v4h1v-2h1v2h1v-4h-1zm-1-2h1v1h-1zm-3 1v3h1v-4h-1zm-1 3h1v1h-1zm-1-1h1v1h-1zm-1 0v-3h-1v5h2v-1h-1zm-3-3h-2v1h1v4h1v-4h1v-1zm-6 4v1h2v-1h-1zm2-1h1v1h-1zm-1-1h1v1h-1zm-1-1h1v1h-1zm1-1v1h2v-1h-1zm-4 0h1v1h-1zm1 2v2h1v-3h-1zm-1 2h1v1h-1zm0-2v-1h-1v3h1v-1zm-3-1v1h-1v-2h-1v5h1v-2h1v2h1v-5h-1zm-5 1v1h1v1h-2v1h3v-3h-1zm1-1v-1h-2v1h1zm-2 1v-1h-1v3h1v-1z"/>
+</a>
+
+<g class="tickers" fill="#FFF">
+  <path d="M19 22h-1v-1h-1v4h1v-2h1v2h1v-4h-1zm-1-2h1v1h-1zm-3 2v2h1v-3h-1zm-1 1v-2h1v-1h-2v5h2v-1h-1zm-3-1h-1v-1H9v4h1v-2h1v2h1v-4h-1zm-1-2h1v1h-1z"/>
+  <path d="M22 21v1h1v1h-1v1h1v1h-2v-5h2v1h-1zm-4 1v-1h-1v3h1v-1h1v1h-1v1h2v-3h-2zm1-2h-1v1h1v-1zm-4 2v2h1v-3h-1v1zm-1 3h1v-1h-1v1zm1-5h-1v1h1v-1zm-1 2v-1h-1v3h1v-2zm-3 0v2h1v-3h-1v1zm-1 1v-2h1v-1H9v5h2v-1h-1v-1z"/>
+  <path d="M27 21h-1v-1h2v1h-1zm0 4h1v-1h-2v1h1zm-1-3v-1h-1v3h1v-2zm-3-1v4h1v-5h-1v1zm-3-1h-1v1h1v4h1v-4h1v-1h-2zm-3 2h-1v-1h-1v4h1v-2h1v2h1v-4h-1v1zm0-2h-1v1h1v-1zm-4 2v3h1v-4h-1v1zm-1-2v1h1v-1h-1zm-1 2h1v-1h-1v1zm-1-2H9v5h1v-4h1v-1h-1z"/>
+  <path d="M20 24v-1h1v1h-1zm-1-2v-1h1v-1h-2v5h2v-1h-1v-1h1v-1h-1zm2 0v-1h-1v1h1zm-5-1v1h-1v1h1v2h1v-5h-1v1zm-2 0v-1h-1v5h1v-3h1v-1h-1zm-2 3v-1h-1v1h1zm-1-2h1v-1h-1v1zm-1-1h1v-1H9v5h2v-1h-1v-1h1v-1h-1v-1z"/>
+  <path d="M23 24v-1h1v2h-1v-1zm0-4v2h1v-2h-1zm-1 3h1v-1h-1v1zm-1 1v1h1v-2h-1v1zm1-4h-1v2h1v-2zm-3 2h-1v-1h-1v4h1v-2h1v2h1v-4h-1v1zm0-2h-1v1h1v-1zm-4 1v3h1v-4h-1v1zm-1 4h1v-1h-1v1zm0-3v-2h-1v4h1v-2zm-3 0h-1v-1H9v4h1v-2h1v2h1v-4h-1v1zm0-2h-1v1h1v-1z"/>
+</g>
+
+<g class="digits" fill="#FFF" style="display: none;">
+  <path class="zero" d="M79 20h-2v5h3v-5h-1zm0 2v2h-1v-3h1v1z"/>
+  <path class="one" d="M80 24v1h-3v-1h1v-2h-1v-1h1v-1h1v4h1z"/>
+  <path class="two" d="M80 22h-1v-1h1v1zm-1 3h1v-1h-2v1h1zm0-3h-1v1h1v-1zm-1-2h-1v1h2v-1h-1zm-1 3v1h1v-1h-1z"/>
+  <path class="three" d="M79 24v-1h1v1h-1zm1-3h-1v1h1v-1zm-2 1v1h1v-1h-1zm0-2h-1v1h2v-1h-1zm-1 4v1h2v-1h-2z"/>
+  <path class="four" d="M80 21v4h-1v-2h-2v-3h1v2h1v-1h1z"/>
+  <path class="five" d="M79 24v-1h1v1h-1zm0-3h1v-1h-3v3h2v-1h-1v-1h1zm-2 3v1h2v-1h-2z"/>
+  <path class="six" d="M79 21h-1v-1h2v1h-1zm-2 0v3h1v-1h1v1h-1v1h2v-3h-2v-1h-1z"/>
+  <path class="seven" d="M80 20v5h-1v-4h-2v-1h3z"/>
+  <path class="eight" d="M79 20h-2v5h3v-5h-1zm0 4h-1v-1h1v1zm0-2h-1v-1h1v1z"/>
+  <path class="nine" d="M79 20h-2v3h2v2h1v-5h-1zm0 2h-1v-1h1v1z"/>
+  <path class="decimal" d="M71 24h1v1h-1z"/>
+</g>
+
+<g class="prices" fill="#FFF">
+  <g class="line-0"></g>
+  <g class="line-1"></g>
+  <g class="line-2"></g>
+  <g class="line-3"></g>
+  <g class="line-4"></g>
+</g>
+
+<g class="capybara"><path class="capybara-border" d="M88 0H0v89h89V0h-1zm0 88H1V1h87v87z" fill="#C78D89"/><g class="capybara-head"><path d="M57 78v-3h-1v-3h-1v-9h-1v-1h-1v-1h-2v1h-1v1h-1v1h-1v1h-7v-1h-1v-1h-1v-1h-1v-1h-2v1h-1v1h-1v10h-1v2h-1v3h-1v4h1v1h1v1h1v1h3v1h15v-1h3v-1h1v-1h1v-1h1v-4h-1z"/><path d="M56 78v-3h-1v-3h-1v-9h-1v-1h-2v1h-1v1h-1v1h-1v1h-7v-1h-1v-1h-1v-1h-1v-1h-1v1h-1v1h2v1h1v1h1v1h-1v1h-3v5h-1v2h-1v3h-1v4h1v1h3v2h15v-1h3v-1h1v-1h1v-4h-1zm-3 0h-3v-2h3v2zm-5-5v-1h4v1h-4zm1-6v-1h1v-1h1v-1h2v4h-3v-1h-1zm-8 5v1h-4v-1h4zm-5 4h3v2h-3v-2zm7 5v-5h-1v-3h1v-1h3v1h1v2h-1v1h-1v6h-1v-1h-1z" fill="#805845"/><g fill="#634436"><path d="M36 62h1v1h-1z"/><path d="M35 67v6h1V63h-1z"/><path d="M34 73h1v2h-1z"/><path d="M33 75h1v3h-1z"/><path d="M32 78h1v4h-1z"/><path d="M33 82h1v1h-1z"/><path d="M34 83h3v1h-3z"/><path d="M42 75h1v1h-1z"/><path d="M43 76h1v5h-1z"/></g><g><g fill="#C78D89"><path d="M50 76h3v2h-3z"/><path d="M36 76h3v2h-3z"/></g><path d="M43 73h3v1h-3z" fill="#191818"/></g><g fill="#A8806D"><path d="M38 65h-1v2h2v-1h-1z"/><path d="M51 65v1h-1v1h2v-2z"/></g><g fill="#CFF4FF" opacity=".25"><g class="capybara-water-left"><path d="M24 82h1v2h-1z"/><path d="M25 84h1v1h-1z"/><path d="M27 82h1v2h-1z"/><path d="M28 81h1v1h-1z"/><path d="M28 84h1v1h-1z"/><path d="M29 85h3v1h-3z"/></g><g class="capybara-water-right"><path d="M60 81h1v1h-1z"/><path d="M61 82h1v2h-1z"/><path d="M60 84h1v1h-1z"/><path d="M57 85h3v1h-3z"/><path d="M63 84h1v1h-1z"/><path d="M64 82h1v2h-1z"/></g></g></g></g>
+
+<script type='text/javascript'><![CDATA[
+
+  const gw25Root = document.getElementById('gw25');
+
+  if (gw25Root) {
+    const gwRoot = gw25Root;
+
+    const getPrice = (data, ticker) => {
+      return data[ticker];
+    }
+
+    fetch('https://www.clumsyghosts.com/json/prices.json')
+      .then(response => response.json())
+      .then(json => {
+
+        console.log('Last updated: ' + json.updated);
+        
+        const tickers = ['ADA', 'DOGE', 'MATIC', 'BNB', 'AVAX'];
+        
+        const prices = [
+          getPrice(json.prices, tickers[0]),
+          getPrice(json.prices, tickers[1]),
+          getPrice(json.prices, tickers[2]),
+          getPrice(json.prices, tickers[3]),
+          getPrice(json.prices, tickers[4]),
+        ];
+
+        const digitsGroup = gwRoot.querySelector('.digits');
+        const pricesGroup = gwRoot.querySelector('.prices');
+        let lineOffset = 0;
+
+        for (let i=0; i<5; i++) {
+          const line = pricesGroup.querySelector('.line-' + i);
+          line.style.transform = 'translateY(' + lineOffset + 'px)';
+          lineOffset += 10;
+
+          const digits = String(prices[i]);
+          const numDigits = digits.length;
+
+          let digitOffset = 4 * numDigits - 6;
+
+          for (let j = 0; j < numDigits; j++) {
+            const digit = digits.charAt(j);
+
+            switch (digit) {
+              case '.':
+                line.appendChild(digitsGroup.querySelector('.decimal').cloneNode(true)).style.transform = 'translateX(-' + (digitOffset - 6) + 'px)';
+                digitOffset += 2;
+                break;
+              case '0':
+                line.appendChild(digitsGroup.querySelector('.zero').cloneNode(true)).style.transform = 'translateX(-' + digitOffset + 'px)';
+                break;
+              case '1':
+                line.appendChild(digitsGroup.querySelector('.one').cloneNode(true)).style.transform = 'translateX(-' + digitOffset + 'px)';
+                break;
+              case '2':
+                line.appendChild(digitsGroup.querySelector('.two').cloneNode(true)).style.transform = 'translateX(-' + digitOffset + 'px)';
+                break;
+              case '3':
+                line.appendChild(digitsGroup.querySelector('.three').cloneNode(true)).style.transform = 'translateX(-' + digitOffset + 'px)';
+                break;
+              case '4':
+                line.appendChild(digitsGroup.querySelector('.four').cloneNode(true)).style.transform = 'translateX(-' + digitOffset + 'px)';
+                break;
+              case '5':
+                line.appendChild(digitsGroup.querySelector('.five').cloneNode(true)).style.transform = 'translateX(-' + digitOffset + 'px)';
+                break;
+              case '6':
+                line.appendChild(digitsGroup.querySelector('.six').cloneNode(true)).style.transform = 'translateX(-' + digitOffset + 'px)';
+                break;
+              case '7':
+                line.appendChild(digitsGroup.querySelector('.seven').cloneNode(true)).style.transform = 'translateX(-' + digitOffset + 'px)';
+                break;
+              case '8':
+                line.appendChild(digitsGroup.querySelector('.eight').cloneNode(true)).style.transform = 'translateX(-' + digitOffset + 'px)';
+                break;
+              case '9':
+                line.appendChild(digitsGroup.querySelector('.nine').cloneNode(true)).style.transform = 'translateX(-' + digitOffset + 'px)';
+                break;
+            }
+
+            digitOffset -= 4;
+          }
+        }
+
+      })
+      .catch(error => {
+        console.error('Failed to fetch:', error);
+      });
+      
+    let capybarahead = gwRoot.querySelector('.capybara-head');
+    let capybaraAnimating = false;
+
+    capybarahead.addEventListener('click', () => {
+      if (capybaraAnimating == false) {
+        capybaraAnimating = true;
+        capybarahead.classList.add('swim');
+
+        setTimeout(() => {
+          capybaraAnimating = false;
+          capybarahead.classList.remove('swim');
+        }, 8000);
+      }
+    });
+      
+  }
+
+]]></script>
+
+</svg>

@@ -1,0 +1,277 @@
+<svg id="cg674" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 89 89"><style>
+    #cg674 {
+      overflow: hidden;
+    }
+
+    #cg674 .button {
+      opacity: 0;
+      pointer-events: none;
+      transition: 0.2s ease;
+      transform: translate3d(0, 20px, 0);
+    }
+
+    #cg674 .button.png-wide {
+      transition-delay: 0.2s;
+    }
+
+    #cg674.menu-in .button {
+      opacity: 1;
+      pointer-events: auto;
+      cursor: pointer;
+      transform: translate3d(0, 0, 0);
+    }
+
+    #cg674.menu-in .button .button-bg {
+      transition: fill 0.2s ease;
+    }
+
+    #cg674.menu-in .button:hover .button-bg {
+      fill: #FF5FFA;
+    }
+
+    #cg674 .cg-glasses {
+      transition: opacity 0.2s ease;
+    }
+
+    #cg674 #deal-with-it-glasses {
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.2s ease, transform 3s linear;
+      transform: translate3d(0, -60px, 0);
+    }
+
+    #cg674.deal-with-it #deal-with-it-glasses {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+    }
+
+    #cg674.deal-with-it .cg-glasses {
+      opacity: 0;
+      transition-delay: 2s;
+    }
+
+  
+      #cg674 .cg-glasses {
+        transition: opacity 0.2s ease;
+      }
+
+      #cg674.get-time .cg-glasses {
+        opacity: 0;
+      }
+    
+    #cg674 .cg-eyes {
+      transition: opacity 0.2s ease;
+    }
+
+    #cg674.get-time .cg-eyes {
+      opacity: 0;
+    }
+  
+    #cg674 .cg-time {
+      pointer-events: none;
+      transition: opacity 0.2s ease;
+      opacity: 0;
+    }
+
+    #cg674.get-time .cg-time {
+      opacity: 1;
+    }
+
+    #cg674 .cg-time .cg-digit-colon {
+      animation: cg-colon-blink 1s ease-in-out 0s infinite;
+    }
+
+    @keyframes cg-colon-blink {
+      20% {
+        opacity: 1;
+      }
+      50% {
+        opacity: 0;
+      }
+      80% {
+        opacity: 1;
+      }
+    }
+  
+    #cg674 .cg-body {
+      animation: cg-anim-hover 1.5s ease-in-out -1.4247s infinite;
+      transform-origin: center;
+      transform-box: fill-box;
+    }
+
+    @keyframes cg-anim-hover {
+      0% {
+        transform: translate3d(0,0,0);
+      }
+      50% {
+        transform: translate3d(0,-2px,0);
+      }
+      100% {
+        transform: translate3d(0,0,0);
+      }
+    }
+  
+    #cg674 .cg-shadow {
+      animation: cg-anim-shadow 1.5s ease-in-out -1.4247s infinite;
+      transform-origin: center;
+      transform-box: fill-box;
+    }
+
+    @keyframes cg-anim-shadow {
+      0% {
+        transform: scale3d(1,1,1);
+      }
+      50% {
+        transform: scale3d(0.9,1,1);
+      }
+      100% {
+        transform: scale3d(1,1,1);
+      }
+    }
+  
+      #cg674 .spliff-cherry {
+        animation: cg-anim-burn 2s linear -1.5598s infinite;
+      }
+
+      #cg674 .spliff-smoke {
+        animation: cg-anim-smoke 2s steps(1) -1.5598s infinite;
+        transform-origin: center;
+        transform-box: fill-box;
+      }
+
+      @keyframes cg-anim-burn {
+        0% {
+          fill: red;
+        }
+        50% {
+          fill: orange;
+        }
+        100% {
+          fill: red;
+        }
+      }
+
+      @keyframes cg-anim-smoke {
+        0% {
+          transform: scaleX(1) translate3d(1px, 0, 0);
+        }
+        50% {
+          transform: scaleX(-1) translate3d(-2px, 0, 0);
+        }
+        100% {
+          transform: scaleX(1) translate3d(1px, 0, 0);
+        }
+      }
+    </style><path class="cg-bg" d="M0 0h89v89H0z" fill="#707138"></path><path class="cg-shadow" opacity=".17" d="M60 79v-1H29v1h-2v1h3v1h29v-1h3v-1z"/><g class="cg-body"><path d="M63 47v-4h-1v-3h-1v-2h-1v-1h-1v-1h-1v-1h-1v-1h-1v-1h-1v-1h-2v-1h-2v-1H38v1h-2v1h-2v1h-1v1h-1v1h-1v1h-1v1h-1v1h-1v2h-1v3h-1v4h-1v13h1v3h1v3h1v1h1v1h1v1h2v1h2v-1h1v-1h1v-4h1v3h1v1h1v1h2v-1h1v-1h1v-4h1v-1h1v1h1v4h1v1h1v1h2v-1h1v-1h1v-3h1v4h1v1h1v1h2v-1h2v-1h1v-1h1v-1h1v-3h1v-3h1V47z"/><path class="cg-body-color" fill="#FF8FAC" d="M62 47v-4h-1v-3h-1v-2h-1v-1h-1v-1h-1v-1h-1v-1h-1v-1h-2v-1h-2v-1H38v1h-2v1h-2v1h-1v1h-1v1h-1v1h-1v1h-1v2h-1v3h-1v4h-1v13h1v3h1v3h1v1h1v1h2v1h2v-1h1v-4h1v-1h1v1h1v3h1v1h2v-1h1v-4h1v-1h1v-1h1v1h1v1h1v4h1v1h2v-1h1v-3h1v-1h1v1h1v4h1v1h2v-1h2v-1h1v-1h1v-3h1v-3h1V47z"/><g class="cg-face"><path d="M39 36v1h-3v1h-1v1h-1v1h-1v2h-1v2h1v1h1v1h2v1h3v1h11v-1h3v-1h2v-1h1v-1h1v-2h-1v-2h-1v-1h-1v-1h-1v-1h-3v-1z"/><path fill="#FFF" d="M39 37v1h-3v1h-1v1h-1v2h-1v2h1v1h2v1h3v1h11v-1h3v-1h2v-1h1v-2h-1v-2h-1v-1h-1v-1h-3v-1z"/><g class="cg-eyes"><path d="M36 42v2h1v1h3v-1h-1v-1h1v1h1v-1h-1v-1zM48 42v2h1v1h3v-1h-1v-1h1v1h1v-1h-1v-1z"/></g><g class="cg-digits" style="display: none;"><g class="cg-digit-zero"><path d="M38 40h-2v5h3v-5h-1zm0 2v2h-1v-3h1v1z"/></g><g class="cg-digit-one"><path d="M39 44v1h-3v-1h1v-2h-1v-1h1v-1h1v4h1z"/></g><g class="cg-digit-two"><path d="M39 42h-1v-1h1v1zm-1 3h1v-1h-2v1h1zm0-3h-1v1h1v-1zm-1-2h-1v1h2v-1h-1zm-1 3v1h1v-1h-1z"/></g><g class="cg-digit-three"><path d="M38 44v-1h1v1h-1zm1-3h-1v1h1v-1zm-2 1v1h1v-1h-1zm0-2h-1v1h2v-1h-1zm-1 4v1h2v-1h-2z"/></g><g class="cg-digit-four"><path d="M39 41v4h-1v-2h-2v-3h1v2h1v-1h1z"/></g><g class="cg-digit-five"><path d="M38 44v-1h1v1h-1zm0-3h1v-1h-3v3h2v-1h-1v-1h1zm-2 3v1h2v-1h-2z"/></g><g class="cg-digit-six"><path d="M38 41h-1v-1h2v1h-1zm-2 0v3h1v-1h1v1h-1v1h2v-3h-2v-1h-1z"/></g><g class="cg-digit-seven"><path d="M39 40v5h-1v-4h-2v-1h3z"/></g><g class="cg-digit-eight"><path d="M38 40h-2v5h3v-5h-1zm0 4h-1v-1h1v1zm0-2h-1v-1h1v1z"/></g><g class="cg-digit-nine"><path d="M38 40h-2v3h2v2h1v-5h-1zm0 2h-1v-1h1v1z"/></g><g class="cg-digit-colon"><path d="M45 42h-1v-1h1v1zm0 1h-1v1h1v-1z"/></g></g><g class="cg-time"></g></g><g id="clown-blush" fill="#FF4343"><path d="M36 46v-1h-4v1h-1v4h1v1h4v-1h1v-4h-1zM57 46v-1h-4v1h-1v4h1v1h4v-1h1v-4h-1z"/></g><g id="spliff"><g><g><g><path d="M61 51h1v1h-1zM61 49h1v1h-1zM61 50h1v1h-1zM61 52h1v1h-1zM60 49h1v1h-1zM60 52h1v1h-1zM59 49h1v1h-1zM59 52h1v1h-1zM58 49h1v1h-1zM58 52h1v1h-1zM57 49h1v1h-1zM57 52h1v1h-1zM56 49h1v1h-1zM56 52h1v1h-1zM55 50h1v1h-1zM55 52h1v1h-1zM54 50h1v1h-1zM54 52h1v1h-1zM53 50h1v1h-1zM53 52h1v1h-1zM52 50h1v1h-1zM52 52h1v1h-1zM51 50h1v1h-1zM51 53h1v1h-1zM50 50h1v1h-1zM50 53h1v1h-1zM49 51h1v1h-1zM49 53h1v1h-1zM48 51h1v1h-1z"/><path fill="#FFF" d="M51 51h5v-1h5v2h-9v1h-5v-1h3v-1z"/><path d="M48 53h1v1h-1zM47 51h1v1h-1zM47 53h1v1h-1zM46 52h1v1h-1zM45 52h1v1h-1z"/></g></g><path class="spliff-cherry" fill="red" d="M60 50h1v2h-1z"/></g><g class="spliff-smoke" fill="gray"><path d="M60 49h1v-2h-1v1zM58 41h1v1h-1zM59 40h1v1h-1zM60 42h-1v2h1v-1zM60 44h1v1h-1zM60 45h-1v2h1v-1z"/></g></g><g id="hockey-stick"><g><path d="M77 65H62v1h-1v1h-1v1h-1v1h18v-1h1v-2h-1v-1zM53 66v-1H36v3h-1v1h19v-1h-1v-2zM29 67h-1v-1h-1v-1h-8v-1h-1v-2h-1v-2h-1v-2h-1v-4h-1v-3h-1v-1H7v1H6v3h1v4h1v2h1v2h1v2h1v1h1v1h1v1h1v1h2v1h14v-1h-1v-1z"/></g><g><path fill="#754C24" d="M72 68H60v-1h1v-1h16v2h-5zM52 66h1v2H36v-2h16zM28 67v-1h-9v-1h-1v-1h-1v-2h-1v-2h-1v-2h-1v-4h-1v-3H7v3h1v4h1v2h1v2h1v2h1v1h1v1h1v1h2v1h13v-1h-1z"/><path fill="#333" d="M17 64v-2h-1v-2h-1v-2h-1v-4h-1v-1H7v1h1v4h1v2h1v2h1v2h1v1h6v-1z"/></g><g><path opacity=".23" d="M7 53h6v1H7zM8 55h6v1H8zM8 57h6v1H8zM9 59h6v1H9zM10 61h6v1h-6zM11 63h6v1h-6zM20 66h8v1h-8zM36 66h17v1H36zM61 66h16v1H61z"/></g></g><g class="cg-glasses" id="ar-googles"><g><path d="M60 41h-1v-1h-3v1h2v7h1v-1h2v-5h1v-1zM56 48h-6v1h8v-1h-1zM35 40h21v-1H33v1h1zM49 47h-1v1h2v-1zM47 46h-6v1h7v-1zM39 47v1h2v-1h-1zM37 48h-6v1h8v-1h-1zM31 46v-5h2v-1h-3v1h-3v1h1v5h2v1h1v-1z"/></g><path opacity=".88" d="M43 46h-2v1h-2v1h-8v-7h2v-1h23v1h2v7h-8v-1h-2v-1h-4z"/><g><g fill="#3FF"><path d="M33 40h23v1H33zM32 42h1v-1h-2v7h8v-1h-7zM56 41v1h1v5h-7v1h8v-7zM48 46h2v1h-2zM46 45h-5v1h7v-1zM39 46h2v1h-2z"/></g><path opacity=".64" fill="#FFF" d="M50 40h4v1h-4zM44 40h4v1h-4zM33 40h4v1h-4zM44 45h2v1h-2zM52 47h2v1h-2zM56 47h2v1h-2zM33 47h2v1h-2zM37 47h2v1h-2z"/><path fill="#3FF" d="M29 42h1v4h-1zM59 42h1v4h-1z"/></g></g><g id="deal-with-it-glasses"><path d="M64 42h-3v1h4v-1zM60 41H28v1h1v2h1v2h1v2h1v1h9v-1h1v-2h1v-2h1v-2h1v2h1v2h1v2h1v1h9v-1h1v-2h1v-2h1v-2h1v-1z"/><path fill="#FFF" d="M33 45v1h-1v-2h1v1zm0 2h1v-1h-1v1zm2-3h-1v2h1v-2zm0 3h1v-1h-1v1zm-1-4h-1v1h1v-1zm-3 0v1h1v-1h-1zm18 1h-1v2h1v-2zm0 3h1v-1h-1v1zm2-3h-1v2h1v-2zm0 2v1h1v-1h-1zm-1-3h-1v1h1v-1zm-3 0v1h1v-1h-1z"/></g></g><a href="/images/png/cg674-512.png" class="button png-square"><path class="button-bg" d="M26 75h13v11H26z"/><path fill="#FFF" d="M36 77h-1v1h1v5h-1v1h2v-7zm-8 0v7h2v-1h-1v-5h1v-1h-1zm6 3h1v1h-1zm-4 0h1v1h-1zm3 0v-2h-1v3h-1v1h1v1h1v-1h1v-1h-1z"/><title>Download square PNG</title></a><a href="/images/png/cg674-wide.png" class="button png-wide"><path class="button-bg" d="M42 75h21v11H42z"/><path fill="#FFF" d="M60 77h-1v1h1v5h-1v1h2v-7zm-16 0v7h2v-1h-1v-5h1v-1h-1zm10 3h1v1h-1zm-4 0h1v1h-1zm3 0v-2h-1v3h-1v1h1v1h1v-1h1v-1h-1z"/><title>Download wide PNG</title></a><script type="text/javascript"><![CDATA[
+    let cg674Root = document.getElementById('cg674');
+
+    if (cg674Root) {
+      let cgRoot = cg674Root;
+      let cgBg = cgRoot.querySelector('.cg-bg');
+      let cgBody = cgRoot.querySelector('.cg-body');
+
+      cgBg.addEventListener('dblclick', () => {
+        cgRoot.classList.toggle('menu-in');
+      });
+
+      cgBody.addEventListener('click', () => {
+
+        let bufferArray = [];
+        let lastKeystrokeTime = Date.now();
+        const cheatcode = (e) => {
+
+          const key = e.key.toLowerCase();
+          const latestKeystrokeTime = Date.now();
+
+          if (latestKeystrokeTime - lastKeystrokeTime > 1500) {
+            bufferArray = [];
+          }
+
+          bufferArray.push(key);
+
+          const word = bufferArray.join('');
+          if (word === 'dealwithit') {
+            console.log('No u.');
+
+            cgRoot.classList.add('deal-with-it');
+
+            setTimeout(() => {
+              cgRoot.classList.remove('deal-with-it');
+            }, 10000);
+
+            clearListener();
+          }
+  
+          lastKeystrokeTime = latestKeystrokeTime;
+
+        }
+        document.addEventListener('keyup', cheatcode, true);
+
+        const clearListener = () => {
+          document.removeEventListener('keyup', cheatcode, true);
+        }
+
+      });
+    
+    let cgDigits = cgRoot.querySelector('.cg-digits');
+    let cgTime = cgRoot.querySelector('.cg-time');
+  
+
+      let cgGlasses = cgRoot.querySelector('.cg-glasses');
+      cgGlasses.addEventListener('dblclick', () => {
+        cgRoot.classList.add('get-time');
+
+        let now = new Date();
+        let hours = ('0' + now.getHours()).substr(-2);
+        let minutes = ('0' + now.getMinutes()).substr(-2);;
+        let digits = [hours.substr(0,1), hours.substr(1), minutes.substr(0,1), minutes.substr(1)];
+
+        cgTime.replaceChildren();
+
+        for (let i = 0; i < 4; i++) {
+          switch (digits[i]) {
+            case '0':
+              cgTime.appendChild(cgDigits.querySelector('.cg-digit-zero').cloneNode(true));
+              break;
+            case '1':
+              cgTime.appendChild(cgDigits.querySelector('.cg-digit-one').cloneNode(true));
+              break;
+            case '2':
+              cgTime.appendChild(cgDigits.querySelector('.cg-digit-two').cloneNode(true));
+              break;
+            case '3':
+              cgTime.appendChild(cgDigits.querySelector('.cg-digit-three').cloneNode(true));
+              break;
+            case '4':
+              cgTime.appendChild(cgDigits.querySelector('.cg-digit-four').cloneNode(true));
+              break;
+            case '5':
+              cgTime.appendChild(cgDigits.querySelector('.cg-digit-five').cloneNode(true));
+              break;
+            case '6':
+              cgTime.appendChild(cgDigits.querySelector('.cg-digit-six').cloneNode(true));
+              break;
+            case '7':
+              cgTime.appendChild(cgDigits.querySelector('.cg-digit-seven').cloneNode(true));
+              break;
+            case '8':
+              cgTime.appendChild(cgDigits.querySelector('.cg-digit-eight').cloneNode(true));
+              break;
+            case '9':
+              cgTime.appendChild(cgDigits.querySelector('.cg-digit-nine').cloneNode(true));
+              break;
+          }
+        }
+
+        cgTime.childNodes[1].style.transform = 'translateX(4px)';
+        cgTime.childNodes[2].style.transform = 'translateX(10px)';
+        cgTime.childNodes[3].style.transform = 'translateX(14px)';
+
+        cgTime.appendChild(cgDigits.querySelector('.cg-digit-colon').cloneNode(true));
+
+        setTimeout(() => {
+          cgRoot.classList.remove('get-time');
+        }, 10000);
+      });
+
+    }]]></script></svg>

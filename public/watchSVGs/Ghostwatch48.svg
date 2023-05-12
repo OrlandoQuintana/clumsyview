@@ -1,0 +1,336 @@
+<svg id="gw48" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 89 89">
+
+<style><![CDATA[
+
+  #gw48 {
+    overflow: hidden;
+    outline: none;
+    box-shadow: none;
+    height: 100%;
+  }
+
+  @media (min-aspect-ratio: 1/1) {
+    #gw48 {
+      height: 100%;
+      width: auto;
+      margin: 0 auto;
+    }
+  }
+
+  #gw48 .tickers path:nth-child(2) {
+    transform: translateY(10px);
+  }
+
+  #gw48 .tickers path:nth-child(3) {
+    transform: translateY(20px);
+  }
+
+  #gw48 .tickers path:nth-child(4) {
+    transform: translateY(30px);
+  }
+
+  #gw48 .tickers path:nth-child(5) {
+    transform: translateY(40px);
+  }
+
+  #gw48 .planet-stars path:nth-child(1) {
+    animation: gw-anim-pastel 5s linear -0.315s infinite;
+  }
+
+  #gw48 .planet-stars path:nth-child(2) {
+    animation: gw-anim-pastel 5s linear -0.515s infinite;
+  }
+
+  #gw48 .planet-stars path:nth-child(3) {
+    animation: gw-anim-pastel 5s linear -0.715s infinite;
+  }
+
+  #gw48 .planet-stars path:nth-child(4) {
+    animation: gw-anim-pastel 5s linear -0.915s infinite;
+  }
+
+  #gw48 .planet-stars path:nth-child(5) {
+    animation: gw-anim-pastel 5s linear -1.115s infinite;
+  }
+
+  #gw48 .planet-stars path:nth-child(6) {
+    animation: gw-anim-pastel 5s linear -1.315s infinite;
+  }
+
+  #gw48 .planet-stars path:nth-child(7) {
+    animation: gw-anim-pastel 5s linear -1.515s infinite;
+  }
+
+  #gw48 .planet-stars path:nth-child(8) {
+    animation: gw-anim-pastel 5s linear -1.715s infinite;
+  }
+
+  #gw48 .planet-stars path:nth-child(9) {
+    animation: gw-anim-pastel 5s linear -1.915s infinite;
+  }
+
+  #gw48 .planet-stars path:nth-child(10) {
+    animation: gw-anim-pastel 5s linear -2.115s infinite;
+  }
+
+  #gw48 .planet-stars path:nth-child(11) {
+    animation: gw-anim-pastel 5s linear -2.3150000000000004s infinite;
+  }
+
+  #gw48 .planet-stars path:nth-child(12) {
+    animation: gw-anim-pastel 5s linear -2.515s infinite;
+  }
+
+  #gw48 .planet-stars path:nth-child(13) {
+    animation: gw-anim-pastel 5s linear -2.7150000000000003s infinite;
+  }
+
+  #gw48 .planet-stars path:nth-child(14) {
+    animation: gw-anim-pastel 5s linear -2.915s infinite;
+  }
+
+  #gw48 .planet-stars path:nth-child(15) {
+    animation: gw-anim-pastel 5s linear -3.115s infinite;
+  }
+
+  #gw48 .planet-stars path:nth-child(16) {
+    animation: gw-anim-pastel 5s linear -3.3150000000000004s infinite;
+  }
+
+  #gw48 .planet-stars path:nth-child(17) {
+    animation: gw-anim-pastel 5s linear -3.515s infinite;
+  }
+
+  #gw48 .planet-stars path:nth-child(18) {
+    animation: gw-anim-pastel 5s linear -3.7150000000000003s infinite;
+  }
+
+  #gw48 .planet-stars path:nth-child(19) {
+    animation: gw-anim-pastel 5s linear -3.915s infinite;
+  }
+
+  #gw48 .planet-stars path:nth-child(20) {
+    animation: gw-anim-pastel 5s linear -4.115s infinite;
+  }
+
+  #gw48 .planet-stars path:nth-child(21) {
+    animation: gw-anim-pastel 5s linear -4.315s infinite;
+  }
+
+  #gw48 .planet-stars path:nth-child(22) {
+    animation: gw-anim-pastel 5s linear -4.515000000000001s infinite;
+  }
+
+  #gw48 .planet-stars path:nth-child(23) {
+    animation: gw-anim-pastel 5s linear -4.715s infinite;
+  }
+
+  #gw48 .planet-stars path:nth-child(24) {
+    animation: gw-anim-pastel 5s linear -4.915s infinite;
+  }
+
+  #gw48 .planet-stars path:nth-child(25) {
+    animation: gw-anim-pastel 5s linear -5.115s infinite;
+  }
+
+  #gw48 .planet-stars path:nth-child(26) {
+    animation: gw-anim-pastel 5s linear -5.315s infinite;
+  }
+
+  #gw48 .planet-stars path:nth-child(27) {
+    animation: gw-anim-pastel 5s linear -5.515000000000001s infinite;
+  }
+
+  #gw48 .planet-stars path:nth-child(28) {
+    animation: gw-anim-pastel 5s linear -5.715s infinite;
+  }
+
+  #gw48 .planet-stars path:nth-child(29) {
+    animation: gw-anim-pastel 5s linear -5.915s infinite;
+  }
+
+  #gw48 .planet-stars path:nth-child(30) {
+    animation: gw-anim-pastel 5s linear -6.115s infinite;
+  }
+
+  #gw48 .planet-stars path:nth-child(31) {
+    animation: gw-anim-pastel 5s linear -6.315s infinite;
+  }
+
+  #gw48 .planet-stars path:nth-child(32) {
+    animation: gw-anim-pastel 5s linear -6.515000000000001s infinite;
+  }
+
+  #gw48 .planet-stars path:nth-child(33) {
+    animation: gw-anim-pastel 5s linear -6.715s infinite;
+  }
+
+  #gw48 .planet-stars path:nth-child(34) {
+    animation: gw-anim-pastel 5s linear -6.915s infinite;
+  }
+
+  @keyframes gw-anim-pastel {
+    0% {
+      fill: #ddadff;
+    }
+    12.5% {
+      fill: #ffadfc;
+    }
+    25% {
+      fill: #ffb3b3;
+    }
+    37.5% {
+      fill: #ffe7b3;
+    }
+    50% {
+      fill: #ecffb8;
+    }
+    62.5% {
+      fill: #b8ffc9;
+    }
+    75% {
+      fill: #b8f5ff;
+    }
+    87.5% {
+      fill: #b8c2ff;
+    }
+    100% {
+      fill: #ddadff;
+    }
+  }
+
+]]></style>
+
+<path class="background" fill="#233C3F" d="M0 0h89v89H0z"/>
+
+<a href="https://ipfs.io/ipfs/QmdeKp6yFVa5t1mUqUejF8LLt3ejh86NPRi65LBMwexzTM?filename=gw48.html" target="_blank">
+  <path class="title" fill="#FFF" d="M64 10v2h-1v-2h-1v5h1v-2h1v2h1v-5zm-4 5h1v-1h-2v1zm-2-3v2h1v-3h-1zm1-2v1h2v-1h-1zm-4 0h-1v1h1v4h1v-4h1v-1h-1zm-3 2h-1v-1h-1v4h1v-2h1v2h1v-4h-1zm-1-2h1v1h-1zm-3 1v3h1v-4h-1zm-1 3h1v1h-1zm-1-1h1v1h-1zm-1 0v-3h-1v5h2v-1h-1zm-3-3h-2v1h1v4h1v-4h1v-1zm-6 4v1h2v-1h-1zm2-1h1v1h-1zm-1-1h1v1h-1zm-1-1h1v1h-1zm1-1v1h2v-1h-1zm-4 0h1v1h-1zm1 2v2h1v-3h-1zm-1 2h1v1h-1zm0-2v-1h-1v3h1v-1zm-3-1v1h-1v-2h-1v5h1v-2h1v2h1v-5h-1zm-5 1v1h1v1h-2v1h3v-3h-1zm1-1v-1h-2v1h1zm-2 1v-1h-1v3h1v-1z"/>
+</a>
+
+<g class="tickers" fill="#FFF">
+  <path d="M19 22h-1v-1h-1v4h1v-2h1v2h1v-4h-1zm-1-2h1v1h-1zm-3 2v2h1v-3h-1zm-1 1v-2h1v-1h-2v5h2v-1h-1zm-3-1h-1v-1H9v4h1v-2h1v2h1v-4h-1zm-1-2h1v1h-1z"/>
+  <path d="M19 25h1v-1h-2v1zm-1-5v1h2v-1h-1zm-1 2v2h1v-3h-1zm-3-2h-1v1h1v4h1v-4h1v-1h-1zm-3 3h1v1h-1zm0-2h1v1h-1zm-1 0h1v-1H9v5h2v-1h-1v-1h1v-1h-1z"/>
+  <path d="M27 21h-1v-1h2v1h-1zm0 4h1v-1h-2v1h1zm-1-3v-1h-1v3h1v-2zm-3-1v4h1v-5h-1v1zm-3-1h-1v1h1v4h1v-4h1v-1h-2zm-3 2h-1v-1h-1v4h1v-2h1v2h1v-4h-1v1zm0-2h-1v1h1v-1zm-4 2v3h1v-4h-1v1zm-1-2v1h1v-1h-1zm-1 2h1v-1h-1v1zm-1-2H9v5h1v-4h1v-1h-1z"/>
+  <path d="M20 24v-1h1v1h-1zm-1-2v-1h1v-1h-2v5h2v-1h-1v-1h1v-1h-1zm2 0v-1h-1v1h1zm-5-1v1h-1v1h1v2h1v-5h-1v1zm-2 0v-1h-1v5h1v-3h1v-1h-1zm-2 3v-1h-1v1h1zm-1-2h1v-1h-1v1zm-1-1h1v-1H9v5h2v-1h-1v-1h1v-1h-1v-1z"/>
+  <path d="M21 24v-1h1v1h-1zm1-2v-1h-1v1h1zm-2 0v-1h1v-1h-2v5h2v-1h-1v-1h1v-1h-1zm-3-1v4h1v-5h-1v1zm-2 0v1h-1v-2h-1v5h1v-2h1v2h1v-5h-1v1zm-3 3v-1h-1v1h1zm-1-1v-1h-1v1h1zm-1-3v1h2v-1h-2zm-1 4v1h2v-1H9zm0-2h1v-1H9v1z"/>
+</g>
+
+<g class="digits" fill="#FFF" style="display: none;">
+  <path class="zero" d="M79 20h-2v5h3v-5h-1zm0 2v2h-1v-3h1v1z"/>
+  <path class="one" d="M80 24v1h-3v-1h1v-2h-1v-1h1v-1h1v4h1z"/>
+  <path class="two" d="M80 22h-1v-1h1v1zm-1 3h1v-1h-2v1h1zm0-3h-1v1h1v-1zm-1-2h-1v1h2v-1h-1zm-1 3v1h1v-1h-1z"/>
+  <path class="three" d="M79 24v-1h1v1h-1zm1-3h-1v1h1v-1zm-2 1v1h1v-1h-1zm0-2h-1v1h2v-1h-1zm-1 4v1h2v-1h-2z"/>
+  <path class="four" d="M80 21v4h-1v-2h-2v-3h1v2h1v-1h1z"/>
+  <path class="five" d="M79 24v-1h1v1h-1zm0-3h1v-1h-3v3h2v-1h-1v-1h1zm-2 3v1h2v-1h-2z"/>
+  <path class="six" d="M79 21h-1v-1h2v1h-1zm-2 0v3h1v-1h1v1h-1v1h2v-3h-2v-1h-1z"/>
+  <path class="seven" d="M80 20v5h-1v-4h-2v-1h3z"/>
+  <path class="eight" d="M79 20h-2v5h3v-5h-1zm0 4h-1v-1h1v1zm0-2h-1v-1h1v1z"/>
+  <path class="nine" d="M79 20h-2v3h2v2h1v-5h-1zm0 2h-1v-1h1v1z"/>
+  <path class="decimal" d="M71 24h1v1h-1z"/>
+</g>
+
+<g class="prices" fill="#FFF">
+  <g class="line-0"></g>
+  <g class="line-1"></g>
+  <g class="line-2"></g>
+  <g class="line-3"></g>
+  <g class="line-4"></g>
+</g>
+
+<g class="planet"><path fill="#FFF" d="M0 0v89h89V0H0zm86 86H3V3h83v83z"/><path class="planet-bg" d="M55 73v-1h-1v-1h-1v-1h-2v-1h-1v-2h-1v-1h-1v-1h-1v-1h-1v-1h-1v-1h-3v-1h-6v1h-3v1h-1v1h-1v1h-1v1h-1v1h-1v2h-1v1h-1v1h-2v1h-1v1h-1v3h1v1h1v1h1v1h2v1h1v1h1v1h1v1h1v1h1v1h1v1h3v1h6v-1h3v-1h1v-1h1v-1h1v-1h1v-1h1v-1h1v-1h1v-1h1v-1h1v-1h1v-1h1v-2z"/><g fill="#15DEFF"><path d="M50 69h-1v-2h-1v-1h-1v-1h-1v-1h-1v-1h-3v-1h-6v1h-3v1h-1v1h-1v1h-1v1h-1v2h-1v3h-1v3h1v1h3v1h3v1h10v-1h3v-1h3v-1h1v-3h-1v-3z"/><path d="M47 80v1h-3v1H34v-1h-3v-1h-2v1h1v1h1v1h1v1h1v1h3v1h6v-1h3v-1h1v-1h1v-1h1v-1h1v-1h-2z"/></g><g fill="#40FFCD"><path d="M54 73v-1h-1v-1h-2v1h1v1h1v2h-1v1h-2v1h-3v1h-3v1H34v-1h-3v-1h-3v-1h-2v-1h-1v-2h1v-1h-2v1h-1v3h1v1h1v1h2v1h4v1h3v1h10v-1h3v-1h3v-1h2v-1h1v-1h1v-1h1v-2h-1z"/><path d="M26 71h1v1h-1z"/></g><g class="planet-stars" fill="#EBEEFF"><path d="M71 78h1v1h-1z"/><path d="M66 70h1v1h-1z"/><path d="M17 69h1v1h-1z"/><path d="M9 74h1v1H9z"/><path d="M17 77h-1v1h-1v1h1v1h1v-1h1v-1h-1z"/><path d="M21 85h2v-2h-2v2z"/><path d="M64 83h1v1h-1z"/><path d="M53 67h1v1h-1z"/><path d="M27 61h1v1h-1z"/><path d="M62 76h-1v1h-1v1h1v1h1v-1h1v-1h-1z"/><path d="M54 85h2v-1h-2v1z"/><path d="M53 82v2h1v-2h-1z"/><path d="M56 83v1h1v-2h-1v1z"/><path d="M56 81h-2v1h2v-1z"/><path d="M77 70h-1v1h-1v1h1v1h1v-1h1v-1h-1z"/><path d="M7 84h2v-1H7v1z"/><path d="M6 81v2h1v-2H6z"/><path d="M9 82v1h1v-2H9v1z"/><path d="M9 80H7v1h2v-1z"/><path d="M79 79h2v2h-2z"/><path d="M6 66h1v1H6z"/><path d="M14 9V8h1V7h-1V6h-1v1h-1v1h1v1z"/><path d="M20 9h1v1h-1z"/><path d="M14 13h2v2h-2z"/><path d="M68 7h2v2h-2z"/><path d="M72 12h1v1h-1z"/><path d="M77 9h1v2h-1z"/><path d="M78 8h2v1h-2z"/><path d="M80 9h1v2h-1z"/><path d="M78 11h2v1h-2z"/><path d="M7 9h1v1H7z"/><path d="M82 16h1v1h-1z"/><path d="M6 17h1v1H6z"/><path d="M26 6h1v1h-1z"/></g></g>
+
+<script type='text/javascript'><![CDATA[
+
+  const gw48Root = document.getElementById('gw48');
+
+  if (gw48Root) {
+    const gwRoot = gw48Root;
+
+    const getPrice = (data, ticker) => {
+      return data[ticker];
+    }
+
+    fetch('https://www.clumsyghosts.com/json/prices.json')
+      .then(response => response.json())
+      .then(json => {
+
+        console.log('Last updated: ' + json.updated);
+        
+        const tickers = ['ADA', 'BTC', 'MATIC', 'BNB', 'SHIB'];
+        
+        const prices = [
+          getPrice(json.prices, tickers[0]),
+          getPrice(json.prices, tickers[1]),
+          getPrice(json.prices, tickers[2]),
+          getPrice(json.prices, tickers[3]),
+          getPrice(json.prices, tickers[4]),
+        ];
+
+        const digitsGroup = gwRoot.querySelector('.digits');
+        const pricesGroup = gwRoot.querySelector('.prices');
+        let lineOffset = 0;
+
+        for (let i=0; i<5; i++) {
+          const line = pricesGroup.querySelector('.line-' + i);
+          line.style.transform = 'translateY(' + lineOffset + 'px)';
+          lineOffset += 10;
+
+          const digits = String(prices[i]);
+          const numDigits = digits.length;
+
+          let digitOffset = 4 * numDigits - 6;
+
+          for (let j = 0; j < numDigits; j++) {
+            const digit = digits.charAt(j);
+
+            switch (digit) {
+              case '.':
+                line.appendChild(digitsGroup.querySelector('.decimal').cloneNode(true)).style.transform = 'translateX(-' + (digitOffset - 6) + 'px)';
+                digitOffset += 2;
+                break;
+              case '0':
+                line.appendChild(digitsGroup.querySelector('.zero').cloneNode(true)).style.transform = 'translateX(-' + digitOffset + 'px)';
+                break;
+              case '1':
+                line.appendChild(digitsGroup.querySelector('.one').cloneNode(true)).style.transform = 'translateX(-' + digitOffset + 'px)';
+                break;
+              case '2':
+                line.appendChild(digitsGroup.querySelector('.two').cloneNode(true)).style.transform = 'translateX(-' + digitOffset + 'px)';
+                break;
+              case '3':
+                line.appendChild(digitsGroup.querySelector('.three').cloneNode(true)).style.transform = 'translateX(-' + digitOffset + 'px)';
+                break;
+              case '4':
+                line.appendChild(digitsGroup.querySelector('.four').cloneNode(true)).style.transform = 'translateX(-' + digitOffset + 'px)';
+                break;
+              case '5':
+                line.appendChild(digitsGroup.querySelector('.five').cloneNode(true)).style.transform = 'translateX(-' + digitOffset + 'px)';
+                break;
+              case '6':
+                line.appendChild(digitsGroup.querySelector('.six').cloneNode(true)).style.transform = 'translateX(-' + digitOffset + 'px)';
+                break;
+              case '7':
+                line.appendChild(digitsGroup.querySelector('.seven').cloneNode(true)).style.transform = 'translateX(-' + digitOffset + 'px)';
+                break;
+              case '8':
+                line.appendChild(digitsGroup.querySelector('.eight').cloneNode(true)).style.transform = 'translateX(-' + digitOffset + 'px)';
+                break;
+              case '9':
+                line.appendChild(digitsGroup.querySelector('.nine').cloneNode(true)).style.transform = 'translateX(-' + digitOffset + 'px)';
+                break;
+            }
+
+            digitOffset -= 4;
+          }
+        }
+
+      })
+      .catch(error => {
+        console.error('Failed to fetch:', error);
+      });
+      
+  }
+
+]]></script>
+
+</svg>

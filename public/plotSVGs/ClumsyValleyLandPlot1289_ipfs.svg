@@ -1,0 +1,1099 @@
+<svg id="ClumsyValleyLandPlot" style="background: #C1FFFF" xmlns="http://www.w3.org/2000/svg" viewBox="-7 -7 103 103">
+<title>Clumsy Valley Land Plot #1289</title>
+            
+  <defs>
+    <filter id="stats-name" x="-0.5%" width="1" y="-0.05" height="1">
+      <feFlood flood-color="#000000" />
+      <feComposite operator="over" in="SourceGraphic" />
+    </filter>
+    <filter id="stats-coords" x="-1%" width="1" y="-0.05" height="1">
+      <feFlood flood-color="#000000" />
+      <feComposite operator="over" in="SourceGraphic" />
+    </filter>
+    <filter id="stats-fc" x="-1%" width="1" y="-0.05" height="1">
+      <feFlood flood-color="#000000" />
+      <feComposite operator="over" in="SourceGraphic" />
+    </filter>
+    <filter id="stats-cheatcode" x="-0.5%" width="1" y="-0.05" height="1">
+      <feFlood flood-color="#000000" />
+      <feComposite operator="over" in="SourceGraphic" />
+    </filter>
+  </defs>
+<style>
+    <![CDATA[
+    #ClumsyValleyLandPlot {
+      overflow: hidden;
+    }
+
+    #ClumsyValleyLandPlot.party {
+      animation: cg-anim-rgb-bg 5s linear -1.4169s infinite;
+    }
+
+    #meadows-base.party {
+      animation: cg-anim-rgb 5s linear -1.4169s infinite;
+    }
+
+    .cg-bg {
+      fill: none;
+    }
+
+    @font-face {
+      font-family: ClumsyPixel-Regular;
+      src: url(https://assets.clumsylabs.io/misc/fonts/ClumsyPixelv2.otf) format("opentype");
+
+    }
+
+    svg {
+      font-family: ClumsyPixel-Regular, Roboto Mono;
+      font-size: 6px;
+      font-weight: normal;
+      letter-spacing: 0.5px;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+    }
+
+    #farming-name,
+    #farming-coords,
+    #farming-fc {
+      fill: white;
+    }
+
+    @keyframes cg-anim-rgb {
+      0% {
+        fill: #FF5F5F;
+      }
+
+      11.1111% {
+        fill: #FFA45F;
+      }
+
+      22.2222% {
+        fill: #BAFF5F;
+      }
+
+      33.3333% {
+        fill: #5FFF74;
+      }
+
+      44.4444% {
+        fill: #5FFFCE;
+      }
+
+      55.5555% {
+        fill: #5FD9FF;
+      }
+
+      66.6666% {
+        fill: #5F6AFF;
+      }
+
+      77.7777% {
+        fill: #AA5FFF;
+      }
+
+      88.8888% {
+        fill: #FF5FFA;
+      }
+
+      100% {
+        fill: #FF5F5F;
+      }
+    }
+
+    @keyframes cg-anim-rgb-bg {
+      0% {
+        background: #FF5F5F;
+      }
+
+      11.1111% {
+        background: #FFA45F;
+      }
+
+      22.2222% {
+        background: #BAFF5F;
+      }
+
+      33.3333% {
+        background: #5FFF74;
+      }
+
+      44.4444% {
+        background: #5FFFCE;
+      }
+
+      55.5555% {
+        background: #5FD9FF;
+      }
+
+      66.6666% {
+        background: #5F6AFF;
+      }
+
+      77.7777% {
+        background: #AA5FFF;
+      }
+
+      88.8888% {
+        background: #FF5FFA;
+      }
+
+      100% {
+        background: #FF5F5F;
+      }
+    }
+
+    @keyframes cg-anim-hover {
+      0% {
+        transform: translate3d(0, 0, 0);
+      }
+
+      50% {
+        transform: translate3d(0, -2px, 0);
+      }
+
+      100% {
+        transform: translate3d(0, 0, 0);
+      }
+    }
+
+    @keyframes cg-anim-antigrav {
+      0% {
+        transform: translate3d(0, 0, 0);
+      }
+
+      50% {
+        transform: translate3d(0, -8px, 0);
+      }
+
+      100% {
+        transform: translate3d(0, 0, 0);
+      }
+    }
+
+    @keyframes cg-anim-bee {
+      0% {
+        transform: translate3d(0, 0, 0);
+      }
+
+      20% {
+        transform: translate3d(0, .2px, 0);
+      }
+
+      40% {
+        transform: translate3d(.2px, 0, 0);
+      }
+
+      60% {
+        transform: translate3d(.2px, .2px, 0);
+      }
+
+      100% {
+        transform: translate3d(0, 0, 0);
+      }
+    }
+
+    @keyframes cg-anim-cloud {
+      0% {
+        transform: translate3d(50px, 4px, 0);
+      }
+
+      16.7% {
+        transform: translate3d(25px, 0px, 0);
+      }
+
+      33.4% {
+        transform: translate3d(0px, 4px, 0);
+      }
+
+      50.1% {
+        transform: translate3d(-25px, 0px, 0);
+      }
+
+      66.8% {
+        transform: translate3d(-50px, 4px, 0);
+      }
+
+      83.5% {
+        transform: translate3d(-75px, 0px, 0);
+      }
+
+      100% {
+        transform: translate3d(-100px, 4px, 0);
+      }
+    }
+
+    #bee {
+      animation: cg-anim-bee 0.2s ease-in-out -0.1459s infinite;
+      transform-origin: center;
+      transform-box: fill-box;
+    }
+
+    #cloud1-animation, #cloud2-animation {
+      animation: cg-anim-cloud 25s linear -0.1459s infinite;
+      transform-origin: center;
+      transform-box: fill-box;
+    }
+
+    #butterfly1-animated {
+      animation: cg-anim-hover 1.5s ease-in-out -0.1459s infinite;
+      transform-origin: center;
+      transform-box: fill-box;
+    }
+
+    #butterfly2-animated {
+      animation: cg-anim-hover 1.2s ease-in-out -0.1459s infinite;
+      transform-origin: center;
+      transform-box: fill-box;
+    }
+
+
+
+    #cow1-default, #cow2-default, #duck1-default-2, #duck2-default, #bunny-default, #frog-default {
+      opacity: 1
+    }
+
+    #cow1-fart, #cow2-blowsmoke, #duck1-love, #duck2-turn, #bunny-jump, #frog-shy {
+      opacity: 0
+    }
+
+    #cow1-default.activate, #cow2-default.activate, #duck1-default-2.activate, #duck2-default.activate, #bunny-default.activate, #frog-default.activate {
+      opacity: 0
+    }
+    
+    #cow1-fart.activate, #cow2-blowsmoke.activate, #duck1-love.activate, #duck2-turn.activate, #bunny-jump.activate, #frog-shy.activate {
+      opacity: 1
+    }
+
+    #ghost {
+      transition: 0.3s ease 0.3s;
+    }
+
+    #farming-name, #farming-coords, #farming-fc {
+      opacity: 0;
+      pointer-events: none;
+      transform: translate3d(0, -20px, 0);
+    }
+
+    #farming-name.show-farming-stats, #farming-coords.show-farming-stats, #farming-fc.show-farming-stats {
+      opacity: 1;
+      pointer-events: auto;
+      cursor: pointer;
+      transform: translate3d(0, 0, 0);
+    }
+
+    #farming-name {
+      transition: 0.4s ease 0.1s;
+    }
+
+    #farming-coords {
+      transition: 0.2s ease 0.2s;
+    }
+
+    #farming-fc {
+      transition: 0.1s ease 0.4s;
+    }
+
+    #farming-fc.tier1 {
+      fill: aqua;
+    }
+
+    #farming-fc.tier2 {
+      fill: green;
+    }
+
+    #farming-fc.tier3 {
+      fill: yellow;
+    }
+
+    #farming-fc.tier4 {
+      fill: red;
+    }
+
+    #farming-fc.tier5 {
+      animation: cg-anim-rgb 5s linear -1.4169s infinite;
+    }
+
+    #ClumsyValleyLandPlot .button {
+      opacity: 0;
+      pointer-events: none;
+      transition: 0.2s ease;
+      transform: translate3d(0, 20px, 0);
+    }
+
+    #ClumsyValleyLandPlot .button.png-square {
+      transition-delay: 0.2s;
+      -webkit-transform-origin-x: 20px;
+    }
+
+    #ClumsyValleyLandPlot .button.svg {
+      transition-delay: 0.4s;
+    }
+
+    #ClumsyValleyLandPlot.menu-in .button {
+      opacity: 1;
+      pointer-events: auto;
+      cursor: pointer;
+      transform: translate3d(0, 0, 0);
+    }
+
+    #ClumsyValleyLandPlot.menu-in .button .button-bg {
+      transition: fill 0.2s ease;
+    }
+
+    #ClumsyValleyLandPlot.menu-in .button:hover .button-bg {
+      fill: #FF5FFA;
+    }
+    ]]>
+  </style>
+<path class="cg-bg" d="M0 0h89v89H0z"></path>
+<g id="meadows-base">
+    <g id="meadows-base-2" data-name="meadows-base">
+      <g id="meadows-2" data-name="meadows">
+        <polygon id="base-bg" points="88 54 88 53 87 53 86 53 86 52 85 52 84 52 84 51 83 51 82 51 82 50 81 50 80 50 80 49 79 49 78 49 78 48 77 48 76 48 76 47 75 47 74 47 74 46 73 46 72 46 72 45 71 45 70 45 70 44 69 44 68 44 68 43 67 43 66 43 66 42 65 42 64 42 64 41 63 41 62 41 62 40 61 40 60 40 60 39 59 39 58 39 58 38 57 38 56 38 56 37 55 37 54 37 54 36 53 36 52 36 52 35 51 35 50 35 50 34 49 34 48 34 48 33 47 33 46 33 46 32 45 32 44 32 43 32 43 33 42 33 41 33 41 34 40 34 39 34 39 35 38 35 37 35 37 36 36 36 35 36 35 37 34 37 33 37 33 38 32 38 31 38 31 39 30 39 29 39 29 40 28 40 27 40 27 41 26 41 25 41 25 42 24 42 23 42 23 43 22 43 21 43 21 44 20 44 19 44 19 45 18 45 17 45 17 46 16 46 15 46 15 47 14 47 13 47 13 48 12 48 11 48 11 49 10 49 9 49 9 50 8 50 7 50 7 51 6 51 5 51 5 52 4 52 3 52 3 53 2 53 1 53 1 54 0 54 0 55 0 56 0 57 0 58 0 59 0 60 0 61 0 62 0 63 0 64 0 65 0 66 0 67 1 67 1 68 2 68 3 68 3 69 4 69 5 69 5 70 6 70 7 70 7 71 8 71 9 71 9 72 10 72 11 72 11 73 12 73 13 73 13 74 14 74 15 74 15 75 16 75 17 75 17 76 18 76 19 76 19 77 20 77 21 77 21 78 22 78 23 78 23 79 24 79 25 79 25 80 26 80 27 80 27 81 28 81 29 81 29 82 30 82 31 82 31 83 32 83 33 83 33 84 34 84 35 84 35 85 36 85 37 85 37 86 38 86 39 86 39 87 40 87 41 87 41 88 42 88 43 88 43 89 44 89 45 89 46 89 46 88 47 88 48 88 48 87 49 87 50 87 50 86 51 86 52 86 52 85 53 85 54 85 54 84 55 84 56 84 56 83 57 83 58 83 58 82 59 82 60 82 60 81 61 81 62 81 62 80 63 80 64 80 64 79 65 79 66 79 66 78 67 78 68 78 68 77 69 77 70 77 70 76 71 76 72 76 72 75 73 75 74 75 74 74 75 74 76 74 76 73 77 73 78 73 78 72 79 72 80 72 80 71 81 71 82 71 82 70 83 70 84 70 84 69 85 69 86 69 86 68 87 68 88 68 88 67 89 67 89 66 89 65 89 64 89 63 89 62 89 61 89 60 89 59 89 58 89 57 89 56 89 55 89 54 88 54"/>
+        <g id="Layer_46" data-name="Layer 46">
+          <polygon points="88 66 88 67 87 67 86 67 86 68 85 68 84 68 84 69 83 69 82 69 82 70 81 70 80 70 80 71 79 71 78 71 78 72 77 72 76 72 76 73 75 73 74 73 74 74 73 74 72 74 72 75 71 75 70 75 70 76 69 76 68 76 68 77 67 77 66 77 66 78 65 78 64 78 64 79 63 79 62 79 62 80 61 80 60 80 60 81 59 81 58 81 58 82 57 82 56 82 56 83 55 83 54 83 54 84 53 84 52 84 52 85 51 85 50 85 50 86 49 86 48 86 48 87 47 87 46 87 46 88 45 88 45 75 46 75 46 74 47 74 48 74 48 73 49 73 50 73 50 72 51 72 52 72 52 71 53 71 54 71 54 70 55 70 56 70 56 69 57 69 58 69 58 68 59 68 60 68 60 67 61 67 62 67 62 66 63 66 64 66 64 65 65 65 66 65 66 64 67 64 68 64 68 63 69 63 70 63 70 62 71 62 72 62 72 61 73 61 74 61 74 60 75 60 76 60 76 59 77 59 78 59 78 58 79 58 80 58 80 57 81 57 82 57 82 56 83 56 84 56 84 55 85 55 86 55 86 54 87 54 88 54 88 55 88 56 88 57 88 58 88 59 88 60 88 61 88 62 88 63 88 64 88 65 88 66" style="fill: #abe079;"/>
+          <polygon points="86 53 86 54 85 54 84 54 84 55 83 55 82 55 82 56 81 56 80 56 80 57 79 57 78 57 78 58 77 58 76 58 76 59 75 59 74 59 74 60 73 60 72 60 72 61 71 61 70 61 70 62 69 62 68 62 68 63 67 63 66 63 66 64 65 64 64 64 64 65 63 65 62 65 62 66 61 66 60 66 60 67 59 67 58 67 58 68 57 68 56 68 56 69 55 69 54 69 54 70 53 70 52 70 52 71 51 71 50 71 50 72 49 72 48 72 48 73 47 73 46 73 46 74 45 74 44 74 43 74 43 73 42 73 41 73 41 72 40 72 39 72 39 71 38 71 37 71 37 70 36 70 35 70 35 69 34 69 33 69 33 68 32 68 31 68 31 67 30 67 29 67 29 66 28 66 27 66 27 65 26 65 25 65 25 64 24 64 23 64 23 63 22 63 21 63 21 62 20 62 19 62 19 61 18 61 17 61 17 60 16 60 15 60 15 59 14 59 13 59 13 58 12 58 11 58 11 57 10 57 9 57 9 56 8 56 7 56 7 55 6 55 5 55 5 54 4 54 3 54 3 53 4 53 5 53 5 52 6 52 7 52 7 51 8 51 9 51 9 50 10 50 11 50 11 49 12 49 13 49 13 48 14 48 15 48 15 47 16 47 17 47 17 46 18 46 19 46 19 45 20 45 21 45 21 44 22 44 23 44 23 43 24 43 25 43 25 42 26 42 27 42 27 41 28 41 29 41 29 40 30 40 31 40 31 39 32 39 33 39 33 38 34 38 35 38 35 37 36 37 37 37 37 36 38 36 39 36 39 35 40 35 41 35 41 34 42 34 43 34 43 33 44 33 45 33 46 33 46 34 47 34 48 34 48 35 49 35 50 35 50 36 51 36 52 36 52 37 53 37 54 37 54 38 55 38 56 38 56 39 57 39 58 39 58 40 59 40 60 40 60 41 61 41 62 41 62 42 63 42 64 42 64 43 65 43 66 43 66 44 67 44 68 44 68 45 69 45 70 45 70 46 71 46 72 46 72 47 73 47 74 47 74 48 75 48 76 48 76 49 77 49 78 49 78 50 79 50 80 50 80 51 81 51 82 51 82 52 83 52 84 52 84 53 85 53 86 53" style="fill: #7dbf53;"/>
+          <polygon points="44 75 44 88 43 88 43 87 42 87 41 87 41 86 40 86 39 86 39 85 38 85 37 85 37 84 36 84 35 84 35 83 34 83 33 83 33 82 32 82 31 82 31 81 30 81 29 81 29 80 28 80 27 80 27 79 26 79 25 79 25 78 24 78 23 78 23 77 22 77 21 77 21 76 20 76 19 76 19 75 18 75 17 75 17 74 16 74 15 74 15 73 14 73 13 73 13 72 12 72 11 72 11 71 10 71 9 71 9 70 8 70 7 70 7 69 6 69 5 69 5 68 4 68 3 68 3 67 2 67 1 67 1 66 1 65 1 64 1 63 1 62 1 61 1 60 1 59 1 58 1 57 1 56 1 55 1 54 2 54 3 54 3 55 4 55 5 55 5 56 6 56 7 56 7 57 8 57 9 57 9 58 10 58 11 58 11 59 12 59 13 59 13 60 14 60 15 60 15 61 16 61 17 61 17 62 18 62 19 62 19 63 20 63 21 63 21 64 22 64 23 64 23 65 24 65 25 65 25 66 26 66 27 66 27 67 28 67 29 67 29 68 30 68 31 68 31 69 32 69 33 69 33 70 34 70 35 70 35 71 36 71 37 71 37 72 38 72 39 72 39 73 40 73 41 73 41 74 42 74 43 74 43 75 44 75" style="fill: #407335;"/>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g id="meadows-sideterrain-texture2">
+      <g id="left-2" data-name="left">
+        <polygon points="43 76 43 75 42 75 41 75 41 74 40 74 39 74 39 73 38 73 37 73 37 72 36 72 35 72 35 71 34 71 33 71 33 70 32 70 31 70 31 69 30 69 29 69 29 68 28 68 27 68 27 67 26 67 25 67 25 66 24 66 23 66 23 65 22 65 21 65 21 64 20 64 19 64 19 63 18 63 17 63 17 62 16 62 15 62 15 61 14 61 13 61 13 60 12 60 11 60 11 59 10 59 9 59 9 58 8 58 7 58 7 57 6 57 5 57 5 56 4 56 3 56 3 55 2 55 1 55 1 56 1 57 1 58 1 59 1 60 1 61 1 62 1 63 1 64 1 65 1 66 1 67 2 67 3 67 3 68 4 68 5 68 5 69 6 69 7 69 7 70 8 70 9 70 9 71 10 71 11 71 11 72 12 72 13 72 13 73 14 73 15 73 15 74 16 74 17 74 17 75 18 75 19 75 19 76 20 76 21 76 21 77 22 77 23 77 23 78 24 78 25 78 25 79 26 79 27 79 27 80 28 80 29 80 29 81 30 81 31 81 31 82 32 82 33 82 33 83 34 83 35 83 35 84 36 84 37 84 37 85 38 85 39 85 39 86 40 86 41 86 41 87 42 87 43 87 43 88 44 88 44 87 44 86 44 85 44 84 44 83 44 82 44 81 44 80 44 79 44 78 44 77 44 76 43 76" style="fill: #4f3423;"/>
+        <g>
+          <g>
+            <polygon points="41 82 40 82 40 83 40 84 41 84 42 84 42 83 42 82 41 82" style="fill: #a58665;"/>
+            <rect x="37" y="82" width="1" height="1" style="fill: #a58665;"/>
+            <rect x="32" y="80" width="1" height="1" style="fill: #a58665;"/>
+            <polygon points="32 75 32 74 31 74 30 74 30 75 30 76 31 76 32 76 32 75" style="fill: #a58665;"/>
+            <rect x="28" y="76" width="1" height="1" style="fill: #a58665;"/>
+            <polygon points="23 73 22 73 21 73 21 74 21 75 22 75 22 76 23 76 24 76 24 75 24 74 23 74 23 73" style="fill: #a58665;"/>
+            <rect x="16" y="69" width="1" height="1" style="fill: #a58665;"/>
+            <polygon points="10 68 10 69 10 70 11 70 12 70 12 69 12 68 11 68 10 68" style="fill: #a58665;"/>
+            <rect x="7" y="67" width="1" height="1" style="fill: #a58665;"/>
+            <rect x="4" y="64" width="1" height="1" style="fill: #a58665;"/>
+          </g>
+          <g>
+            <rect x="41" y="76" width="1" height="1" style="fill: #4d8a40;"/>
+            <polygon points="36 74 36 75 37 75 37 74 37 73 36 73 36 74" style="fill: #4d8a40;"/>
+            <rect x="28" y="69" width="1" height="1" style="fill: #4d8a40;"/>
+            <polygon points="21 66 21 67 21 68 22 68 23 68 23 67 23 66 22 66 21 66" style="fill: #4d8a40;"/>
+            <polygon points="14 62 14 63 14 64 15 64 16 64 16 63 16 62 15 62 14 62" style="fill: #4d8a40;"/>
+            <polygon points="11 62 11 63 12 63 12 62 12 61 11 61 11 62" style="fill: #4d8a40;"/>
+            <polygon points="5 59 5 60 6 60 6 59 6 58 5 58 5 59" style="fill: #4d8a40;"/>
+            <rect x="3" y="57" width="1" height="1" style="fill: #4d8a40;"/>
+          </g>
+          <g>
+            <polygon points="39 81 39 80 38 80 38 81 38 82 38 83 39 83 39 84 40 84 40 83 40 82 40 81 39 81" style="fill: #69452e;"/>
+            <polygon points="34 79 34 78 33 78 33 77 32 77 32 78 32 79 32 80 33 80 33 81 34 81 34 82 35 82 36 82 36 81 36 80 36 79 35 79 34 79" style="fill: #69452e;"/>
+            <path d="M30,76v-1h-3v-1h-1v3h1v1h1v1h3v-2h-1v-1Zm-2,1v-1h1v1h-1Z" style="fill: #69452e;"/>
+            <rect x="23" y="73" width="1" height="1" style="fill: #69452e;"/>
+            <polygon points="20 72 20 71 19 71 19 72 19 73 19 74 20 74 20 75 21 75 21 74 21 73 22 73 22 72 21 72 20 72" style="fill: #69452e;"/>
+            <polygon points="16 69 15 69 14 69 13 69 13 70 14 70 14 71 15 71 15 72 16 72 17 72 17 71 17 70 16 70 16 69" style="fill: #69452e;"/>
+            <polygon points="9 66 8 66 8 65 7 65 7 64 6 64 6 65 6 66 6 67 7 67 8 67 8 68 8 69 9 69 10 69 10 68 10 67 9 67 9 66" style="fill: #69452e;"/>
+            <polygon points="3 64 2 64 2 65 2 66 3 66 4 66 4 65 4 64 4 63 3 63 3 64" style="fill: #69452e;"/>
+          </g>
+          <g>
+            <path d="M43,75v-1h-2v-1h-2v-1h-2v-1h-2v-1h-2v3h1v2h1v1h2v1h1v-1h1v-2h1v4h1v1h2v1h1v-5h-1Zm-7,0v-2h1v2h-1Zm5,1h1v1h-1v-1Z" style="fill: #407335;"/>
+            <path d="M32,69h-1v-1h-2v-1h-2v-1h-2v-1h-2v-1h-2v-1h-2v-1h-2v-1h-2v-1h-2v-1h-2v-1h-2v-1h-2v-1h-2v-1H3v-1H1v1h1v4h1v1h1v1h2v1h1v-1h1v-2h1v3h1v2h1v1h1v1h2v-1h3v-2h1v2h1v2h1v2h1v1h3v-1h1v-1h2v3h1v1h2v1h1v-1h1v-2h1v-1h-1ZM3,57h1v1h-1v-1Zm2,3v-2h1v2h-1Zm6,2v-1h1v2h-1v-1Zm5,2h-2v-2h2v2Zm5,3v-1h2v2h-2v-1Zm7,2h1v1h-1v-1Z" style="fill: #407335;"/>
+          </g>
+          <g>
+            <polygon points="42 79 41 79 41 80 42 80 43 80 43 79 42 79" style="fill: #34542c;"/>
+            <rect x="40" y="78" width="1" height="1" style="fill: #34542c;"/>
+            <polygon points="40 76 40 75 40 74 39 74 39 75 39 76 39 77 39 78 40 78 40 77 40 76" style="fill: #34542c;"/>
+            <polygon points="35 76 35 77 36 77 37 77 37 76 36 76 35 76" style="fill: #34542c;"/>
+            <rect x="34" y="75" width="1" height="1" style="fill: #34542c;"/>
+            <polygon points="34 73 33 73 33 74 33 75 34 75 34 74 34 73" style="fill: #34542c;"/>
+            <polygon points="33 71 33 70 32 70 32 71 32 72 32 73 33 73 33 72 33 71" style="fill: #34542c;"/>
+            <polygon points="28 72 28 73 29 73 30 73 30 72 29 72 28 72" style="fill: #34542c;"/>
+            <rect x="27" y="71" width="1" height="1" style="fill: #34542c;"/>
+            <polygon points="27 69 27 68 26 68 26 69 26 70 26 71 27 71 27 70 27 69" style="fill: #34542c;"/>
+            <rect x="19" y="67" width="1" height="1" style="fill: #34542c;"/>
+            <polygon points="19 65 18 65 18 66 18 67 19 67 19 66 19 65" style="fill: #34542c;"/>
+            <polygon points="18 63 17 63 17 64 17 65 18 65 18 64 18 63" style="fill: #34542c;"/>
+            <rect x="10" y="64" width="1" height="1" style="fill: #34542c;"/>
+            <polygon points="10 62 9 62 9 63 9 64 10 64 10 63 10 62" style="fill: #34542c;"/>
+            <polygon points="9 60 9 59 8 59 8 60 8 61 8 62 9 62 9 61 9 60" style="fill: #34542c;"/>
+            <polygon points="4 61 4 62 5 62 6 62 6 61 5 61 4 61" style="fill: #34542c;"/>
+            <rect x="3" y="60" width="1" height="1" style="fill: #34542c;"/>
+            <rect x="2" y="59" width="1" height="1" style="fill: #34542c;"/>
+            <polygon points="2 57 2 56 2 55 1 55 1 56 1 57 1 58 1 59 2 59 2 58 2 57" style="fill: #34542c;"/>
+          </g>
+          <path d="M43,80h-2v-1h-1v-1h-1v-2h-1v1h-3v-1h-1v-1h-1v-2h-1v-1h-1v1h-3v-1h-1v-1h-1v-3h-1v1h-1v1h-3v-1h-1v-1h-1v-1h-1v-2h-4v1h-2v-1h-2v-1h-1v-2h-1v-1h-1v1h-3v-1h-1v-1h-1v-1H1v8H3v1h2v1h2v1h2v1h2v1h2v1h2v1h2v1h2v1h2v1h2v1h2v1h2v1h2v1h2v1h2v1h2v1h2v1h2v1h2v1h2v1h1v-8h-1ZM2,66v-2h1v-1h1v1h1v1h-1v1H2Zm8,4v-1h-2v-1h-1v-1h-1v-3h1v1h1v1h1v1h1v1h2v2h-2Zm4,1v-1h-1v-1h4v3h-2v-1h-1Zm8,5v-1h-2v-1h-1v-3h1v1h2v1h2v3h-2Zm6,3v-1h-1v-1h-1v-3h1v1h3v-1h2v2h-2v1h1v2h-3Zm6,3v-1h-2v-4h1v1h1v1h2v3h-2Zm4,1h-1v-1h1v-2h1v1h1v1h2v2h-3v-1h-1Z" style="fill: #4f3423;"/>
+        </g>
+      </g>
+      <g id="right-2" data-name="right">
+        <polygon points="87 55 86 55 86 56 85 56 84 56 84 57 83 57 82 57 82 58 81 58 80 58 80 59 79 59 78 59 78 60 77 60 76 60 76 61 75 61 74 61 74 62 73 62 72 62 72 63 71 63 70 63 70 64 69 64 68 64 68 65 67 65 66 65 66 66 65 66 64 66 64 67 63 67 62 67 62 68 61 68 60 68 60 69 59 69 58 69 58 70 57 70 56 70 56 71 55 71 54 71 54 72 53 72 52 72 52 73 51 73 50 73 50 74 49 74 48 74 48 75 47 75 46 75 46 76 45 76 45 77 45 78 45 79 45 80 45 81 45 82 45 83 45 84 45 85 45 86 45 87 45 88 46 88 46 87 47 87 48 87 48 86 49 86 50 86 50 85 51 85 52 85 52 84 53 84 54 84 54 83 55 83 56 83 56 82 57 82 58 82 58 81 59 81 60 81 60 80 61 80 62 80 62 79 63 79 64 79 64 78 65 78 66 78 66 77 67 77 68 77 68 76 69 76 70 76 70 75 71 75 72 75 72 74 73 74 74 74 74 73 75 73 76 73 76 72 77 72 78 72 78 71 79 71 80 71 80 70 81 70 82 70 82 69 83 69 84 69 84 68 85 68 86 68 86 67 87 67 88 67 88 66 88 65 88 64 88 63 88 62 88 61 88 60 88 59 88 58 88 57 88 56 88 55 87 55" style="fill: #69452e;"/>
+        <g>
+          <rect x="86" y="56" width="1" height="1" style="fill: #8ed660;"/>
+          <rect x="81" y="59" width="1" height="1" style="fill: #8ed660;"/>
+          <polygon points="75 63 75 64 76 64 76 63 76 62 75 62 75 63" style="fill: #8ed660;"/>
+          <polygon points="69 64 69 65 69 66 70 66 71 66 71 65 71 64 70 64 69 64" style="fill: #8ed660;"/>
+          <polygon points="63 69 63 70 64 70 64 69 64 68 63 68 63 69" style="fill: #8ed660;"/>
+          <rect x="56" y="72" width="1" height="1" style="fill: #8ed660;"/>
+          <polygon points="50 75 50 76 51 76 51 75 51 74 50 74 50 75" style="fill: #8ed660;"/>
+          <rect x="48" y="77" width="1" height="1" style="fill: #8ed660;"/>
+        </g>
+        <g>
+          <polygon points="86 63 86 64 85 64 85 65 85 66 86 66 86 65 87 65 87 64 87 63 86 63" style="fill: #9c6f40;"/>
+          <polygon points="81 65 81 66 82 66 82 67 81 67 81 66 80 66 80 67 79 67 79 68 79 69 80 69 81 69 81 68 82 68 83 68 83 67 83 66 83 65 82 65 81 65" style="fill: #9c6f40;"/>
+          <polygon points="76 69 76 68 75 68 74 68 74 69 75 69 75 70 74 70 74 69 73 69 73 70 73 71 73 72 74 72 75 72 75 71 76 71 77 71 77 70 78 70 78 69 77 69 76 69" style="fill: #9c6f40;"/>
+          <polygon points="70 70 70 71 69 71 69 72 68 72 67 72 67 73 67 74 67 75 68 75 69 75 69 74 70 74 71 74 71 73 70 73 70 72 71 72 71 73 72 73 72 72 72 71 72 70 71 70 70 70" style="fill: #9c6f40;"/>
+          <polygon points="64 75 64 74 63 74 63 75 63 76 62 76 62 75 61 75 61 76 61 77 61 78 62 78 63 78 63 77 64 77 65 77 65 76 66 76 66 75 65 75 64 75" style="fill: #9c6f40;"/>
+          <polygon points="59 77 58 77 57 77 57 78 56 78 55 78 55 79 55 80 55 81 56 81 57 81 57 80 58 80 59 80 59 79 58 79 58 78 59 78 59 79 60 79 60 78 60 77 60 76 59 76 59 77" style="fill: #9c6f40;"/>
+          <polygon points="52 80 51 80 51 81 50 81 49 81 49 82 48 82 48 83 48 84 49 84 50 84 51 84 51 83 50 83 50 82 51 82 51 83 52 83 53 83 53 82 53 81 52 81 52 80" style="fill: #9c6f40;"/>
+        </g>
+        <g>
+          <polygon points="85 62 84 62 84 63 83 63 83 64 83 65 84 65 85 65 85 64 86 64 86 63 86 62 85 62" style="fill: #c5a17a;"/>
+          <rect x="81" y="66" width="1" height="1" style="fill: #c5a17a;"/>
+          <rect x="79" y="64" width="1" height="1" style="fill: #c5a17a;"/>
+          <polygon points="76 67 76 68 76 69 77 69 78 69 78 68 78 67 77 67 76 67" style="fill: #c5a17a;"/>
+          <rect x="74" y="69" width="1" height="1" style="fill: #c5a17a;"/>
+          <rect x="72" y="68" width="1" height="1" style="fill: #c5a17a;"/>
+          <rect x="70" y="72" width="1" height="1" style="fill: #c5a17a;"/>
+          <polygon points="65 72 65 73 64 73 64 74 64 75 65 75 66 75 66 74 67 74 67 73 67 72 66 72 65 72" style="fill: #c5a17a;"/>
+          <rect x="62" y="75" width="1" height="1" style="fill: #c5a17a;"/>
+          <rect x="58" y="78" width="1" height="1" style="fill: #c5a17a;"/>
+          <polygon points="52 79 52 80 52 81 53 81 54 81 54 80 54 79 53 79 52 79" style="fill: #c5a17a;"/>
+          <rect x="50" y="82" width="1" height="1" style="fill: #c5a17a;"/>
+          <polygon points="46 83 46 84 46 85 47 85 48 85 48 84 48 83 47 83 46 83" style="fill: #c5a17a;"/>
+        </g>
+        <path d="M87,54h-1v1h-2v1h-2v1h-2v1h-2v1h-2v1h-2v1h-2v1h-2v1h-2v1h-2v1h-2v1h-2v1h-2v1h-2v1h-2v1h-2v1h-2v1h-2v1h-2v1h-2v1h-1v2h1v2h5v-1h1v-1h1v-5h1v2h1v1h2v-1h2v-5h1v2h1v1h3v-1h1v-5h1v1h1v1h2v1h1v-1h1v-1h1v-4h1v2h2v1h1v-1h1v-5h1v2h2v1h2v-1h1v-1h1v-4h1v2h3v-5h-1Zm-38,24h-1v-1h1v1Zm1-2v-2h1v2h-1Zm7-3h-1v-1h1v1Zm7-4v1h-1v-2h1v1Zm7-3h-2v-2h2v2Zm5-3v1h-1v-2h1v1Zm5-3v-1h1v1h-1Zm6-3h-1v-1h1v1Z" style="fill: #7dbf53;"/>
+        <g>
+          <polygon points="86 59 85 59 85 60 86 60 87 60 87 59 86 59" style="fill: #407335;"/>
+          <polygon points="85 57 84 57 84 58 84 59 85 59 85 58 85 57" style="fill: #407335;"/>
+          <polygon points="78 62 78 63 79 63 80 63 80 62 79 62 78 62" style="fill: #407335;"/>
+          <polygon points="78 60 77 60 77 61 77 62 78 62 78 61 78 60" style="fill: #407335;"/>
+          <polygon points="73 65 73 66 74 66 75 66 75 65 74 65 73 65" style="fill: #407335;"/>
+          <polygon points="73 63 72 63 72 64 72 65 73 65 73 64 73 63" style="fill: #407335;"/>
+          <polygon points="67 68 67 69 68 69 69 69 69 68 68 68 67 68" style="fill: #407335;"/>
+          <rect x="66" y="67" width="1" height="1" style="fill: #407335;"/>
+          <rect x="65" y="66" width="1" height="1" style="fill: #407335;"/>
+          <polygon points="61 72 61 73 62 73 63 73 63 72 62 72 61 72" style="fill: #407335;"/>
+          <rect x="60" y="71" width="1" height="1" style="fill: #407335;"/>
+          <polygon points="60 69 59 69 59 70 59 71 60 71 60 70 60 69" style="fill: #407335;"/>
+          <rect x="57" y="74" width="1" height="1" style="fill: #407335;"/>
+          <polygon points="55 75 55 76 56 76 57 76 57 75 56 75 55 75" style="fill: #407335;"/>
+          <rect x="54" y="74" width="1" height="1" style="fill: #407335;"/>
+          <polygon points="54 72 53 72 53 73 53 74 54 74 54 73 54 72" style="fill: #407335;"/>
+          <polygon points="48 79 47 79 46 79 46 80 47 80 48 80 49 80 50 80 50 79 49 79 48 79" style="fill: #407335;"/>
+          <polygon points="46 77 45 77 45 78 45 79 46 79 46 78 46 77" style="fill: #407335;"/>
+        </g>
+        <path d="M87,59v1h-2v-1h-1v2h-1v1h-1v1h-4v-1h-1v3h-1v1h-3v-1h-1v2h-1v1h-1v1h-3v-1h-1v-1h-1v4h-1v1h-1v1h-2v-1h-1v-1h-1v3h-1v1h-1v1h-2v-1h-1v-1h-1v3h-1v1h-1v1h-1v1h-4v-1h-1v9h1v-1h2v-1h2v-1h2v-1h2v-1h2v-1h2v-1h2v-1h2v-1h2v-1h2v-1h2v-1h2v-1h2v-1h2v-1h2v-1h2v-1h2v-1h2v-1h2v-1h2v-1h2v-8h-1Zm-8,5h1v1h-1v-1Zm-27,19h-1v1h-3v1h-2v-2h2v-1h1v-1h2v-1h1v-1h2v2h-1v2h-1Zm7-4v1h-2v1h-2v-3h2v-1h2v-1h1v3h-1Zm12-6v1h-2v1h-2v-1h-1v2h-1v1h-2v1h-2v-3h2v-1h1v-1h1v-1h4v-1h1v-1h2v3h-1Zm6-3v1h-2v1h-2v-3h-1v-1h1v1h1v-1h2v-1h2v3h-1Zm10-6v1h-1v1h-1v-1h-2v3h-2v1h-2v-2h1v-1h1v-1h2v-2h1v-1h2v1h1v1Z" style="fill: #69452e;"/>
+      </g>
+    </g>
+    <g id="meadows-topterrain-texture4">
+      <g id="dark-grass4">
+        <g>
+          <rect x="20" y="52" width="1" height="1" style="fill: #407335;"/>
+          <polygon points="22 53 21 53 21 57 22 57 22 56 23 56 23 55 22 55 22 53" style="fill: #407335;"/>
+          <rect x="23" y="54" width="1" height="1" style="fill: #407335;"/>
+          <rect x="33" y="47" width="1" height="1" style="fill: #407335;"/>
+          <rect x="34" y="48" width="1" height="2" style="fill: #407335;"/>
+          <rect x="50" y="59" width="1" height="3" style="fill: #407335;"/>
+          <rect x="52" y="60" width="1" height="2" style="fill: #407335;"/>
+          <rect x="53" y="59" width="1" height="1" style="fill: #407335;"/>
+          <rect x="75" y="52" width="1" height="1" style="fill: #407335;"/>
+          <rect x="74" y="53" width="1" height="2" style="fill: #407335;"/>
+          <rect x="44" y="38" width="1" height="2" style="fill: #407335;"/>
+        </g>
+      </g>
+      <g id="light-grass4">
+        <g>
+          <rect x="38" y="42" width="1" height="1" style="fill: #abe079;"/>
+          <rect x="48" y="51" width="1" height="1" style="fill: #abe079;"/>
+          <rect x="59" y="50" width="1" height="2" style="fill: #abe079;"/>
+          <rect x="62" y="50" width="1" height="1" style="fill: #abe079;"/>
+          <rect x="68" y="52" width="1" height="1" style="fill: #abe079;"/>
+          <rect x="14" y="52" width="1" height="1" style="fill: #abe079;"/>
+          <rect x="46" y="58" width="1" height="2" style="fill: #abe079;"/>
+          <rect x="45" y="60" width="1" height="2" style="fill: #abe079;"/>
+          <rect x="44" y="58" width="1" height="2" style="fill: #abe079;"/>
+          <rect x="43" y="57" width="1" height="1" style="fill: #abe079;"/>
+          <rect x="31" y="57" width="1" height="3" style="fill: #abe079;"/>
+          <rect x="34" y="59" width="1" height="1" style="fill: #abe079;"/>
+          <rect x="43" y="68" width="1" height="1" style="fill: #abe079;"/>
+          <rect x="51" y="43" width="1" height="2" style="fill: #abe079;"/>
+        </g>
+      </g>
+    </g>
+    <g id="meadows-grass2-right">
+        <polygon id="grass2-bg" points="63 37 63 36 64 36 64 37 65 37 65 38 66 38 66 39 66 40 67 40 67 39 67 38 68 38 68 37 69 37 69 38 70 38 70 39 70 40 69 40 69 41 69 42 69 43 69 44 68 44 68 44 67 44 67 44 66 44 66 44 66 44 66 43 65 43 65 42 64 42 64 41 64 40 63 40 63 39 63 38 62 38 62 37 63 37"/>
+        <path id="grass2-color" d="M68,39v1s1,0,1,0v-1s0-1,0-1h-1s0,1,0,1Zm-4-1h-1v-1h1v1Zm1,0h-1s0,1,0,1v1s1,0,1,0v-1s0-1,0-1Zm1,2h-1s0,1,0,1v1s0,1,0,1v1s1,0,1,0v1s0,1,0,1h1s0-1,0-1h1s0-1,0-1v-1s0-1,0-1v-1s0-1,0-1h-1s0,1,0,1v1h-1v-1s0-1,0-1Z" style="fill: #abe079;"/>
+      </g>
+      <g id="meadows-grass3-right">
+        <polygon points="55 33 55 32 54 32 54 33 53 33 53 34 52 34 52 33 51 33 51 32 50 32 50 31 49 31 49 30 48 30 48 31 47 31 47 32 48 32 48 33 49 33 49 34 49 35 50 35 51 35 51 36 51 37 51 38 52 38 52 37 52 36 53 36 54 36 54 35 55 35 55 34 56 34 56 33 55 33"/>
+        <path id="grass3-color" d="M48,31h1v1h-1v-1Zm1,1h1v1h-1v-1Zm3,4h-1v-3h-1v5h1v1h1v-1h1v-3h-1v1Zm1-2h1v1h-1v-1Zm1-1h1v1h-1v-1Z" style="fill: #abe079;"/>
+      </g>
+      <g id="snapdragon-right-yellow-2">
+        <g>
+          <g>
+            <polygon points="56 29 56 30 56 31 57 31 57 30 57 29 57 28 56 28 56 29"/>
+            <rect x="57" y="27" width="1" height="1"/>
+            <rect x="58" y="26" width="1" height="1"/>
+            <rect x="59" y="27" width="1" height="1"/>
+            <polygon points="61 30 61 29 61 28 60 28 60 29 60 30 60 31 61 31 61 30"/>
+            <rect x="59" y="31" width="1" height="1"/>
+            <rect x="57" y="31" width="1" height="1"/>
+            <polygon points="56 33 56 34 56 35 57 35 57 34 57 33 57 32 56 32 56 33"/>
+            <rect x="55" y="35" width="1" height="1"/>
+            <rect x="56" y="36" width="1" height="1"/>
+            <polygon points="57 39 57 40 58 40 58 39 58 38 58 37 57 37 57 38 57 39"/>
+            <polygon points="59 38 59 39 59 40 59 41 60 41 60 40 60 39 60 38 60 37 59 37 59 38"/>
+            <rect x="60" y="36" width="1" height="1"/>
+            <rect x="61" y="35" width="1" height="1"/>
+            <polygon points="61 33 61 32 60 32 60 33 60 34 60 35 61 35 61 34 61 33"/>
+          </g>
+          <g>
+            <rect x="59" y="35" width="1" height="1" style="fill: #97d371;"/>
+            <rect x="58" y="36" width="1" height="1" style="fill: #97d371;"/>
+          </g>
+          <path d="M59,33h1v1h-2v-2h1v1Zm0-5h-1v2h2v-1h-1v-1Z" style="fill: #fff280;"/>
+          <path d="M59,32h1v1h-1v-1Zm0-3h1v-1h-1v1Zm-1,6h1v-1h-1v1Zm1-5h-1v1h1v-1Zm-1-3v1h1v-1h-1Z" style="fill: #fff7d9;"/>
+          <g>
+            <rect x="60" y="35" width="1" height="1" style="fill: #a9e682;"/>
+            <rect x="59" y="36" width="1" height="1" style="fill: #a9e682;"/>
+            <polygon points="58 38 58 39 58 40 59 40 59 39 59 38 59 37 58 37 58 38" style="fill: #a9e682;"/>
+            <rect x="57" y="35" width="1" height="1" style="fill: #a9e682;"/>
+          </g>
+          <path d="M60,35h-1v-1h1v1Zm-1-4h1v-1h-1v1Zm0,5v-1h-1v1h1Zm-1-4h1v-1h-1v1Zm-1,1v2h1v-3h-1v1Zm1-4v-1h-1v3h1v-2Z" style="fill: #edd05f;"/>
+          <g>
+            <rect x="57" y="36" width="1" height="1" style="fill: #7dbf53;"/>
+            <rect x="56" y="35" width="1" height="1" style="fill: #7dbf53;"/>
+          </g>
+        </g>
+      </g>
+      <g id="meadows-grass3-left">
+        <g id="grass4-bg">
+          <polygon points="41 29 40 29 40 30 39 30 39 31 38 31 38 32 37 32 37 33 36 33 36 32 35 32 35 31 34 31 34 32 33 32 33 33 34 33 34 34 35 34 35 35 35 36 36 36 37 36 37 37 37 37 38 37 38 37 38 36 39 36 40 36 40 35 40 34 40 33 40 32 41 32 41 31 42 31 42 30 41 30 41 29"/>
+        </g>
+        <path id="grass4-color" d="M40,30h1v1h-1v-1Zm-1,1h1v1h-1v-1Zm-1,2v2h-1v-1h-1v3h1v1h1v-1h1v-5h-1v1Zm-3,0h1v1h-1v-1Zm-1-1h1v1h-1v-1Z" style="fill: #abe079;"/>
+      </g>
+      <g id="meadows-grass2-left">
+        <polygon id="grass2-bg-2" data-name="grass2-bg" points="11 44 11 43 10 43 10 44 9 44 9 45 8 45 8 46 8 47 7 47 7 46 7 45 6 45 6 44 5 44 5 45 4 45 4 46 4 47 5 47 5 48 5 49 5 50 5 51 6 51 6 51 7 51 7 51 8 51 8 51 8 51 8 50 9 50 9 49 10 49 10 48 10 47 11 47 11 46 11 45 12 45 12 44 11 44"/>
+        <path id="grass2-color-2" data-name="grass2-color" d="M6,45h-1v2h1v-2Zm4-1h1v1h-1v-1Zm-1,2v1h1v-2h-1v1Zm-1,2v1h-1v-2h-1v5h1v1h1v-2h1v-4h-1v1Z" style="fill: #abe079;"/>
+      </g>
+      <g id="meadows-grass1-left">
+        <polyline id="grass1-bg-2" data-name="grass1-bg" points="27 41 28 41 28 40 29 40 29 39 30 39 30 38 30 37 29 37 29 36 28 36 28 37 27 37 27 38 27 39 26 39 25 39 25 38 24 38 24 39 23 39 23 40 24 40 24 41 24 42 25 42 25 42 26 42 26 43 27 43 27 42"/>
+        <path id="grass1-color-2" data-name="grass1-color" d="M29,38v-1h-1v2h1v-1Zm-2,6v-1h1v-4h-1v2h-1v-1h-1v3h1v1h1Zm-3-5h1v1h-1v-1Z" style="fill: #abe079;"/>
+      </g>
+      <g id="farming-stats">
+<text id="farming-name" filter="url(#stats-name)" font-weight="normal" fill="black" x="0" y="9">
+    meadows #1289
+</text>
+<text id="farming-coords" filter="url(#stats-coords)" fill="black" x="0" y="16.5">
+    XY 1144
+</text>
+<text id="farming-fc" filter="url(#stats-fc)" fill="black" x="0" y="24">
+    FC: 0
+</text>
+</g>
+<a href="https://clumsylabs.io" id="valley-url" target="_blank" class="button full-version">
+    <path class="button-bg" d="M12,74h21v11H12V74z"/>
+    <path fill="#FFF" d="M19,81h1v1h-2v-5h6v3h-1v-2h-4V81z M26,77h-1v1h1v3h-4v-2h-1v3h6v-5H26z M30,76h-1v1h1v5h-1v1h2v-7H30z M14,76
+		v7h2v-1h-1v-5h1v-1H14z"/>
+    <title>Visit in Clumsy Valley</title>
+  </a>
+  <a href="https://assets.clumsylabs.io/land/png/ClumsyValleyLandPlot1289.png" id="png-url" target="_blank" class="button png-square">
+    <path class="button-bg" d="M38,74h13v11H38V74z"/>
+    <path fill="#FFF" d="M49,76v7h-2v-1h1v-5h-1v-1H49z M40,76v7h2v-1h-1v-5h1v-1H40z M46,80h1v-1h-1V80z M42,79v1h1v-1H42z M45,79v-2
+		h-1v3h-1v1h1v1h1v-1h1v-1h-1V79z"/>
+    <title>Download square PNG</title>
+  </a>
+  <a href="https://assets.clumsylabs.io/land/ipfs/ClumsyValleyLandPlot1289.svg" id="svg-url" target="_blank" class="button svg">
+    <path class="button-bg" d="M56,74h20v11H56V74z"/>
+    <path fill="#FFF" d="M72,79v2h-1v-1h-1v-1H72z M69,81v1h2v-1H69z M69,79v-1h-1v3h1V79z M71,78v-1h-2v1H71z M66,78v3h1v-4h-1V78z
+		 M65,82h1v-1h-1V82z M65,79v-2h-1v4h1V79z M63,81v-1h-1v1H63z M62,80v-1h-1v1H62z M61,77v1h2v-1H61z M60,81v1h2v-1H60z M60,79h1v-1
+		h-1V79z M73,76h-1v1h1v5h-1v1h2v-7H73z M58,76v7h2v-1h-1v-5h1v-1H58z"/>
+    <title>Download SVG</title>
+  </a>
+  <script type="text/javascript">
+    <![CDATA[
+    let landRoot = document.getElementById('ClumsyValleyLandPlot');
+    let landBase = document.getElementById('meadows-base');
+    let farmingNameId = document.getElementById('farming-name');
+    let farmingCoordsId = document.getElementById('farming-coords');
+    let farmingFCId = document.getElementById('farming-fc');
+
+    let audioValley = "";
+    let audioTheme = "";
+
+    // valley-url
+    let valleyURL = document.getElementById('valley-url');
+
+    if (valleyURL) {
+      valleyURL.addEventListener('click', () => {
+        let clickUrlAudio = new Audio("https://assets.clumsylabs.io/land/audio/generic/clumsy-valley-click3.mp3");
+        clickUrlAudio.volume = 0.6;
+        clickUrlAudio.play();
+      });
+    };
+
+    // png-url
+    let pngURL = document.getElementById('png-url');
+
+    if (pngURL) {
+      pngURL.addEventListener('click', () => {
+        let clickUrlAudio = new Audio("https://assets.clumsylabs.io/land/audio/generic/clumsy-valley-click3.mp3");
+        clickUrlAudio.volume = 0.6;
+        clickUrlAudio.play();
+      });
+    };
+
+    // svg-url
+    let svgURL = document.getElementById('svg-url');
+
+    if (svgURL) {
+      svgURL.addEventListener('click', () => {
+        let clickUrlAudio = new Audio("https://assets.clumsylabs.io/land/audio/generic/clumsy-valley-click3.mp3");
+        clickUrlAudio.volume = 0.6;
+        clickUrlAudio.play();
+      });
+    };
+
+    // cow1 animation
+    let cow1 = document.getElementById('cow1-animation');
+    let cow1Default = document.getElementById('cow1-default');
+    let cow1Animated = document.getElementById('cow1-fart');
+
+    if (cow1) {
+      cow1.addEventListener('click', () => {
+        let cowFart = new Audio("https://assets.clumsylabs.io/land/audio/meadows/cow-fart.mp3");
+        cowFart.volume = 0.6;
+        cowFart.play();
+
+        cow1Default.classList.toggle('activate');
+        cow1Animated.classList.toggle('activate');
+
+        setTimeout(() => {
+          cow1Default.classList.remove('activate');
+          cow1Animated.classList.remove('activate');
+        }, 800);
+      });
+    };
+
+    // cow2 animation
+    let cow2 = document.getElementById('cow2-animation');
+    let cow2Default = document.getElementById('cow2-default');
+    let cow2Animated = document.getElementById('cow2-blowsmoke');
+
+    if (cow2) {
+      cow2.addEventListener('click', () => {
+        let brownCow = new Audio("https://assets.clumsylabs.io/land/audio/meadows/brown-cow.mp3");
+        brownCow.volume = 0.6;
+        brownCow.play();
+
+        cow2Default.classList.toggle('activate');
+        cow2Animated.classList.toggle('activate');
+
+        setTimeout(() => {
+          cow2Default.classList.remove('activate');
+          cow2Animated.classList.remove('activate');
+        }, 1500);
+      });
+    };
+
+    // duck1 animation
+    let duck1 = document.getElementById('duck1-animation');
+    let duck1Default = document.getElementById('duck1-default-2');
+    let duck1Animated = document.getElementById('duck1-love');
+
+    if (duck1) {
+      duck1.addEventListener('click', () => {
+        let duckAudio = new Audio("https://assets.clumsylabs.io/land/audio/meadows/duck.mp3");
+        duckAudio.volume = 0.6;
+        duckAudio.play();
+
+        duck1Default.classList.toggle('activate');
+        duck1Animated.classList.toggle('activate');
+
+        setTimeout(() => {
+          duck1Default.classList.remove('activate');
+          duck1Animated.classList.remove('activate');
+        }, 500);
+      });
+    };
+
+    // duck2 animation
+    let duck2 = document.getElementById('duck2-animation');
+    let duck2Default = document.getElementById('duck2-default');
+    let duck2Animated = document.getElementById('duck2-turn');
+
+    if (duck2) {
+      duck2.addEventListener('click', () => {
+        let duckAudio = new Audio("https://assets.clumsylabs.io/land/audio/meadows/duck.mp3");
+        duckAudio.volume = 0.6;
+        duckAudio.play();
+
+        duck2Default.classList.toggle('activate');
+        duck2Animated.classList.toggle('activate');
+
+        setTimeout(() => {
+          duck2Default.classList.remove('activate');
+          duck2Animated.classList.remove('activate');
+        }, 500);
+      });
+    };
+
+    // bunny animation
+    let bunny = document.getElementById('bunny-animation');
+    let bunnyDefault = document.getElementById('bunny-default');
+    let bunnyAnimated = document.getElementById('bunny-jump');
+
+    if (bunny) {
+      bunny.addEventListener('click', () => {
+        let bunnyAudio = new Audio("https://assets.clumsylabs.io/land/audio/meadows/bunny-hop.mp3");
+        bunnyAudio.volume = 0.6;
+        bunnyAudio.play();
+
+        bunnyDefault.classList.toggle('activate');
+        bunnyAnimated.classList.toggle('activate');
+
+        setTimeout(() => {
+          bunnyDefault.classList.remove('activate');
+          bunnyAnimated.classList.remove('activate');
+        }, 220);
+      });
+    };
+
+    // frog animation
+    let frog = document.getElementById('frog-animation');
+    let frogDefault = document.getElementById('frog-default');
+    let frogAnimated = document.getElementById('frog-shy');
+
+    if (frog) {
+      frog.addEventListener('click', () => {
+        let frogAudio = new Audio("https://assets.clumsylabs.io/land/audio/meadows/frog.mp3");
+        frogAudio.volume = 0.6;
+        frogAudio.play();
+
+        frogDefault.classList.toggle('activate');
+        frogAnimated.classList.toggle('activate');
+
+        setTimeout(() => {
+          frogDefault.classList.remove('activate');
+          frogAnimated.classList.remove('activate');
+        }, 500);
+      });
+    };
+
+    let landBaseEL = false;
+    let cheatcodeEL = false;
+    let farmingFCIdEL = false;
+    let ghostEL = false;
+
+    if (landBase && landRoot) {
+
+      var visible = false;
+      var cheatCodesVisible = false;
+
+      if (!landBaseEL) {
+        landBaseEL = true;
+        landBase.addEventListener('click', () => {
+          let genericClickAudio = new Audio("https://assets.clumsylabs.io/land/audio/generic/clumsy-valley-click3.mp3");
+          genericClickAudio.volume = 0.6;
+          genericClickAudio.play();
+
+          landRoot.classList.toggle('menu-in');
+
+          var getName, getCoords, getFC;
+          var farmingName, farmingCoords, farmingFC;
+          farmingFC = document.getElementById('farming-fc');
+
+          if (!visible) {
+            fetch('https://internal.clumsylabs.io/api/v1/metadata/land/1289')
+            .then(response => response.json())
+            .then(json => {
+
+              // Return values from internal clumsy api
+              getName = json["name"]
+              getCoords = json["coords"]
+              getFC = json["fc"]
+              getLink = json["link"]
+              getTrack = json["track"]
+              getTheme = json["theme"]
+              getGhost = json["ghost"]
+
+              if (getGhost) {
+                var bigGhost = false;
+                let ghost = document.getElementById('ghost');
+                if (ghost) {
+                  ghost.setAttribute("href", getGhost);
+                  ghost.setAttribute("opacity", "1");
+
+                  if (!ghostEL) {
+                    ghostEL = true;
+                    ghost.addEventListener('click', () => {
+                      let genericClickAudio = new Audio("https://assets.clumsylabs.io/land/audio/generic/clumsy-valley-click3.mp3");
+                      genericClickAudio.volume = 0.6;
+                      genericClickAudio.play();
+
+                      if (!bigGhost) {
+                        bigGhost = true;
+                        ghost.setAttribute("href", getGhost);
+                        ghost.setAttribute("opacity", "1");
+                        ghost.setAttribute("height", "70");
+                        ghost.setAttribute("width", "70");
+                        ghost.setAttribute("x", "10");
+                        ghost.setAttribute("y", "-8");
+                      } else {
+                        bigGhost = false;
+                        ghost.setAttribute("height", "20");
+                        ghost.setAttribute("width", "20");
+                        ghost.setAttribute("x", "70");
+                        ghost.setAttribute("y", "3");
+                      }
+                  })}
+                };
+              }
+
+              if (getName) {
+                farmingName = document.getElementById('farming-name');
+                farmingName.innerHTML = getName;
+                console.log("Name: ", getName)
+              }
+
+              if (getCoords) {
+                farmingCoords = document.getElementById('farming-coords');
+                farmingCoords.innerHTML = getCoords;
+                console.log("Coordinates: ", getCoords)
+              }
+
+              if (getFC) {
+                farmingFC.innerHTML = "FC: " + getFC;
+                console.log("Farming cycles completed: ", getFC)
+
+                if (getFC >= 1 && getFC <= 9) {
+                  console.log("Tier 1 Land")
+                  farmingFC.classList.add('tier1');
+                } else if (getFC >= 10 && getFC <= 29) {
+                  console.log("Tier 2 Land")
+                  farmingFC.classList.add('tier2');
+                } else if (getFC >= 30 && getFC <= 49) {
+                  console.log("Tier 3 Land")
+                  farmingFC.classList.add('tier3');
+                } else if (getFC >= 50 && getFC <= 99) {
+                  console.log("Tier 4 Land")
+                  farmingFC.classList.add('tier4');
+                } else if (getFC >= 100) {
+                  console.log("Tier 5 Land")
+                  farmingFC.classList.add('tier5');
+                } else {
+                  console.log("Tier 0 Land")
+                }
+              } else {
+                getFc = 0;
+              }
+
+              if (getLink) {
+                let valleyUrl = document.getElementById('valley-url');
+                valleyUrl.setAttribute("href", getLink);
+                console.log("Valley link: ", getLink)
+              }
+
+            })
+            .catch(error => {
+              getName = "";
+              getCoords = "";
+              getFC = 0;
+              getLink = "";
+              getTrack = "";
+              getTheme = "";
+              getGhost = "";
+            });
+          }
+
+          if (!farmingFCIdEL) {
+            farmingFCIdEL = true;
+            farmingFCId.addEventListener('click', () => {
+              cheatCodesVisible = true
+
+              if (cheatCodesVisible) {
+                let cheatCodeAudio = new Audio("https://assets.clumsylabs.io/land/audio/generic/cheatcodeactivated.mp3");
+                cheatCodeAudio.volume = 1;
+                cheatCodeAudio.play();
+
+                farmingFC.innerHTML = "Cheat Codes Activated..."
+                farmingFC.setAttribute("filter", "url(#stats-cheatcode)");
+                let bufferArray = [];
+                let lastKeystrokeTime = Date.now();
+                const cheatcode = (e) => {
+                  
+                  const latestKeystrokeTime = Date.now();
+                  if (latestKeystrokeTime - lastKeystrokeTime > 5000) {
+                    if (getFC) {
+                      farmingFC.innerHTML = "FC: " + getFC;
+                    } else {
+                      farmingFC.innerHTML = "FC: ";
+                    }
+                    farmingFC.setAttribute("filter", "url(#stats-fc)");
+                    bufferArray = [];
+                  }
+
+                  if (e.key == "ArrowUp") {
+                    key = '↑';
+                  } else if (e.key == "ArrowDown") {
+                    key = '↓';
+                  } else if (e.key == "ArrowLeft") {
+                    key = '←';
+                  } else if (e.key == "ArrowRight") {
+                    key = '→';
+                  } else if (e.key.length == 1) {
+                    key = e.key;
+                  } else {
+                    key = ""
+                  }
+                  
+                  // each key press either adds or removes a char
+                  if (e.key == "Backspace") {
+                    bufferArray = bufferArray.slice(0, -1);
+                  } else if (bufferArray.length < 12 && key != "") {
+                    bufferArray.push(key);
+                  }
+
+                  farmingFC.innerHTML = bufferArray.join("")
+
+                  const word = bufferArray.join('');
+                  if (word === 'disco') { /* DISCO */
+                    cheatCodeAudio.play();
+                    console.log('Clumsy Valley Party!');
+
+                    landRoot.classList.add('party');
+                    clearListener();
+
+                    setTimeout(() => {
+                      landRoot.classList.remove('party');
+                    }, 10000);
+                  } else if (word == '↑↑↓↓←→ab') { /* CODE */
+                    cheatCodeAudio.play();
+                    console.log('Nonstop Party!!!');
+
+                    landRoot.classList.add('party');
+                    clearListener();
+                  } else if (word === 'rgb') { /* RGB */
+                    cheatCodeAudio.play();
+
+                    landBase.classList.add('party');
+                    clearListener();
+
+                    setTimeout(() => {
+                      landBase.classList.remove('party');
+                    }, 10000);
+                  } else if (word === 'hideme') { /* HIDEME */
+                    cheatCodeAudio.play();
+                    let items = ["picketfence", "snail", "blue-flower", "cosmos-flower-rgb", "meadows-worm", "duck1-animation", 
+                    "cow1-animation", "cow2-animation", "duck2-animation", "frog-animation", "bunny-animation", "hibiscus-flower", 
+                    "mushroom-house-purple", "mushroom-house-red", "mushie", "bee", "snapdragon-left-yellow-1", 
+                    "snapdragon-left-blue-1", "snapdragon-right-yellow-1", "snapdragon-right-yellow-2", "snapdragon-right-blue-1", 
+                    "snapdragon-right-blue-2", "butterfly2-animated", "butterfly1-animated", "cloud1-animation", "cloud2-animation"]
+
+                    for (let i = 0; i< items.length; i++) {
+                      let item = document.getElementById(items[i]);
+                      if (item) {
+                        item.setAttribute("opacity", "0");
+                      }
+                    }
+
+                    clearListener();
+
+                    setTimeout(() => {
+                      for (let i = 0; i< items.length; i++) {
+                        let item = document.getElementById(items[i]);
+                        if (item) {
+                          item.setAttribute("opacity", "1");
+                        }
+                      }
+                    }, 5000);
+                  } else if (word === 'usetheforce') { /* USETHEFORCE */
+                    cheatCodeAudio.play();
+                    let items = ["picketfence", "snail", "blue-flower", "cosmos-flower-rgb", "meadows-worm", "duck1-animation", 
+                    "cow1-animation", "cow2-animation", "duck2-animation", "frog-animation", "bunny-animation", "hibiscus-flower", 
+                    "mushroom-house-purple", "mushroom-house-red", "mushie", "snapdragon-left-yellow-1", 
+                    "snapdragon-left-blue-1", "snapdragon-right-yellow-1", "snapdragon-right-yellow-2", "snapdragon-right-blue-1", 
+                    "snapdragon-right-blue-2"]
+
+                    for (let i = 0; i< items.length; i++) {
+                      let item = document.getElementById(items[i]);
+                      if (item) {
+                        let randomnum = Math.floor(Math.random() * (60 - 10) + 10) / 10;
+                        item.style.animation = "cg-anim-antigrav 4s linear " + randomnum + "s infinite";
+                      }
+                    }
+
+                    clearListener();
+
+                    setTimeout(() => {
+                      for (let i = 0; i< items.length; i++) {
+                        let item = document.getElementById(items[i]);
+                        if (item) {
+                          item.style.animation = "";
+                        }
+                      }
+                    }, 30000);
+                  } else if (word == 'valley') { /* VALLEY */
+                    cheatCodeAudio.play();
+                    if (audioValley) {
+                      audioValley.currentTime = 0;
+                      audioValley.play();
+                    } else if (getTrack) {
+                      audioValley = new Audio(getTrack);
+                      audioValley.volume = 0.4;
+                      audioValley.play();
+                    }
+                    clearListener();
+                  } else if (word == 'theme') { /* THEME */
+                    cheatCodeAudio.play();
+                    if (audioTheme) {
+                      audioTheme.currentTime = 0;
+                      audioTheme.play();
+                    } else if (getTheme) {
+                      audioTheme = new Audio(getTheme);
+                      audioTheme.volume = 0.4;
+                      audioTheme.play();
+                    }
+                    clearListener();
+                  } else {
+                    if (this.keyTimeout) {clearTimeout(this.keyTimeout)}
+                    this.keyTimeout = setTimeout(() => {
+                      clearListener();
+                    }, 5000);
+                  }
+          
+                  lastKeystrokeTime = latestKeystrokeTime;
+                  }
+
+                if (!cheatcodeEL){
+                  cheatcodeEL = true;
+                  document.addEventListener('keyup', cheatcode, true);
+                }
+
+                const clearListener = () => {
+                  cheatCodesVisible = false;
+                  cheatcodeEL = false;
+                  if (getFC) {
+                      farmingFC.innerHTML = "FC: " + getFC;
+                    } else {
+                      farmingFC.innerHTML = "FC: ";
+                    }
+                  farmingFC.setAttribute("filter", "url(#stats-fc)");
+                  bufferArray = [];
+                  document.removeEventListener('keyup', cheatcode, true);
+                }
+              }
+            });
+          }
+          
+          visible = !visible
+          farmingNameId.classList.toggle('show-farming-stats');
+          farmingCoordsId.classList.toggle('show-farming-stats');
+          farmingFCId.classList.toggle('show-farming-stats');
+          });     
+    }}]]>
+  </script>
+
+  <image id="ghost" opacity="0" href="" x="70px" y="3px" height="20" width="20" />
+</svg>

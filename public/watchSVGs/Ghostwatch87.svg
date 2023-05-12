@@ -1,0 +1,233 @@
+<svg id="gw87" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 89 89">
+
+<style><![CDATA[
+
+  #gw87 {
+    overflow: hidden;
+    outline: none;
+    box-shadow: none;
+    height: 100%;
+  }
+
+  @media (min-aspect-ratio: 1/1) {
+    #gw87 {
+      height: 100%;
+      width: auto;
+      margin: 0 auto;
+    }
+  }
+
+  #gw87 .tickers path:nth-child(2) {
+    transform: translateY(10px);
+  }
+
+  #gw87 .tickers path:nth-child(3) {
+    transform: translateY(20px);
+  }
+
+  #gw87 .tickers path:nth-child(4) {
+    transform: translateY(30px);
+  }
+
+  #gw87 .tickers path:nth-child(5) {
+    transform: translateY(40px);
+  }
+  
+  #gw87 .skull-glow-1 {
+    animation: gw-skull-glow-1 2s ease-in-out -1.0385s infinite;
+  }
+
+  #gw87 .skull-glow-2 {
+    animation: gw-skull-glow-2 2s ease-in-out -1.0385s infinite;
+  }
+
+  @keyframes gw-skull-glow-1 {
+    0% {
+      opacity: 0.2;
+    }
+    50% {
+      opacity: 0.7;
+    }
+    100% {
+      opacity: 0.2;
+    }
+  }
+
+  @keyframes gw-skull-glow-2 {
+    0% {
+      opacity: 0.2;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    100% {
+      opacity: 0.2;
+    }
+  }
+
+  #gw87 .skull-drops .skull-drop:nth-child(1) {
+    animation: gw-drip 1s ease-in -0.0719s infinite;
+  }
+
+  #gw87 .skull-drops .skull-drop:nth-child(2) {
+    animation: gw-drip 1s ease-in -0.1117s infinite;
+  }
+
+  #gw87 .skull-drops .skull-drop:nth-child(3) {
+    animation: gw-drip 1s ease-in -0.2407s infinite;
+  }
+
+  #gw87 .skull-drops .skull-drop:nth-child(4) {
+    animation: gw-drip 1s ease-in -0.9188s infinite;
+  }
+
+  #gw87 .skull-drops .skull-drop:nth-child(5) {
+    animation: gw-drip 1s ease-in -0.896s infinite;
+  }
+
+  @keyframes gw-drip {
+    0% {
+      transform: translate3d(0, -5px, 0);
+      opacity: 1;
+    }
+    100% {
+      transform: translate3d(0, 70px, 0);
+      opacity: 0;
+    }
+  }
+
+]]></style>
+
+<path class="background" fill="#25252D" d="M0 0h89v89H0z"/>
+
+<a href="https://ipfs.io/ipfs/QmNnX8gCj1tqkXpGcEHPYgh1iY4nqbEwexGb8ts9YruPEX?filename=gw87.html" target="_blank">
+  <path class="title" fill="#FFF" d="M64 10v2h-1v-2h-1v5h1v-2h1v2h1v-5zm-4 5h1v-1h-2v1zm-2-3v2h1v-3h-1zm1-2v1h2v-1h-1zm-4 0h-1v1h1v4h1v-4h1v-1h-1zm-3 2h-1v-1h-1v4h1v-2h1v2h1v-4h-1zm-1-2h1v1h-1zm-3 1v3h1v-4h-1zm-1 3h1v1h-1zm-1-1h1v1h-1zm-1 0v-3h-1v5h2v-1h-1zm-3-3h-2v1h1v4h1v-4h1v-1zm-6 4v1h2v-1h-1zm2-1h1v1h-1zm-1-1h1v1h-1zm-1-1h1v1h-1zm1-1v1h2v-1h-1zm-4 0h1v1h-1zm1 2v2h1v-3h-1zm-1 2h1v1h-1zm0-2v-1h-1v3h1v-1zm-3-1v1h-1v-2h-1v5h1v-2h1v2h1v-5h-1zm-5 1v1h1v1h-2v1h3v-3h-1zm1-1v-1h-2v1h1zm-2 1v-1h-1v3h1v-1z"/>
+</a>
+
+<g class="tickers" fill="#FFF">
+  <path d="M19 22h-1v-1h-1v4h1v-2h1v2h1v-4h-1zm-1-2h1v1h-1zm-3 2v2h1v-3h-1zm-1 1v-2h1v-1h-2v5h2v-1h-1zm-3-1h-1v-1H9v4h1v-2h1v2h1v-4h-1zm-1-2h1v1h-1z"/>
+  <path d="M19 25h1v-1h-2v1zm-1-5v1h2v-1h-1zm-1 2v2h1v-3h-1zm-3-2h-1v1h1v4h1v-4h1v-1h-1zm-3 3h1v1h-1zm0-2h1v1h-1zm-1 0h1v-1H9v5h2v-1h-1v-1h1v-1h-1z"/>
+  <path d="M18 20h-1v1h1v4h1v-4h1v-1h-1zm-3 2v2h1v-3h-1zm-1 2h1v1h-1zm0-4h1v1h-1zm0 2v-1h-1v3h1v-1zm-3 0v2h1v-3h-1zm-1 1v-2h1v-1H9v5h2v-1h-1z"/>
+  <path d="M22 21v1h1v1h-1v1h1v1h-2v-5h2v1h-1zm-4 1v-1h-1v3h1v-1h1v1h-1v1h2v-3h-2zm1-2h-1v1h1v-1zm-4 2v2h1v-3h-1v1zm-1 3h1v-1h-1v1zm1-5h-1v1h1v-1zm-1 2v-1h-1v3h1v-2zm-3 0v2h1v-3h-1v1zm-1 1v-2h1v-1H9v5h2v-1h-1v-1z"/>
+  <path d="M23 24v-1h1v2h-1v-1zm0-4v2h1v-2h-1zm-1 3h1v-1h-1v1zm-1 1v1h1v-2h-1v1zm1-4h-1v2h1v-2zm-3 2h-1v-1h-1v4h1v-2h1v2h1v-4h-1v1zm0-2h-1v1h1v-1zm-4 1v3h1v-4h-1v1zm-1 4h1v-1h-1v1zm0-3v-2h-1v4h1v-2zm-3 0h-1v-1H9v4h1v-2h1v2h1v-4h-1v1zm0-2h-1v1h1v-1z"/>
+</g>
+
+<g class="digits" fill="#FFF" style="display: none;">
+  <path class="zero" d="M79 20h-2v5h3v-5h-1zm0 2v2h-1v-3h1v1z"/>
+  <path class="one" d="M80 24v1h-3v-1h1v-2h-1v-1h1v-1h1v4h1z"/>
+  <path class="two" d="M80 22h-1v-1h1v1zm-1 3h1v-1h-2v1h1zm0-3h-1v1h1v-1zm-1-2h-1v1h2v-1h-1zm-1 3v1h1v-1h-1z"/>
+  <path class="three" d="M79 24v-1h1v1h-1zm1-3h-1v1h1v-1zm-2 1v1h1v-1h-1zm0-2h-1v1h2v-1h-1zm-1 4v1h2v-1h-2z"/>
+  <path class="four" d="M80 21v4h-1v-2h-2v-3h1v2h1v-1h1z"/>
+  <path class="five" d="M79 24v-1h1v1h-1zm0-3h1v-1h-3v3h2v-1h-1v-1h1zm-2 3v1h2v-1h-2z"/>
+  <path class="six" d="M79 21h-1v-1h2v1h-1zm-2 0v3h1v-1h1v1h-1v1h2v-3h-2v-1h-1z"/>
+  <path class="seven" d="M80 20v5h-1v-4h-2v-1h3z"/>
+  <path class="eight" d="M79 20h-2v5h3v-5h-1zm0 4h-1v-1h1v1zm0-2h-1v-1h1v1z"/>
+  <path class="nine" d="M79 20h-2v3h2v2h1v-5h-1zm0 2h-1v-1h1v1z"/>
+  <path class="decimal" d="M71 24h1v1h-1z"/>
+</g>
+
+<g class="prices" fill="#FFF">
+  <g class="line-0"></g>
+  <g class="line-1"></g>
+  <g class="line-2"></g>
+  <g class="line-3"></g>
+  <g class="line-4"></g>
+</g>
+
+<g class="skull"><path d="M14 67h10v1H14zm10 1h1v1h-1zm3 9h1v-6h-1v6zm1 0v5h1v-5h-1zm-1 5h1v1h-1zm-1 1h1v1h-1zm-1 1h1v1h-1zm-1 1h1v2h-1zm-1 0h-1v2h-1v-2h-1v2h-1v1h5v-1h-1v-2zm-5 0h1v2h-1zm-1-1h-1v1h2v-1h-1zm-5-2h1v1h-1zm0-4h-1v4h1v-4zm-1-7h-1v7h1v-7zm0-1h1v1h-1zm2-2h1v1h-1zm-1 1h1v1h-1zm7 7h-2v1h-1v1h-1v3h2v1h2v-1h1v-4h-1v-1zm7 0h-2v1h-1v3h1v1h2v-1h1v-3h-1v-1zm-5 5v2h1v-1h1v-1h-2zm4-12h1v1h-1zm1 1h1v1h-1zM13 83h3v1h-3zm53-16h10v1H66zm-1 1h1v1h-1zm-2 9h-1v-6h1v6zm-1 0v5h-1v-5h1zm0 5h1v1h-1zm1 1h1v1h-1zm1 1h1v1h-1zm1 1h1v2h-1zm2 0h1v2h1v-2h1v2h1v1h-5v-1h1v-2zm4 0h1v2h-1zm2-1h1v1h-2v-1h1zm4-2h1v1h-1zm1-4h1v4h-1v-4zm1-7h1v7h-1v-7zm-1-1h1v1h-1zm-2-2h1v1h-1zm1 1h1v1h-1zm-6 7h2v1h1v1h1v3h-2v1h-2v-1h-1v-4h1v-1zm-7 0h2v1h1v3h-1v1h-2v-1h-1v-3h1v-1zm5 5v2h-1v-1h-1v-1h2zm-5-12h1v1h-1zm-1 1h1v1h-1zm11 13h3v1h-3z"/><path class="skull-glow-1" fill="#20FF00" d="M31 76h-1v-6h-1v-1h-1v-1h-1v-1h-1v-1h-1v-1H13v1h-1v1h-1v1h-1v1H9v2H8v7h1v4h1v2h1v1h1v1h1v1h2v1h4v-1h-1v-2h-2v-1h-3v-1h-1v-1h-1v-4h-1v-7h1v-1h1v-1h1v-1h1v-1h10v1h1v1h1v1h1v1h1v6h1v5h-1v1h-1v1h-1v1h-1v2h-1v1h2v-1h1v-1h1v-1h1v-1h1v-1h1v-4h.04v-.75H31V76zm50-7h-1v-1h-1v-1h-1v-1h-1v-1H65v1h-1v1h-1v1h-1v1h-1v1h-1v6h-1v7h1v1h1v1h1v1h1v1h1v1h2v-1h-1v-2h-1v-1h-1v-1h-1v-1h-1v-5h1v-6h1v-1h1v-1h1v-1h1v-1h10v1h1v1h1v1h1v1h1v7h-1v4h-1v1h-1v1h-3v1h-2v2h-1v1h4v-1h2v-1h1v-1h1v-1h1v-2h1v-4h1v-7h-1v-2zm-44 1h2v2h-2zm7 9h3v3h-3zM3 44h2v2H3zm80 1h3v3h-3zM42 75h1v1h-1zm11-10h-3v1h-1v3h1v1h3v-1h1v-3h-1z" opacity=".7"/><path class="skull-glow-2" fill="#20FF00" d="M59 70h1v6h-1zm1-1h1v1h-1zm1-1h1v1h-1zm1-1h1v1h-1zm1-1h1v1h-1zm1-1h1v1h-1zm1-1h12v1H65zm12 1h1v1h-1zm1 1h1v1h-1zm1 1h1v1h-1zm1 1h1v1h-1zm1 1h1v2h-1zm1 2h1v7h-1zm-1 7h1v4h-1zm-1 4h1v2h-1zm-1 2h1v1h-1zm-1 1h1v1h-1zm-1 1h1v1h-1zm-2 1h2v1h-2zm-16-4h1v1h-1zm1 1h1v1h-1zm1 1h1v1h-1zm1 1h1v1h-1zm1 1h1v1h-1zm-5-11h1v7h-1zm-28-6h1v6h-1zm-1-1h1v1h-1zm-1-1h1v1h-1zm-1-1h1v1h-1zm-1-1h1v1h-1zm-1-1h1v1h-1zm-12-1h12v1H13zm-1 1h1v1h-1zm-1 1h1v1h-1zm-1 1h1v1h-1zm-1 1h1v1H9zm-1 1h1v2H8zm-1 2h1v7H7zm1 7h1v4H8zm1 4h1v2H9zm1 2h1v1h-1zm1 1h1v1h-1zm1 1h1v1h-1zm1 1h2v1h-2zm17-4h1v1h-1zm-1 1h1v1h-1zm-1 1h1v1h-1zm-1 1h1v1h-1zm-1 1h1v1h-1zm5-11h1v7h-1zm52-19h1v1h-1zm1 26h2v2h-2zM54 66h1v3h-1zm-1-1v-1h-3v1h1zm-11-1h1v1h-1zm7 1h1v1h-1zm-1 1h1v3h-1zm1 3h1v1h-1zm1 1v1h3v-1h-2zM37 80h1v1h-1zm0-11h2v1h-2zm-1 1h1v2h-1zm3 0h1v2h-1zm-2 2h2v1h-2zm46-28h3v1h-3zm3 1h1v3h-1zm-3 3h3v1h-3zm-1-3h1v3h-1zm2 1h1v1h-1zM47 78h-3v1h-1v3h1v1h3v-1h1v-3h-1zm6 5h1v1h-1zM30 63h1v1h-1zM4 83h2v2H4zM3 73h1v1H3zm2-10h1v1H5zM3 43h2v1H3zm2 1h1v2H5zm-2 2h2v1H3zm-1-2h1v2H2zm4 8h1v1H6zm78 13h2v2h-2zm-31 0h1v1h-1zm0 4h1v1h-1zm-3-3h3v3h-3z" opacity=".5"/><g class="skull-blood"><path fill="#20FF00" d="M81 0H0v89h89V0h-8zm7 88H1V1h9v1h2v3h1v6h-1v1h-1v2h1v1h1v-1h1V6h1V4h1V3h2v1h1v5h1V7h1V3h1V2h3v1h1v3h1V4h1V2h2V1h2v1h1v3h1V2h1V1h3v1h2v1h1v4h1V5h1V2h2V1h7v1h1v3h1v2h1V3h1V2h3v1h1v1h1V2h1V1h5v8h1v1h1V9h1V7h-1V6h-1V3h1V1h4v1h1v11h1v1h1v-1h1v-2h-1v-1h-1V3h1V2h1V1h2v3h1V1h8v87z"/><path fill="#FFF" opacity=".3" d="M54 4h1v3h-1zM69 7h1v1h-1zM68 6h1v1h-1zM75 10h1v1h-1zM76 11h1v2h-1zM79 2h1v2h-1zM33 3h1v2h-1zM41 5h1v2h-1zM42 4h1v1h-1zM20 5h1v2h-1zM19 8h1v1h-1zM26 5h1v1h-1zM12 14h1v1h-1zM13 13v1h1v-2h-1zM14 5h1v1h-1zM60 2h1v2h-1zM61 1h1v1h-1zM68 2h1v1h-1zM75 2h1v1h-1zM76 1h1v1h-1z"/></g><g class="skull-drops"><path class="skull-drop" fill="#20FF00" d="M79 7h1v1h-1z"/><g class="skull-drop"><path fill="#20FF00" d="M68 14v2h1v-3h-1v1z"/><path fill="#FFF" d="M68 14h1v2h-1z" opacity=".3"/></g><path class="skull-drop" fill="#20FF00" d="M60 6h1v1h-1z"/><path class="skull-drop" fill="#20FF00" d="M33 7h1v1h-1z"/><g class="skull-drop"><path fill="#20FF00" d="M19 13v3h1v-4h-1v1z"/><path fill="#FFF" d="M19 14h1v2h-1z" opacity=".3"/></g></g></g>
+
+<script type='text/javascript'><![CDATA[
+
+  const gw87Root = document.getElementById('gw87');
+
+  if (gw87Root) {
+    const gwRoot = gw87Root;
+
+    const getPrice = (data, ticker) => {
+      return data[ticker];
+    }
+
+    fetch('https://www.clumsyghosts.com/json/prices.json')
+      .then(response => response.json())
+      .then(json => {
+
+        console.log('Last updated: ' + json.updated);
+        
+        const tickers = ['ADA', 'BTC', 'DOT', 'DOGE', 'AVAX'];
+        
+        const prices = [
+          getPrice(json.prices, tickers[0]),
+          getPrice(json.prices, tickers[1]),
+          getPrice(json.prices, tickers[2]),
+          getPrice(json.prices, tickers[3]),
+          getPrice(json.prices, tickers[4]),
+        ];
+
+        const digitsGroup = gwRoot.querySelector('.digits');
+        const pricesGroup = gwRoot.querySelector('.prices');
+        let lineOffset = 0;
+
+        for (let i=0; i<5; i++) {
+          const line = pricesGroup.querySelector('.line-' + i);
+          line.style.transform = 'translateY(' + lineOffset + 'px)';
+          lineOffset += 10;
+
+          const digits = String(prices[i]);
+          const numDigits = digits.length;
+
+          let digitOffset = 4 * numDigits - 6;
+
+          for (let j = 0; j < numDigits; j++) {
+            const digit = digits.charAt(j);
+
+            switch (digit) {
+              case '.':
+                line.appendChild(digitsGroup.querySelector('.decimal').cloneNode(true)).style.transform = 'translateX(-' + (digitOffset - 6) + 'px)';
+                digitOffset += 2;
+                break;
+              case '0':
+                line.appendChild(digitsGroup.querySelector('.zero').cloneNode(true)).style.transform = 'translateX(-' + digitOffset + 'px)';
+                break;
+              case '1':
+                line.appendChild(digitsGroup.querySelector('.one').cloneNode(true)).style.transform = 'translateX(-' + digitOffset + 'px)';
+                break;
+              case '2':
+                line.appendChild(digitsGroup.querySelector('.two').cloneNode(true)).style.transform = 'translateX(-' + digitOffset + 'px)';
+                break;
+              case '3':
+                line.appendChild(digitsGroup.querySelector('.three').cloneNode(true)).style.transform = 'translateX(-' + digitOffset + 'px)';
+                break;
+              case '4':
+                line.appendChild(digitsGroup.querySelector('.four').cloneNode(true)).style.transform = 'translateX(-' + digitOffset + 'px)';
+                break;
+              case '5':
+                line.appendChild(digitsGroup.querySelector('.five').cloneNode(true)).style.transform = 'translateX(-' + digitOffset + 'px)';
+                break;
+              case '6':
+                line.appendChild(digitsGroup.querySelector('.six').cloneNode(true)).style.transform = 'translateX(-' + digitOffset + 'px)';
+                break;
+              case '7':
+                line.appendChild(digitsGroup.querySelector('.seven').cloneNode(true)).style.transform = 'translateX(-' + digitOffset + 'px)';
+                break;
+              case '8':
+                line.appendChild(digitsGroup.querySelector('.eight').cloneNode(true)).style.transform = 'translateX(-' + digitOffset + 'px)';
+                break;
+              case '9':
+                line.appendChild(digitsGroup.querySelector('.nine').cloneNode(true)).style.transform = 'translateX(-' + digitOffset + 'px)';
+                break;
+            }
+
+            digitOffset -= 4;
+          }
+        }
+
+      })
+      .catch(error => {
+        console.error('Failed to fetch:', error);
+      });
+      
+  }
+
+]]></script>
+
+</svg>

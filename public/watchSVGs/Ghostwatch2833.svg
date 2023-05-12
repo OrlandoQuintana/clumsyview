@@ -1,0 +1,156 @@
+<svg id="gw2833" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 89 89">
+
+<style><![CDATA[
+
+  #gw2833 {
+    overflow: hidden;
+    outline: none;
+    box-shadow: none;
+    height: 100%;
+  }
+
+  @media (min-aspect-ratio: 1/1) {
+    #gw2833 {
+      height: 100%;
+      width: auto;
+      margin: 0 auto;
+    }
+  }
+
+  #gw2833 .tickers path:nth-child(2) {
+    transform: translateY(10px);
+  }
+
+  #gw2833 .tickers path:nth-child(3) {
+    transform: translateY(20px);
+  }
+
+]]></style>
+
+<path class="background" fill="#35232A" d="M0 0h89v89H0z"/>
+
+<a href="https://ipfs.io/ipfs/QmVQocmiYxD4zSWSdAG3FoNyYPPgMjV48DVmXpRqBitnzr?filename=gw2833.html" target="_blank">
+  <path class="title" fill="#FFF" d="M64 10v2h-1v-2h-1v5h1v-2h1v2h1v-5zm-4 5h1v-1h-2v1zm-2-3v2h1v-3h-1zm1-2v1h2v-1h-1zm-4 0h-1v1h1v4h1v-4h1v-1h-1zm-3 2h-1v-1h-1v4h1v-2h1v2h1v-4h-1zm-1-2h1v1h-1zm-3 1v3h1v-4h-1zm-1 3h1v1h-1zm-1-1h1v1h-1zm-1 0v-3h-1v5h2v-1h-1zm-3-3h-2v1h1v4h1v-4h1v-1zm-6 4v1h2v-1h-1zm2-1h1v1h-1zm-1-1h1v1h-1zm-1-1h1v1h-1zm1-1v1h2v-1h-1zm-4 0h1v1h-1zm1 2v2h1v-3h-1zm-1 2h1v1h-1zm0-2v-1h-1v3h1v-1zm-3-1v1h-1v-2h-1v5h1v-2h1v2h1v-5h-1zm-5 1v1h1v1h-2v1h3v-3h-1zm1-1v-1h-2v1h1zm-2 1v-1h-1v3h1v-1z"/>
+</a>
+
+<g class="tickers" fill="#FFF">
+  <path d="M19 22h-1v-1h-1v4h1v-2h1v2h1v-4h-1zm-1-2h1v1h-1zm-3 2v2h1v-3h-1zm-1 1v-2h1v-1h-2v5h2v-1h-1zm-3-1h-1v-1H9v4h1v-2h1v2h1v-4h-1zm-1-2h1v1h-1z"/>
+  <path d="M22 21v1h1v1h-1v1h1v1h-2v-5h2v1h-1zm-4 1v-1h-1v3h1v-1h1v1h-1v1h2v-3h-2zm1-2h-1v1h1v-1zm-4 2v2h1v-3h-1v1zm-1 3h1v-1h-1v1zm1-5h-1v1h1v-1zm-1 2v-1h-1v3h1v-2zm-3 0v2h1v-3h-1v1zm-1 1v-2h1v-1H9v5h2v-1h-1v-1z"/>
+  <path d="M20 24v-1h1v1h-1zm-1-2v-1h1v-1h-2v5h2v-1h-1v-1h1v-1h-1zm2 0v-1h-1v1h1zm-5-1v1h-1v1h1v2h1v-5h-1v1zm-2 0v-1h-1v5h1v-3h1v-1h-1zm-2 3v-1h-1v1h1zm-1-2h1v-1h-1v1zm-1-1h1v-1H9v5h2v-1h-1v-1h1v-1h-1v-1z"/>
+</g>
+
+<g class="digits" fill="#FFF" style="display: none;">
+  <path class="zero" d="M79 20h-2v5h3v-5h-1zm0 2v2h-1v-3h1v1z"/>
+  <path class="one" d="M80 24v1h-3v-1h1v-2h-1v-1h1v-1h1v4h1z"/>
+  <path class="two" d="M80 22h-1v-1h1v1zm-1 3h1v-1h-2v1h1zm0-3h-1v1h1v-1zm-1-2h-1v1h2v-1h-1zm-1 3v1h1v-1h-1z"/>
+  <path class="three" d="M79 24v-1h1v1h-1zm1-3h-1v1h1v-1zm-2 1v1h1v-1h-1zm0-2h-1v1h2v-1h-1zm-1 4v1h2v-1h-2z"/>
+  <path class="four" d="M80 21v4h-1v-2h-2v-3h1v2h1v-1h1z"/>
+  <path class="five" d="M79 24v-1h1v1h-1zm0-3h1v-1h-3v3h2v-1h-1v-1h1zm-2 3v1h2v-1h-2z"/>
+  <path class="six" d="M79 21h-1v-1h2v1h-1zm-2 0v3h1v-1h1v1h-1v1h2v-3h-2v-1h-1z"/>
+  <path class="seven" d="M80 20v5h-1v-4h-2v-1h3z"/>
+  <path class="eight" d="M79 20h-2v5h3v-5h-1zm0 4h-1v-1h1v1zm0-2h-1v-1h1v1z"/>
+  <path class="nine" d="M79 20h-2v3h2v2h1v-5h-1zm0 2h-1v-1h1v1z"/>
+  <path class="decimal" d="M71 24h1v1h-1z"/>
+</g>
+
+<g class="prices" fill="#FFF">
+  <g class="line-0"></g>
+  <g class="line-1"></g>
+  <g class="line-2"></g>
+</g>
+
+<g class="circuit-board-1"><defs><linearGradient id="circuit-board-1-gradient" x1="0%" x2="100%" y1="0%" y2="0%"><stop offset="0%" stop-color="#71caee"/><stop offset="16.7%" stop-color="#8881b8"/><stop offset="33.4%" stop-color="#ec98ba"/><stop offset="50.1%" stop-color="#ee9579"/><stop offset="66.8%" stop-color="#fcf099"/><stop offset="83.5%" stop-color="#83c59b"/><stop offset="100%" stop-color="#71caee"/></linearGradient><pattern id="circuit-board-1-pattern" width="150%" height="100%" x="0" y="0" patternTransform="rotate(45)"><rect width="150%" height="100%" fill="url(#circuit-board-1-gradient)"><animate attributeName="x" dur="2.5s" from="0%" repeatCount="indefinite" to="150%"/></rect><rect width="150%" height="100%" x="-149.9%" fill="url(#circuit-board-1-gradient)"><animate attributeName="x" dur="2.5s" from="-149.9%" repeatCount="indefinite" to="0%"/></rect></pattern></defs><path fill="url(#circuit-board-1-pattern)" d="M4 2h1v1H4V2zM3 4h1V3H3v1zm2 4v62h2v13h6v1h1v1h3v-1h1v-3h-1v-1h-3v1h-1v1H8V70h18v-1H6V7H5v1zm1-1h1V6H6v1zM1 4v2h2V4H1zm85 23h-2V14h1v-1h1v-3h-1V9h-1V5H30V4h-9V2h5V1H5v1h15v2h-6v1H7v1h7v1h16V6h53v3h-1v1h-1v3h1v1h1v14h3v18h-3v5h3v3h-3v5h3v3h-3v7H65v1h14v11h-9v4h16v-4h-6V70h4v-7h3v-5h-3v-3h3v-5h-3v-3h3V27h-1zM1 59h3v1H1zm0 3h3v1H1zm0 3h3v1H1zm0 3h3v1H1zm0-12h3v1H1zm0-3h3v1H1zm0-19h3v17H1z"/></g>
+
+<script type='text/javascript'><![CDATA[
+
+  const gw2833Root = document.getElementById('gw2833');
+
+  if (gw2833Root) {
+    const gwRoot = gw2833Root;
+
+    const getPrice = (data, ticker) => {
+      return data[ticker];
+    }
+
+    fetch('https://www.clumsyghosts.com/json/prices.json')
+      .then(response => response.json())
+      .then(json => {
+
+        console.log('Last updated: ' + json.updated);
+
+        const tickers = ['ADA', 'DOGE', 'BNB'];
+        
+        const prices = [
+          getPrice(json.prices, tickers[0]),
+          getPrice(json.prices, tickers[1]),
+          getPrice(json.prices, tickers[2]),
+        ];
+
+        const digitsGroup = gwRoot.querySelector('.digits');
+        const pricesGroup = gwRoot.querySelector('.prices');
+        let lineOffset = 0;
+
+        for (let i=0; i<3; i++) {
+          const line = pricesGroup.querySelector('.line-' + i);
+          line.style.transform = 'translateY(' + lineOffset + 'px)';
+          lineOffset += 10;
+
+          const digits = String(prices[i]);
+          const numDigits = digits.length;
+
+          let digitOffset = 4 * numDigits - 6;
+
+          for (let j = 0; j < numDigits; j++) {
+            const digit = digits.charAt(j);
+
+            switch (digit) {
+              case '.':
+                line.appendChild(digitsGroup.querySelector('.decimal').cloneNode(true)).style.transform = 'translateX(-' + (digitOffset - 6) + 'px)';
+                digitOffset += 2;
+                break;
+              case '0':
+                line.appendChild(digitsGroup.querySelector('.zero').cloneNode(true)).style.transform = 'translateX(-' + digitOffset + 'px)';
+                break;
+              case '1':
+                line.appendChild(digitsGroup.querySelector('.one').cloneNode(true)).style.transform = 'translateX(-' + digitOffset + 'px)';
+                break;
+              case '2':
+                line.appendChild(digitsGroup.querySelector('.two').cloneNode(true)).style.transform = 'translateX(-' + digitOffset + 'px)';
+                break;
+              case '3':
+                line.appendChild(digitsGroup.querySelector('.three').cloneNode(true)).style.transform = 'translateX(-' + digitOffset + 'px)';
+                break;
+              case '4':
+                line.appendChild(digitsGroup.querySelector('.four').cloneNode(true)).style.transform = 'translateX(-' + digitOffset + 'px)';
+                break;
+              case '5':
+                line.appendChild(digitsGroup.querySelector('.five').cloneNode(true)).style.transform = 'translateX(-' + digitOffset + 'px)';
+                break;
+              case '6':
+                line.appendChild(digitsGroup.querySelector('.six').cloneNode(true)).style.transform = 'translateX(-' + digitOffset + 'px)';
+                break;
+              case '7':
+                line.appendChild(digitsGroup.querySelector('.seven').cloneNode(true)).style.transform = 'translateX(-' + digitOffset + 'px)';
+                break;
+              case '8':
+                line.appendChild(digitsGroup.querySelector('.eight').cloneNode(true)).style.transform = 'translateX(-' + digitOffset + 'px)';
+                break;
+              case '9':
+                line.appendChild(digitsGroup.querySelector('.nine').cloneNode(true)).style.transform = 'translateX(-' + digitOffset + 'px)';
+                break;
+            }
+
+            digitOffset -= 4;
+          }
+        }
+
+      })
+      .catch(error => {
+        console.error('Failed to fetch:', error);
+      });
+      
+  }
+
+]]></script>
+
+</svg>

@@ -1,0 +1,235 @@
+<svg id="cg9752" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 89 89"><style>
+    #cg9752 {
+      overflow: hidden;
+    }
+
+    #cg9752 .button {
+      opacity: 0;
+      pointer-events: none;
+      transition: 0.2s ease;
+      transform: translate3d(0, 20px, 0);
+    }
+
+    #cg9752 .button.png-wide {
+      transition-delay: 0.2s;
+    }
+
+    #cg9752.menu-in .button {
+      opacity: 1;
+      pointer-events: auto;
+      cursor: pointer;
+      transform: translate3d(0, 0, 0);
+    }
+
+    #cg9752.menu-in .button .button-bg {
+      transition: fill 0.2s ease;
+    }
+
+    #cg9752.menu-in .button:hover .button-bg {
+      fill: #FF5FFA;
+    }
+
+    #cg9752 .cg-glasses {
+      transition: opacity 0.2s ease;
+    }
+
+    #cg9752 #deal-with-it-glasses {
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.2s ease, transform 3s linear;
+      transform: translate3d(0, -60px, 0);
+    }
+
+    #cg9752.deal-with-it #deal-with-it-glasses {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+    }
+
+    #cg9752.deal-with-it .cg-glasses {
+      opacity: 0;
+      transition-delay: 2s;
+    }
+
+  
+    #cg9752 .cg-eyes {
+      transition: opacity 0.2s ease;
+    }
+
+    #cg9752.get-time .cg-eyes {
+      opacity: 0;
+    }
+  
+    #cg9752 .cg-time {
+      pointer-events: none;
+      transition: opacity 0.2s ease;
+      opacity: 0;
+    }
+
+    #cg9752.get-time .cg-time {
+      opacity: 1;
+    }
+
+    #cg9752 .cg-time .cg-digit-colon {
+      animation: cg-colon-blink 1s ease-in-out 0s infinite;
+    }
+
+    @keyframes cg-colon-blink {
+      20% {
+        opacity: 1;
+      }
+      50% {
+        opacity: 0;
+      }
+      80% {
+        opacity: 1;
+      }
+    }
+  
+    #cg9752 .cg-body {
+      animation: cg-anim-hover 1.5s ease-in-out -1.0512s infinite;
+      transform-origin: center;
+      transform-box: fill-box;
+    }
+
+    @keyframes cg-anim-hover {
+      0% {
+        transform: translate3d(0,0,0);
+      }
+      50% {
+        transform: translate3d(0,-2px,0);
+      }
+      100% {
+        transform: translate3d(0,0,0);
+      }
+    }
+  
+    #cg9752 .cg-shadow {
+      animation: cg-anim-shadow 1.5s ease-in-out -1.0512s infinite;
+      transform-origin: center;
+      transform-box: fill-box;
+    }
+
+    @keyframes cg-anim-shadow {
+      0% {
+        transform: scale3d(1,1,1);
+      }
+      50% {
+        transform: scale3d(0.9,1,1);
+      }
+      100% {
+        transform: scale3d(1,1,1);
+      }
+    }
+  </style><path class="cg-bg" d="M0 0h89v89H0z" fill="#FF8749"></path><g id="frustrated-emote"><g id="frustrated-emote-bg-right"><g><path d="M80 12v6h-1v2h-2v1h-7v-1h-3v-1h1v-1h-1v-6h1v-2h2V9h7v1h2v2h1zM81 12v6h-1v-6h1z"/><path d="M79 19v-1h1v2h-1v-1zM80 10v2h-1v-2h1zM79 9v1h-2V9h2zM77 21v-1h2v1h-2zM77 9h-7V8h7v1zM75 21h2v1h-7v-1h5zM70 9v1h-2V9h2zM67 12v-2h1v2h-1zM67 18h1v1h-1zM67 16v2h-1v-6h1v4zM66 20v-1h1v1h3v1h-5v-1h1z"/></g></g><path fill="#EAE8E8" d="M80 12v6h-1v2h-2v1h-7v-1h-3v-1h1v-1h-1v-6h1v-2h2V9h7v1h2v2h1z"/><g opacity=".17" id="frustrated-emote-shadow-right"><path d="M67 17h1v1h-1zM69 19h-2v1h3v-1h-1zM79 17h1v1h-1zM77 19v1h2v-1h-2zM75 20h-5v1h7v-1h-2z"/></g><g id="frustrated-emote-symbol-right"><path d="M78 13h-1v-2h-3v1h2v1h-2v1h-1v-1h1v-1h-1v-1h-2v1h1v1h-1v1h-1v-1h-1v2h1v1h1v2h-1v1h4v-1h2v-1h-2v-2h2v2h1v1h1v-1h1v-4h-1zm-5 5h-1v-1h1v1zm0-2h-1v-1h1v1zm5-1v1h-1v-2h1v1z"/><path d="M76 18h1v1h-1zM74 19v1h2v-1h-2zM70 12h1v1h-1zM69 17h1v1h-1z"/></g></g><path class="cg-shadow" opacity=".17" d="M60 79v-1H29v1h-2v1h3v1h29v-1h3v-1z"/><g class="cg-body"><g id="elf-ears"><g id="elf-ears-bg"><path d="M31 35h-1v-1h-1v-1h-2v-1h-4v-1h-4v-1h-7v-1H8v3h1v2h1v2h1v1h1v1h1v1h1v1h1v1h1v1h1v1h3v1h7v-1h1v-3h1v-2h1v-1h1v-1h1v-1h-1zM58 35h1v-1h1v-1h2v-1h4v-1h4v-1h7v-1h4v3h-1v2h-1v2h-1v1h-1v1h-1v1h-1v1h-1v1h-1v1h-1v1h-3v1h-7v-1h-1v-3h-1v-2h-1v-1h-1v-1h-1v-1h1z"/></g><g id="elf-ears-outer" fill="#ACE5F3"><path d="M29 35v-1h-2v-1h-4v-1h-4v-1h-7v-1H9v2h1v2h1v2h1v1h1v1h1v1h1v1h1v1h1v1h3v1h7v-3h1v-2h1v-1h1v-2h-1zm-3 6v1h-5v-1h-3v-1h-1v-1h-1v-1h-1v-1h-1v-1h-1v-2h-1v-1h-1v-1h4v1h6v1h2v1h1v1h1v1h1v4zM59 35v2h1v1h1v2h1v3h7v-1h3v-1h1v-1h1v-1h1v-1h1v-1h1v-1h1v-2h1v-2h1v-2h-3v1h-7v1h-4v1h-4v1h-2v1h-1zm4 2h1v-1h1v-1h1v-1h2v-1h6v-1h4v1h-1v1h-1v2h-1v1h-1v1h-1v1h-1v1h-1v1h-3v1h-5v-5z"/></g><g id="elf-ears-inner" fill="#FF9271"><path d="M24 37v-1h-1v-1h-2v-1h-6v-1h-2v1h1v2h1v1h1v1h1v1h1v1h3v1h4v-4h-1zM65 37v-1h1v-1h2v-1h6v-1h2v1h-1v2h-1v1h-1v1h-1v1h-1v1h-3v1h-4v-4h1z"/></g></g><path d="M63 47v-4h-1v-3h-1v-2h-1v-1h-1v-1h-1v-1h-1v-1h-1v-1h-1v-1h-2v-1h-2v-1H38v1h-2v1h-2v1h-1v1h-1v1h-1v1h-1v1h-1v1h-1v2h-1v3h-1v4h-1v13h1v3h1v3h1v1h1v1h1v1h2v1h2v-1h1v-1h1v-4h1v3h1v1h1v1h2v-1h1v-1h1v-4h1v-1h1v1h1v4h1v1h1v1h2v-1h1v-1h1v-3h1v4h1v1h1v1h2v-1h2v-1h1v-1h1v-1h1v-3h1v-3h1V47z"/><path class="cg-body-color" fill="#ACE5F3" d="M62 47v-4h-1v-3h-1v-2h-1v-1h-1v-1h-1v-1h-1v-1h-1v-1h-2v-1h-2v-1H38v1h-2v1h-2v1h-1v1h-1v1h-1v1h-1v1h-1v2h-1v3h-1v4h-1v13h1v3h1v3h1v1h1v1h2v1h2v-1h1v-4h1v-1h1v1h1v3h1v1h2v-1h1v-4h1v-1h1v-1h1v1h1v1h1v4h1v1h2v-1h1v-3h1v-1h1v1h1v4h1v1h2v-1h2v-1h1v-1h1v-3h1v-3h1V47z"/><g class="cg-face"><path d="M39 36v1h-3v1h-1v1h-1v1h-1v2h-1v2h1v1h1v1h2v1h3v1h11v-1h3v-1h2v-1h1v-1h1v-2h-1v-2h-1v-1h-1v-1h-1v-1h-3v-1z"/><path fill="#FFF" d="M39 37v1h-3v1h-1v1h-1v2h-1v2h1v1h2v1h3v1h11v-1h3v-1h2v-1h1v-2h-1v-2h-1v-1h-1v-1h-3v-1z"/><g class="cg-eyes"><path d="M36 42h1v1h2v1h1v1h-3v-1h-1zM53 42h-1v1h-2v1h-1v1h3v-1h1z"/></g><g class="cg-digits" style="display: none;"><g class="cg-digit-zero"><path d="M38 40h-2v5h3v-5h-1zm0 2v2h-1v-3h1v1z"/></g><g class="cg-digit-one"><path d="M39 44v1h-3v-1h1v-2h-1v-1h1v-1h1v4h1z"/></g><g class="cg-digit-two"><path d="M39 42h-1v-1h1v1zm-1 3h1v-1h-2v1h1zm0-3h-1v1h1v-1zm-1-2h-1v1h2v-1h-1zm-1 3v1h1v-1h-1z"/></g><g class="cg-digit-three"><path d="M38 44v-1h1v1h-1zm1-3h-1v1h1v-1zm-2 1v1h1v-1h-1zm0-2h-1v1h2v-1h-1zm-1 4v1h2v-1h-2z"/></g><g class="cg-digit-four"><path d="M39 41v4h-1v-2h-2v-3h1v2h1v-1h1z"/></g><g class="cg-digit-five"><path d="M38 44v-1h1v1h-1zm0-3h1v-1h-3v3h2v-1h-1v-1h1zm-2 3v1h2v-1h-2z"/></g><g class="cg-digit-six"><path d="M38 41h-1v-1h2v1h-1zm-2 0v3h1v-1h1v1h-1v1h2v-3h-2v-1h-1z"/></g><g class="cg-digit-seven"><path d="M39 40v5h-1v-4h-2v-1h3z"/></g><g class="cg-digit-eight"><path d="M38 40h-2v5h3v-5h-1zm0 4h-1v-1h1v1zm0-2h-1v-1h1v1z"/></g><g class="cg-digit-nine"><path d="M38 40h-2v3h2v2h1v-5h-1zm0 2h-1v-1h1v1z"/></g><g class="cg-digit-colon"><path d="M45 42h-1v-1h1v1zm0 1h-1v1h1v-1z"/></g></g><g class="cg-time"></g></g><g id="broomstick"><g><path d="M81 64v-1H59v1H43v3h16v-1h22v-1h1v-1h-1zM37 66v-1h-1v3h2v-1h-1v-1zM28 66h-1v-1h-3v-1h-1v-1h-6v-1h-7v1H8v1H7v1H6v1h1v1H6v1h1v1H6v1h1v2h3v-1h7v-1h6v-1h1v-1h5v-1h-1v-1z"/></g><g><path fill="#493007" d="M79.4 64H59v1H81v-1zM43 65v1h16v-1H43zM36 66v1h1v-1h-1zM24 66v-1h-1v3h1v-1h4v-1h-4z"/><path fill="#CC9823" d="M8 70H7v-1h1v-1H7v-1h1v-1H7v-1h1v-1h2v-1h7v1h5v5h-5v1h-7v1H8v-1z"/></g><g><path opacity=".27" d="M15.7 64H8v1h9v-1h-1.3zM8 66v1h9v-1H8zM17 65v1h5v-1h-5zM22 68v-1h-5v1h5zM8 68v1h9v-1H8zM8 70v1h2v-1H8zM27 66v1h1v-1h-1zM25 66v1h1v-1h-1zM36.9 66H36v1h1v-1h-.1z"/></g></g><g id="octopus-friend"><path d="M61 25v1h-3v-1h-1v-4h-1v-2h-1v-1h-1v-1h-1v-1h-2v-1H40v1h-2v1h-1v1h-1v1h-1v1h-1v3h-2v1h-3v-1h-2v-1h-1v4h1v1h1v1h1v1h2v2h-1v2h-1v1h-2v1h1v1h1v1h5v-1h1v-1h2v2h1v1h3v-1h1v-1h1v-1h2v1h1v1h1v1h3v-1h1v-3h1v1h1v1h7v-1h1v-1h1v-4h-1v1h-1v1h-1v-1h-1v-1h2v-1h1v-1h1v-3h-1z"/><path fill="#0FDBD5" d="M57 29h-2v-1h-2v-1h2v1h2v1h3v-1h1v-1h-3v-1h-3v-1h1v-4h-1v-2h-1v-1h-1v-1h-2v-1H40v1h-2v1h-1v1h-1v1h-1v4h-3v1h-3v-1h-2v2h1v1h1v1h3v-1h1v-1h4v1h-4v1h-1v3h-1v2h-1v1h-1v2h5v-1h1v-1h1v-1h1v-3h1v-1h1v-1h1v1h-1v1h-1v7h3v-1h1v-1h1v-1h1v-4h1v5h1v1h1v1h3v-7h-1v-1h-1v-1h1v1h1v1h1v3h1v1h1v1h7v-1h1v-2h-1v1h-1v-1h-1v-1h-1v-2z"/><path d="M51 20h1v3h-1v-3zm-1-1v1h1v-1h-1zm-1 4h-1v1h3v-1h-2zm1-1v-1h-2v1h2zm-1-4h-1v1h2v-1h-1zm-2 4v1h1v-1h-1zm0-2h1v-1h-1v1zm-3 2h-1v1h1v-1zm-1-2h1v-1h-1v1zm-1 1h-1v1h2v-1h-1zm0-3h-1v1h2v-1h-1zm-1 6h2v-1h-3v1h1zm-1-4h1v-1h-1v1zm-1 1v2h1v-3h-1v1z"/><path fill="#FBB" d="M41 24v1h-3v-2h2v1h1zm9 0v1h3v-2h-2v1h-1z"/><path d="M61 33v1h-1v-1h1zm-3 1h-4v-1h-1v-1h-1v-1h-1v2h1v1h1v1h7v-1h-2zm0-5h2v-1h-3v1h1zm-1-1v-1h-2v1h2zm-9 8v-1h-1v-1h-1v-1h-1v2h1v1h1v1h3v-1h-2zm-1-10v-1h-1v1h1zm-1-1v-1h-2v1h2zm-3 8v1h1v-2h-1v1zm0-7h1v-1h-1v1zm-1 9h1v-1h-1v1zm-2 0h-1v-1h-1v3h3v-1h1v-1h-2zm1-19h-1v1h1v-1zm-2 1h-1v1h1v-1zm-1 12h-1v1h1v-1zm0-11h-1v1h1v-1zm-2 13v1h-1v1h-1v1h-5v2h5v-1h1v-1h1v-1h1v-3h-1v1zm1-12h-1v1h1v-1zm-1 4v-3h-1v4h1v-1zm-7 4v1h3v-1h1v-1h-4v-1h-1v-1h-1v2h1v1h1z" opacity=".25"/></g><g id="deal-with-it-glasses"><path d="M64 42h-3v1h4v-1zM60 41H28v1h1v2h1v2h1v2h1v1h9v-1h1v-2h1v-2h1v-2h1v2h1v2h1v2h1v1h9v-1h1v-2h1v-2h1v-2h1v-1z"/><path fill="#FFF" d="M33 45v1h-1v-2h1v1zm0 2h1v-1h-1v1zm2-3h-1v2h1v-2zm0 3h1v-1h-1v1zm-1-4h-1v1h1v-1zm-3 0v1h1v-1h-1zm18 1h-1v2h1v-2zm0 3h1v-1h-1v1zm2-3h-1v2h1v-2zm0 2v1h1v-1h-1zm-1-3h-1v1h1v-1zm-3 0v1h1v-1h-1z"/></g></g><a href="/images/png/cg9752-512.png" class="button png-square"><path class="button-bg" d="M26 75h13v11H26z"/><path fill="#FFF" d="M36 77h-1v1h1v5h-1v1h2v-7zm-8 0v7h2v-1h-1v-5h1v-1h-1zm6 3h1v1h-1zm-4 0h1v1h-1zm3 0v-2h-1v3h-1v1h1v1h1v-1h1v-1h-1z"/><title>Download square PNG</title></a><a href="/images/png/cg9752-wide.png" class="button png-wide"><path class="button-bg" d="M42 75h21v11H42z"/><path fill="#FFF" d="M60 77h-1v1h1v5h-1v1h2v-7zm-16 0v7h2v-1h-1v-5h1v-1h-1zm10 3h1v1h-1zm-4 0h1v1h-1zm3 0v-2h-1v3h-1v1h1v1h1v-1h1v-1h-1z"/><title>Download wide PNG</title></a><script type="text/javascript"><![CDATA[
+    let cg9752Root = document.getElementById('cg9752');
+
+    if (cg9752Root) {
+      let cgRoot = cg9752Root;
+      let cgBg = cgRoot.querySelector('.cg-bg');
+      let cgBody = cgRoot.querySelector('.cg-body');
+
+      cgBg.addEventListener('dblclick', () => {
+        cgRoot.classList.toggle('menu-in');
+      });
+
+      cgBody.addEventListener('click', () => {
+
+        let bufferArray = [];
+        let lastKeystrokeTime = Date.now();
+        const cheatcode = (e) => {
+
+          const key = e.key.toLowerCase();
+          const latestKeystrokeTime = Date.now();
+
+          if (latestKeystrokeTime - lastKeystrokeTime > 1500) {
+            bufferArray = [];
+          }
+
+          bufferArray.push(key);
+
+          const word = bufferArray.join('');
+          if (word === 'dealwithit') {
+            console.log('No u.');
+
+            cgRoot.classList.add('deal-with-it');
+
+            setTimeout(() => {
+              cgRoot.classList.remove('deal-with-it');
+            }, 10000);
+
+            clearListener();
+          }
+  
+          lastKeystrokeTime = latestKeystrokeTime;
+
+        }
+        document.addEventListener('keyup', cheatcode, true);
+
+        const clearListener = () => {
+          document.removeEventListener('keyup', cheatcode, true);
+        }
+
+      });
+    
+    let cgDigits = cgRoot.querySelector('.cg-digits');
+    let cgTime = cgRoot.querySelector('.cg-time');
+  
+
+      let cgFace = cgRoot.querySelector('.cg-face');
+      cgFace.addEventListener('dblclick', () => {
+        cgRoot.classList.add('get-time');
+
+        let now = new Date();
+        let hours = ('0' + now.getHours()).substr(-2);
+        let minutes = ('0' + now.getMinutes()).substr(-2);;
+        let digits = [hours.substr(0,1), hours.substr(1), minutes.substr(0,1), minutes.substr(1)];
+
+        cgTime.replaceChildren();
+
+        for (let i = 0; i < 4; i++) {
+          switch (digits[i]) {
+            case '0':
+              cgTime.appendChild(cgDigits.querySelector('.cg-digit-zero').cloneNode(true));
+              break;
+            case '1':
+              cgTime.appendChild(cgDigits.querySelector('.cg-digit-one').cloneNode(true));
+              break;
+            case '2':
+              cgTime.appendChild(cgDigits.querySelector('.cg-digit-two').cloneNode(true));
+              break;
+            case '3':
+              cgTime.appendChild(cgDigits.querySelector('.cg-digit-three').cloneNode(true));
+              break;
+            case '4':
+              cgTime.appendChild(cgDigits.querySelector('.cg-digit-four').cloneNode(true));
+              break;
+            case '5':
+              cgTime.appendChild(cgDigits.querySelector('.cg-digit-five').cloneNode(true));
+              break;
+            case '6':
+              cgTime.appendChild(cgDigits.querySelector('.cg-digit-six').cloneNode(true));
+              break;
+            case '7':
+              cgTime.appendChild(cgDigits.querySelector('.cg-digit-seven').cloneNode(true));
+              break;
+            case '8':
+              cgTime.appendChild(cgDigits.querySelector('.cg-digit-eight').cloneNode(true));
+              break;
+            case '9':
+              cgTime.appendChild(cgDigits.querySelector('.cg-digit-nine').cloneNode(true));
+              break;
+          }
+        }
+
+        cgTime.childNodes[1].style.transform = 'translateX(4px)';
+        cgTime.childNodes[2].style.transform = 'translateX(10px)';
+        cgTime.childNodes[3].style.transform = 'translateX(14px)';
+
+        cgTime.appendChild(cgDigits.querySelector('.cg-digit-colon').cloneNode(true));
+
+        setTimeout(() => {
+          cgRoot.classList.remove('get-time');
+        }, 10000);
+      });
+
+    }]]></script></svg>

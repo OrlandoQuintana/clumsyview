@@ -1,0 +1,156 @@
+<svg id="gw983" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 89 89">
+
+<style><![CDATA[
+
+  #gw983 {
+    overflow: hidden;
+    outline: none;
+    box-shadow: none;
+    height: 100%;
+  }
+
+  @media (min-aspect-ratio: 1/1) {
+    #gw983 {
+      height: 100%;
+      width: auto;
+      margin: 0 auto;
+    }
+  }
+
+  #gw983 .tickers path:nth-child(2) {
+    transform: translateY(10px);
+  }
+
+  #gw983 .tickers path:nth-child(3) {
+    transform: translateY(20px);
+  }
+
+]]></style>
+
+<path class="background" fill="#233C3F" d="M0 0h89v89H0z"/>
+
+<a href="https://ipfs.io/ipfs/QmeiiLt5gAPLVcmWApuJkbJhyAmyBraRgQipkNnWj9eUve?filename=gw983.html" target="_blank">
+  <path class="title" fill="#FFF" d="M64 10v2h-1v-2h-1v5h1v-2h1v2h1v-5zm-4 5h1v-1h-2v1zm-2-3v2h1v-3h-1zm1-2v1h2v-1h-1zm-4 0h-1v1h1v4h1v-4h1v-1h-1zm-3 2h-1v-1h-1v4h1v-2h1v2h1v-4h-1zm-1-2h1v1h-1zm-3 1v3h1v-4h-1zm-1 3h1v1h-1zm-1-1h1v1h-1zm-1 0v-3h-1v5h2v-1h-1zm-3-3h-2v1h1v4h1v-4h1v-1zm-6 4v1h2v-1h-1zm2-1h1v1h-1zm-1-1h1v1h-1zm-1-1h1v1h-1zm1-1v1h2v-1h-1zm-4 0h1v1h-1zm1 2v2h1v-3h-1zm-1 2h1v1h-1zm0-2v-1h-1v3h1v-1zm-3-1v1h-1v-2h-1v5h1v-2h1v2h1v-5h-1zm-5 1v1h1v1h-2v1h3v-3h-1zm1-1v-1h-2v1h1zm-2 1v-1h-1v3h1v-1z"/>
+</a>
+
+<g class="tickers" fill="#FFF">
+  <path d="M19 22h-1v-1h-1v4h1v-2h1v2h1v-4h-1zm-1-2h1v1h-1zm-3 2v2h1v-3h-1zm-1 1v-2h1v-1h-2v5h2v-1h-1zm-3-1h-1v-1H9v4h1v-2h1v2h1v-4h-1zm-1-2h1v1h-1z"/>
+  <path d="M22 21v1h1v1h-1v1h1v1h-2v-5h2v1h-1zm-4 1v-1h-1v3h1v-1h1v1h-1v1h2v-3h-2zm1-2h-1v1h1v-1zm-4 2v2h1v-3h-1v1zm-1 3h1v-1h-1v1zm1-5h-1v1h1v-1zm-1 2v-1h-1v3h1v-2zm-3 0v2h1v-3h-1v1zm-1 1v-2h1v-1H9v5h2v-1h-1v-1z"/>
+  <path d="M27 21h-1v-1h2v1h-1zm0 4h1v-1h-2v1h1zm-1-3v-1h-1v3h1v-2zm-3-1v4h1v-5h-1v1zm-3-1h-1v1h1v4h1v-4h1v-1h-2zm-3 2h-1v-1h-1v4h1v-2h1v2h1v-4h-1v1zm0-2h-1v1h1v-1zm-4 2v3h1v-4h-1v1zm-1-2v1h1v-1h-1zm-1 2h1v-1h-1v1zm-1-2H9v5h1v-4h1v-1h-1z"/>
+</g>
+
+<g class="digits" fill="#FFF" style="display: none;">
+  <path class="zero" d="M79 20h-2v5h3v-5h-1zm0 2v2h-1v-3h1v1z"/>
+  <path class="one" d="M80 24v1h-3v-1h1v-2h-1v-1h1v-1h1v4h1z"/>
+  <path class="two" d="M80 22h-1v-1h1v1zm-1 3h1v-1h-2v1h1zm0-3h-1v1h1v-1zm-1-2h-1v1h2v-1h-1zm-1 3v1h1v-1h-1z"/>
+  <path class="three" d="M79 24v-1h1v1h-1zm1-3h-1v1h1v-1zm-2 1v1h1v-1h-1zm0-2h-1v1h2v-1h-1zm-1 4v1h2v-1h-2z"/>
+  <path class="four" d="M80 21v4h-1v-2h-2v-3h1v2h1v-1h1z"/>
+  <path class="five" d="M79 24v-1h1v1h-1zm0-3h1v-1h-3v3h2v-1h-1v-1h1zm-2 3v1h2v-1h-2z"/>
+  <path class="six" d="M79 21h-1v-1h2v1h-1zm-2 0v3h1v-1h1v1h-1v1h2v-3h-2v-1h-1z"/>
+  <path class="seven" d="M80 20v5h-1v-4h-2v-1h3z"/>
+  <path class="eight" d="M79 20h-2v5h3v-5h-1zm0 4h-1v-1h1v1zm0-2h-1v-1h1v1z"/>
+  <path class="nine" d="M79 20h-2v3h2v2h1v-5h-1zm0 2h-1v-1h1v1z"/>
+  <path class="decimal" d="M71 24h1v1h-1z"/>
+</g>
+
+<g class="prices" fill="#FFF">
+  <g class="line-0"></g>
+  <g class="line-1"></g>
+  <g class="line-2"></g>
+</g>
+
+<g class="moving-lines"><defs><linearGradient id="moving-lines-gradient" x1="0%" x2="100%" y1="0%" y2="0%"><stop offset="9.2%" stop-color="#f0c83b"/><stop offset="19.2%" stop-color="#f1563c"/><stop offset="21.9%" stop-color="#e65352"/><stop offset="27.3%" stop-color="#d34f7a"/><stop offset="31.7%" stop-color="#c74c92"/><stop offset="34.3%" stop-color="#c34b9b"/><stop offset="73.6%" stop-color="#00b3c1"/><stop offset="76.5%" stop-color="#00b36c"/><stop offset="89.4%" stop-color="#00b3c1"/><stop offset="100%" stop-color="#f0c83b"/></linearGradient><pattern id="moving-lines-pattern" width="150%" height="100%" x="0" y="0" patternTransform="rotate(45)"><rect width="150%" height="100%" fill="url(#moving-lines-gradient)"><animate attributeName="x" dur="2.5s" from="0%" repeatCount="indefinite" to="150%"/></rect><rect width="150%" height="100%" x="-149.9%" fill="url(#moving-lines-gradient)"><animate attributeName="x" dur="2.5s" from="-149.9%" repeatCount="indefinite" to="0%"/></rect></pattern></defs><path fill="url(#moving-lines-pattern)" d="M88 88h1v1h-1v-1zm0-21h1v-1h-1v1zm0-57v1h1v-1h-1zm-1 77h-1v1h2v-1h-1zm0-10v1h2v-1h-2zm0-12h-1v1h2v-1h-1zm0-7h-1v1h3v-1h-2zm0-7h-2v1h4v-1h-2zm.4-7H85v1h4v-1h-1.6zm.17-8H84v1h5v-1h-1.43zm-.24-7H84v1h5v-1h-1.67zM87 23h-1v1h3v-1h-2zm0-6h-1v1h3v-1h-2zm0-5h1v-1h-1v1zm-1 64v1h1v-1h-1zm-1 10v1h1v-1h-1zm1-12h-1v2h1v-2zm-1-10v1h1v-1h-1zm0-7v1h1v-1h-1zm0-45h-1v1h3v-1h-2zm1-7V0h-1v6h1V5zm-2 80v1h1v-1h-1zm0-12v1h1v-1h-1zm.5-10H84v1h1v-1h-.5zm0-7H84v1h1v-1h-.5zm-.5-6v1h1v-1h-1zm.67-26H84v1h2v-1h-1.33zm.53-6H84v1h2v-1h-.8zM85 7V6h-1v2h1V7zm-2 77h-1v1h2v-1h-1zm1-13h-1v2h1v-2zm0-28v1h1v-1h-1zm0-34V8h-1v2h1V9zm-1 60h-1v2h1v-2zm0-59h-1v1h1v-1zm-1 72h-1v2h1v-2zm-1-2v-5h-1v7h1v-2zm-1-68h2v-1h-2v1zm-1 62v1h1v-1h-1zm1-69V0h-1v6h1V5zm-2 68v1h1v-1h-1zm0-61v1h2v-1h-2zm1-6h-1v1h1V6zm-1 1h-1v1h1V7zm-2 80v2h1v-3h-1v1zm0-78v1h1V8h-1v1zm0 75h-1v2h1v-2zm-1-2h-1v2h1v-2zm-2-1v1h1v-1h-1zm0-2h-1v2h1v-2zm0-2v-3h-1v4h1v-1zm0-72V0h-1v6h1V5zm-2 73v1h1v-1h-1zm1-71V6h-1v2h1V7zm-3 82h1v-1h-1v1zm-1-2v1h1v-1h-1zm0-2h-1v2h1v-2zm0-84V0h-1v2h1V1zm-1 82v-1h-1v3h1v-2zm0-77.8V2h-1v4h1v-.8zM66 80v-3h-1v5h1v-2zm-4 8v1h1v-2h-1v1zm-1-2v1h1v-1h-1zm0-2h-1v2h1v-2zm0-83V0h-1v2h1V1zm-2 82v1h1v-1h-1zm1-80V2h-1v2h1V3zm-2 79v1h1v-1h-1zm1-77V4h-1v2h1V5zm-1 75v-3h-1v5h1v-2zm-2-4v1h1v-1h-1zm0-74V0h-1v3h1V2zm-2 2h1V3h-1v1zm-1 1h1V4h-1v1zm-1 83v1h1v-2h-1v1zm0-82h1V5h-1v1zm0 79v-3h-1v5h1v-2zm-1-5v-6h-1v8h1v-2zM50 4V3h-1v2h1V4zm-2 1.5V6h1V5h-1v.5zM49 1V0h-1v3h1V1zm-4 85v3h1v-5h-1v2zm0-8v3h1v-4h-1v1zm-1 4v2h1v-3h-1v1zm0-79h-1v1h1V3zm-1 1h-1v2h1V4zm-1-2v1h1V2h-1zm0-2h-1v2h1V0zm-3 76v7h1v-8h-1v1zm-1 8v3h1v-4h-1v1zm-1 4v1h1v-2h-1v1zm1-86V0h-1v3h1V2zm-2 4h1V5h-1v1zm1-3h-1v1h1V3zm-2 1v1h1V4h-1zm-3-1v1h1V2h-1v1zm-1 75v3h1v-4h-1v1zm0-73h1V4h-1v1zm1-5h-1v2h1V0zm-2 82v1h1v-2h-1v1zm0-76.5V6h1V5h-1v.5zM29 84h1v-1h-1v1zm-1 1h1v-1h-1v1zm-1 1h1v-1h-1v1zm0-81.5V6h1V3h-1v1.5zM26 87h1v-1h-1v1zm1-85V0h-1v3h1V2zm-2 86h1v-1h-1v1zm-1 1h1v-1h-1v1zM23 4.5V6h1V3h-1v1.5zM22 2h-1v1h2V2h-1zm-2 79v2h1v-3h-1v1zm1-81h-1v2h1V0zm-2 84v2h1v-3h-1v1zm-1 3v1h1v-2h-1v1zm-1 2h1v-1h-1v1zm1-80V8h-1v1h1zm-1-5v1h1V2h-1v2zm0 74v-1h-1v2h1v-1zM16 6v2h1V5h-1v1zm1-4V1h-1v1h1zm-2 78h1v-1h-1v1zm1-80h-1v1h1V0zm-3 80v1h2v-1h-2zm1-8v-1h-1v2h1v-1zm-1 2v-1h-1v2h1v-1zm0-65h1V8h-2v1h1zm-2 72v1h2v-1h-2zm1-6h-1v1h1v-1zm0-67V7h-1v1h1zm-2-3v2h1V3h-1v2zM9 82v1h2v-1H9zm1-5h1v-1H8v1h2zm0-74V2H9v1h1zm-1 9h2v-1H8v1h1zM9 2V1H8v1h1zM7 83H6v1h3v-1H7zm1-72v-1H7v1h1zM8 0H7v1h1V0zM7 70h1v-1H6v1h1zm0-60V9H6v1h1zM5 85h1v-1H5v1zm1-7h2v-1H4v1h2zm0-9v-1H4v1h2zm0-14v-1H4v1h2zm0-14v-1H4v1h2zm0-24v-1H5v1h1zm0-8V8H5v1h1zM5 34v-1H3v1h2zM5 8V7H4v1h1zM3 85v1h2v-1H3zm1-6v-1H2v1h2zm0-10H3v1h1v-1zm0-5h2v-1H2v1h2zm0-8v-1H2v1h2zm0-7h2v-1H2v1h2zm0-25v-1H3v1h1zm0-8h1v-1H3v1h1zm0-9V6H3v1h1zM2 87h1v-1H2v1zm1-17H2v1h1v-1zm0-28h1v-1H1v1h2zM2 4v2h1V2H2v2zM1 88h1v-1H1v1zm1-8v-1H0v1h2zm0-8v-1H0v1h2zm0-7v-1H0v1h2zm0-8v-1H0v1h2zm0-7v-1H0v1h2zm0-15h1v-1H0v1h2zm0-6h1v-1H0v1h2zm0-6h1v-1H0v1h2zm0-8h1v-1H1v1h1zM2 2V1H1v1h1zM0 89h1v-1H0v1zm1-47H0v1h1v-1zm0-29H0v1h1v-1zM1 0H0v1h1V0z"/></g>
+
+<script type='text/javascript'><![CDATA[
+
+  const gw983Root = document.getElementById('gw983');
+
+  if (gw983Root) {
+    const gwRoot = gw983Root;
+
+    const getPrice = (data, ticker) => {
+      return data[ticker];
+    }
+
+    fetch('https://www.clumsyghosts.com/json/prices.json')
+      .then(response => response.json())
+      .then(json => {
+
+        console.log('Last updated: ' + json.updated);
+
+        const tickers = ['ADA', 'DOGE', 'MATIC'];
+        
+        const prices = [
+          getPrice(json.prices, tickers[0]),
+          getPrice(json.prices, tickers[1]),
+          getPrice(json.prices, tickers[2]),
+        ];
+
+        const digitsGroup = gwRoot.querySelector('.digits');
+        const pricesGroup = gwRoot.querySelector('.prices');
+        let lineOffset = 0;
+
+        for (let i=0; i<3; i++) {
+          const line = pricesGroup.querySelector('.line-' + i);
+          line.style.transform = 'translateY(' + lineOffset + 'px)';
+          lineOffset += 10;
+
+          const digits = String(prices[i]);
+          const numDigits = digits.length;
+
+          let digitOffset = 4 * numDigits - 6;
+
+          for (let j = 0; j < numDigits; j++) {
+            const digit = digits.charAt(j);
+
+            switch (digit) {
+              case '.':
+                line.appendChild(digitsGroup.querySelector('.decimal').cloneNode(true)).style.transform = 'translateX(-' + (digitOffset - 6) + 'px)';
+                digitOffset += 2;
+                break;
+              case '0':
+                line.appendChild(digitsGroup.querySelector('.zero').cloneNode(true)).style.transform = 'translateX(-' + digitOffset + 'px)';
+                break;
+              case '1':
+                line.appendChild(digitsGroup.querySelector('.one').cloneNode(true)).style.transform = 'translateX(-' + digitOffset + 'px)';
+                break;
+              case '2':
+                line.appendChild(digitsGroup.querySelector('.two').cloneNode(true)).style.transform = 'translateX(-' + digitOffset + 'px)';
+                break;
+              case '3':
+                line.appendChild(digitsGroup.querySelector('.three').cloneNode(true)).style.transform = 'translateX(-' + digitOffset + 'px)';
+                break;
+              case '4':
+                line.appendChild(digitsGroup.querySelector('.four').cloneNode(true)).style.transform = 'translateX(-' + digitOffset + 'px)';
+                break;
+              case '5':
+                line.appendChild(digitsGroup.querySelector('.five').cloneNode(true)).style.transform = 'translateX(-' + digitOffset + 'px)';
+                break;
+              case '6':
+                line.appendChild(digitsGroup.querySelector('.six').cloneNode(true)).style.transform = 'translateX(-' + digitOffset + 'px)';
+                break;
+              case '7':
+                line.appendChild(digitsGroup.querySelector('.seven').cloneNode(true)).style.transform = 'translateX(-' + digitOffset + 'px)';
+                break;
+              case '8':
+                line.appendChild(digitsGroup.querySelector('.eight').cloneNode(true)).style.transform = 'translateX(-' + digitOffset + 'px)';
+                break;
+              case '9':
+                line.appendChild(digitsGroup.querySelector('.nine').cloneNode(true)).style.transform = 'translateX(-' + digitOffset + 'px)';
+                break;
+            }
+
+            digitOffset -= 4;
+          }
+        }
+
+      })
+      .catch(error => {
+        console.error('Failed to fetch:', error);
+      });
+      
+  }
+
+]]></script>
+
+</svg>

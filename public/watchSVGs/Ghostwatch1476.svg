@@ -1,0 +1,374 @@
+<svg id="gw1476" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 89 89">
+
+<style><![CDATA[
+
+  #gw1476 {
+    overflow: hidden;
+    outline: none;
+    box-shadow: none;
+    height: 100%;
+  }
+
+  @media (min-aspect-ratio: 1/1) {
+    #gw1476 {
+      height: 100%;
+      width: auto;
+      margin: 0 auto;
+    }
+  }
+
+  #gw1476 .tickers path:nth-child(2) {
+    transform: translateY(10px);
+  }
+
+  #gw1476 .tickers path:nth-child(3) {
+    transform: translateY(20px);
+  }
+    
+  #gw1476 .glamour-lights-rgb path:nth-child(1) {
+    opacity: 0;
+    animation: gw-lights 7.2s steps(1) -7.0135s infinite;
+  }
+    
+  #gw1476 .glamour-lights-rgb path:nth-child(2) {
+    opacity: 0;
+    animation: gw-lights 7.2s steps(1) -6.8134999999999994s infinite;
+  }
+    
+  #gw1476 .glamour-lights-rgb path:nth-child(3) {
+    opacity: 0;
+    animation: gw-lights 7.2s steps(1) -6.613499999999999s infinite;
+  }
+    
+  #gw1476 .glamour-lights-rgb path:nth-child(4) {
+    opacity: 0;
+    animation: gw-lights 7.2s steps(1) -6.413499999999999s infinite;
+  }
+    
+  #gw1476 .glamour-lights-rgb path:nth-child(5) {
+    opacity: 0;
+    animation: gw-lights 7.2s steps(1) -6.2135s infinite;
+  }
+    
+  #gw1476 .glamour-lights-rgb path:nth-child(6) {
+    opacity: 0;
+    animation: gw-lights 7.2s steps(1) -6.0135s infinite;
+  }
+    
+  #gw1476 .glamour-lights-rgb path:nth-child(7) {
+    opacity: 0;
+    animation: gw-lights 7.2s steps(1) -5.8134999999999994s infinite;
+  }
+    
+  #gw1476 .glamour-lights-rgb path:nth-child(8) {
+    opacity: 0;
+    animation: gw-lights 7.2s steps(1) -5.613499999999999s infinite;
+  }
+    
+  #gw1476 .glamour-lights-rgb path:nth-child(9) {
+    opacity: 0;
+    animation: gw-lights 7.2s steps(1) -5.413499999999999s infinite;
+  }
+    
+  #gw1476 .glamour-lights-rgb path:nth-child(10) {
+    opacity: 0;
+    animation: gw-lights 7.2s steps(1) -5.2135s infinite;
+  }
+    
+  #gw1476 .glamour-lights-rgb path:nth-child(11) {
+    opacity: 0;
+    animation: gw-lights 7.2s steps(1) -5.0135s infinite;
+  }
+    
+  #gw1476 .glamour-lights-rgb path:nth-child(12) {
+    opacity: 0;
+    animation: gw-lights 7.2s steps(1) -4.8134999999999994s infinite;
+  }
+    
+  #gw1476 .glamour-lights-rgb path:nth-child(13) {
+    opacity: 0;
+    animation: gw-lights 7.2s steps(1) -4.6135s infinite;
+  }
+    
+  #gw1476 .glamour-lights-rgb path:nth-child(14) {
+    opacity: 0;
+    animation: gw-lights 7.2s steps(1) -4.413499999999999s infinite;
+  }
+    
+  #gw1476 .glamour-lights-rgb path:nth-child(15) {
+    opacity: 0;
+    animation: gw-lights 7.2s steps(1) -4.2135s infinite;
+  }
+    
+  #gw1476 .glamour-lights-rgb path:nth-child(16) {
+    opacity: 0;
+    animation: gw-lights 7.2s steps(1) -4.0135s infinite;
+  }
+    
+  #gw1476 .glamour-lights-rgb path:nth-child(17) {
+    opacity: 0;
+    animation: gw-lights 7.2s steps(1) -3.8134999999999994s infinite;
+  }
+    
+  #gw1476 .glamour-lights-rgb path:nth-child(18) {
+    opacity: 0;
+    animation: gw-lights 7.2s steps(1) -3.6134999999999997s infinite;
+  }
+    
+  #gw1476 .glamour-lights-rgb path:nth-child(19) {
+    opacity: 0;
+    animation: gw-lights 7.2s steps(1) -3.4134999999999995s infinite;
+  }
+    
+  #gw1476 .glamour-lights-rgb path:nth-child(20) {
+    opacity: 0;
+    animation: gw-lights 7.2s steps(1) -3.2135s infinite;
+  }
+    
+  #gw1476 .glamour-lights-rgb path:nth-child(21) {
+    opacity: 0;
+    animation: gw-lights 7.2s steps(1) -3.0134999999999996s infinite;
+  }
+    
+  #gw1476 .glamour-lights-rgb path:nth-child(22) {
+    opacity: 0;
+    animation: gw-lights 7.2s steps(1) -2.8134999999999994s infinite;
+  }
+    
+  #gw1476 .glamour-lights-rgb path:nth-child(23) {
+    opacity: 0;
+    animation: gw-lights 7.2s steps(1) -2.6134999999999993s infinite;
+  }
+    
+  #gw1476 .glamour-lights-rgb path:nth-child(24) {
+    opacity: 0;
+    animation: gw-lights 7.2s steps(1) -2.413499999999999s infinite;
+  }
+    
+  #gw1476 .glamour-lights-rgb path:nth-child(25) {
+    opacity: 0;
+    animation: gw-lights 7.2s steps(1) -2.2135s infinite;
+  }
+    
+  #gw1476 .glamour-lights-rgb path:nth-child(26) {
+    opacity: 0;
+    animation: gw-lights 7.2s steps(1) -2.0134999999999996s infinite;
+  }
+    
+  #gw1476 .glamour-lights-rgb path:nth-child(27) {
+    opacity: 0;
+    animation: gw-lights 7.2s steps(1) -1.8134999999999994s infinite;
+  }
+    
+  #gw1476 .glamour-lights-rgb path:nth-child(28) {
+    opacity: 0;
+    animation: gw-lights 7.2s steps(1) -1.6134999999999993s infinite;
+  }
+    
+  #gw1476 .glamour-lights-rgb path:nth-child(29) {
+    opacity: 0;
+    animation: gw-lights 7.2s steps(1) -1.413499999999999s infinite;
+  }
+    
+  #gw1476 .glamour-lights-rgb path:nth-child(30) {
+    opacity: 0;
+    animation: gw-lights 7.2s steps(1) -1.2134999999999998s infinite;
+  }
+    
+  #gw1476 .glamour-lights-rgb path:nth-child(31) {
+    opacity: 0;
+    animation: gw-lights 7.2s steps(1) -1.0134999999999996s infinite;
+  }
+    
+  #gw1476 .glamour-lights-rgb path:nth-child(32) {
+    opacity: 0;
+    animation: gw-lights 7.2s steps(1) -0.8134999999999994s infinite;
+  }
+    
+  #gw1476 .glamour-lights-rgb path:nth-child(33) {
+    opacity: 0;
+    animation: gw-lights 7.2s steps(1) -0.6134999999999993s infinite;
+  }
+    
+  #gw1476 .glamour-lights-rgb path:nth-child(34) {
+    opacity: 0;
+    animation: gw-lights 7.2s steps(1) -0.4134999999999991s infinite;
+  }
+    
+  #gw1476 .glamour-lights-rgb path:nth-child(35) {
+    opacity: 0;
+    animation: gw-lights 7.2s steps(1) -0.2134999999999998s infinite;
+  }
+    
+  #gw1476 .glamour-lights-rgb path:nth-child(36) {
+    opacity: 0;
+    animation: gw-lights 7.2s steps(1) -0.013499999999999623s infinite;
+  }
+    
+  #gw1476 .glamour-lights-rgb path:nth-child(37) {
+    opacity: 0;
+    animation: gw-lights 7.2s steps(1) 0.18650000000000055s infinite;
+  }
+    
+  #gw1476 .glamour-lights-rgb path:nth-child(38) {
+    opacity: 0;
+    animation: gw-lights 7.2s steps(1) 0.38650000000000073s infinite;
+  }
+    
+  #gw1476 .glamour-lights-rgb path:nth-child(39) {
+    opacity: 0;
+    animation: gw-lights 7.2s steps(1) 0.5865000000000009s infinite;
+  }
+    
+  #gw1476 .glamour-lights-rgb path:nth-child(40) {
+    opacity: 0;
+    animation: gw-lights 7.2s steps(1) 0.7865000000000002s infinite;
+  }
+    
+  @keyframes gw-lights {
+    0% {
+      opacity: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    3% {
+      opacity: 1;
+    }
+    4% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+]]></style>
+
+<path class="background" fill="#25252D" d="M0 0h89v89H0z"/>
+
+<a href="https://ipfs.io/ipfs/QmUeRWRbcdZQtzmoVntCw3eNHq1nwZ23n27cWXbsHedHVU?filename=gw1476.html" target="_blank">
+  <path class="title" fill="#FFF" d="M64 10v2h-1v-2h-1v5h1v-2h1v2h1v-5zm-4 5h1v-1h-2v1zm-2-3v2h1v-3h-1zm1-2v1h2v-1h-1zm-4 0h-1v1h1v4h1v-4h1v-1h-1zm-3 2h-1v-1h-1v4h1v-2h1v2h1v-4h-1zm-1-2h1v1h-1zm-3 1v3h1v-4h-1zm-1 3h1v1h-1zm-1-1h1v1h-1zm-1 0v-3h-1v5h2v-1h-1zm-3-3h-2v1h1v4h1v-4h1v-1zm-6 4v1h2v-1h-1zm2-1h1v1h-1zm-1-1h1v1h-1zm-1-1h1v1h-1zm1-1v1h2v-1h-1zm-4 0h1v1h-1zm1 2v2h1v-3h-1zm-1 2h1v1h-1zm0-2v-1h-1v3h1v-1zm-3-1v1h-1v-2h-1v5h1v-2h1v2h1v-5h-1zm-5 1v1h1v1h-2v1h3v-3h-1zm1-1v-1h-2v1h1zm-2 1v-1h-1v3h1v-1z"/>
+</a>
+
+<g class="tickers" fill="#FFF">
+  <path d="M19 22h-1v-1h-1v4h1v-2h1v2h1v-4h-1zm-1-2h1v1h-1zm-3 2v2h1v-3h-1zm-1 1v-2h1v-1h-2v5h2v-1h-1zm-3-1h-1v-1H9v4h1v-2h1v2h1v-4h-1zm-1-2h1v1h-1z"/>
+  <path d="M22 21v1h1v1h-1v1h1v1h-2v-5h2v1h-1zm-4 1v-1h-1v3h1v-1h1v1h-1v1h2v-3h-2zm1-2h-1v1h1v-1zm-4 2v2h1v-3h-1v1zm-1 3h1v-1h-1v1zm1-5h-1v1h1v-1zm-1 2v-1h-1v3h1v-2zm-3 0v2h1v-3h-1v1zm-1 1v-2h1v-1H9v5h2v-1h-1v-1z"/>
+  <path d="M27 21h-1v-1h2v1h-1zm0 4h1v-1h-2v1h1zm-1-3v-1h-1v3h1v-2zm-3-1v4h1v-5h-1v1zm-3-1h-1v1h1v4h1v-4h1v-1h-2zm-3 2h-1v-1h-1v4h1v-2h1v2h1v-4h-1v1zm0-2h-1v1h1v-1zm-4 2v3h1v-4h-1v1zm-1-2v1h1v-1h-1zm-1 2h1v-1h-1v1zm-1-2H9v5h1v-4h1v-1h-1z"/>
+</g>
+
+<g class="digits" fill="#FFF" style="display: none;">
+  <path class="zero" d="M79 20h-2v5h3v-5h-1zm0 2v2h-1v-3h1v1z"/>
+  <path class="one" d="M80 24v1h-3v-1h1v-2h-1v-1h1v-1h1v4h1z"/>
+  <path class="two" d="M80 22h-1v-1h1v1zm-1 3h1v-1h-2v1h1zm0-3h-1v1h1v-1zm-1-2h-1v1h2v-1h-1zm-1 3v1h1v-1h-1z"/>
+  <path class="three" d="M79 24v-1h1v1h-1zm1-3h-1v1h1v-1zm-2 1v1h1v-1h-1zm0-2h-1v1h2v-1h-1zm-1 4v1h2v-1h-2z"/>
+  <path class="four" d="M80 21v4h-1v-2h-2v-3h1v2h1v-1h1z"/>
+  <path class="five" d="M79 24v-1h1v1h-1zm0-3h1v-1h-3v3h2v-1h-1v-1h1zm-2 3v1h2v-1h-2z"/>
+  <path class="six" d="M79 21h-1v-1h2v1h-1zm-2 0v3h1v-1h1v1h-1v1h2v-3h-2v-1h-1z"/>
+  <path class="seven" d="M80 20v5h-1v-4h-2v-1h3z"/>
+  <path class="eight" d="M79 20h-2v5h3v-5h-1zm0 4h-1v-1h1v1zm0-2h-1v-1h1v1z"/>
+  <path class="nine" d="M79 20h-2v3h2v2h1v-5h-1zm0 2h-1v-1h1v1z"/>
+  <path class="decimal" d="M71 24h1v1h-1z"/>
+</g>
+
+<g class="prices" fill="#FFF">
+  <g class="line-0"></g>
+  <g class="line-1"></g>
+  <g class="line-2"></g>
+</g>
+
+<g class="glamour-lights"><path fill="#FFF" d="M84 4h2v1h-2V4zm3 0V2h-1v2h1zm-1-3h-2v1h2V1zm-2 1h-1v2h1V2zm-9 3h2V4h-2v1zm3-1V2h-1v2h1zm-1-3h-2v1h2V1zm-2 2V2h-1v2h1V3zm-9 2h2V4h-2v1zm2-1h1V2h-1v2zm0-3h-2v1h2V1zm-2 1h-1v2h1V2zm-9 3h2V4h-2v1zm2-1h1V2h-1v2zm0-3h-2v1h2V1zm-2 1h-1v2h1V2zm-9 3h2V4h-2v1zm2-1h1V2h-1v2zm0-3h-2v1h2V1zm-2 1h-1v2h1V2zm-9 3h2V4h-2v1zm2-1h1V2h-1v2zm0-3h-2v1h2V1zm-2 1h-1v2h1V2zm-9 3h2V4h-2v1zm2-4h-2v1h2V1zm0 3h1V2h-1v2zm-2-2h-1v2h1V2zm-9 3h2V4h-2v1zm2-1h1V2h-1v2zm0-3h-2v1h2V1zm-2 1h-1v2h1V2zm-9 3h2V4h-2v1zm3-1V2h-1v2h1zm-1-3h-2v1h2V1zm-2 2V2h-1v2h1V3zM3 5h2V4H3v1zm2-1h1V2H5v2zm0-3H3v1h2V1zM3 2H2v2h1V2zm83 82h-2v1h2v-1zm0 3h1v-2h-1v2zm-2 1h2v-1h-2v1zm-1-3v2h1v-2h-1zm-6-1h-2v1h2v-1zm0 3h1v-2h-1v2zm-2 1h2v-1h-2v1zm0-3h-1v2h1v-2zm-7-1h-2v1h2v-1zm0 2v1h1v-2h-1v1zm-2 2h2v-1h-2v1zm-1-3v2h1v-2h-1zm-6-1h-2v1h2v-1zm0 2v1h1v-2h-1v1zm-2 2h2v-1h-2v1zm-1-3v2h1v-2h-1zm-6-1h-2v1h2v-1zm0 2v1h1v-2h-1v1zm-2 2h2v-1h-2v1zm-1-3v2h1v-2h-1zm-6-1h-2v1h2v-1zm0 2v1h1v-2h-1v1zm-2 2h2v-1h-2v1zm-1-3v2h1v-2h-1zm-6-1h-2v1h2v-1zm-2 4h2v-1h-2v1zm2-2v1h1v-2h-1v1zm-3-1v2h1v-2h-1zm-6-1h-2v1h2v-1zm0 2v1h1v-2h-1v1zm-2 2h2v-1h-2v1zm-1-3v2h1v-2h-1zm-6-1h-2v1h2v-1zm0 3h1v-2h-1v2zm-2 1h2v-1h-2v1zm0-3h-1v2h1v-2zm-7-1H3v1h2v-1zm0 2v1h1v-2H5v1zm-2 2h2v-1H3v1zm-1-3v2h1v-2H2zm81-3H6V7h77v75zM82 8H7v73h75V8zm5 66h-2v1h2v-1zm0 3h1v-2h-1v2zm-2 1h2v-1h-2v1zm-1-3v2h1v-2h-1zm3-10h-2v1h2v-1zm0 3h1v-2h-1v2zm-2 1h2v-1h-2v1zm-1-3v2h1v-2h-1zm3-10h-2v1h2v-1zm0 3h1v-2h-1v2zm-2 1h2v-1h-2v1zm-1-3v2h1v-2h-1zm3-10h-2v1h2v-1zm0 3h1v-2h-1v2zm-2 1h2v-1h-2v1zm-1-3v2h1v-2h-1zm3-10h-2v1h2v-1zm0 3h1v-2h-1v2zm-2 1h2v-1h-2v1zm-1-3v2h1v-2h-1zm3-10h-2v1h2v-1zm0 3h1v-2h-1v2zm-2 1h2v-1h-2v1zm-1-3v2h1v-2h-1zm3-10h-2v1h2v-1zm0 3h1v-2h-1v2zm-2 1h2v-1h-2v1zm-1-3v2h1v-2h-1zm3-10h-2v1h2v-1zm0 1v2h1v-2h-1zm-2 3h2v-1h-2v1zm-1-3v2h1v-2h-1zM4 74H2v1h2v-1zm1 3v-2H4v2h1zm-3 1h2v-1H2v1zm0-3H1v2h1v-2zm2-10H2v1h2v-1zm1 3v-2H4v2h1zm-3 1h2v-1H2v1zm0-3H1v2h1v-2zm2-10H2v1h2v-1zm1 3v-2H4v2h1zm-3 1h2v-1H2v1zm0-3H1v2h1v-2zm2-10H2v1h2v-1zm1 3v-2H4v2h1zm-3 1h2v-1H2v1zm0-3H1v2h1v-2zm2-10H2v1h2v-1zm1 3v-2H4v2h1zm-3 1h2v-1H2v1zm0-3H1v2h1v-2zm2-10H2v1h2v-1zm1 3v-2H4v2h1zm-3 1h2v-1H2v1zm0-3H1v2h1v-2zm2-10H2v1h2v-1zm1 3v-2H4v2h1zm-3 1h2v-1H2v1zm0-3H1v2h1v-2zm2-10H2v1h2v-1zm1 3v-2H4v2h1zm-3 1h2v-1H2v1zm0-3H1v2h1v-2z"/><g class="glamour-lights-rgb"><path fill="#F0C83B" d="M3 2h2v2H3z"/><path fill="#F1563C" d="M12 2h2v2h-2z"/><path fill="#C34B9B" d="M21 2h2v2h-2z"/><path fill="#00B3C1" d="M30 2h2v2h-2z"/><path fill="#00B36C" d="M39 2h2v2h-2z"/><path fill="#F0C83B" d="M48 2h2v2h-2z"/><path fill="#F1563C" d="M57 2h2v2h-2z"/><path fill="#C34B9B" d="M66 2h2v2h-2z"/><path fill="#00B3C1" d="M75 2h2v2h-2z"/><path fill="#00B36C" d="M84 2h2v2h-2z"/><path fill="#F0C83B" d="M85 12h2v2h-2z"/><path fill="#F1563C" d="M85 21h2v2h-2z"/><path fill="#C34B9B" d="M85 30h2v2h-2z"/><path fill="#00B3C1" d="M85 39h2v2h-2z"/><path fill="#00B36C" d="M85 48h2v2h-2z"/><path fill="#F0C83B" d="M85 57h2v2h-2z"/><path fill="#F1563C" d="M85 66h2v2h-2z"/><path fill="#C34B9B" d="M85 75h2v2h-2z"/><path fill="#00B3C1" d="M84 85h2v2h-2z"/><path fill="#00B36C" d="M75 85h2v2h-2z"/><path fill="#F0C83B" d="M66 85h2v2h-2z"/><path fill="#F1563C" d="M57 85h2v2h-2z"/><path fill="#C34B9B" d="M48 85h2v2h-2z"/><path fill="#00B3C1" d="M39 85h2v2h-2z"/><path fill="#00B36C" d="M30 85h2v2h-2z"/><path fill="#F0C83B" d="M21 85h2v2h-2z"/><path fill="#F1563C" d="M12 85h2v2h-2z"/><path fill="#C34B9B" d="M3 85h2v2H3z"/><path fill="#00B3C1" d="M2 75h2v2H2z"/><path fill="#00B36C" d="M2 66h2v2H2z"/><path fill="#F0C83B" d="M2 57h2v2H2z"/><path fill="#F1563C" d="M2 48h2v2H2z"/><path fill="#C34B9B" d="M2 39h2v2H2z"/><path fill="#00B3C1" d="M2 30h2v2H2z"/><path fill="#00B36C" d="M2 21h2v2H2z"/><path fill="#00B3C1" d="M2 12h2v2H2z"/></g></g>
+
+<script type='text/javascript'><![CDATA[
+
+  const gw1476Root = document.getElementById('gw1476');
+
+  if (gw1476Root) {
+    const gwRoot = gw1476Root;
+
+    const getPrice = (data, ticker) => {
+      return data[ticker];
+    }
+
+    fetch('https://www.clumsyghosts.com/json/prices.json')
+      .then(response => response.json())
+      .then(json => {
+
+        console.log('Last updated: ' + json.updated);
+
+        const tickers = ['ADA', 'DOGE', 'MATIC'];
+        
+        const prices = [
+          getPrice(json.prices, tickers[0]),
+          getPrice(json.prices, tickers[1]),
+          getPrice(json.prices, tickers[2]),
+        ];
+
+        const digitsGroup = gwRoot.querySelector('.digits');
+        const pricesGroup = gwRoot.querySelector('.prices');
+        let lineOffset = 0;
+
+        for (let i=0; i<3; i++) {
+          const line = pricesGroup.querySelector('.line-' + i);
+          line.style.transform = 'translateY(' + lineOffset + 'px)';
+          lineOffset += 10;
+
+          const digits = String(prices[i]);
+          const numDigits = digits.length;
+
+          let digitOffset = 4 * numDigits - 6;
+
+          for (let j = 0; j < numDigits; j++) {
+            const digit = digits.charAt(j);
+
+            switch (digit) {
+              case '.':
+                line.appendChild(digitsGroup.querySelector('.decimal').cloneNode(true)).style.transform = 'translateX(-' + (digitOffset - 6) + 'px)';
+                digitOffset += 2;
+                break;
+              case '0':
+                line.appendChild(digitsGroup.querySelector('.zero').cloneNode(true)).style.transform = 'translateX(-' + digitOffset + 'px)';
+                break;
+              case '1':
+                line.appendChild(digitsGroup.querySelector('.one').cloneNode(true)).style.transform = 'translateX(-' + digitOffset + 'px)';
+                break;
+              case '2':
+                line.appendChild(digitsGroup.querySelector('.two').cloneNode(true)).style.transform = 'translateX(-' + digitOffset + 'px)';
+                break;
+              case '3':
+                line.appendChild(digitsGroup.querySelector('.three').cloneNode(true)).style.transform = 'translateX(-' + digitOffset + 'px)';
+                break;
+              case '4':
+                line.appendChild(digitsGroup.querySelector('.four').cloneNode(true)).style.transform = 'translateX(-' + digitOffset + 'px)';
+                break;
+              case '5':
+                line.appendChild(digitsGroup.querySelector('.five').cloneNode(true)).style.transform = 'translateX(-' + digitOffset + 'px)';
+                break;
+              case '6':
+                line.appendChild(digitsGroup.querySelector('.six').cloneNode(true)).style.transform = 'translateX(-' + digitOffset + 'px)';
+                break;
+              case '7':
+                line.appendChild(digitsGroup.querySelector('.seven').cloneNode(true)).style.transform = 'translateX(-' + digitOffset + 'px)';
+                break;
+              case '8':
+                line.appendChild(digitsGroup.querySelector('.eight').cloneNode(true)).style.transform = 'translateX(-' + digitOffset + 'px)';
+                break;
+              case '9':
+                line.appendChild(digitsGroup.querySelector('.nine').cloneNode(true)).style.transform = 'translateX(-' + digitOffset + 'px)';
+                break;
+            }
+
+            digitOffset -= 4;
+          }
+        }
+
+      })
+      .catch(error => {
+        console.error('Failed to fetch:', error);
+      });
+      
+  }
+
+]]></script>
+
+</svg>

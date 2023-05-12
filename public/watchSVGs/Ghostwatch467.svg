@@ -1,0 +1,190 @@
+<svg id="gw467" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 89 89">
+
+<style><![CDATA[
+
+  #gw467 {
+    overflow: hidden;
+    outline: none;
+    box-shadow: none;
+    height: 100%;
+  }
+
+  @media (min-aspect-ratio: 1/1) {
+    #gw467 {
+      height: 100%;
+      width: auto;
+      margin: 0 auto;
+    }
+  }
+
+  #gw467 .tickers path:nth-child(2) {
+    transform: translateY(10px);
+  }
+
+  #gw467 .tickers path:nth-child(3) {
+    transform: translateY(20px);
+  }
+
+  #gw467 .cobweb-spider {
+    animation: gw-spider-bounce 2s ease-in-out -1.8007s infinite;
+  }
+
+  #gw467 .cobweb-string {
+    animation: gw-string-extend 2s ease-in-out -1.8007s infinite;
+    transform-origin: top;
+    transform-box: fill-box;
+  }
+
+  @keyframes gw-spider-bounce {
+    0% {
+      transform: translate3d(0, 0, 0);
+    }
+    50% {
+      transform: translate3d(0, 3.7px, 0);
+    }
+    100% {
+      transform: translate3d(0, 0, 0);
+    }
+  }
+
+  @keyframes gw-string-extend {
+    0% {
+      transform: scaleY(0.9);
+    }
+    50% {
+      transform: scaleY(1.5);
+    }
+    100% {
+      transform: scaleY(0.9);
+    }
+  }
+
+]]></style>
+
+<path class="background" fill="#1A2C33" d="M0 0h89v89H0z"/>
+
+<a href="https://ipfs.io/ipfs/QmPqbo12ViUaAmbtA5Sm7Jno9XK8XE8e4ovXeqgn9CHTNs?filename=gw467.html" target="_blank">
+  <path class="title" fill="#FFF" d="M64 10v2h-1v-2h-1v5h1v-2h1v2h1v-5zm-4 5h1v-1h-2v1zm-2-3v2h1v-3h-1zm1-2v1h2v-1h-1zm-4 0h-1v1h1v4h1v-4h1v-1h-1zm-3 2h-1v-1h-1v4h1v-2h1v2h1v-4h-1zm-1-2h1v1h-1zm-3 1v3h1v-4h-1zm-1 3h1v1h-1zm-1-1h1v1h-1zm-1 0v-3h-1v5h2v-1h-1zm-3-3h-2v1h1v4h1v-4h1v-1zm-6 4v1h2v-1h-1zm2-1h1v1h-1zm-1-1h1v1h-1zm-1-1h1v1h-1zm1-1v1h2v-1h-1zm-4 0h1v1h-1zm1 2v2h1v-3h-1zm-1 2h1v1h-1zm0-2v-1h-1v3h1v-1zm-3-1v1h-1v-2h-1v5h1v-2h1v2h1v-5h-1zm-5 1v1h1v1h-2v1h3v-3h-1zm1-1v-1h-2v1h1zm-2 1v-1h-1v3h1v-1z"/>
+</a>
+
+<g class="tickers" fill="#FFF">
+  <path d="M19 22h-1v-1h-1v4h1v-2h1v2h1v-4h-1zm-1-2h1v1h-1zm-3 2v2h1v-3h-1zm-1 1v-2h1v-1h-2v5h2v-1h-1zm-3-1h-1v-1H9v4h1v-2h1v2h1v-4h-1zm-1-2h1v1h-1z"/>
+  <path d="M18 20h-1v1h1v4h1v-4h1v-1h-1zm-3 2v2h1v-3h-1zm-1 2h1v1h-1zm0-4h1v1h-1zm0 2v-1h-1v3h1v-1zm-3 0v2h1v-3h-1zm-1 1v-2h1v-1H9v5h2v-1h-1z"/>
+  <path d="M22 21v1h1v1h-1v1h1v1h-2v-5h2v1h-1zm-4 1v-1h-1v3h1v-1h1v1h-1v1h2v-3h-2zm1-2h-1v1h1v-1zm-4 2v2h1v-3h-1v1zm-1 3h1v-1h-1v1zm1-5h-1v1h1v-1zm-1 2v-1h-1v3h1v-2zm-3 0v2h1v-3h-1v1zm-1 1v-2h1v-1H9v5h2v-1h-1v-1z"/>
+</g>
+
+<g class="digits" fill="#FFF" style="display: none;">
+  <path class="zero" d="M79 20h-2v5h3v-5h-1zm0 2v2h-1v-3h1v1z"/>
+  <path class="one" d="M80 24v1h-3v-1h1v-2h-1v-1h1v-1h1v4h1z"/>
+  <path class="two" d="M80 22h-1v-1h1v1zm-1 3h1v-1h-2v1h1zm0-3h-1v1h1v-1zm-1-2h-1v1h2v-1h-1zm-1 3v1h1v-1h-1z"/>
+  <path class="three" d="M79 24v-1h1v1h-1zm1-3h-1v1h1v-1zm-2 1v1h1v-1h-1zm0-2h-1v1h2v-1h-1zm-1 4v1h2v-1h-2z"/>
+  <path class="four" d="M80 21v4h-1v-2h-2v-3h1v2h1v-1h1z"/>
+  <path class="five" d="M79 24v-1h1v1h-1zm0-3h1v-1h-3v3h2v-1h-1v-1h1zm-2 3v1h2v-1h-2z"/>
+  <path class="six" d="M79 21h-1v-1h2v1h-1zm-2 0v3h1v-1h1v1h-1v1h2v-3h-2v-1h-1z"/>
+  <path class="seven" d="M80 20v5h-1v-4h-2v-1h3z"/>
+  <path class="eight" d="M79 20h-2v5h3v-5h-1zm0 4h-1v-1h1v1zm0-2h-1v-1h1v1z"/>
+  <path class="nine" d="M79 20h-2v3h2v2h1v-5h-1zm0 2h-1v-1h1v1z"/>
+  <path class="decimal" d="M71 24h1v1h-1z"/>
+</g>
+
+<g class="prices" fill="#FFF">
+  <g class="line-0"></g>
+  <g class="line-1"></g>
+  <g class="line-2"></g>
+</g>
+
+<g class="cobweb" fill="#FFF"><g class="cobweb-border"><path d="M2 2h1v1H2zm2 2h1v1H4zM3 3h1v1H3zm2 2h1v1H5zm1 1h1v1H6zm1 1h1v1H7zm1 1h1v1H8zm1 1h1v1H9zm1 1h1v1h-1zM3 6v1h2V6H4zM2 7h1v1H2zm4-4h1v2H6zm1-1h1v1H7zM6 8h1v1H6zM4 9h2v1H4zm-1 1h1v1H3zm-1 1h1v1H2zm6-5h1v1H8zm2-3h1v1h-1zm1-1h1v1h-1zM9 4h1v2H9zM4 2h1v1H4zM2 4h1v1H2z"/><path d="M88 0H0v89h89V0h-1zm0 15v73H1V14h1v-2H1v-2h1V8H1V6h1V5H1V2h1V1h3v1h1V1h2v1h2V1h2v1h2V1h61v1h2V1h2v1h2V1h2v1h1V1h3v1h1v3h-1v1h1v2h-1v2h1v2h-1v2h1v1z"/><path d="M86 2h1v1h-1zm-2 2h1v1h-1zm1-1h1v1h-1zm-2 2h1v1h-1zm-1 1h1v1h-1zm-1 1h1v1h-1zm-1 1h1v1h-1zm-1 1h1v1h-1zm-1 1h1v1h-1zm7-3h1V6h-2v1zm1 0h1v1h-1zm-4-4h1v2h-1zm-1-1h1v1h-1zm1 6h1v1h-1zm1 1h2v1h-2zm2 1h1v1h-1zm1 1h1v1h-1zm-6-5h1v1h-1zm-2-3h1v1h-1zm-1-1h1v1h-1zm2 2h1v2h-1zm5-2h1v1h-1zm2 2h1v1h-1z"/></g><path class="cobweb-spider" d="M11 72H7v1h5v-1zm6 1h-1v1h-3v-1h-1v2h5v-1zm-6 2h1v1h-1zm-1 1v1H9v1h1v1h1v-3zm2 4v-1h-1v2h2v-1zm1 1h3v1h-3zm-3 0h1v2h-1zm-2-3h1v1H8zm-1 2v1h1v-2H7zm3-6H9v1h2v-1zm-2 1h1v1H8zm-1 1h1v1H7zm10-1h1v1h-1zm2 4v-1h1v-1h-1v-1h-1v3zm-2 1h-1v1h2v-2h-1zm0-8h5v1h-5zm1 2h2v1h-2zm2 1h1v1h-1zm1 1h1v1h-1zm-1 2h1v1h-1zm1 1h1v2h-1zm-3 2h1v2h-1z"/><path class="cobweb-string" d="M14 68h1v7h-1z"/></g>
+
+<script type='text/javascript'><![CDATA[
+
+  const gw467Root = document.getElementById('gw467');
+
+  if (gw467Root) {
+    const gwRoot = gw467Root;
+
+    const getPrice = (data, ticker) => {
+      return data[ticker];
+    }
+
+    fetch('https://www.clumsyghosts.com/json/prices.json')
+      .then(response => response.json())
+      .then(json => {
+
+        console.log('Last updated: ' + json.updated);
+
+        const tickers = ['ADA', 'DOT', 'DOGE'];
+        
+        const prices = [
+          getPrice(json.prices, tickers[0]),
+          getPrice(json.prices, tickers[1]),
+          getPrice(json.prices, tickers[2]),
+        ];
+
+        const digitsGroup = gwRoot.querySelector('.digits');
+        const pricesGroup = gwRoot.querySelector('.prices');
+        let lineOffset = 0;
+
+        for (let i=0; i<3; i++) {
+          const line = pricesGroup.querySelector('.line-' + i);
+          line.style.transform = 'translateY(' + lineOffset + 'px)';
+          lineOffset += 10;
+
+          const digits = String(prices[i]);
+          const numDigits = digits.length;
+
+          let digitOffset = 4 * numDigits - 6;
+
+          for (let j = 0; j < numDigits; j++) {
+            const digit = digits.charAt(j);
+
+            switch (digit) {
+              case '.':
+                line.appendChild(digitsGroup.querySelector('.decimal').cloneNode(true)).style.transform = 'translateX(-' + (digitOffset - 6) + 'px)';
+                digitOffset += 2;
+                break;
+              case '0':
+                line.appendChild(digitsGroup.querySelector('.zero').cloneNode(true)).style.transform = 'translateX(-' + digitOffset + 'px)';
+                break;
+              case '1':
+                line.appendChild(digitsGroup.querySelector('.one').cloneNode(true)).style.transform = 'translateX(-' + digitOffset + 'px)';
+                break;
+              case '2':
+                line.appendChild(digitsGroup.querySelector('.two').cloneNode(true)).style.transform = 'translateX(-' + digitOffset + 'px)';
+                break;
+              case '3':
+                line.appendChild(digitsGroup.querySelector('.three').cloneNode(true)).style.transform = 'translateX(-' + digitOffset + 'px)';
+                break;
+              case '4':
+                line.appendChild(digitsGroup.querySelector('.four').cloneNode(true)).style.transform = 'translateX(-' + digitOffset + 'px)';
+                break;
+              case '5':
+                line.appendChild(digitsGroup.querySelector('.five').cloneNode(true)).style.transform = 'translateX(-' + digitOffset + 'px)';
+                break;
+              case '6':
+                line.appendChild(digitsGroup.querySelector('.six').cloneNode(true)).style.transform = 'translateX(-' + digitOffset + 'px)';
+                break;
+              case '7':
+                line.appendChild(digitsGroup.querySelector('.seven').cloneNode(true)).style.transform = 'translateX(-' + digitOffset + 'px)';
+                break;
+              case '8':
+                line.appendChild(digitsGroup.querySelector('.eight').cloneNode(true)).style.transform = 'translateX(-' + digitOffset + 'px)';
+                break;
+              case '9':
+                line.appendChild(digitsGroup.querySelector('.nine').cloneNode(true)).style.transform = 'translateX(-' + digitOffset + 'px)';
+                break;
+            }
+
+            digitOffset -= 4;
+          }
+        }
+
+      })
+      .catch(error => {
+        console.error('Failed to fetch:', error);
+      });
+      
+  }
+
+]]></script>
+
+</svg>

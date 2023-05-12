@@ -1,0 +1,1659 @@
+<svg id="ClumsyValleyLandPlot" style="background: #C5BBFF" xmlns="http://www.w3.org/2000/svg" viewBox="-7 -7 103 103">
+<title>Clumsy Valley Land Plot #9396</title>
+            
+  <defs>
+    <linearGradient id="linear-gradient" x1="63.55" y1="64.95" x2="69.26" y2="76.66" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#553e8c">
+        <animate attributeName="stop-color" values="#553e8c;#937cdd;#553e8c"
+              dur="3s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="1" stop-color="#937cdd">
+        <animate attributeName="stop-color" values="#937cdd;#553e8c;#937cdd"
+              dur="3s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="64.74" y1="64.37" x2="70.34" y2="75.86" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#553e8c">
+        <animate attributeName="stop-color" values="#553e8c;#937cdd;#553e8c"
+              dur="3s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="1" stop-color="#937cdd">
+        <animate attributeName="stop-color" values="#937cdd;#553e8c;#937cdd"
+              dur="3s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+
+    <linearGradient id="New_Gradient_Swatch_1" x1="19.74" y1="76.66" x2="25.45" y2="64.95" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#3d2773">
+        <animate attributeName="stop-color" values="#3d2773;#6a50a3;#3d2773"
+              dur="3s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="1" stop-color="#6a50a3">
+        <animate attributeName="stop-color" values="#6a50a3;#3d2773;#6a50a3"
+              dur="3s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+    <linearGradient id="New_Gradient_Swatch_1-2" x1="18.66" y1="75.86" x2="24.26" y2="64.37" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#3d2773">
+        <animate attributeName="stop-color" values="#3d2773;#6a50a3;#3d2773"
+              dur="3s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="1" stop-color="#6a50a3">
+        <animate attributeName="stop-color" values="#6a50a3;#3d2773;#6a50a3"
+              dur="3s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+
+
+
+    <filter id="stats-name" x="-0.5%" width="1" y="-0.05" height="1">
+      <feFlood flood-color="#000000" />
+      <feComposite operator="over" in="SourceGraphic" />
+    </filter>
+    <filter id="stats-coords" x="-1%" width="1" y="-0.05" height="1">
+      <feFlood flood-color="#000000" />
+      <feComposite operator="over" in="SourceGraphic" />
+    </filter>
+    <filter id="stats-fc" x="-1%" width="1" y="-0.05" height="1">
+      <feFlood flood-color="#000000" />
+      <feComposite operator="over" in="SourceGraphic" />
+    </filter>
+    <filter id="stats-cheatcode" x="-0.5%" width="1" y="-0.05" height="1">
+      <feFlood flood-color="#000000" />
+      <feComposite operator="over" in="SourceGraphic" />
+    </filter>
+  </defs>
+<style>
+    <![CDATA[
+    #ClumsyValleyLandPlot {
+      overflow: hidden;
+    }
+
+    #ClumsyValleyLandPlot.party {
+      animation: cg-anim-rgb-bg 5s linear -1.4169s infinite;
+    }
+
+    #twilight-forest-base.party {
+      animation: cg-anim-rgb 5s linear -1.4169s infinite;
+    }
+
+    .cg-bg {
+      fill: none;
+    }
+
+    @font-face {
+      font-family: ClumsyPixel-Regular;
+      src: url(https://assets.clumsylabs.io/misc/fonts/ClumsyPixelv2.otf) format("opentype");
+
+    }
+
+    svg {
+      font-family: ClumsyPixel-Regular, Roboto Mono;
+      font-size: 6px;
+      font-weight: normal;
+      letter-spacing: 0.5px;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+    }
+
+    #farming-name,
+    #farming-coords,
+    #farming-fc {
+      fill: white;
+    }
+
+    @keyframes cg-anim-rgb {
+      0% {
+        fill: #FF5F5F;
+      }
+
+      11.1111% {
+        fill: #FFA45F;
+      }
+
+      22.2222% {
+        fill: #BAFF5F;
+      }
+
+      33.3333% {
+        fill: #5FFF74;
+      }
+
+      44.4444% {
+        fill: #5FFFCE;
+      }
+
+      55.5555% {
+        fill: #5FD9FF;
+      }
+
+      66.6666% {
+        fill: #5F6AFF;
+      }
+
+      77.7777% {
+        fill: #AA5FFF;
+      }
+
+      88.8888% {
+        fill: #FF5FFA;
+      }
+
+      100% {
+        fill: #FF5F5F;
+      }
+    }
+
+    @keyframes cg-anim-rgb-bg {
+      0% {
+        background: #FF5F5F;
+      }
+
+      11.1111% {
+        background: #FFA45F;
+      }
+
+      22.2222% {
+        background: #BAFF5F;
+      }
+
+      33.3333% {
+        background: #5FFF74;
+      }
+
+      44.4444% {
+        background: #5FFFCE;
+      }
+
+      55.5555% {
+        background: #5FD9FF;
+      }
+
+      66.6666% {
+        background: #5F6AFF;
+      }
+
+      77.7777% {
+        background: #AA5FFF;
+      }
+
+      88.8888% {
+        background: #FF5FFA;
+      }
+
+      100% {
+        background: #FF5F5F;
+      }
+    }
+
+    @keyframes cg-anim-hover {
+      0% {
+        transform: translate3d(0, 0, 0);
+      }
+
+      50% {
+        transform: translate3d(0, -2px, 0);
+      }
+
+      100% {
+        transform: translate3d(0, 0, 0);
+      }
+    }
+
+    #tiny-butterfly {
+      animation: cg-anim-hover 1.5s ease-in-out 0s infinite;
+    }
+
+    #pixie-blue {
+      animation: cg-anim-hover 1.8s ease-in-out -0.2s infinite;
+    }
+
+    #pixie-purple {
+      animation: cg-anim-hover 2.2s ease-in-out -0.4s infinite;
+    }
+
+    @keyframes cg-anim-fairy {
+      0% {
+        transform: translate3d(0, 0, 0); opacity: 0;
+      }
+
+      50% {
+        transform: translate3d(0, -2px, 0); opacity: 0.46;
+      }
+
+      100% {
+        transform: translate3d(0, 0, 0); opacity: 0;
+      }
+    }
+
+    #fairy-animated-glow{
+      animation: cg-anim-fairy 5s ease-in-out -0.4s infinite;
+    }
+
+    @keyframes cg-anim-bluebird {
+      0% {
+        transform: translate3d(0, 0, 0);
+      }
+
+      20% {
+        transform: translate3d(0, 1px, 0);
+      }
+
+      40% {
+        transform: translate3d(1px, 0, 0);
+      }
+
+      60% {
+        transform: translate3d(1px, 1px, 0);
+      }
+
+      100% {
+        transform: translate3d(0, 0, 0);
+      }
+    }
+
+    #bluebird-animation-loop {
+      animation: cg-anim-bluebird 4s ease-in-out -0.1459s infinite;
+      transform-origin: center;
+      transform-box: fill-box;
+    }
+
+    #bluebird1 {
+      opacity: 1;
+      animation: cg-anim-2frames-1 0.7s steps(1, start) -0.1s infinite;
+    }
+
+    #bluebird2 {
+      opacity: 0;
+      animation: cg-anim-2frames-2 0.7s steps(1, start) -0.1s infinite;
+    }
+
+    @keyframes cg-anim-antigrav {
+      0% {
+        transform: translate3d(0, 0, 0);
+      }
+
+      50% {
+        transform: translate3d(0, -8px, 0);
+      }
+
+      100% {
+        transform: translate3d(0, 0, 0);
+      }
+    }
+
+    @keyframes cg-anim-2frames-1 {
+      0% {
+        opacity: 0;
+      }
+
+      50% {
+        opacity: 1;
+      }
+
+      100% {
+        opacity: 0;
+      }
+    }
+    @keyframes cg-anim-2frames-2 {
+      0% {
+        opacity: 1;
+      }
+
+      50% {
+        opacity: 0;
+      }
+
+      100% {
+        opacity: 1;
+      }
+    }
+
+    @keyframes cg-anim-cloud {
+      0% {
+        transform: translate3d(50px, 4px, 0);
+      }
+
+      16.7% {
+        transform: translate3d(25px, 0px, 0);
+      }
+
+      33.4% {
+        transform: translate3d(0px, 4px, 0);
+      }
+
+      50.1% {
+        transform: translate3d(-25px, 0px, 0);
+      }
+
+      66.8% {
+        transform: translate3d(-50px, 4px, 0);
+      }
+
+      83.5% {
+        transform: translate3d(-75px, 0px, 0);
+      }
+
+      100% {
+        transform: translate3d(-100px, 4px, 0);
+      }
+    }
+
+    @keyframes cg-anim-twilight-forest-cloud {
+      0% {
+        transform: translate3d(50px, 0px, 0);
+      }
+
+      100% {
+        transform: translate3d(-100px, 0px, 0);
+      }
+    }
+
+    #fun-cloud {
+      animation: cg-anim-cloud 25s linear -0.1459s infinite;
+      transform-origin: center;
+      transform-box: fill-box;
+    }
+
+    @keyframes cg-anim-8frames-1 {
+      0%, 100% { opacity: 1; }
+      12.5%    { opacity: 0; }
+      25%      { opacity: 0; }
+      37.5%    { opacity: 0; }
+      50%      { opacity: 0; }
+      62.5%    { opacity: 0; }
+      75%      { opacity: 0; }
+      87.5%    { opacity: 0; }
+    }
+
+    @keyframes cg-anim-8frames-2 {
+      0%, 100% { opacity: 0; }
+      12.5%    { opacity: 1; }
+      25%      { opacity: 0; }
+      37.5%    { opacity: 0; }
+      50%      { opacity: 0; }
+      62.5%    { opacity: 0; }
+      75%      { opacity: 0; }
+      87.5%    { opacity: 0; }
+    }
+
+    @keyframes cg-anim-8frames-3 {
+      0%, 100% { opacity: 0; }
+      12.5%    { opacity: 0; }
+      25%      { opacity: 1; }
+      37.5%    { opacity: 0; }
+      50%      { opacity: 0; }
+      62.5%    { opacity: 0; }
+      75%      { opacity: 0; }
+      87.5%    { opacity: 0; }
+    }
+
+    @keyframes cg-anim-8frames-4 {
+      0%, 100% { opacity: 0; }
+      12.5%    { opacity: 0; }
+      25%      { opacity: 0; }
+      37.5%    { opacity: 1; }
+      50%      { opacity: 0; }
+      62.5%    { opacity: 0; }
+      75%      { opacity: 0; }
+      87.5%    { opacity: 0; }
+    }
+
+    @keyframes cg-anim-8frames-5 {
+      0%, 100% { opacity: 0; }
+      12.5%    { opacity: 0; }
+      25%      { opacity: 0; }
+      37.5%    { opacity: 0; }
+      50%      { opacity: 1; }
+      62.5%    { opacity: 0; }
+      75%      { opacity: 0; }
+      87.5%    { opacity: 0; }
+    }
+
+    @keyframes cg-anim-8frames-6 {
+      0%, 100% { opacity: 0; }
+      12.5%    { opacity: 0; }
+      25%      { opacity: 0; }
+      37.5%    { opacity: 0; }
+      50%      { opacity: 0; }
+      62.5%    { opacity: 1; }
+      75%      { opacity: 0; }
+      87.5%    { opacity: 0; }
+    }
+
+    @keyframes cg-anim-8frames-7 {
+      0%, 100% { opacity: 0; }
+      12.5%    { opacity: 0; }
+      25%      { opacity: 0; }
+      37.5%    { opacity: 0; }
+      50%      { opacity: 0; }
+      62.5%    { opacity: 0; }
+      75%      { opacity: 1; }
+      87.5%    { opacity: 0; }
+    }
+
+    @keyframes cg-anim-8frames-8 {
+      0%, 100% { opacity: 0; }
+      12.5%    { opacity: 0; }
+      25%      { opacity: 0; }
+      37.5%    { opacity: 0; }
+      50%      { opacity: 0; }
+      62.5%    { opacity: 0; }
+      75%      { opacity: 0; }
+      87.5%    { opacity: 1; }
+    }
+
+    #cauldron, #brew-6 {
+      opacity: 1
+    }
+
+    #brew-1, brew-2, #brew-3, #brew-4, #brew-5, #brew-7, #brew-8  {
+      opacity: 0
+    }
+
+    #brew-1 {
+      animation: cg-anim-8frames-1 3s steps(1, start) 0s infinite;
+    }
+    #brew-2 {
+      animation: cg-anim-8frames-2 3s steps(1, start) 0s infinite;
+    }
+    #brew-3 {
+      animation: cg-anim-8frames-3 3s steps(1, start) 0s infinite;
+    }
+    #brew-4 {
+      animation: cg-anim-8frames-4 3s steps(1, start) 0s infinite;
+    }
+    #brew-5 {
+      animation: cg-anim-8frames-5 3s steps(1, start) 0s infinite;
+    }
+    #brew-6 {
+      animation: cg-anim-8frames-6 3s steps(1, start) 0s infinite;
+    }
+    #brew-7 {
+      animation: cg-anim-8frames-7 3s steps(1, start) 0s infinite;
+    }
+    #brew-8 {
+      animation: cg-anim-8frames-8 3s steps(1, start) 0s infinite;
+    }
+
+    @keyframes cg-anim-3frames-1 {
+      0%   { opacity: 1; }
+      33%  { opacity: 0; }
+      66%  { opacity: 0; }
+      100% { opacity: 1; }
+    }
+
+    @keyframes cg-anim-3frames-2 {
+      0%   { opacity: 0; }
+      33%  { opacity: 1; }
+      66%  { opacity: 0; }
+      100% { opacity: 0; }
+    }
+
+    @keyframes cg-anim-3frames-3 {
+      0%   { opacity: 0; }
+      33%  { opacity: 0; }
+      66%  { opacity: 1; }
+      100% { opacity: 0; }
+    }
+
+    #castle-flag-2, #castle-flag-3 {
+      opacity: 0;
+    }
+
+    #castle-flag-1 {
+      animation: cg-anim-3frames-1 1s steps(1, start) 0s infinite;
+    }
+
+    #castle-flag-2 {
+      animation: cg-anim-3frames-2 1s steps(1, start) 0s infinite;
+    }
+
+    #castle-flag-3 {
+      animation: cg-anim-3frames-3 1s steps(1, start) 0s infinite;
+    }
+
+
+
+    @keyframes cg-anim-eyeball-plant-1 {
+      0%   { opacity: 1; }
+      33%  { opacity: 0; }
+      66%  { opacity: 0; }
+      100% { opacity: 1; }
+    }
+
+    @keyframes cg-anim-eyeball-plant-2 {
+      0%   { opacity: 0; }
+      33%  { opacity: 1; }
+      66%  { opacity: 0; }
+      100% { opacity: 0; }
+    }
+
+    @keyframes cg-anim-eyeball-plant-3 {
+      0%   { opacity: 0; }
+      33%  { opacity: 0; }
+      66%  { opacity: 1; }
+      100% { opacity: 0; }
+    }
+
+    #eyeball-plant-animation-click, #eyeball-plant2-animation-click {
+      opacity: 1
+    }
+
+    #eyeball-plant-default, #eyeball-plant-2, #eyeball-plant-3, #eyeball-plant2-default, #eyeball-plant2-2, #eyeball-plant2-3 {
+      opacity: 1
+    }
+
+    .eyeballplant1 {
+      animation: cg-anim-eyeball-plant-1 2s steps(1, start) 0s infinite;
+    }
+
+    .eyeballplant2 {
+      animation: cg-anim-eyeball-plant-2 2s steps(1, start) 0s infinite;
+    }
+
+    .eyeballplant3 {
+      animation: cg-anim-eyeball-plant-3 2s steps(1, start) 0s infinite;
+    }
+
+
+    @keyframes cg-anim-blinking {
+      0% {
+        opacity: 0;
+      }
+
+      50% {
+        opacity: 1;
+      }
+
+      100% {
+        opacity: 0;
+      }
+    }
+
+    #flame-glow-2 {
+      opacity: 1;
+      animation: cg-anim-blinking 1.5s ease-in-out -0.1s infinite;
+    }
+
+    #flame-1 {
+      opacity: 1;
+      animation: cg-anim-2frames-1 1s steps(1, start) -0.1s infinite;
+    }
+
+    #flame-2 {
+      opacity: 0;
+      animation: cg-anim-2frames-2 1s steps(1, start) -0.1s infinite;
+    }
+
+    #lucky-pig-default, #cosmo-default, #astra-default, #nova2, #prince-shrooma-default {
+      opacity: 1
+    }
+
+    #lucky-pig, #cosmo-wake, #astra-surprised, #nova-1, #prince-shrooma-squint {
+      opacity: 0
+    }
+
+    #lucky-pig-default.activate, #cosmo-default.activate, #astra-default.activate, #nova2.activate, #prince-shrooma-default.activate {
+      opacity: 0
+    }
+    
+    #lucky-pig.activate, #cosmo-wake.activate, #astra-surprised.activate, #nova-1.activate, #prince-shrooma-squint.activate {
+      opacity: 1
+    }
+
+    #ghost {
+      transition: 0.3s ease 0.3s;
+    }
+
+    @keyframes cg-anim-4frames-1 {
+      0%   { opacity: 0; }
+      25%  { opacity: 1; }
+      50%  { opacity: 0; }
+      75%  { opacity: 0; }
+      100% { opacity: 0; }
+    }
+
+    @keyframes cg-anim-4frames-2 {
+      0%   { opacity: 0; }
+      25%  { opacity: 0; }
+      50%  { opacity: 1; }
+      75%  { opacity: 0; }
+      100% { opacity: 0; }
+    }
+
+    @keyframes cg-anim-4frames-3 {
+      0%   { opacity: 0; }
+      25%  { opacity: 0; }
+      50%  { opacity: 0; }
+      75%  { opacity: 1; }
+      100% { opacity: 0; }
+    }
+
+    @keyframes cg-anim-4frames-4 {
+      0%   { opacity: 0; }
+      25%  { opacity: 0; }
+      50%  { opacity: 0; }
+      75%  { opacity: 0; }
+      100% { opacity: 1; }
+    }
+
+    #treeeyes-1, #treeeyes-2, #treeeyes-3, #treeeyes-4 {
+      opacity: 0
+    }
+
+    .treeeyes1 {
+      animation: cg-anim-4frames-1 2s steps(1, start) 0s 1;
+    }
+
+    .treeeyes2 {
+      animation: cg-anim-4frames-2 2s steps(1, start) 0s 1;
+    }
+
+    .treeeyes3 {
+      animation: cg-anim-4frames-3 2s steps(1, start) 0s 1;
+    }
+
+    .treeeyes4 {
+      animation: cg-anim-4frames-4 2s steps(1, start) 0s 1;
+    }
+
+    @keyframes cg-anim-5frames-1 {
+      0%   { opacity: 0; }
+      20%  { opacity: 1; }
+      40% { opacity: 0; }
+      60% { opacity: 0; }
+      80% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+
+    @keyframes cg-anim-5frames-2 {
+      0%   { opacity: 0; }
+      20%  { opacity: 0; }
+      40% { opacity: 1; }
+      60% { opacity: 0; }
+      80% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+
+    @keyframes cg-anim-5frames-3 {
+      0%   { opacity: 0; }
+      20%  { opacity: 0; }
+      40% { opacity: 0; }
+      60% { opacity: 1; }
+      80% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+
+    @keyframes cg-anim-5frames-4 {
+      0%   { opacity: 0; }
+      20%  { opacity: 0; }
+      40% { opacity: 0; }
+      60% { opacity: 0; }
+      80% { opacity: 1; }
+      100% { opacity: 0; }
+    }
+
+    @keyframes cg-anim-5frames-5 {
+      0%   { opacity: 0; }
+      20%  { opacity: 0; }
+      40% { opacity: 0; }
+      60% { opacity: 0; }
+      80% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+
+    #cloud-waterfall-animation-frame1 {
+      opacity: 1
+    }
+
+    #cloud-waterfall-animation-frame2, 
+    #cloud-waterfall-animation-frame3, 
+    #cloud-waterfall-animation-frame4, 
+    #cloud-waterfall-animation-frame5 {
+      opacity: 0
+    }
+
+    #cloud-waterfall-animation-frame1 {
+      animation: cg-anim-5frames-1 2s steps(1, start) 0s infinite;
+    }
+    #cloud-waterfall-animation-frame2 {
+      animation: cg-anim-5frames-2 2s steps(1, start) 0s infinite;
+    }
+    #cloud-waterfall-animation-frame3 {
+      animation: cg-anim-5frames-3 2s steps(1, start) 0s infinite;
+    }
+    #cloud-waterfall-animation-frame4 {
+      animation: cg-anim-5frames-4 2s steps(1, start) 0s infinite;
+    }
+    #cloud-waterfall-animation-frame5 {
+      animation: cg-anim-5frames-5 2s steps(1, start) 0s infinite;
+    }
+    
+
+    #farming-name, #farming-coords, #farming-fc {
+      opacity: 0;
+      pointer-events: none;
+      transform: translate3d(0, -20px, 0);
+    }
+
+    #farming-name.show-farming-stats, #farming-coords.show-farming-stats, #farming-fc.show-farming-stats {
+      opacity: 1;
+      pointer-events: auto;
+      cursor: pointer;
+      transform: translate3d(0, 0, 0);
+    }
+
+    #farming-name {
+      transition: 0.4s ease 0.1s;
+    }
+
+    #farming-coords {
+      transition: 0.2s ease 0.2s;
+    }
+
+    #farming-fc {
+      transition: 0.1s ease 0.4s;
+    }
+
+    #farming-fc.tier1 {
+      fill: aqua;
+    }
+
+    #farming-fc.tier2 {
+      fill: green;
+    }
+
+    #farming-fc.tier3 {
+      fill: yellow;
+    }
+
+    #farming-fc.tier4 {
+      fill: red;
+    }
+
+    #farming-fc.tier5 {
+      animation: cg-anim-rgb 5s linear -1.4169s infinite;
+    }
+
+    #rgb-star {
+      animation: cg-anim-rgb 5s linear 0s infinite;
+    }
+    #rgb-star-1-fill {
+      animation: cg-anim-rgb 3.5s linear 0s infinite;
+    }
+    #rgb-star-2-fill {
+      animation: cg-anim-rgb 2.9s linear 0s infinite;
+    }
+
+    #magical-flora-outline-rgb {
+      animation: cg-anim-rgb 7s linear 0s infinite;
+    }
+
+    @keyframes cg-anim-7frames-1 {
+      0%, 100% { fill: #FFCFA5; }
+      14.28%   { fill: #FDFFA9; }
+      28.56%   { fill: #BBFFA5; }
+      42.84%   { fill: #A5EAFF; }
+      57.12%   { fill: #D4A5FF; }
+      71.4%    { fill: #FFA5F8; }
+      85.68%   { fill: #FFA5A5; }
+    }
+    @keyframes cg-anim-7frames-2 {
+      0%, 100% { fill: #FDFFA9; }
+      14.28%   { fill: #BBFFA5; }
+      28.56%   { fill: #A5EAFF; }
+      42.84%   { fill: #D4A5FF; }
+      57.12%   { fill: #FFA5F8; }
+      71.4%    { fill: #FFA5A5; }
+      85.68%   { fill: #FFCFA5; }
+    }
+    @keyframes cg-anim-7frames-3 {
+      0%, 100% { fill: #BBFFA5; }
+      14.28%   { fill: #A5EAFF; }
+      28.56%   { fill: #D4A5FF; }
+      42.84%   { fill: #FFA5F8; }
+      57.12%   { fill: #FFA5A5; }
+      71.4%    { fill: #FFCFA5; }
+      85.68%   { fill: #FDFFA9; }
+    }
+    @keyframes cg-anim-7frames-4 {
+      0%, 100% { fill: #A5EAFF; }
+      14.28%   { fill: #D4A5FF; }
+      28.56%   { fill: #FFA5F8; }
+      42.84%   { fill: #FFA5A5; }
+      57.12%   { fill: #FFCFA5; }
+      71.4%    { fill: #FDFFA9; }
+      85.68%   { fill: #BBFFA5; }
+    }
+    @keyframes cg-anim-7frames-5 {
+      0%, 100% { fill: #D4A5FF; }
+      14.28%   { fill: #FFA5F8; }
+      28.56%   { fill: #FFA5A5; }
+      42.84%   { fill: #FFCFA5; }
+      57.12%   { fill: #FDFFA9; }
+      71.4%    { fill: #BBFFA5; }
+      85.68%   { fill: #A5EAFF; }
+    }
+    @keyframes cg-anim-7frames-6 {
+      0%, 100% { fill: #FFA5F8; }
+      14.28%   { fill: #FFA5A5; }
+      28.56%   { fill: #FFCFA5; }
+      42.84%   { fill: #FDFFA9; }
+      57.12%   { fill: #BBFFA5; }
+      71.4%    { fill: #A5EAFF; }
+      85.68%   { fill: #D4A5FF; }
+    }
+    @keyframes cg-anim-7frames-7 {
+      0%, 100% { fill: #FFA5A5; }
+      14.28%   { fill: #FFCFA5; }
+      28.56%   { fill: #FDFFA9; }
+      42.84%   { fill: #BBFFA5; }
+      57.12%   { fill: #A5EAFF; }
+      71.4%    { fill: #D4A5FF; }
+      85.68%   { fill: #FFA5F8; }
+    }
+
+    #happy-flower-petal1-fill {
+      animation: cg-anim-7frames-1 5s steps(1, start) 0s infinite;
+    }
+    #happy-flower-petal2-fill {
+      animation: cg-anim-7frames-2 5s steps(1, start) 0s infinite;
+    }
+    #happy-flower-petal3-fill {
+      animation: cg-anim-7frames-3 5s steps(1, start) 0s infinite;
+    }
+    #happy-flower-petal4-fill {
+      animation: cg-anim-7frames-4 5s steps(1, start) 0s infinite;
+    }
+    #happy-flower-petal5-fill {
+      animation: cg-anim-7frames-5 5s steps(1, start) 0s infinite;
+    }
+    #happy-flower-petal6-fill {
+      animation: cg-anim-7frames-6 5s steps(1, start) 0s infinite;
+    }
+    #happy-flower-petal7-fill {
+      animation: cg-anim-7frames-7 5s steps(1, start) 0s infinite;
+    }
+
+    @keyframes cg-anim-blossom-1 {
+      0%        { transform: translate3d(0, -30px, 0); }
+      100%      { transform: translate3d(0, 120px, 0); }
+    }
+
+    #falling-blossoms-1, 
+    #falling-blossoms-2, 
+    #falling-blossoms-3, 
+    #falling-blossoms-4, 
+    #falling-blossoms-5,
+    #falling-blossoms-6,
+    #falling-blossoms-7 {
+      opacity: 1;
+    }
+    
+    .blossom-hide {
+      opacity: 0;
+      transform: translate3d(0, -30px, 0);
+    }
+
+    #falling-blossoms-1.blossom-hide, 
+    #falling-blossoms-2.blossom-hide, 
+    #falling-blossoms-3.blossom-hide, 
+    #falling-blossoms-4.blossom-hide, 
+    #falling-blossoms-5.blossom-hide, 
+    #falling-blossoms-6.blossom-hide, 
+    #falling-blossoms-7.blossom-hide {
+      transform: translate3d(0, -30px, 0);
+    }
+
+    .falling-blossoms-1 {
+      animation: cg-anim-blossom-1 20s ease-in-out -3.8s 1;
+    }
+    .falling-blossoms-2 {
+      animation: cg-anim-blossom-1 20s ease-in-out -2.2s 1;
+    }
+    .falling-blossoms-3 {
+      animation: cg-anim-blossom-1 20s ease-in-out -4.5s 1;
+    }
+    .falling-blossoms-4 {
+      animation: cg-anim-blossom-1 20s ease-in-out -2.5s 1;
+    }
+    .falling-blossoms-5 {
+      animation: cg-anim-blossom-1 20s ease-in-out -1s 1;
+    }
+    .falling-blossoms-6 {
+      animation: cg-anim-blossom-1 20s ease-in-out -2s 1;
+    }
+    .falling-blossoms-7 {
+      animation: cg-anim-blossom-1 20s ease-in-out -2.9s 1;
+    }
+
+    #ClumsyValleyLandPlot .button {
+      opacity: 0;
+      pointer-events: none;
+      transition: 0.2s ease;
+      transform: translate3d(0, 20px, 0);
+    }
+
+    #ClumsyValleyLandPlot .button.png-square {
+      transition-delay: 0.2s;
+      -webkit-transform-origin-x: 20px;
+    }
+
+    #ClumsyValleyLandPlot .button.svg {
+      transition-delay: 0.4s;
+    }
+
+    #ClumsyValleyLandPlot.menu-in .button {
+      opacity: 1;
+      pointer-events: auto;
+      cursor: pointer;
+      transform: translate3d(0, 0, 0);
+    }
+
+    #ClumsyValleyLandPlot.menu-in .button .button-bg {
+      transition: fill 0.2s ease;
+    }
+
+    #ClumsyValleyLandPlot.menu-in .button:hover .button-bg {
+      fill: #FF5FFA;
+    }
+    ]]>
+  </style>
+<path class="cg-bg" d="M0 0h89v89H0z"></path>
+<g id="pixie-blue">
+        <g id="pixie-color3-blue">
+          <polygon points="20 19 20 20 19 20 19 21 18 21 18 22 17 22 17 23 16 23 15 23 14 23 13 23 11 23 11 22 10 22 10 21 9 21 9 20 8 20 8 19 4 19 4 20 4 23 5 23 5 24 8 24 8 25 11 25 11 27 10 27 10 28 9 28 9 29 8 29 8 32 9 32 11 32 11 31 12 31 12 29 13 29 14 29 15 29 16 29 16 31 17 31 17 32 19 32 20 32 20 29 19 29 19 28 18 28 18 27 17 27 17 25 20 25 20 24 23 24 23 23 24 23 24 20 24 19 20 19" style="fill: #cfebff;"/>
+        </g>
+        <g id="pixie-center-blue-2" data-name="pixie-center-blue">
+          <rect x="12" y="24" width="4" height="4" style="fill: #fff;"/>
+        </g>
+        <g id="pixie-color2-blue-2" data-name="pixie-color2-blue">
+          <g>
+            <polygon points="10 22 9 22 9 21 8 21 8 20 5 20 5 23 8 23 8 24 9 24 11 24 11 23 10 23 10 22" style="fill: #e5f5ff;"/>
+            <polygon points="20 20 20 21 19 21 19 22 18 22 18 23 17 23 17 24 20 24 20 23 23 23 23 22 23 21 23 20 20 20" style="fill: #e5f5ff;"/>
+            <rect x="14" y="23" width="1" height="1" style="fill: #e5f5ff;"/>
+            <rect x="14" y="28" width="1" height="1" style="fill: #e5f5ff;"/>
+            <polygon points="18 28 17 28 17 29 17 31 18 31 19 31 19 29 18 29 18 28" style="fill: #e5f5ff;"/>
+            <polygon points="10 29 9 29 9 31 11 31 11 29 11 28 10 28 10 29" style="fill: #e5f5ff;"/>
+          </g>
+        </g>
+        <g id="pixie-color3-blue-2" data-name="pixie-color3-blue">
+          <g>
+            <polygon points="11 24 11 25 12 25 12 24 13 24 13 23 11 23 11 24" style="fill: #b7e3ff;"/>
+            <polygon points="12 27 11 27 11 28 11 29 12 29 13 29 13 28 12 28 12 27" style="fill: #b7e3ff;"/>
+            <polygon points="16 28 15 28 15 29 17 29 17 28 17 27 16 27 16 28" style="fill: #b7e3ff;"/>
+            <polygon points="16 23 15 23 15 24 16 24 16 25 17 25 17 24 17 23 16 23" style="fill: #b7e3ff;"/>
+          </g>
+        </g>
+      </g>
+      <g id="twilight-forest-base">
+      <polygon id="twilight-forest-bg" points="88 54 88 53 87 53 86 53 86 52 85 52 84 52 84 51 83 51 82 51 82 50 81 50 80 50 80 49 79 49 78 49 78 48 77 48 76 48 76 47 75 47 74 47 74 46 73 46 72 46 72 45 71 45 70 45 70 44 69 44 68 44 68 43 67 43 66 43 66 42 65 42 64 42 64 41 63 41 62 41 62 40 61 40 60 40 60 39 59 39 58 39 58 38 57 38 56 38 56 37 55 37 54 37 54 36 53 36 52 36 52 35 51 35 50 35 50 34 49 34 48 34 48 33 47 33 46 33 46 32 45 32 44 32 43 32 43 33 42 33 41 33 41 34 40 34 39 34 39 35 38 35 37 35 37 36 36 36 35 36 35 37 34 37 33 37 33 38 32 38 31 38 31 39 30 39 29 39 29 40 28 40 27 40 27 41 26 41 25 41 25 42 24 42 23 42 23 43 22 43 21 43 21 44 20 44 19 44 19 45 18 45 17 45 17 46 16 46 15 46 15 47 14 47 13 47 13 48 12 48 11 48 11 49 10 49 9 49 9 50 8 50 7 50 7 51 6 51 5 51 5 52 4 52 3 52 3 53 2 53 1 53 1 54 0 54 0 55 0 56 0 57 0 58 0 59 0 60 0 61 0 62 0 63 0 64 0 65 0 66 0 67 1 67 1 68 2 68 3 68 3 69 4 69 5 69 5 70 6 70 7 70 7 71 8 71 9 71 9 72 10 72 11 72 11 73 12 73 13 73 13 74 14 74 15 74 15 75 16 75 17 75 17 76 18 76 19 76 19 77 20 77 21 77 21 78 22 78 23 78 23 79 24 79 25 79 25 80 26 80 27 80 27 81 28 81 29 81 29 82 30 82 31 82 31 83 32 83 33 83 33 84 34 84 35 84 35 85 36 85 37 85 37 86 38 86 39 86 39 87 40 87 41 87 41 88 42 88 43 88 43 89 44 89 45 89 46 89 46 88 47 88 48 88 48 87 49 87 50 87 50 86 51 86 52 86 52 85 53 85 54 85 54 84 55 84 56 84 56 83 57 83 58 83 58 82 59 82 60 82 60 81 61 81 62 81 62 80 63 80 64 80 64 79 65 79 66 79 66 78 67 78 68 78 68 77 69 77 70 77 70 76 71 76 72 76 72 75 73 75 74 75 74 74 75 74 76 74 76 73 77 73 78 73 78 72 79 72 80 72 80 71 81 71 82 71 82 70 83 70 84 70 84 69 85 69 86 69 86 68 87 68 88 68 88 67 89 67 89 66 89 65 89 64 89 63 89 62 89 61 89 60 89 59 89 58 89 57 89 56 89 55 89 54 88 54"/>
+      <polygon points="88 66 88 67 87 67 86 67 86 68 85 68 84 68 84 69 83 69 82 69 82 70 81 70 80 70 80 71 79 71 78 71 78 72 77 72 76 72 76 73 75 73 74 73 74 74 73 74 72 74 72 75 71 75 70 75 70 76 69 76 68 76 68 77 67 77 66 77 66 78 65 78 64 78 64 79 63 79 62 79 62 80 61 80 60 80 60 81 59 81 58 81 58 82 57 82 56 82 56 83 55 83 54 83 54 84 53 84 52 84 52 85 51 85 50 85 50 86 49 86 48 86 48 87 47 87 46 87 46 88 45 88 45 75 46 75 46 74 47 74 48 74 48 73 49 73 50 73 50 72 51 72 52 72 52 71 53 71 54 71 54 70 55 70 56 70 56 69 57 69 58 69 58 68 59 68 60 68 60 67 61 67 62 67 62 66 63 66 64 66 64 65 65 65 66 65 66 64 67 64 68 64 68 63 69 63 70 63 70 62 71 62 72 62 72 61 73 61 74 61 74 60 75 60 76 60 76 59 77 59 78 59 78 58 79 58 80 58 80 57 81 57 82 57 82 56 83 56 84 56 84 55 85 55 86 55 86 54 87 54 88 54 88 55 88 56 88 57 88 58 88 59 88 60 88 61 88 62 88 63 88 64 88 65 88 66" style="fill: #b094f7;"/>
+      <polygon points="86 53 86 54 85 54 84 54 84 55 83 55 82 55 82 56 81 56 80 56 80 57 79 57 78 57 78 58 77 58 76 58 76 59 75 59 74 59 74 60 73 60 72 60 72 61 71 61 70 61 70 62 69 62 68 62 68 63 67 63 66 63 66 64 65 64 64 64 64 65 63 65 62 65 62 66 61 66 60 66 60 67 59 67 58 67 58 68 57 68 56 68 56 69 55 69 54 69 54 70 53 70 52 70 52 71 51 71 50 71 50 72 49 72 48 72 48 73 47 73 46 73 46 74 45 74 44 74 43 74 43 73 42 73 41 73 41 72 40 72 39 72 39 71 38 71 37 71 37 70 36 70 35 70 35 69 34 69 33 69 33 68 32 68 31 68 31 67 30 67 29 67 29 66 28 66 27 66 27 65 26 65 25 65 25 64 24 64 23 64 23 63 22 63 21 63 21 62 20 62 19 62 19 61 18 61 17 61 17 60 16 60 15 60 15 59 14 59 13 59 13 58 12 58 11 58 11 57 10 57 9 57 9 56 8 56 7 56 7 55 6 55 5 55 5 54 4 54 3 54 3 53 4 53 5 53 5 52 6 52 7 52 7 51 8 51 9 51 9 50 10 50 11 50 11 49 12 49 13 49 13 48 14 48 15 48 15 47 16 47 17 47 17 46 18 46 19 46 19 45 20 45 21 45 21 44 22 44 23 44 23 43 24 43 25 43 25 42 26 42 27 42 27 41 28 41 29 41 29 40 30 40 31 40 31 39 32 39 33 39 33 38 34 38 35 38 35 37 36 37 37 37 37 36 38 36 39 36 39 35 40 35 41 35 41 34 42 34 43 34 43 33 44 33 45 33 46 33 46 34 47 34 48 34 48 35 49 35 50 35 50 36 51 36 52 36 52 37 53 37 54 37 54 38 55 38 56 38 56 39 57 39 58 39 58 40 59 40 60 40 60 41 61 41 62 41 62 42 63 42 64 42 64 43 65 43 66 43 66 44 67 44 68 44 68 45 69 45 70 45 70 46 71 46 72 46 72 47 73 47 74 47 74 48 75 48 76 48 76 49 77 49 78 49 78 50 79 50 80 50 80 51 81 51 82 51 82 52 83 52 84 52 84 53 85 53 86 53" style="fill: #fbb5f2;"/>
+      <polygon points="44 75 44 88 43 88 43 87 42 87 41 87 41 86 40 86 39 86 39 85 38 85 37 85 37 84 36 84 35 84 35 83 34 83 33 83 33 82 32 82 31 82 31 81 30 81 29 81 29 80 28 80 27 80 27 79 26 79 25 79 25 78 24 78 23 78 23 77 22 77 21 77 21 76 20 76 19 76 19 75 18 75 17 75 17 74 16 74 15 74 15 73 14 73 13 73 13 72 12 72 11 72 11 71 10 71 9 71 9 70 8 70 7 70 7 69 6 69 5 69 5 68 4 68 3 68 3 67 2 67 1 67 1 66 1 65 1 64 1 63 1 62 1 61 1 60 1 59 1 58 1 57 1 56 1 55 1 54 2 54 3 54 3 55 4 55 5 55 5 56 6 56 7 56 7 57 8 57 9 57 9 58 10 58 11 58 11 59 12 59 13 59 13 60 14 60 15 60 15 61 16 61 17 61 17 62 18 62 19 62 19 63 20 63 21 63 21 64 22 64 23 64 23 65 24 65 25 65 25 66 26 66 27 66 27 67 28 67 29 67 29 68 30 68 31 68 31 69 32 69 33 69 33 70 34 70 35 70 35 71 36 71 37 71 37 72 38 72 39 72 39 73 40 73 41 73 41 74 42 74 43 74 43 75 44 75" style="fill: #8067bf;"/>
+    </g>
+    <g id="tf-side-texture3-gradient">
+        <g id="star-side-terrain-right">
+          <path d="M88,54v5h-1v1h-3v1h-1v1h-3v4h-1v-2h-3v1h-1v1h1v1h-2v-1h-1v-1h-1v1h-1v1h-2v1h-1v1h-3v1h-2v1h-1v7h-1v-6h-2v1h-1v1h-1v1h-3v2h-4v2h-1v1h-3v-1h-1v-4h1v-1h2v-1h2v-1h2v-1h2v-1h2v-1h2v-1h2v-1h2v-1h2v-1h2v-1h2v-1h2v-1h2v-1h2v-1h2v-1h2v-1h2v-1h2v-1h2v-1h2v-1h2Zm-33,23h1v-1h-1v1Zm10-4h1v-1h-1v1Zm14-4h2v-2h-2v2Zm-12,8h1v-3h-1v3Zm10-11h1v-1h-1v1Zm-6,5v-1h-1v1h-1v-1h-1v2h-1v1h2v1h1v-1h2v-1h-1v-1Zm-8,6h2v-2h-2v2Zm-17,5v2h1v-2h-1Zm2,4h1v-1h-1v1Zm0-5h-1v1h1v-1Zm1,3h2v-2h-2v2Zm-2,0v1h1v-1h-1Zm7-6h-1v1h-2v1h1v2h1v-1h1v1h1v-2h1v-1h-2v-1Zm3-1v2h1v-2h-1Zm16-9h1v-1h-1v1Zm1,4v-1h-1v1h1Zm-2-1h1v-3h-1v3Zm-14,9h2v-1h-2v1Zm2-1h1v-1h-1v1Zm22-10h1v-3h-1v3Zm-22,7h-2v1h2v-1Zm22-12h-1v1h1v-1Zm4-2h-1v1h-2v1h1v2h1v-1h1v1h1v-2h1v-1h-2v-1Zm-9,7v-2h-1v2h1Zm-2,1h1v-1h-1v1Zm0,3v-1h-1v1h1Z" style="fill: url(#linear-gradient-2);"/>
+          <polygon points="86 54 86 55 84 55 84 56 82 56 82 57 80 57 80 58 78 58 78 59 76 59 76 60 74 60 74 61 72 61 72 62 70 62 70 63 68 63 68 64 66 64 66 65 64 65 64 66 62 66 62 67 60 67 60 68 58 68 58 69 56 69 56 70 55 70 54 70 54 71 52 71 52 72 50 72 50 73 48 73 48 74 46 74 46 75 45 75 45 78 46 78 46 79 49 79 49 78 49 77 50 77 50 75 51 75 51 76 53 76 53 75 54 75 54 73 55 73 55 74 57 74 57 73 58 73 58 72 59 72 59 71 59 70 60 70 60 71 62 71 62 70 62 68 63 68 63 69 65 69 65 68 65 67 66 67 66 68 68 68 68 67 68 65 69 65 69 66 71 66 71 65 72 65 72 64 72 63 73 63 73 64 73 65 75 65 75 64 76 64 76 63 76 61 77 61 77 63 79 63 79 62 80 62 80 60 81 60 81 61 83 61 83 60 84 60 84 57 85 57 85 58 85 59 87 59 87 58 88 58 88 57 88 56 88 55 88 54 86 54" style="fill: #fcc9f9;"/>
+        </g>
+        <g id="star-side-terrain-left">
+          <path d="M24,73h-1v-1h1v1Zm14,6h-2v-1h-1v1h-2v1h1v2h1v-1h1v1h1v-2h1v-1Zm2,3h-2v2h2v-2Zm-6-6h-1v1h1v-1Zm7,9h1v-1h-1v1Zm2-1v-4h-1v4h1Zm-4-3h1v-1h-1v1Zm1,5h1v-1h-1v1ZM8,69h2v-2h-2v2Zm-2,0h1v-3h-1v3Zm0-6h-2v-1h-1v1H1v1h1v2h1v-1h1v1h1v-2h1v-1Zm2,1h-1v1h1v-1Zm16,13h2v-2h-2v2Zm-3,0h1v-3h-1v3Zm-7-7v-1h-1v1h1Zm-1-4v1h2v-1h-2Zm-1,3h1v-2h-1v2Zm4,2h1v-3h-1v3Zm-1,1h1v-1h-1v1Zm0-5v1h1v-1h-1Zm-3-2h-1v1h1v-1Zm17,11v1h2v-1h-2Zm2,4v-1h-2v1h2Zm9,0h2v-1h-2v1Zm-11-1v-1h-1v1h1Zm3-2h-1v2h1v-2Zm-18-4h1v-1h-1v1Zm6-2h-1v-1h-1v2h-1v1h2v1h1v-1h2v-1h-1v-2h-1v1Zm23,4v-1h-2v-1h-2v-1h-2v-1h-2v-1h-2v-1h-2v-1h-2v-1h-2v-1h-2v-1h-2v-1h-2v-1h-2v-1h-2v-1h-2v-1h-2v-1h-2v-1h-2v-1h-2v-1h-2v-1H3v-1H1v6h1v1h3v-1h1v1h1v1h1v1h1v3h1v-3h2v1h1v1h2v1h1v1h1v1h3v1h1v1h3v1h1v1h1v1h1v5h1v-6h1v1h1v1h1v1h3v-1h1v2h1v1h2v1h2v-1h1v1h1v1h2v-4h-1Z" style="fill: url(#New_Gradient_Swatch_1-2);"/>
+          <polygon points="43 75 43 74 41 74 41 73 40 73 39 73 39 72 38 72 37 72 37 71 35 71 35 70 34 70 33 70 33 69 31 69 31 68 29 68 29 67 27 67 27 66 25 66 25 65 23 65 23 64 21 64 21 63 19 63 19 62 17 62 17 61 15 61 15 60 13 60 13 59 11 59 11 58 9 58 9 57 7 57 7 56 5 56 5 55 3 55 3 54 1 54 1 59 2 59 2 60 5 60 5 58 6 58 6 60 7 60 7 61 8 61 8 62 11 62 11 61 12 61 12 63 13 63 13 64 15 64 15 63 16 63 16 66 17 66 17 67 19 67 19 66 20 66 20 68 21 68 21 69 23 69 23 68 23 67 24 67 24 70 25 70 25 71 26 71 26 72 28 72 28 70 29 70 29 72 30 72 30 73 31 73 31 74 34 74 34 73 34 72 35 72 35 74 36 74 36 76 38 76 38 77 40 77 40 76 40 75 41 75 41 77 42 77 42 78 44 78 44 77 44 75 43 75" style="fill: #fbb5f2;"/>
+        </g>
+      </g>
+      <g id="tf-top-terrain-1">
+        <path d="M49,53h2v1h-2v-1Zm-5-8h2v-1h-2v1Zm-11-1h2v-1h-2v1Zm-1,14h2v-1h-2v1Zm12,9h2v-1h-2v1Zm1-7h2v-1h-2v1Zm14-13h2v-1h-2v1Zm15,5v1h2v-1h-2Zm-11,7h2v-1h-2v1Zm-48-6h2v-1h-2v1Z" style="fill: #fcc9f9;"/>
+        <path d="M39,62h1v1h-1v1h-2v-1h-1v-1h1v-1h2v1Zm4-13h-2v1h-1v1h1v1h2v-1h1v-1h-1v-1Zm-19,2h-2v1h-1v1h1v1h2v-1h1v-1h-1v-1Zm32,4h-2v1h-1v1h1v1h2v-1h1v-1h-1v-1Zm11-4v-1h-2v1h-1v1h1v1h2v-1h1v-1h-1Zm-22-13h-2v1h-1v1h1v1h2v-1h1v-1h-1v-1Z" style="fill: #ffebff;"/>
+        <path d="M41,50h2v1h-2v-1Zm-19,3h2v-1h-2v1Zm15,10h2v-1h-2v1Zm17-6h2v-1h-2v1Zm11-6v1h2v-1h-2Zm-22-11h2v-1h-2v1Z" style="fill: #e292f8;"/>
+      </g>
+      <g id="tf-grass-right-2">
+        <g id="single-grass-right-bg">
+          <polygon points="53 34 53 33 52 33 52 34 51 34 51 37 52 37 53 38 53 38 54 38 54 34 53 34"/>
+        </g>
+        <g id="single-grass-right-color">
+          <rect x="52" y="34" width="1" height="4" style="fill: #d5ecee;"/>
+        </g>
+      </g>
+      <g id="tf-grass-right-1">
+        <g id="tf-grass1-right-bg">
+          <polygon points="68 38 68 37 67 37 67 38 66 38 66 40 65 40 65 38 64 38 64 37 63 37 63 36 62 36 62 37 61 37 61 38 62 38 62 40 63 40 63 42 64 42 66 43 67 44 68 44 68 40 69 40 69 38 68 38"/>
+        </g>
+        <g id="tf-grass1-right-color">
+          <g>
+            <rect x="62" y="37" width="1" height="1" style="fill: #d5ecee;"/>
+            <rect x="63" y="38" width="1" height="2" style="fill: #d5ecee;"/>
+            <polygon points="66 42 65 42 65 40 64 40 64 43 65 43 65 45 66 45 66 44 67 44 67 40 66 40 66 42" style="fill: #d5ecee;"/>
+            <rect x="67" y="38" width="1" height="2" style="fill: #d5ecee;"/>
+          </g>
+        </g>
+      </g>
+      <g id="tf-flower2-right">
+        <g id="tf-flower-bg_copy_3" data-name="tf-flower-bg copy 3">
+          <polygon points="60 34 60 33 57 33 57 34 56 34 56 37 57 37 57 40 58 40 59 41 60 41 60 40 60 37 61 37 61 34 60 34"/>
+        </g>
+        <g id="tf-flower-stem_copy_3" data-name="tf-flower-stem copy 3">
+          <rect x="58" y="36" width="1" height="5" style="fill: #efe9ff;"/>
+        </g>
+        <g id="tf-flower-center_copy_3" data-name="tf-flower-center copy 3">
+          <polygon points="57 34 57 35 57 37 58 37 59 37 60 37 60 35 60 34 57 34" style="fill: #be9bff;"/>
+        </g>
+        <g id="tf-flower-center_copy_3-2" data-name="tf-flower-center copy 3">
+          <rect x="58" y="35" width="1" height="1" style="fill: #decdff;"/>
+        </g>
+      </g>
+      <g id="tf-grass-left-2">
+        <g id="tf-grass3-bg-right_copy" data-name="tf-grass3-bg-right copy">
+          <polygon points="35 32 35 31 34 31 34 32 33 32 33 33 32 33 32 34 31 34 31 35 30 35 30 34 29 34 29 33 28 33 28 34 27 34 27 35 28 35 28 36 29 36 29 39 30 39 31 38 32 38 33 38 34 38 34 34 35 34 35 33 36 33 36 32 35 32"/>
+        </g>
+        <g id="tf-grass3-color-right_copy" data-name="tf-grass3-color-right copy">
+          <path d="M29,34v1h-1v-1h1Zm0,1v1s1,0,1,0v-1s-1,0-1,0Zm3,2h-1v-1h-1v3h1v1h1v-1s1,0,1,0v-5s-1,0-1,0v3Zm1-3h1v-1h-1v1Zm1-2v1s1,0,1,0v-1s-1,0-1,0Z" style="fill: #d5ecee;"/>
+        </g>
+      </g>
+      <g id="tf-flower1-left">
+        <g id="tf-flower-bg_copy" data-name="tf-flower-bg copy">
+          <polygon points="37 29 37 28 40 28 40 29 41 29 41 32 40 32 40 35 39 35 38 36 37 36 37 35 37 32 36 32 36 29 37 29"/>
+        </g>
+        <g id="tf-flower-stem_copy" data-name="tf-flower-stem copy">
+          <rect x="38" y="31" width="1" height="5" style="fill: #d5ecee;"/>
+        </g>
+        <g id="tf-flower-center_copy" data-name="tf-flower-center copy">
+          <polygon points="40 29 40 30 40 32 39 32 38 32 37 32 37 30 37 29 40 29" style="fill: #8ee4ee;"/>
+        </g>
+        <g id="tf-flower-center_copy-2" data-name="tf-flower-center copy">
+          <rect x="38" y="30" width="1" height="1" style="fill: #bff8ff;"/>
+        </g>
+      </g>
+      <g id="blossom-1">
+        <polygon points="72 43 71 43 70 43 69 43 68 43 68 44 67 44 67 43 66 43 66 42 65 42 64 42 63 42 62 42 62 43 62 44 62 45 62 46 62 47 61 47 61 48 60 48 60 49 60 50 60 51 60 52 61 52 62 52 63 52 63 53 63 54 63 55 64 55 65 55 66 55 67 55 67 54 68 54 68 53 69 53 69 54 70 54 71 54 72 54 73 54 73 53 73 52 73 51 73 50 72 50 72 49 71 49 71 48 72 48 72 47 73 47 73 46 73 45 73 44 73 43 72 43"/>
+        <polygon points="68 49 68 50 67 50 66 50 65 50 65 49 65 48 65 47 66 47 67 47 68 47 68 48 68 49" style="fill: #ffecb4;"/>
+        <path d="M72,52v1h-3v-2h-1v-1h1v-1h2v1h1v2Zm-4-1h-4v3h3v-1h1v-2Zm-4-2v-2h-2v1h-1v3h3v-2Zm3-5h-1v-1h-3v3h1v1h1v-1h2v-2Zm2,4h2v-1h1v-3h-4v3h1v1Z" style="fill: #ffdcf0;"/>
+      </g>
+      <g id="falling-blossoms-cheatcode" class="blossom-hide">
+      <g id="falling-blossoms-1">
+        <polygon points="70 5 70 4 69 4 68 4 68 5 67 5 67 6 67 7 68 7 68 8 69 8 70 8 70 7 71 7 71 6 71 5 70 5"/>
+        <polygon points="70 6 70 7 69 7 68 7 68 6 68 5 69 5 70 5 70 6" style="fill: #ffccfb;"/>
+      </g>
+      <g id="falling-blossoms-2">
+        <polygon points="63 3 63 2 62 2 62 1 61 1 61 0 60 0 59 0 59 1 58 1 57 1 56 1 56 2 55 2 55 3 55 4 56 4 56 5 56 6 56 7 57 7 57 8 58 8 59 8 59 7 60 7 60 8 61 8 62 8 62 7 63 7 63 6 63 5 64 5 64 4 64 3 63 3"/>
+        <polygon points="59 6 59 7 58 7 57 7 57 6 57 5 58 5 59 5 59 6" style="fill: #ffccfb;"/>
+        <polygon points="61 5 61 6 62 6 62 7 61 7 60 7 60 6 60 5 61 5" style="fill: #ffccfb;"/>
+        <polygon points="63 3 63 4 63 5 62 5 61 5 61 4 61 3 62 3 63 3" style="fill: #ffccfb;"/>
+        <polygon points="61 2 61 3 60 3 59 3 59 2 59 1 60 1 61 1 61 2" style="fill: #ffccfb;"/>
+        <polygon points="58 3 59 3 59 4 58 4 57 4 56 4 56 3 56 2 57 2 58 2 58 3" style="fill: #ffccfb;"/>
+      </g>
+      <g id="falling-blossoms-3">
+        <polygon points="52 6 53 6 53 7 52 7 52 8 51 8 51 7 50 7 50 6 51 6 51 5 52 5 52 6"/>
+      </g>
+      <g id="falling-blossoms-4">
+        <polygon points="45 5 45 4 44 4 43 4 43 5 42 5 42 6 42 7 43 7 43 8 44 8 45 8 45 7 46 7 46 6 46 5 45 5"/>
+        <polygon points="45 6 45 7 44 7 43 7 43 6 43 5 44 5 45 5 45 6" style="fill: #ffccfb;"/>
+      </g>
+      <g id="falling-blossoms-5">
+        <polygon points="38 3 38 2 37 2 36 2 36 1 35 1 34 1 34 2 33 2 33 3 33 4 32 4 32 5 32 6 33 6 33 7 34 7 35 7 35 8 36 8 37 8 37 7 38 7 38 6 38 5 39 5 39 4 39 3 38 3"/>
+        <polygon points="37 6 37 7 36 7 35 7 35 6 36 6 36 5 37 5 37 6" style="fill: #ffccfb;"/>
+        <polygon points="38 4 38 5 37 5 37 4 36 4 36 3 37 3 38 3 38 4" style="fill: #ffccfb;"/>
+        <polygon points="35 2 36 2 36 3 35 3 35 4 34 4 34 3 34 2 35 2" style="fill: #ffccfb;"/>
+        <polygon points="34 4 34 5 35 5 35 6 34 6 33 6 33 5 33 4 34 4" style="fill: #ffccfb;"/>
+      </g>
+      <g id="falling-blossoms-6">
+        <polygon points="29 5 29 4 28 4 27 4 27 5 26 5 26 6 26 7 27 7 27 8 28 8 29 8 29 7 30 7 30 6 30 5 29 5"/>
+        <polygon points="29 6 29 7 28 7 27 7 27 6 27 5 28 5 29 5 29 6" style="fill: #ffccfb;"/>
+      </g>
+      <g id="falling-blossoms-7">
+        <polygon points="22 2 22 1 21 1 20 1 20 2 19 2 19 1 18 1 17 1 17 2 16 2 16 3 16 4 17 4 17 5 16 5 16 6 16 7 17 7 17 8 18 8 19 8 19 7 20 7 20 8 21 8 22 8 22 7 23 7 23 6 23 5 22 5 22 4 23 4 23 3 23 2 22 2"/>
+        <path d="M20,5v-1h-1v1h1Zm2-2v1h-1v1h1v2h-2v-1h-1v1h-2v-2h1v-1h-1V2h2v1h1v-1h2v1Z" style="fill: #ffccfb;"/>
+      </g>
+    </g>
+    <g id="farming-stats">
+<text id="farming-name" filter="url(#stats-name)" font-weight="normal" fill="black" x="0" y="9">
+    twilight-forest #9396
+</text>
+<text id="farming-coords" filter="url(#stats-coords)" fill="black" x="0" y="16.5">
+    XY 1144
+</text>
+<text id="farming-fc" filter="url(#stats-fc)" fill="black" x="0" y="24">
+    FC: 0
+</text>
+</g>
+<a href="https://clumsylabs.io" id="valley-url" target="_blank" class="button full-version">
+    <path class="button-bg" d="M12,74h21v11H12V74z"/>
+    <path fill="#FFF" d="M19,81h1v1h-2v-5h6v3h-1v-2h-4V81z M26,77h-1v1h1v3h-4v-2h-1v3h6v-5H26z M30,76h-1v1h1v5h-1v1h2v-7H30z M14,76
+		v7h2v-1h-1v-5h1v-1H14z"/>
+    <title>Visit in Clumsy Valley</title>
+  </a>
+  <a href="https://assets.clumsylabs.io/land/png/ClumsyValleyLandPlot9396.png" id="png-url" target="_blank" class="button png-square">
+    <path class="button-bg" d="M38,74h13v11H38V74z"/>
+    <path fill="#FFF" d="M49,76v7h-2v-1h1v-5h-1v-1H49z M40,76v7h2v-1h-1v-5h1v-1H40z M46,80h1v-1h-1V80z M42,79v1h1v-1H42z M45,79v-2
+		h-1v3h-1v1h1v1h1v-1h1v-1h-1V79z"/>
+    <title>Download square PNG</title>
+  </a>
+  <a href="https://assets.clumsylabs.io/land/ipfs/ClumsyValleyLandPlot9396.svg" id="svg-url" target="_blank" class="button svg">
+    <path class="button-bg" d="M56,74h20v11H56V74z"/>
+    <path fill="#FFF" d="M72,79v2h-1v-1h-1v-1H72z M69,81v1h2v-1H69z M69,79v-1h-1v3h1V79z M71,78v-1h-2v1H71z M66,78v3h1v-4h-1V78z
+		 M65,82h1v-1h-1V82z M65,79v-2h-1v4h1V79z M63,81v-1h-1v1H63z M62,80v-1h-1v1H62z M61,77v1h2v-1H61z M60,81v1h2v-1H60z M60,79h1v-1
+		h-1V79z M73,76h-1v1h1v5h-1v1h2v-7H73z M58,76v7h2v-1h-1v-5h1v-1H58z"/>
+    <title>Download SVG</title>
+  </a>
+  <script type="text/javascript">
+    <![CDATA[
+    let landRoot = document.getElementById('ClumsyValleyLandPlot');
+    let landBase = document.getElementById('twilight-forest-base');
+    let farmingNameId = document.getElementById('farming-name');
+    let farmingCoordsId = document.getElementById('farming-coords');
+    let farmingFCId = document.getElementById('farming-fc');
+
+    let audioValley = "";
+    let audioTheme = "";
+
+    // valley-url
+    let valleyURL = document.getElementById('valley-url');
+
+    if (valleyURL) {
+      valleyURL.addEventListener('click', () => {
+        let clickUrlAudio = new Audio("https://assets.clumsylabs.io/land/audio/generic/clumsy-valley-click3.mp3");
+        clickUrlAudio.volume = 0.6;
+        clickUrlAudio.play();
+      });
+    };
+
+    // png-url
+    let pngURL = document.getElementById('png-url');
+
+    if (pngURL) {
+      pngURL.addEventListener('click', () => {
+        let clickUrlAudio = new Audio("https://assets.clumsylabs.io/land/audio/generic/clumsy-valley-click3.mp3");
+        clickUrlAudio.volume = 0.6;
+        clickUrlAudio.play();
+      });
+    };
+
+    // svg-url
+    let svgURL = document.getElementById('svg-url');
+
+    if (svgURL) {
+      svgURL.addEventListener('click', () => {
+        let clickUrlAudio = new Audio("https://assets.clumsylabs.io/land/audio/generic/clumsy-valley-click3.mp3");
+        clickUrlAudio.volume = 0.6;
+        clickUrlAudio.play();
+      });
+    };
+
+    // lucky-pig animation
+    let luckyPig = document.getElementById('lucky-pig-animation');
+    let luckyPigDefault = document.getElementById('lucky-pig-default');
+    let luckyPigClick = document.getElementById('lucky-pig');
+
+    if (luckyPig) {
+      luckyPig.addEventListener('click', () => {
+        let luckyPigAudio = new Audio("https://assets.clumsylabs.io/land/audio/generic/clumsy-valley-click3.mp3");
+        luckyPigAudio.volume = 0.6;
+        luckyPigAudio.play();
+
+        luckyPigDefault.classList.toggle('activate');
+        luckyPigClick.classList.toggle('activate');
+
+        setTimeout(() => {
+          luckyPigDefault.classList.remove('activate');
+          luckyPigClick.classList.remove('activate');
+        }, 500);
+      });
+    };
+
+    // cosmo animation
+    let cosmo = document.getElementById('cosmo-animation');
+    let cosmoDefault = document.getElementById('cosmo-default');
+    let cosmoClick = document.getElementById('cosmo-wake');
+
+    if (cosmo) {
+      cosmo.addEventListener('click', () => {
+        let cosmoAudio = new Audio("https://assets.clumsylabs.io/land/audio/generic/clumsy-valley-click3.mp3");
+        cosmoAudio.volume = 0.6;
+        cosmoAudio.play();
+
+        cosmoDefault.classList.toggle('activate');
+        cosmoClick.classList.toggle('activate');
+
+        setTimeout(() => {
+          cosmoDefault.classList.remove('activate');
+          cosmoClick.classList.remove('activate');
+        }, 500);
+      });
+    };
+
+    // astra animation
+    let astra = document.getElementById('astra-animation');
+    let astraDefault = document.getElementById('astra-default');
+    let astraClick = document.getElementById('astra-surprised');
+
+    if (astra) {
+      astra.addEventListener('click', () => {
+        let astraAudio = new Audio("https://assets.clumsylabs.io/land/audio/generic/clumsy-valley-click3.mp3");
+        astraAudio.volume = 0.6;
+        astraAudio.play();
+
+        astraDefault.classList.toggle('activate');
+        astraClick.classList.toggle('activate');
+
+        setTimeout(() => {
+          astraDefault.classList.remove('activate');
+          astraClick.classList.remove('activate');
+        }, 500);
+      });
+    };
+
+    // nova animation
+    let nova = document.getElementById('nova-animation');
+    let novaDefault = document.getElementById('nova2');
+    let novaClick = document.getElementById('nova-1');
+
+    if (nova) {
+      nova.addEventListener('click', () => {
+        let novaAudio = new Audio("https://assets.clumsylabs.io/land/audio/generic/clumsy-valley-click3.mp3");
+        novaAudio.volume = 0.6;
+        novaAudio.play();
+
+        novaDefault.classList.toggle('activate');
+        novaClick.classList.toggle('activate');
+
+        setTimeout(() => {
+          novaDefault.classList.remove('activate');
+          novaClick.classList.remove('activate');
+        }, 800);
+      });
+    };
+
+    // shrooma animation
+    let shrooma = document.getElementById('prince-shrooma');
+    let shroomaDefault = document.getElementById('prince-shrooma-default');
+    let shroomaClick = document.getElementById('prince-shrooma-squint');
+
+    if (shrooma) {
+      shrooma.addEventListener('click', () => {
+        let shroomaAudio = new Audio("https://assets.clumsylabs.io/land/audio/generic/clumsy-valley-click3.mp3");
+        shroomaAudio.volume = 0.6;
+        shroomaAudio.play();
+
+        shroomaDefault.classList.toggle('activate');
+        shroomaClick.classList.toggle('activate');
+
+        setTimeout(() => {
+          shroomaDefault.classList.remove('activate');
+          shroomaClick.classList.remove('activate');
+        }, 800);
+      });
+    };
+
+    let landBaseEL = false;
+    let cheatcodeEL = false;
+    let farmingFCIdEL = false;
+    let ghostEL = false;
+
+    if (landBase && landRoot) {
+
+      var visible = false;
+      var cheatCodesVisible = false;
+
+      if (!landBaseEL) {
+        landBaseEL = true;
+        landBase.addEventListener('click', () => {
+          let genericClickAudio = new Audio("https://assets.clumsylabs.io/land/audio/generic/clumsy-valley-click3.mp3");
+          genericClickAudio.volume = 0.6;
+          genericClickAudio.play();
+
+          landRoot.classList.toggle('menu-in');
+
+          var getName, getCoords, getFC;
+          var farmingName, farmingCoords, farmingFC;
+          farmingFC = document.getElementById('farming-fc');
+
+          if (!visible) {
+            fetch('https://internal.clumsylabs.io/api/v1/metadata/land/9396')
+            .then(response => response.json())
+            .then(json => {
+
+              // Return values from internal clumsy api
+              getName = json["name"]
+              getCoords = json["coords"]
+              getFC = json["fc"]
+              getLink = json["link"]
+              getTrack = json["track"]
+              getTheme = json["theme"]
+              getGhost = json["ghost"]
+
+              if (getGhost) {
+                var bigGhost = false;
+                let ghost = document.getElementById('ghost');
+                if (ghost) {
+                  ghost.setAttribute("href", getGhost);
+                  ghost.setAttribute("opacity", "1");
+
+                  if (!ghostEL) {
+                    ghostEL = true;
+                    ghost.addEventListener('click', () => {
+                      let genericClickAudio = new Audio("https://assets.clumsylabs.io/land/audio/generic/clumsy-valley-click3.mp3");
+                      genericClickAudio.volume = 0.6;
+                      genericClickAudio.play();
+
+                      if (!bigGhost) {
+                        bigGhost = true;
+                        ghost.setAttribute("href", getGhost);
+                        ghost.setAttribute("opacity", "1");
+                        ghost.setAttribute("height", "70");
+                        ghost.setAttribute("width", "70");
+                        ghost.setAttribute("x", "10");
+                        ghost.setAttribute("y", "-8");
+                      } else {
+                        bigGhost = false;
+                        ghost.setAttribute("height", "20");
+                        ghost.setAttribute("width", "20");
+                        ghost.setAttribute("x", "70");
+                        ghost.setAttribute("y", "3");
+                      }
+                  })}
+                };
+              }
+
+              if (getName) {
+                farmingName = document.getElementById('farming-name');
+                farmingName.innerHTML = getName;
+                console.log("Name: ", getName)
+              }
+
+              if (getCoords) {
+                farmingCoords = document.getElementById('farming-coords');
+                farmingCoords.innerHTML = getCoords;
+                console.log("Coordinates: ", getCoords)
+              }
+
+              if (getFC) {
+                farmingFC.innerHTML = "FC: " + getFC;
+                console.log("Farming cycles completed: ", getFC)
+
+                if (getFC >= 1 && getFC <= 9) {
+                  console.log("Tier 1 Land")
+                  farmingFC.classList.add('tier1');
+                } else if (getFC >= 10 && getFC <= 29) {
+                  console.log("Tier 2 Land")
+                  farmingFC.classList.add('tier2');
+                } else if (getFC >= 30 && getFC <= 49) {
+                  console.log("Tier 3 Land")
+                  farmingFC.classList.add('tier3');
+                } else if (getFC >= 50 && getFC <= 99) {
+                  console.log("Tier 4 Land")
+                  farmingFC.classList.add('tier4');
+                } else if (getFC >= 100) {
+                  console.log("Tier 5 Land")
+                  farmingFC.classList.add('tier5');
+                } else {
+                  console.log("Tier 0 Land")
+                }
+              } else {
+                getFc = 0;
+              }
+
+              if (getLink) {
+                let valleyUrl = document.getElementById('valley-url');
+                valleyUrl.setAttribute("href", getLink);
+                console.log("Valley link: ", getLink)
+              }
+
+            })
+            .catch(error => {
+              getName = "";
+              getCoords = "";
+              getFC = 0;
+              getLink = "";
+              getTrack = "";
+              getTheme = "";
+              getGhost = "";
+            });
+          }
+
+          if (!farmingFCIdEL) {
+            farmingFCIdEL = true;
+            farmingFCId.addEventListener('click', () => {
+              cheatCodesVisible = true
+
+              if (cheatCodesVisible) {
+                let cheatCodeAudio = new Audio("https://assets.clumsylabs.io/land/audio/generic/cheatcodeactivated.mp3");
+                cheatCodeAudio.volume = 1;
+                cheatCodeAudio.play();
+
+                farmingFC.innerHTML = "Cheat Codes Activated..."
+                farmingFC.setAttribute("filter", "url(#stats-cheatcode)");
+                let bufferArray = [];
+                let lastKeystrokeTime = Date.now();
+                const cheatcode = (e) => {
+                  
+                  const latestKeystrokeTime = Date.now();
+                  if (latestKeystrokeTime - lastKeystrokeTime > 5000) {
+                    if (getFC) {
+                      farmingFC.innerHTML = "FC: " + getFC;
+                    } else {
+                      farmingFC.innerHTML = "FC: ";
+                    }
+                    farmingFC.setAttribute("filter", "url(#stats-fc)");
+                    bufferArray = [];
+                  }
+
+                  if (e.key == "ArrowUp") {
+                    key = '↑';
+                  } else if (e.key == "ArrowDown") {
+                    key = '↓';
+                  } else if (e.key == "ArrowLeft") {
+                    key = '←';
+                  } else if (e.key == "ArrowRight") {
+                    key = '→';
+                  } else if (e.key.length == 1) {
+                    key = e.key;
+                  } else {
+                    key = ""
+                  }
+                  
+                  // each key press either adds or removes a char
+                  if (e.key == "Backspace") {
+                    bufferArray = bufferArray.slice(0, -1);
+                  } else if (bufferArray.length < 12 && key != "") {
+                    bufferArray.push(key);
+                  }
+
+                  farmingFC.innerHTML = bufferArray.join("")
+
+                  const word = bufferArray.join('');
+                  if (word === 'disco') { /* DISCO */
+                    cheatCodeAudio.play();
+                    console.log('Clumsy Valley Party!');
+
+                    landRoot.classList.add('party');
+                    clearListener();
+
+                    setTimeout(() => {
+                      landRoot.classList.remove('party');
+                    }, 10000);
+                  } else if (word == '↑↑↓↓←→ab') { /* CODE */
+                    cheatCodeAudio.play();
+                    console.log('Nonstop Party!!!');
+
+                    landRoot.classList.add('party');
+                    clearListener();
+                  } else if (word === 'rgb') { /* RGB */
+                    cheatCodeAudio.play();
+
+                    landBase.classList.add('party');
+                    clearListener();
+
+                    setTimeout(() => {
+                      landBase.classList.remove('party');
+                    }, 10000);
+                  } else if (word === 'hideme') { /* HIDEME */
+                    cheatCodeAudio.play();
+                    let items = ["rgb-pastel-star-2-animated", "rgb-pastel-star-1-animated", "pixie-blue", "pixie-purple", "tiny-butterfly", 
+                    "fairy-animated-glow", "bluebird-animation-loop", "tf-grass-right-3", "tf-grass-right-2", "tf-grass-right-1", "tf-flower1-right", 
+                    "tf-flower2-right", "tf-flower3-right", "heart-leaf-right1", "heart-leaf-right2", "magical-flora-animated-rgb", "tf-grass-left-2", 
+                    "tf-grass-left-1", "tf-flower1-left", "tf-flower2-left", "tf-flower3-left", "heart-leaf-left1", "heart-leaf-left2", "cloud-tree", 
+                    "cosmo-animation", "green-shroom", "castle-animated-loop", "happy-flower-animated", "cloud-waterfall-animation", "hoku-rgb-animated", 
+                    "prince-shrooma", "sleepy-bear-plush", "pink-shroom", "crescent-moon", "tulip", "blossom-1", "nova-animation", "astra-animation", 
+                    "lucky-pig-animation", "bunny-plush", "lil-flower", "starflower", "rubber-ducky", "falling-blossoms-cheatcode"]
+
+                    for (let i = 0; i< items.length; i++) {
+                      let item = document.getElementById(items[i]);
+                      if (item) {
+                        item.setAttribute("opacity", "0");
+                      }
+                    }
+
+                    clearListener();
+
+                    setTimeout(() => {
+                      for (let i = 0; i< items.length; i++) {
+                        let item = document.getElementById(items[i]);
+                        if (item) {
+                          item.setAttribute("opacity", "1");
+                        }
+                      }
+                    }, 5000);
+                  } else if (word === 'usetheforce') { /* USETHEFORCE */
+                    cheatCodeAudio.play();
+                    let items = ["rgb-pastel-star-2-animated", "rgb-pastel-star-1-animated", "pixie-blue", "pixie-purple", "tiny-butterfly", 
+                    "fairy-animated-glow", "bluebird-animation-loop", "tf-grass-right-3", "tf-grass-right-2", "tf-grass-right-1", "tf-flower1-right", 
+                    "tf-flower2-right", "tf-flower3-right", "heart-leaf-right1", "heart-leaf-right2", "magical-flora-animated-rgb", "tf-grass-left-2", 
+                    "tf-grass-left-1", "tf-flower1-left", "tf-flower2-left", "tf-flower3-left", "heart-leaf-left1", "heart-leaf-left2", "cloud-tree", 
+                    "cosmo-animation", "green-shroom", "castle-animated-loop", "happy-flower-animated", "cloud-waterfall-animation", "hoku-rgb-animated", 
+                    "prince-shrooma", "sleepy-bear-plush", "pink-shroom", "crescent-moon", "tulip", "blossom-1", "nova-animation", "astra-animation", 
+                    "lucky-pig-animation", "bunny-plush", "lil-flower", "starflower", "rubber-ducky", "falling-blossoms-cheatcode"]
+
+                    for (let i = 0; i< items.length; i++) {
+                      let item = document.getElementById(items[i]);
+                      if (item) {
+                        let randomnum = Math.floor(Math.random() * (60 - 10) + 10) / 10;
+                        item.style.animation = "cg-anim-antigrav 4s linear " + randomnum + "s infinite";
+                      }
+                    }
+
+                    clearListener();
+
+                    setTimeout(() => {
+                      for (let i = 0; i< items.length; i++) {
+                        let item = document.getElementById(items[i]);
+                        if (item) {
+                          item.style.animation = "";
+                        }
+                      }
+                    }, 30000);
+                  } else if (word === 'blossoms') { /* BLOSSOMS */
+                    cheatCodeAudio.play();
+
+                    let blossomsId = document.getElementById('falling-blossoms-cheatcode');
+                    let blossom1 = document.getElementById('falling-blossoms-1');
+                    let blossom2 = document.getElementById('falling-blossoms-2');
+                    let blossom3 = document.getElementById('falling-blossoms-3');
+                    let blossom4 = document.getElementById('falling-blossoms-4');
+                    let blossom5 = document.getElementById('falling-blossoms-5');
+                    let blossom6 = document.getElementById('falling-blossoms-6');
+                    let blossom7 = document.getElementById('falling-blossoms-7');
+
+                    blossomsId.classList.remove('blossom-hide');
+                    blossom1.classList.remove('blossom-hide');
+                    blossom2.classList.remove('blossom-hide');
+                    blossom3.classList.remove('blossom-hide');
+                    blossom4.classList.remove('blossom-hide');
+                    blossom5.classList.remove('blossom-hide');
+                    blossom6.classList.remove('blossom-hide');
+                    blossom7.classList.remove('blossom-hide');
+
+                    blossom1.classList.add('falling-blossoms-1');
+                    blossom2.classList.add('falling-blossoms-2');
+                    blossom3.classList.add('falling-blossoms-3');
+                    blossom4.classList.add('falling-blossoms-4');
+                    blossom5.classList.add('falling-blossoms-5');
+                    blossom6.classList.add('falling-blossoms-6');
+                    blossom7.classList.add('falling-blossoms-7');
+
+                    clearListener();
+
+                    setTimeout(() => {
+                      blossomsId.classList.add('blossom-hide');
+                      blossom1.classList.add('blossom-hide');
+                      blossom2.classList.add('blossom-hide');
+                      blossom3.classList.add('blossom-hide');
+                      blossom4.classList.add('blossom-hide');
+                      blossom5.classList.add('blossom-hide');
+                      blossom6.classList.add('blossom-hide');
+                      blossom7.classList.add('blossom-hide');
+                      
+                      blossom1.classList.remove('falling-blossoms-1');
+                      blossom2.classList.remove('falling-blossoms-2');
+                      blossom3.classList.remove('falling-blossoms-3');
+                      blossom4.classList.remove('falling-blossoms-4');
+                      blossom5.classList.remove('falling-blossoms-5');
+                      blossom6.classList.remove('falling-blossoms-6');
+                      blossom7.classList.remove('falling-blossoms-7');
+                    }, 15500);
+                  } else if (word == 'valley') { /* VALLEY */
+                    cheatCodeAudio.play();
+                    if (audioValley) {
+                      audioValley.currentTime = 0;
+                      audioValley.play();
+                    } else if (getTrack) {
+                      audioValley = new Audio(getTrack);
+                      audioValley.volume = 0.4;
+                      audioValley.play();
+                    }
+                    clearListener();
+                  } else if (word == 'theme') { /* THEME */
+                    cheatCodeAudio.play();
+                    if (audioTheme) {
+                      audioTheme.currentTime = 0;
+                      audioTheme.play();
+                    } else if (getTheme) {
+                      audioTheme = new Audio(getTheme);
+                      audioTheme.volume = 0.4;
+                      audioTheme.play();
+                    }
+                    clearListener();
+                  } else {
+                    if (this.keyTimeout) {clearTimeout(this.keyTimeout)}
+                    this.keyTimeout = setTimeout(() => {
+                      clearListener();
+                    }, 5000);
+                  }
+          
+                  lastKeystrokeTime = latestKeystrokeTime;
+                  }
+
+                if (!cheatcodeEL){
+                  cheatcodeEL = true;
+                  document.addEventListener('keyup', cheatcode, true);
+                }
+
+                const clearListener = () => {
+                  cheatCodesVisible = false;
+                  cheatcodeEL = false;
+                  if (getFC) {
+                      farmingFC.innerHTML = "FC: " + getFC;
+                    } else {
+                      farmingFC.innerHTML = "FC: ";
+                    }
+                  farmingFC.setAttribute("filter", "url(#stats-fc)");
+                  bufferArray = [];
+                  document.removeEventListener('keyup', cheatcode, true);
+                }
+              }
+            });
+          }
+          
+          visible = !visible
+          farmingNameId.classList.toggle('show-farming-stats');
+          farmingCoordsId.classList.toggle('show-farming-stats');
+          farmingFCId.classList.toggle('show-farming-stats');
+          });     
+    }}]]>
+  </script>
+
+  <image id="ghost" opacity="0" href="" x="70px" y="3px" height="20" width="20" />
+</svg>

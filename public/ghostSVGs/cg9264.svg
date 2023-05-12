@@ -1,0 +1,272 @@
+<svg id="cg9264" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 89 89"><style>
+    #cg9264 {
+      overflow: hidden;
+    }
+
+    #cg9264 .button {
+      opacity: 0;
+      pointer-events: none;
+      transition: 0.2s ease;
+      transform: translate3d(0, 20px, 0);
+    }
+
+    #cg9264 .button.png-wide {
+      transition-delay: 0.2s;
+    }
+
+    #cg9264.menu-in .button {
+      opacity: 1;
+      pointer-events: auto;
+      cursor: pointer;
+      transform: translate3d(0, 0, 0);
+    }
+
+    #cg9264.menu-in .button .button-bg {
+      transition: fill 0.2s ease;
+    }
+
+    #cg9264.menu-in .button:hover .button-bg {
+      fill: #FF5FFA;
+    }
+
+    #cg9264 .cg-glasses {
+      transition: opacity 0.2s ease;
+    }
+
+    #cg9264 #deal-with-it-glasses {
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.2s ease, transform 3s linear;
+      transform: translate3d(0, -60px, 0);
+    }
+
+    #cg9264.deal-with-it #deal-with-it-glasses {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+    }
+
+    #cg9264.deal-with-it .cg-glasses {
+      opacity: 0;
+      transition-delay: 2s;
+    }
+
+  
+    #cg9264 .cg-eyes {
+      transition: opacity 0.2s ease;
+    }
+
+    #cg9264.get-time .cg-eyes {
+      opacity: 0;
+    }
+  
+    #cg9264 .cg-time {
+      pointer-events: none;
+      transition: opacity 0.2s ease;
+      opacity: 0;
+    }
+
+    #cg9264.get-time .cg-time {
+      opacity: 1;
+    }
+
+    #cg9264 .cg-time .cg-digit-colon {
+      animation: cg-colon-blink 1s ease-in-out 0s infinite;
+    }
+
+    @keyframes cg-colon-blink {
+      20% {
+        opacity: 1;
+      }
+      50% {
+        opacity: 0;
+      }
+      80% {
+        opacity: 1;
+      }
+    }
+  
+    #cg9264 .cg-body {
+      animation: cg-anim-hover 1.5s ease-in-out -0.0851s infinite;
+      transform-origin: center;
+      transform-box: fill-box;
+    }
+
+    @keyframes cg-anim-hover {
+      0% {
+        transform: translate3d(0,0,0);
+      }
+      50% {
+        transform: translate3d(0,-2px,0);
+      }
+      100% {
+        transform: translate3d(0,0,0);
+      }
+    }
+  
+    #cg9264 .cg-shadow {
+      animation: cg-anim-shadow 1.5s ease-in-out -0.0851s infinite;
+      transform-origin: center;
+      transform-box: fill-box;
+    }
+
+    @keyframes cg-anim-shadow {
+      0% {
+        transform: scale3d(1,1,1);
+      }
+      50% {
+        transform: scale3d(0.9,1,1);
+      }
+      100% {
+        transform: scale3d(1,1,1);
+      }
+    }
+  
+      @keyframes cg-anim-rgb {
+        0% {
+          fill: #FF5F5F;
+        }
+        11.1111% {
+          fill: #FFA45F;
+        }
+        22.2222% {
+          fill: #BAFF5F;
+        }
+        33.3333% {
+          fill: #5FFF74;
+        }
+        44.4444% {
+          fill: #5FFFCE;
+        }
+        55.5555% {
+          fill: #5FD9FF;
+        }
+        66.6666% {
+          fill: #5F6AFF;
+        }
+        77.7777% {
+          fill: #AA5FFF;
+        }
+        88.8888% {
+          fill: #FF5FFA;
+        }
+        100% {
+          fill: #FF5F5F;
+        }
+      }
+    
+      #cg9264 .star-color {
+        animation: cg-anim-rgb 5s linear -3.8197s infinite;
+      }
+    </style><path class="cg-bg" d="M0 0h89v89H0z" fill="#F13441"></path><g id="star-expression"><path d="M25 16h1v1h-1zM24 17h1v1h-1zM22 6h1v1h-1zM23 16h2v-1h-3v1h1zM22 18v1h2v-1h-2zM21 5h1v1h-1zM21 7h1v1h-1zM22 15v-1h-2v1h2zM21 17h-1v1h2v-1h-1zM20 4h1v1h-1zM20 8h1v1h-1zM20 15h-1v2h1v-2zM19 5h1v1h-1zM19 10h1V9h-1V6h-1v5h1v-1zM16 14v1h1v-2h-1v1zM15 11h1V9h-1v2zM15 12h1v1h-1zM14 11h1v1h-1zM14 15h-1v1h3v-1h-2zM12 16h1v1h-1zM12 9h3V8h-4v1h1zM11 17h1v1h-1zM10 7h1v1h-1zM10 7V6H8v1h2zM9 18v1h2v-1H9zM8 17h1v1H8zM8 9V7H7v3h1V9zM8 15H7v2h1v-2zM6 10h1v1H6zM6 14H5v1h2v-1H6zM5 11h1v1H5zM5 12H4v2h1v-2z"/><g><path class="star-color" fill="#FECAD2" d="M16 13v2h-3v1h-1v1h-1v1H9v-1H8v-2H7v-1H5v-2h1v-1h1v-1h1V7h2v1h1v1h4v2h-1v1h1v1h1z"/></g><g><path class="star-color" fill="#FECAD2" d="M22 6v1h-1v1h-1v1h-1V6h1V5h1v1h1z"/></g><g><path class="star-color" fill="#FECAD2" d="M25 16v1h-1v1h-2v-1h-2v-2h2v1h3z"/></g><g opacity=".71" fill="#FFF"><path d="M15 13h1v1h-1zM14 12h1v1h-1zM15 10V9h-1v1h1zM10 8h1v1h-1zM14 10h1v1h-1zM9 7h1v1H9zM15 14h1v1h-1zM12 15h1v1h-1zM21 6h1v1h-1zM20 5h1v1h-1zM20 7h1v1h-1zM19 8h1v1h-1zM24 16h1v1h-1zM23 17h1v1h-1zM21 15h1v1h-1zM11 16h1v1h-1zM10 17h1v1h-1z"/></g></g><path class="cg-shadow" opacity=".17" d="M60 79v-1H29v1h-2v1h3v1h29v-1h3v-1z"/><g class="cg-body"><path d="M63 47v-4h-1v-3h-1v-2h-1v-1h-1v-1h-1v-1h-1v-1h-1v-1h-1v-1h-2v-1h-2v-1H38v1h-2v1h-2v1h-1v1h-1v1h-1v1h-1v1h-1v1h-1v2h-1v3h-1v4h-1v13h1v3h1v3h1v1h1v1h1v1h2v1h2v-1h1v-1h1v-4h1v3h1v1h1v1h2v-1h1v-1h1v-4h1v-1h1v1h1v4h1v1h1v1h2v-1h1v-1h1v-3h1v4h1v1h1v1h2v-1h2v-1h1v-1h1v-1h1v-3h1v-3h1V47z"/><path class="cg-body-color" fill="#FFFFFF" d="M62 47v-4h-1v-3h-1v-2h-1v-1h-1v-1h-1v-1h-1v-1h-1v-1h-2v-1h-2v-1H38v1h-2v1h-2v1h-1v1h-1v1h-1v1h-1v1h-1v2h-1v3h-1v4h-1v13h1v3h1v3h1v1h1v1h2v1h2v-1h1v-4h1v-1h1v1h1v3h1v1h2v-1h1v-4h1v-1h1v-1h1v1h1v1h1v4h1v1h2v-1h1v-3h1v-1h1v1h1v4h1v1h2v-1h2v-1h1v-1h1v-3h1v-3h1V47z"/><g class="cg-face"><path d="M39 36v1h-3v1h-1v1h-1v1h-1v2h-1v2h1v1h1v1h2v1h3v1h11v-1h3v-1h2v-1h1v-1h1v-2h-1v-2h-1v-1h-1v-1h-1v-1h-3v-1z"/><path fill="#FFF" d="M39 37v1h-3v1h-1v1h-1v2h-1v2h1v1h2v1h3v1h11v-1h3v-1h2v-1h1v-2h-1v-2h-1v-1h-1v-1h-3v-1z"/><g class="cg-eyes"><path d="M37 41v1h1v2h-2v1h4v-2h-1v-1h-1v-1zM52 41v1h-1v2h2v1h-4v-2h1v-1h1v-1z"/></g><g class="cg-digits" style="display: none;"><g class="cg-digit-zero"><path d="M38 40h-2v5h3v-5h-1zm0 2v2h-1v-3h1v1z"/></g><g class="cg-digit-one"><path d="M39 44v1h-3v-1h1v-2h-1v-1h1v-1h1v4h1z"/></g><g class="cg-digit-two"><path d="M39 42h-1v-1h1v1zm-1 3h1v-1h-2v1h1zm0-3h-1v1h1v-1zm-1-2h-1v1h2v-1h-1zm-1 3v1h1v-1h-1z"/></g><g class="cg-digit-three"><path d="M38 44v-1h1v1h-1zm1-3h-1v1h1v-1zm-2 1v1h1v-1h-1zm0-2h-1v1h2v-1h-1zm-1 4v1h2v-1h-2z"/></g><g class="cg-digit-four"><path d="M39 41v4h-1v-2h-2v-3h1v2h1v-1h1z"/></g><g class="cg-digit-five"><path d="M38 44v-1h1v1h-1zm0-3h1v-1h-3v3h2v-1h-1v-1h1zm-2 3v1h2v-1h-2z"/></g><g class="cg-digit-six"><path d="M38 41h-1v-1h2v1h-1zm-2 0v3h1v-1h1v1h-1v1h2v-3h-2v-1h-1z"/></g><g class="cg-digit-seven"><path d="M39 40v5h-1v-4h-2v-1h3z"/></g><g class="cg-digit-eight"><path d="M38 40h-2v5h3v-5h-1zm0 4h-1v-1h1v1zm0-2h-1v-1h1v1z"/></g><g class="cg-digit-nine"><path d="M38 40h-2v3h2v2h1v-5h-1zm0 2h-1v-1h1v1z"/></g><g class="cg-digit-colon"><path d="M45 42h-1v-1h1v1zm0 1h-1v1h1v-1z"/></g></g><g class="cg-time"></g></g><g id="fishing-rod"><g id="fishing-rod-bg"><path d="M73 65v-1H62v2h-1v1h-1v1h-1v1h-1v3h1v1h5v-1h1v-4h-1v-1h9v-1h1v-1zM52 65v2h1v-3h-1zM44 64H16v1h-1v1h1v2h1v-1h7v1h1v-1h7v1h1v-1h7v1h1v-1h5v-3h-1z"/></g><g id="fishing-rod-inner"><path fill="#754C24" d="M72 65H62v1h11v-1z"/><g fill="#754C24"><path d="M52 65h1v1h-1zM44 65H16v1h30v-1h-1z"/></g><path fill="#F2F2F2" d="M62 66h-1v4h1v-3h1v-1z"/><g fill="#E6E6E6"><path d="M54 69h-4v1h5v-1zM47 68h1v1h-1zM45 69h-3v1h5v-1h-1zM41 68h1v1h-1zM39 68h1v1h-1zM37 69h-3v1h5v-1h-1zM33 68h1v1h-1zM31 68h1v1h-1zM29 69h-3v1h5v-1h-1zM25 68h1v1h-1zM23 68h1v1h-1zM21 69h-3v1h5v-1h-1zM17 68h1v1h-1z"/></g><g fill="#E6E6E6"><path d="M14 66h1v1h-1zM13 68v4h1v-5h-1z"/></g><path d="M14 72h-2v1h1v3h1v-3h1v-1zM12 76h1v1h-1zM11 75h1v1h-1z"/><g fill="#B3B3B3"><path d="M62 67h1v1h-1zM60 67h1v1h-1zM63 68v3h-3v-3h-1v4h5v-4z"/></g></g></g><g id="cute-cap"><path d="M60 29v-1h-1v-1h-1v-1h-1v-1h-2v-1h-7v-1h-1v-1h-1v-1h-2v-1h-9v1h-1v1h-1v-1h-2v1h-1v2h1v1h-1v1h-1v2h-1v7h1v1h1v1h1v-1h1v-1h1v-1h1v-1h7v-1h2v-1h8v1h2v1h2v1h1v1h1v1h1v-1h1v-1h1v-1h1v-4h-1z"/><g fill="#F599FF"><path d="M39 29v-1h1v-1h1v-1h1v-1h3v-1h2v-1h-1v-1h-2v-1h-9v1h-1v1h-1v1h-1v1h-1v1h-1v2h-1v7h1v1h1v-1h1v-1h1v-1h1v-1h2v-1h2v-2z"/><path d="M46 28v-1h2v-1h2v-1h-5v1h-3v1h-1v1h-1v1h-1v2h-1v1h3v-1h2v-1h1v-1h1v-1z"/><path d="M59 29v-1h-1v-1h-1v-1h-7v1h-2v1h-2v1h-1v1h6v1h2v1h2v1h1v1h1v1h1v-1h1v-1h1v-4zM33 23v-1h-2v2h1v-1z"/></g><path d="M59 29v-1h-1v-1h-1v-1h-7v1h-2v1h-2v1h-1v1h6v1h2v1h2v1h1v1h1v1h1v-1h1v-1h1v-4z" opacity=".5"/><g opacity=".17"><path d="M33 32h1v1h-1zM34 31h2v1h-2zM37 30h-1v1h2v-1zM31 23h1v1h-1zM30 26h1v2h-1zM30 34v-6h-1v7h1v1h1v-1h1v-1h-1zM32 33h1v1h-1zM31 25h1v1h-1z"/></g></g><g id="deal-with-it-glasses"><path d="M64 42h-3v1h4v-1zM60 41H28v1h1v2h1v2h1v2h1v1h9v-1h1v-2h1v-2h1v-2h1v2h1v2h1v2h1v1h9v-1h1v-2h1v-2h1v-2h1v-1z"/><path fill="#FFF" d="M33 45v1h-1v-2h1v1zm0 2h1v-1h-1v1zm2-3h-1v2h1v-2zm0 3h1v-1h-1v1zm-1-4h-1v1h1v-1zm-3 0v1h1v-1h-1zm18 1h-1v2h1v-2zm0 3h1v-1h-1v1zm2-3h-1v2h1v-2zm0 2v1h1v-1h-1zm-1-3h-1v1h1v-1zm-3 0v1h1v-1h-1z"/></g></g><a href="/images/png/cg9264-512.png" class="button png-square"><path class="button-bg" d="M26 75h13v11H26z"/><path fill="#FFF" d="M36 77h-1v1h1v5h-1v1h2v-7zm-8 0v7h2v-1h-1v-5h1v-1h-1zm6 3h1v1h-1zm-4 0h1v1h-1zm3 0v-2h-1v3h-1v1h1v1h1v-1h1v-1h-1z"/><title>Download square PNG</title></a><a href="/images/png/cg9264-wide.png" class="button png-wide"><path class="button-bg" d="M42 75h21v11H42z"/><path fill="#FFF" d="M60 77h-1v1h1v5h-1v1h2v-7zm-16 0v7h2v-1h-1v-5h1v-1h-1zm10 3h1v1h-1zm-4 0h1v1h-1zm3 0v-2h-1v3h-1v1h1v1h1v-1h1v-1h-1z"/><title>Download wide PNG</title></a><script type="text/javascript"><![CDATA[
+    let cg9264Root = document.getElementById('cg9264');
+
+    if (cg9264Root) {
+      let cgRoot = cg9264Root;
+      let cgBg = cgRoot.querySelector('.cg-bg');
+      let cgBody = cgRoot.querySelector('.cg-body');
+
+      cgBg.addEventListener('dblclick', () => {
+        cgRoot.classList.toggle('menu-in');
+      });
+
+      cgBody.addEventListener('click', () => {
+
+        let bufferArray = [];
+        let lastKeystrokeTime = Date.now();
+        const cheatcode = (e) => {
+
+          const key = e.key.toLowerCase();
+          const latestKeystrokeTime = Date.now();
+
+          if (latestKeystrokeTime - lastKeystrokeTime > 1500) {
+            bufferArray = [];
+          }
+
+          bufferArray.push(key);
+
+          const word = bufferArray.join('');
+          if (word === 'dealwithit') {
+            console.log('No u.');
+
+            cgRoot.classList.add('deal-with-it');
+
+            setTimeout(() => {
+              cgRoot.classList.remove('deal-with-it');
+            }, 10000);
+
+            clearListener();
+          }
+  
+          lastKeystrokeTime = latestKeystrokeTime;
+
+        }
+        document.addEventListener('keyup', cheatcode, true);
+
+        const clearListener = () => {
+          document.removeEventListener('keyup', cheatcode, true);
+        }
+
+      });
+    
+    let cgDigits = cgRoot.querySelector('.cg-digits');
+    let cgTime = cgRoot.querySelector('.cg-time');
+  
+
+      let cgFace = cgRoot.querySelector('.cg-face');
+      cgFace.addEventListener('dblclick', () => {
+        cgRoot.classList.add('get-time');
+
+        let now = new Date();
+        let hours = ('0' + now.getHours()).substr(-2);
+        let minutes = ('0' + now.getMinutes()).substr(-2);;
+        let digits = [hours.substr(0,1), hours.substr(1), minutes.substr(0,1), minutes.substr(1)];
+
+        cgTime.replaceChildren();
+
+        for (let i = 0; i < 4; i++) {
+          switch (digits[i]) {
+            case '0':
+              cgTime.appendChild(cgDigits.querySelector('.cg-digit-zero').cloneNode(true));
+              break;
+            case '1':
+              cgTime.appendChild(cgDigits.querySelector('.cg-digit-one').cloneNode(true));
+              break;
+            case '2':
+              cgTime.appendChild(cgDigits.querySelector('.cg-digit-two').cloneNode(true));
+              break;
+            case '3':
+              cgTime.appendChild(cgDigits.querySelector('.cg-digit-three').cloneNode(true));
+              break;
+            case '4':
+              cgTime.appendChild(cgDigits.querySelector('.cg-digit-four').cloneNode(true));
+              break;
+            case '5':
+              cgTime.appendChild(cgDigits.querySelector('.cg-digit-five').cloneNode(true));
+              break;
+            case '6':
+              cgTime.appendChild(cgDigits.querySelector('.cg-digit-six').cloneNode(true));
+              break;
+            case '7':
+              cgTime.appendChild(cgDigits.querySelector('.cg-digit-seven').cloneNode(true));
+              break;
+            case '8':
+              cgTime.appendChild(cgDigits.querySelector('.cg-digit-eight').cloneNode(true));
+              break;
+            case '9':
+              cgTime.appendChild(cgDigits.querySelector('.cg-digit-nine').cloneNode(true));
+              break;
+          }
+        }
+
+        cgTime.childNodes[1].style.transform = 'translateX(4px)';
+        cgTime.childNodes[2].style.transform = 'translateX(10px)';
+        cgTime.childNodes[3].style.transform = 'translateX(14px)';
+
+        cgTime.appendChild(cgDigits.querySelector('.cg-digit-colon').cloneNode(true));
+
+        setTimeout(() => {
+          cgRoot.classList.remove('get-time');
+        }, 10000);
+      });
+
+    }]]></script></svg>

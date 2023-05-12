@@ -1,0 +1,235 @@
+<svg id="cg4581" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 89 89"><style>
+    #cg4581 {
+      overflow: hidden;
+    }
+
+    #cg4581 .button {
+      opacity: 0;
+      pointer-events: none;
+      transition: 0.2s ease;
+      transform: translate3d(0, 20px, 0);
+    }
+
+    #cg4581 .button.png-wide {
+      transition-delay: 0.2s;
+    }
+
+    #cg4581.menu-in .button {
+      opacity: 1;
+      pointer-events: auto;
+      cursor: pointer;
+      transform: translate3d(0, 0, 0);
+    }
+
+    #cg4581.menu-in .button .button-bg {
+      transition: fill 0.2s ease;
+    }
+
+    #cg4581.menu-in .button:hover .button-bg {
+      fill: #FF5FFA;
+    }
+
+    #cg4581 .cg-glasses {
+      transition: opacity 0.2s ease;
+    }
+
+    #cg4581 #deal-with-it-glasses {
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.2s ease, transform 3s linear;
+      transform: translate3d(0, -60px, 0);
+    }
+
+    #cg4581.deal-with-it #deal-with-it-glasses {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+    }
+
+    #cg4581.deal-with-it .cg-glasses {
+      opacity: 0;
+      transition-delay: 2s;
+    }
+
+  
+    #cg4581 .cg-eyes {
+      transition: opacity 0.2s ease;
+    }
+
+    #cg4581.get-time .cg-eyes {
+      opacity: 0;
+    }
+  
+    #cg4581 .cg-time {
+      pointer-events: none;
+      transition: opacity 0.2s ease;
+      opacity: 0;
+    }
+
+    #cg4581.get-time .cg-time {
+      opacity: 1;
+    }
+
+    #cg4581 .cg-time .cg-digit-colon {
+      animation: cg-colon-blink 1s ease-in-out 0s infinite;
+    }
+
+    @keyframes cg-colon-blink {
+      20% {
+        opacity: 1;
+      }
+      50% {
+        opacity: 0;
+      }
+      80% {
+        opacity: 1;
+      }
+    }
+  
+    #cg4581 .cg-body {
+      animation: cg-anim-hover 1.5s ease-in-out -0.4289s infinite;
+      transform-origin: center;
+      transform-box: fill-box;
+    }
+
+    @keyframes cg-anim-hover {
+      0% {
+        transform: translate3d(0,0,0);
+      }
+      50% {
+        transform: translate3d(0,-2px,0);
+      }
+      100% {
+        transform: translate3d(0,0,0);
+      }
+    }
+  
+    #cg4581 .cg-shadow {
+      animation: cg-anim-shadow 1.5s ease-in-out -0.4289s infinite;
+      transform-origin: center;
+      transform-box: fill-box;
+    }
+
+    @keyframes cg-anim-shadow {
+      0% {
+        transform: scale3d(1,1,1);
+      }
+      50% {
+        transform: scale3d(0.9,1,1);
+      }
+      100% {
+        transform: scale3d(1,1,1);
+      }
+    }
+  </style><path class="cg-bg" d="M0 0h89v89H0z" fill="#7850FF"></path><path class="cg-shadow" opacity=".17" d="M60 79v-1H29v1h-2v1h3v1h29v-1h3v-1z"/><g class="cg-body"><path d="M63 47v-4h-1v-3h-1v-2h-1v-1h-1v-1h-1v-1h-1v-1h-1v-1h-1v-1h-2v-1h-2v-1H38v1h-2v1h-2v1h-1v1h-1v1h-1v1h-1v1h-1v1h-1v2h-1v3h-1v4h-1v13h1v3h1v3h1v1h1v1h1v1h2v1h2v-1h1v-1h1v-4h1v3h1v1h1v1h2v-1h1v-1h1v-4h1v-1h1v1h1v4h1v1h1v1h2v-1h1v-1h1v-3h1v4h1v1h1v1h2v-1h2v-1h1v-1h1v-1h1v-3h1v-3h1V47z"/><path class="cg-body-color" fill="#FFF75F" d="M62 47v-4h-1v-3h-1v-2h-1v-1h-1v-1h-1v-1h-1v-1h-1v-1h-2v-1h-2v-1H38v1h-2v1h-2v1h-1v1h-1v1h-1v1h-1v1h-1v2h-1v3h-1v4h-1v13h1v3h1v3h1v1h1v1h2v1h2v-1h1v-4h1v-1h1v1h1v3h1v1h2v-1h1v-4h1v-1h1v-1h1v1h1v1h1v4h1v1h2v-1h1v-3h1v-1h1v1h1v4h1v1h2v-1h2v-1h1v-1h1v-3h1v-3h1V47z"/><g class="cg-face"><path d="M39 36v1h-3v1h-1v1h-1v1h-1v2h-1v2h1v1h1v1h2v1h3v1h11v-1h3v-1h2v-1h1v-1h1v-2h-1v-2h-1v-1h-1v-1h-1v-1h-3v-1z"/><path fill="#FFF" d="M39 37v1h-3v1h-1v1h-1v2h-1v2h1v1h2v1h3v1h11v-1h3v-1h2v-1h1v-2h-1v-2h-1v-1h-1v-1h-3v-1z"/><g class="cg-eyes"><path d="M53 42v1h-6v1h1v1h5v-1h1v-2h-1zM48 41h1v1h-1zM49 40h1v1h-1z"/><path d="M47 42h1v1h-1zM41 42h1v1h-1z"/><path d="M40 43h-4v-1h-1v2h1v1h5v-1h1v-1h-2zM40 41h1v1h-1zM39 40h1v1h-1z"/></g><g class="cg-digits" style="display: none;"><g class="cg-digit-zero"><path d="M38 40h-2v5h3v-5h-1zm0 2v2h-1v-3h1v1z"/></g><g class="cg-digit-one"><path d="M39 44v1h-3v-1h1v-2h-1v-1h1v-1h1v4h1z"/></g><g class="cg-digit-two"><path d="M39 42h-1v-1h1v1zm-1 3h1v-1h-2v1h1zm0-3h-1v1h1v-1zm-1-2h-1v1h2v-1h-1zm-1 3v1h1v-1h-1z"/></g><g class="cg-digit-three"><path d="M38 44v-1h1v1h-1zm1-3h-1v1h1v-1zm-2 1v1h1v-1h-1zm0-2h-1v1h2v-1h-1zm-1 4v1h2v-1h-2z"/></g><g class="cg-digit-four"><path d="M39 41v4h-1v-2h-2v-3h1v2h1v-1h1z"/></g><g class="cg-digit-five"><path d="M38 44v-1h1v1h-1zm0-3h1v-1h-3v3h2v-1h-1v-1h1zm-2 3v1h2v-1h-2z"/></g><g class="cg-digit-six"><path d="M38 41h-1v-1h2v1h-1zm-2 0v3h1v-1h1v1h-1v1h2v-3h-2v-1h-1z"/></g><g class="cg-digit-seven"><path d="M39 40v5h-1v-4h-2v-1h3z"/></g><g class="cg-digit-eight"><path d="M38 40h-2v5h3v-5h-1zm0 4h-1v-1h1v1zm0-2h-1v-1h1v1z"/></g><g class="cg-digit-nine"><path d="M38 40h-2v3h2v2h1v-5h-1zm0 2h-1v-1h1v1z"/></g><g class="cg-digit-colon"><path d="M45 42h-1v-1h1v1zm0 1h-1v1h1v-1z"/></g></g><g class="cg-time"></g></g><g id="bandaid-confetti-skull"><g><g><path d="M46 59h13v-1h1v-1h1v-2h-1v-1h-1v-1H46v1h-1v1h-1v2h1v1h1v1zM59 44h-1v1h1v1h1v-1h1v-1h-1v-1h1v-1h-1v-1h-1v1h-1v1h1zM59 50v1h4v-1h1v-2h-1v-1h-4v1h-1v2zM25 52v2h1v1h2v-1h1v-1h1v1h1v1h1v1h2v-1h1v-3h-1v-1h-1v-1h1v-1h1v-2h-1v-1h-2v1h-1v1h-1v-1h-1v-1h-1v-1h-3v4h1v1h1v1h-1v1h-1z"/></g><path d="M55 48h-2v1h-1v2h1v1h2v-1h1v-2h-1zM40 58h-2v1h-1v2h1v1h2v-1h1v-2h-1zM41 49h-4v1h-1v4h1v1h1v-1h1v1h1v-1h1v1h1v-1h1v-4h-2zM38 55h1v1h-1zM40 55h1v1h-1zM34 59v-1h-1v-1h-5v1h-1v1h-1v4h1v2h1v1h1v-1h1v1h1v-1h1v1h1v-1h1v-2h1v-4z"/></g><g><g><path fill="#7C3BE2" d="M26 52v2h2v-1h1v-1h-1v-1h-1v1h-1z"/><path fill="#3EFFFF" d="M26 46v3h1v1h1v-1h1v-2h-1v-1h-2z"/><path fill="#92FFFC" d="M28 50v1h1v1h1v-1h1v-2h-2v1h-1z"/><path fill="#3EFFFF" d="M30 52v1h1v1h1v1h2v-3h-1v-1h-2v1h-1z"/><path fill="#7C3BE2" d="M31 48v1h1v1h1v-1h1v-2h-2v1h-1z"/><path fill="#666" d="M45 55v2h1v1h3v-4h-3v1h-1z"/><path d="M45 50v1h1v1h1v-1h1v1h1v-1h1v-1h-1v-1h-1v1h-1v-1h-1v1z"/><path fill="#969696" d="M50 54v4h5v-4h-5z"/><path d="M56 65v1h1v1h1v-1h1v-1h-1v-1h1v-1h-1v-1h-1v1h-1v1h1v1z"/><path fill="#666" d="M56 54v4h3v-1h1v-2h-1v-1h-3z"/><path fill="#66FF8A" d="M59 48h4v2h-4z"/></g><g><path fill="#FF5" d="M53 49h2v2h-2z"/></g><g><path fill="#FCA342" d="M38 59h2v2h-2z"/></g><path fill="#F66" d="M41 51v-1h-4v4h1v1h1v-1h1v1h1v-1h1v-3h-1zm-3 2v-2h1v2h-1zm3 0h-1v-1h1v1z"/><path fill="#5C5CFF" d="M33 59v-1h-5v1h-1v4h1v2h1v-1h1v1h1v-1h1v1h1v-2h1v-4h-1zm-4 2v-1h1v2h-1v-1zm4 0v1h-1v-2h1v1z"/></g><g opacity=".25"><path d="M45 57h1v-2h-1v2zM46 57v1h3v-1h-3zM56 57v1h3v-1h-3zM32 54h1v1h-1zM32 47h1v1h-1zM31 53h1v1h-1zM31 48h1v1h-1zM30 52h1v1h-1zM27 51h1v1h-1zM27 49h1v1h-1zM26 53v1h1v-2h-1zM59 49h4v1h-4zM28 50h1v1h-1zM29 51h1v1h-1zM53 55h1v1h-1zM51 56h1v1h-1zM27 46h-1v3h1v-1zM53 50h2v1h-2zM38 60h2v1h-2zM37 50h1v4h-1zM38 54h1v1h-1zM40 54h1v1h-1zM27 59h1v4h-1zM28 63h1v2h-1zM30 64h1v1h-1zM32 64h1v1h-1zM28 58h1v1h-1z"/></g></g><g id="shovel"><g><path d="M76 61v-1h-4v1h-1v1h-1v1h-1v1h-1v1h-6v1h-1v1h-1v1h-1v1h9v1h1v1h1v1h1v1h1v1h4v-1h1V61h-1zm-4 9v-1h-1v-1h-1v-2h1v-1h1v-1h1v-1h1v8h-1v-1h-1zM53 68v-3H36v3h-1v1h19v-1zM29 67h-1v-1h-1v-1h-5v-6h-7v1h-2v1h-1v1h-1v1h-1v2H9v4h1v2h1v1h1v1h1v1h2v1h7v-6h8v-1h-1z"/><path opacity=".3" d="M17 65h5v1h-5zM17 68h5v1h-5z"/></g><g><path fill="#3D3733" d="M24 66h1v2h-3v1h-1v5h-6v-1h-2v-1h-1v-1h-1v-2h-1v-4h1v-2h1v-1h1v-1h2v-1h6v5h1v1h1z"/><path fill="#844E25" d="M36 66h17v2H36zM61 66v1h-1v1h6v-2z"/><path fill="#3D3733" d="M72 61v1h-1v1h-1v1h-1v1h-1v1h-1v2h1v1h1v1h1v1h1v1h1v1h4V61h-4zm3 11h-2v-1h-1v-1h-1v-1h-1v-1h-1v-2h1v-1h1v-1h1v-1h1v-1h2v10z"/><path fill="#844E25" d="M28 67v-1h-2v2h3v-1z"/><path opacity=".3" d="M17 65h5v1h-5zM15 60v1h-2v1h-1v1h-1v2h1v-1h1v-1h2v-1h6v-2zM10 65h1v1h-1zM26 66h2v1h-2zM36 66h17v1H36zM61 66h5v1h-5zM17 68h5v1h-5z"/></g></g><path id="sweat" fill="#5CBDFF" d="M34 37v1h-2v-1h2zm-3 1v1h1v-1h-1zm22-3v1h1v-1h-1zm-20 1v1h2v-1h-2zm18-2v1h2v-1h-2zm-1-1v1h2v-1h-2zm-16 2v1h2v-1h-2z"/><g id="hot-head"><g><path d="M57 24v-2h-1v-1h-1v1h-1v2h-1v1h-3v-2h1v-1h1v-1h1v-1h1v-5h-1v-2h-1v-2h-1v-1h-1V9h-1V8h-1V7h-1v1h-1v2h1v4h-1v2h-3v-2h1v-2h-1v-1h-1v1h-2v1h-1v2h-1v4h1v2h1v2h-2v-1h-1v-1h-1v-2h-1v1h-1v1h-1v3h-1v4h1v1h1v1h1v1h1v1h2v1h4v1h9v-1h3v-1h1v-1h1v-1h1v-1h1v-5h-1z"/><path d="M47 7V6h-2v2h1V7h1zM44 12h1v-2h-2v1h1v1z"/></g><g fill="#FBB03B"><path d="M56 24v-2h-1v2h-1v1h-1v1h-3v-1h-1v-2h1v-1h1v-1h1v-1h1v-5h-1v-2h-1v-2h-1v-1h-1V9h-1V8h-1v2h1v4h-1v2h-1v1h-3v-1h-1v-2h1v-2h-1v1h-2v2h-1v4h1v2h1v2h-1v1h-2v-1h-1v-1h-1v-1h-2v3h-1v4h1v1h1v1h1v1h2v1h4v1h9v-1h3v-1h1v-1h1v-1h1v-5h-1zM46 7h1v1h-1z"/><path d="M43 11h1v1h-1z"/></g><path fill="#FD3" d="M55 25v2h-1v1h-5v-1h-1v-2h-1v-3h1v-1h1v-1h1v-1h1v-4h-1v-2h-1v3h-1v2h-2v1h-2v-1h-2v-1h-1v-2h-1v3h1v2h1v1h1v4h-1v1h-1v1h-2v-1h-1v-1h-1v-1h-1v-1h-1v2h-1v4h1v1h1v1h2v1h4v1h9v-1h3v-1h1v-1h1v-5h-1z"/><g fill="#FFFDE9"><path d="M42 19h1v1h-1zM48 19h1v1h-1zM49 18v1h1v-2h-1v1zM51 30h-1v1h3v-1h-2zM53 29h1v1h-1zM39 30v1h2v-1h-2zM38 29h-1v1h2v-1h-1zM37 27h-1v2h1v-2z"/></g><g opacity=".15" fill="#FFF"><path d="M51 13h1v2h-1zM52 15h1v5h-1zM51 20h1v1h-1zM50 21h1v1h-1zM49 22h1v1h-1zM50 11h1v2h-1zM48 9h1v1h-1zM49 10h1v1h-1zM47 8h1v1h-1zM46 7h1v1h-1zM55 22h1v2h-1zM56 24h1v5h-1zM55 29h1v1h-1zM54 30h1v1h-1zM53 31h1v1h-1z"/></g></g><g id="deal-with-it-glasses"><path d="M64 42h-3v1h4v-1zM60 41H28v1h1v2h1v2h1v2h1v1h9v-1h1v-2h1v-2h1v-2h1v2h1v2h1v2h1v1h9v-1h1v-2h1v-2h1v-2h1v-1z"/><path fill="#FFF" d="M33 45v1h-1v-2h1v1zm0 2h1v-1h-1v1zm2-3h-1v2h1v-2zm0 3h1v-1h-1v1zm-1-4h-1v1h1v-1zm-3 0v1h1v-1h-1zm18 1h-1v2h1v-2zm0 3h1v-1h-1v1zm2-3h-1v2h1v-2zm0 2v1h1v-1h-1zm-1-3h-1v1h1v-1zm-3 0v1h1v-1h-1z"/></g></g><a href="/images/png/cg4581-512.png" class="button png-square"><path class="button-bg" d="M26 75h13v11H26z"/><path fill="#FFF" d="M36 77h-1v1h1v5h-1v1h2v-7zm-8 0v7h2v-1h-1v-5h1v-1h-1zm6 3h1v1h-1zm-4 0h1v1h-1zm3 0v-2h-1v3h-1v1h1v1h1v-1h1v-1h-1z"/><title>Download square PNG</title></a><a href="/images/png/cg4581-wide.png" class="button png-wide"><path class="button-bg" d="M42 75h21v11H42z"/><path fill="#FFF" d="M60 77h-1v1h1v5h-1v1h2v-7zm-16 0v7h2v-1h-1v-5h1v-1h-1zm10 3h1v1h-1zm-4 0h1v1h-1zm3 0v-2h-1v3h-1v1h1v1h1v-1h1v-1h-1z"/><title>Download wide PNG</title></a><script type="text/javascript"><![CDATA[
+    let cg4581Root = document.getElementById('cg4581');
+
+    if (cg4581Root) {
+      let cgRoot = cg4581Root;
+      let cgBg = cgRoot.querySelector('.cg-bg');
+      let cgBody = cgRoot.querySelector('.cg-body');
+
+      cgBg.addEventListener('dblclick', () => {
+        cgRoot.classList.toggle('menu-in');
+      });
+
+      cgBody.addEventListener('click', () => {
+
+        let bufferArray = [];
+        let lastKeystrokeTime = Date.now();
+        const cheatcode = (e) => {
+
+          const key = e.key.toLowerCase();
+          const latestKeystrokeTime = Date.now();
+
+          if (latestKeystrokeTime - lastKeystrokeTime > 1500) {
+            bufferArray = [];
+          }
+
+          bufferArray.push(key);
+
+          const word = bufferArray.join('');
+          if (word === 'dealwithit') {
+            console.log('No u.');
+
+            cgRoot.classList.add('deal-with-it');
+
+            setTimeout(() => {
+              cgRoot.classList.remove('deal-with-it');
+            }, 10000);
+
+            clearListener();
+          }
+  
+          lastKeystrokeTime = latestKeystrokeTime;
+
+        }
+        document.addEventListener('keyup', cheatcode, true);
+
+        const clearListener = () => {
+          document.removeEventListener('keyup', cheatcode, true);
+        }
+
+      });
+    
+    let cgDigits = cgRoot.querySelector('.cg-digits');
+    let cgTime = cgRoot.querySelector('.cg-time');
+  
+
+      let cgFace = cgRoot.querySelector('.cg-face');
+      cgFace.addEventListener('dblclick', () => {
+        cgRoot.classList.add('get-time');
+
+        let now = new Date();
+        let hours = ('0' + now.getHours()).substr(-2);
+        let minutes = ('0' + now.getMinutes()).substr(-2);;
+        let digits = [hours.substr(0,1), hours.substr(1), minutes.substr(0,1), minutes.substr(1)];
+
+        cgTime.replaceChildren();
+
+        for (let i = 0; i < 4; i++) {
+          switch (digits[i]) {
+            case '0':
+              cgTime.appendChild(cgDigits.querySelector('.cg-digit-zero').cloneNode(true));
+              break;
+            case '1':
+              cgTime.appendChild(cgDigits.querySelector('.cg-digit-one').cloneNode(true));
+              break;
+            case '2':
+              cgTime.appendChild(cgDigits.querySelector('.cg-digit-two').cloneNode(true));
+              break;
+            case '3':
+              cgTime.appendChild(cgDigits.querySelector('.cg-digit-three').cloneNode(true));
+              break;
+            case '4':
+              cgTime.appendChild(cgDigits.querySelector('.cg-digit-four').cloneNode(true));
+              break;
+            case '5':
+              cgTime.appendChild(cgDigits.querySelector('.cg-digit-five').cloneNode(true));
+              break;
+            case '6':
+              cgTime.appendChild(cgDigits.querySelector('.cg-digit-six').cloneNode(true));
+              break;
+            case '7':
+              cgTime.appendChild(cgDigits.querySelector('.cg-digit-seven').cloneNode(true));
+              break;
+            case '8':
+              cgTime.appendChild(cgDigits.querySelector('.cg-digit-eight').cloneNode(true));
+              break;
+            case '9':
+              cgTime.appendChild(cgDigits.querySelector('.cg-digit-nine').cloneNode(true));
+              break;
+          }
+        }
+
+        cgTime.childNodes[1].style.transform = 'translateX(4px)';
+        cgTime.childNodes[2].style.transform = 'translateX(10px)';
+        cgTime.childNodes[3].style.transform = 'translateX(14px)';
+
+        cgTime.appendChild(cgDigits.querySelector('.cg-digit-colon').cloneNode(true));
+
+        setTimeout(() => {
+          cgRoot.classList.remove('get-time');
+        }, 10000);
+      });
+
+    }]]></script></svg>
