@@ -1,54 +1,52 @@
-// index.js
+// pages/[id].js
 
-import React, { useState } from "react";
-//import 'bootstrap/dist/css/bootstrap.min.css';
-//import "../styles/App.css";
+import { useRouter } from 'next/router';
+import React, { useEffect, useState } from "react";
 import { fetchNFTs, helperFunctions } from "../helpers/fetchNFTsHelper";
 import DisplayGhosts from "../components/DisplayGhosts";
 import DisplayPlots from "../components/DisplayPlots";
 import DisplayWatches from "../components/DisplayWatches";
 import CategoryButtons from "../components/CategoryButtons";
-import { useRouter } from 'next/router'
 
+export default function Wallet() {
+    const router = useRouter();
+    const { id } = router.query;
 
-
-const App = () => {
-    const [walletAddress, setWalletAddress] = useState("");
+    const [walletAddress, setWalletAddress] = useState(id || "");
     const [nfts, setNfts] = useState(null);
     const [isLoading, setIsLoading] = useState(false);
     const [message, setMessage] = useState('');
     const [selectedCategory, setSelectedCategory] = useState("ghosts");
 
-    const router = useRouter();
-
     const handleAddressNotFound = () => {
         setMessage("404 ERROR: Address either a) does not exist or b) has no transactions associated with it. If using Eternl, select 'Show used/additional addresses' on the 'Receive' page and select a used address");
     };
 
-    const handleSearch = (e) => {
-        e.preventDefault();
-        router.push(`/${walletAddress}`);
-    };
+    useEffect(() => {
+        if (id) {
+            setWalletAddress(id);
+            fetchNfts(id);
+        }
+    }, [id]);
 
-    /*const handleSearch = async (e) => {
-        e.preventDefault();
+    const fetchNfts = async (address) => {
         setNfts(null);
         setMessage('');
 
-        if (walletAddress) {
+        if (address) {
             try {
                 let addressType;
-                if (walletAddress.startsWith("stake")) {
+                if (address.startsWith("stake")) {
                     addressType = "stake";
-                } else if (walletAddress.startsWith("addr")) {
+                } else if (address.startsWith("addr")) {
                     addressType = "payment";
-                } else if (walletAddress.startsWith("$")) {
+                } else if (address.startsWith("$")) {
                     addressType = "handle";
                 } else {
                     throw new Error("Invalid address format.");
                 }
 
-                const fetchedNfts = await fetchNFTs(walletAddress, addressType, handleAddressNotFound, helperFunctions);
+                const fetchedNfts = await fetchNFTs(address, addressType, handleAddressNotFound, helperFunctions);
                 setNfts(fetchedNfts);
             } catch (error) {
                 console.error("Error fetching NFTs:", error);
@@ -57,9 +55,14 @@ const App = () => {
             console.error("Please enter a valid address");
         }
     };
-*/
+
     const selectCategory = (category) => {
         setSelectedCategory(category);
+    };
+
+    const handleSearch = (e) => {
+        e.preventDefault();
+        router.push(`/${walletAddress}`);
     };
 
     return (
@@ -93,6 +96,6 @@ const App = () => {
             </div>
         </div>
     );
-};
+}
 
-export default App;
+
