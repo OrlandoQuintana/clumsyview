@@ -4,9 +4,9 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import GhostDetailsModal from "./GhostDetailsModal";
 
-const GHOST_API_URL = "http://clumsydataapi-env.eba-pz3wzys2.us-east-2.elasticbeanstalk.com/api/ghostdata/"
+//const GHOST_API_URL = "http://clumsydataapi-env.eba-pz3wzys2.us-east-2.elasticbeanstalk.com/api/ghostdata/"
 
-//const GHOST_API_URL = "https://protected-everglades-83276.herokuapp.com/api/ghosts/";
+const GHOST_API_URL = "https://protected-everglades-83276.herokuapp.com/api/ghosts/";
 
 const DisplayGhosts = ({ ghosts }) => {
     const [svgURLs, setSvgURLs] = useState([]);
