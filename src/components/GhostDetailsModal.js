@@ -16,6 +16,7 @@ const GhostDetailsModal = ({ show, closeModal, ghostDetails, svgURL }) => {
                     maxWidth: '80vw', // Same as max-w-[60vw]
                     width: '100%', // Same as w-full
                     height: 'auto', // Allows height to be determined by content, up to the maximum
+                    marginTop: "50px",
                 }}
             >
                 <DialogHeader>
