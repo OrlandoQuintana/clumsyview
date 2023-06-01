@@ -180,9 +180,13 @@ body.modal-open {
   }
 
   .modal-svg {
-    width: 400px;
-    height: 400px;
+    width: 375px;
+    height: 375px;
     padding: 25px;
+  }
+
+  .category-button {
+    padding: 16px 24px;
   }
 
 }
