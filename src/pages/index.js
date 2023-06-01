@@ -1,6 +1,8 @@
 // index.js
 
 import React, { useState } from "react";
+import { Button } from "/components/ui/button"
+import { Input } from "/components/ui/input"
 //import 'bootstrap/dist/css/bootstrap.min.css';
 //import "../styles/App.css";
 import { fetchNFTs, helperFunctions } from "../helpers/fetchNFTsHelper";
@@ -9,6 +11,8 @@ import DisplayPlots from "../components/DisplayPlots";
 import DisplayWatches from "../components/DisplayWatches";
 import CategoryButtons from "../components/CategoryButtons";
 import { useRouter } from 'next/router'
+//import { Button, Form } from 'react-bootstrap';
+
 
 
 
@@ -65,15 +69,15 @@ const App = () => {
     return (
         <div>
             <h1>Clumsy View</h1>
-            <form onSubmit={handleSearch}>
-                <input
+            <div className="flex w-full max-w-sm items-center space-x-2">
+                <Input
                     type="text"
                     placeholder="Enter wallet address, ADA Handle, or stake key"
                     value={walletAddress}
                     onChange={(e) => setWalletAddress(e.target.value)}
                 />
-                <button type="submit">Search</button>
-            </form>
+                <Button className="input-button" onClick={handleSearch}>Search</Button>
+            </div>
             {isLoading}
             {message && <div className="alert">{message}</div>}
             <div>

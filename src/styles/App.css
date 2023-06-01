@@ -1,6 +1,10 @@
 /* App.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 :root {
+  --primary: 251, 100%, 72.5%;
   --background-color: #1C1A24;
   --text-color: #f4f4f4;
   --border-color: #7850FF;
@@ -40,6 +44,7 @@ input[type="text"] {
   display: block;
 }
 
+
 button[type="submit"] {
   font-size: 1.5rem;
   padding: 0.5rem 1rem;
@@ -71,11 +76,27 @@ button[type="submit"] {
   border-radius: 5px;
 }
 
+.input-button {
+  background-color: #7850FF;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  padding: 10px 24px;
+  margin: 0 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border-radius: 5px;
+}
+
 
 .category-buttons {
   display: flex;
   justify-content: center;
   margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .category-button {
@@ -102,8 +123,8 @@ button[type="submit"] {
 }
 
 .modal-svg {
-  width: 480px;
-  height: 480px;
+  width: 650px;
+  height: 650px;
   padding: 25px;
 }
 
@@ -130,6 +151,10 @@ body.modal-open {
   fill: white !important;
 }
 
+.search-bar-container {
+  width: 80%;
+  margin: 0 auto;
+}
 
 
 
@@ -155,8 +180,8 @@ body.modal-open {
   }
 
   .modal-svg {
-    width: 400px;
-    height: 400px;
+    width: 600px;
+    height: 600px;
     padding: 25px;
   }
 

@@ -1,7 +1,7 @@
 // CategoryButtons.js
 
 import React from "react";
-import { Button } from 'react-bootstrap';
+import { Button } from "/components/ui/button"
 
 const CategoryButtons = ({ onSelectCategory, ghostsCount, plotsCount, watchesCount }) => {
     return (

@@ -7,6 +7,10 @@ import DisplayGhosts from "../components/DisplayGhosts";
 import DisplayPlots from "../components/DisplayPlots";
 import DisplayWatches from "../components/DisplayWatches";
 import CategoryButtons from "../components/CategoryButtons";
+//import { Button, Form } from 'react-bootstrap';
+import { Button } from "/components/ui/button"
+import { Input } from "/components/ui/input"
+
 
 export default function Wallet() {
     const router = useRouter();
@@ -68,15 +72,16 @@ export default function Wallet() {
     return (
         <div>
             <h1>Clumsy View</h1>
-            <form onSubmit={handleSearch}>
-                <input
+            <div className="flex mx-auto max-w-xs items-center space-x-2 mb-500">
+                <Input
                     type="text"
                     placeholder="Enter wallet address, ADA Handle, or stake key"
                     value={walletAddress}
                     onChange={(e) => setWalletAddress(e.target.value)}
                 />
-                <button type="submit">Search</button>
-            </form>
+                <Button className="input-button" onClick={handleSearch}>Search</Button>
+            </div>
+
             {isLoading}
             {message && <div className="alert">{message}</div>}
             <div>
@@ -94,8 +99,7 @@ export default function Wallet() {
                     </>
                 )}
             </div>
-        </div>
+
+        </div >
     );
-}
-
-
+};

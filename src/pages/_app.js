@@ -1,4 +1,5 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
+//import 'bootstrap/dist/css/bootstrap.min.css';
+import '../styles/globals.css'
 import '../styles/App.css'
 import React from 'react'
 import Head from 'next/head'
