@@ -13,7 +13,7 @@ const GhostDetailsModal = ({ show, closeModal, ghostDetails, svgURL }) => {
                 className="relative mx-auto my-8 p-4 w-full sm:w-3/5 bg-gray-800 rounded-lg flex flex-col items-center justify-center max-h-[60vh] max-w-[60vw] overflow-auto"
                 style={{ // These styles will help override default styles that might interfere
                     maxHeight: '80vh', // Same as max-h-[60vh]
-                    maxWidth: '80vw', // Same as max-w-[60vw]
+                    maxWidth: '95vw', // Same as max-w-[60vw]
                     width: '100%', // Same as w-full
                     height: 'auto', // Allows height to be determined by content, up to the maximum
                     marginTop: "50px",
